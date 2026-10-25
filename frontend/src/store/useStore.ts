@@ -453,7 +453,7 @@ export const useStore = create<StoreState>((set, get) => ({
   selectedDetailedBuildingId: null,
   cityExportResult: null,
   isExportingCity: false,
-  isCyberpunkCityMode: true,
+  isCyberpunkCityMode: false,
 
   setCityDetailTier: (tier) => set({ cityDetailTier: tier }),
   setCityStyle: (style) => set({ cityStyle: style }),
