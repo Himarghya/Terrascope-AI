@@ -67,7 +67,7 @@ export const RightInspector: React.FC = () => {
   if (!inspectorOpen) return null
 
   return (
-    <aside className="w-80 bg-[#FFFFFF] border-l border-[#DCE2DC] flex flex-col justify-between shrink-0 h-full overflow-hidden z-20 select-none shadow-sm text-xs text-[#17231F]">
+    <aside className="w-[340px] bg-[#FFFFFF] border-l border-[#DCE2DC] flex flex-col justify-between shrink-0 h-full overflow-hidden z-20 select-none shadow-sm text-xs text-[#17231F]">
       {/* Top Header */}
       <div className="h-10 border-b border-[#DCE2DC] px-3 flex items-center justify-between bg-[#F5F6F3] shrink-0">
         <span className="font-semibold text-[11px] text-[#17231F] uppercase tracking-wide flex items-center gap-1.5">
@@ -335,96 +335,101 @@ export const RightInspector: React.FC = () => {
               </button>
 
               {/* Feature Header */}
-              <div className="flex items-center justify-between pb-2 border-b border-[#DCE2DC]">
-                <div className="flex items-center gap-2">
-                  <div className="w-6 h-6 rounded bg-[#E8EFEA] border border-[#286653] flex items-center justify-center text-[#286653]">
-                    <Building2 className="w-3.5 h-3.5" />
-                  </div>
-                  <div>
-                    <div className="font-mono font-bold text-xs text-[#17231F] flex items-center gap-1.5">
-                      <span>{bld.id}</span>
-                      {bld.building_type && (
-                        <span className="text-[9px] px-1.5 py-0.2 rounded bg-[#FFFFFF] border border-[#286653] text-[#286653] font-sans font-medium">
-                          {bld.building_type}
-                        </span>
-                      )}
+              <div className="pb-3 border-b border-[#DCE2DC] space-y-2">
+                <div className="flex items-center justify-between">
+                  <div className="flex items-center gap-2.5">
+                    <div className="w-8 h-8 rounded-lg bg-[#E8EFEA] border border-[#286653]/30 flex items-center justify-center text-[#286653] shrink-0 shadow-2xs">
+                      <Building2 className="w-4 h-4" />
                     </div>
-                    <div className="text-[10px] text-[#68736D]">{bld.building_type || 'Building Instance'}</div>
+                    <div className="font-mono font-bold text-sm text-[#17231F] tracking-tight whitespace-nowrap">
+                      {bld.id}
+                    </div>
                   </div>
+                  <span className="text-[10px] font-mono px-2 py-0.5 rounded-full bg-[#E8EFEA] text-[#286653] font-semibold border border-[#286653]/30">
+                    {Math.round(bld.confidence * 100)}% Conf
+                  </span>
                 </div>
-                <span className="text-[10px] font-mono px-1.5 py-0.5 rounded bg-[#E8EFEA] text-[#286653] font-semibold border border-[#286653]">
-                  {Math.round(bld.confidence * 100)}% Conf
-                </span>
+                {bld.building_type && (
+                  <div className="text-[11px] text-[#286653] font-medium bg-[#F5F6F3] border border-[#DCE2DC] px-2.5 py-1 rounded-md flex items-center gap-1.5">
+                    <span className="w-1.5 h-1.5 rounded-full bg-[#286653] shrink-0" />
+                    <span className="truncate">{bld.building_type}</span>
+                  </div>
+                )}
               </div>
 
               {/* ElevenLabs Voice Narration Action Card */}
-              <div className="bg-[#E8EFEA] p-2.5 rounded border border-[#286653]/30 flex items-center justify-between">
-                <div className="flex items-center gap-2">
-                  {isSpeaking ? (
-                    <Volume2 className="w-4 h-4 text-[#286653] animate-bounce" />
-                  ) : voiceNarrationOnClick ? (
-                    <Volume2 className="w-4 h-4 text-[#286653]" />
-                  ) : (
-                    <VolumeX className="w-4 h-4 text-[#68736D]" />
-                  )}
-                  <div>
-                    <div className="text-[11px] font-semibold text-[#17231F] flex items-center gap-1.5">
-                      <span>ElevenLabs Voice Agent</span>
-                      {isSpeaking && (
-                        <span className="text-[9px] px-1.5 py-0.2 rounded bg-[#286653] text-white font-mono animate-pulse">
-                          Speaking...
-                        </span>
-                      )}
+              <div className="bg-gradient-to-br from-[#F4F8F5] to-[#E8EFEA] p-3 rounded-lg border border-[#286653]/25 shadow-2xs space-y-2.5">
+                <div className="flex items-center justify-between">
+                  <div className="flex items-center gap-2">
+                    <div className={`w-6 h-6 rounded-full flex items-center justify-center shrink-0 ${isSpeaking ? 'bg-[#286653] text-white animate-pulse' : 'bg-white text-[#286653] border border-[#286653]/20'}`}>
+                      <Volume2 className="w-3.5 h-3.5" />
                     </div>
-                    <div className="text-[9px] text-[#68736D]">
-                      {voiceNarrationOnClick
-                        ? 'Speaks height, dimensions & features on click'
-                        : 'Narration on click is disabled'}
+                    <div>
+                      <div className="text-[11px] font-bold text-[#17231F]">
+                        ElevenLabs Voice Agent
+                      </div>
+                      <div className="text-[9.5px] text-[#68736D]">
+                        {voiceNarrationOnClick ? 'Speaks height & features on click' : 'Click to narrate building metrics'}
+                      </div>
                     </div>
                   </div>
+                  {isSpeaking && (
+                    <span className="text-[9px] font-mono px-2 py-0.5 rounded-full bg-[#286653] text-white font-medium animate-pulse shadow-xs">
+                      Speaking...
+                    </span>
+                  )}
                 </div>
 
-                <div className="flex items-center gap-1.5">
+                <div className="grid grid-cols-2 gap-2 pt-1 border-t border-[#286653]/15">
                   <button
                     onClick={() => narrateBuilding(bld)}
-                    className="px-2 py-1 rounded bg-[#286653] hover:bg-[#1e4d3f] text-white text-[10px] font-medium transition-colors cursor-pointer"
+                    className="w-full py-1.5 px-2 rounded-md bg-[#286653] hover:bg-[#1e4d3f] text-white text-[10.5px] font-semibold flex items-center justify-center gap-1.5 transition-all shadow-xs cursor-pointer active:scale-98"
                     title="Speak dimensions & features now"
                   >
-                    Speak
+                    <Volume2 className="w-3.5 h-3.5" />
+                    <span>Speak Now</span>
                   </button>
                   <button
                     onClick={toggleVoiceNarrationOnClick}
-                    className={`px-2 py-1 rounded text-[10px] font-mono border transition-colors cursor-pointer ${
+                    className={`w-full py-1.5 px-2 rounded-md text-[10.5px] font-mono font-medium border flex items-center justify-center gap-1.5 transition-all cursor-pointer ${
                       voiceNarrationOnClick
-                        ? 'bg-[#FFFFFF] border-[#286653] text-[#286653] font-bold shadow-2xs'
-                        : 'bg-[#F5F6F3] border-[#DCE2DC] text-[#68736D]'
+                        ? 'bg-white border-[#286653] text-[#286653] font-bold shadow-2xs'
+                        : 'bg-[#F5F6F3] border-[#DCE2DC] text-[#68736D] hover:bg-white'
                     }`}
                     title="Toggle auto-speech when clicking buildings"
                   >
-                    {voiceNarrationOnClick ? 'Auto: ON' : 'Auto: OFF'}
+                    <span className={`w-2 h-2 rounded-full ${voiceNarrationOnClick ? 'bg-[#286653]' : 'bg-slate-300'}`} />
+                    <span>{voiceNarrationOnClick ? 'Auto-Voice ON' : 'Auto-Voice OFF'}</span>
                   </button>
                 </div>
               </div>
 
               {/* Reconstructed Height Card */}
               <div>
-                <span className="text-[10px] font-semibold text-[#68736D] uppercase tracking-wider block mb-1">
+                <span className="text-[10px] font-bold text-[#68736D] uppercase tracking-wider block mb-1.5">
                   Reconstructed Height & Floors
                 </span>
-                <div className="bg-[#F5F6F3] p-2.5 rounded border border-[#DCE2DC] space-y-1 text-xs">
+                <div className="bg-[#F5F6F3] p-3 rounded-lg border border-[#DCE2DC] space-y-2">
                   <div className="flex justify-between items-baseline">
-                    <span className="text-[#68736D]">Metric Height:</span>
-                    <span className="font-mono font-bold text-[#286653] text-sm">
-                      {bld.estimated_height_m}m <span className="text-xs text-[#68736D] font-normal">± {bld.height_uncertainty_m}m</span>
+                    <span className="text-[11px] text-[#68736D]">Estimated Height:</span>
+                    <div className="text-right">
+                      <span className="font-mono font-extrabold text-[#286653] text-base">
+                        {bld.estimated_height_m}m
+                      </span>
+                      <span className="font-mono text-[10.5px] text-[#68736D] ml-1.5">
+                        ±{bld.height_uncertainty_m}m
+                      </span>
+                    </div>
+                  </div>
+                  <div className="flex justify-between items-center text-[11px]">
+                    <span className="text-[#68736D]">Estimated Stories:</span>
+                    <span className="font-mono font-bold text-[#17231F] bg-white border border-[#DCE2DC] px-2 py-0.5 rounded text-[11px]">
+                      {bld.estimated_floors} {bld.estimated_floors === 1 ? 'Floor' : 'Floors'}
                     </span>
                   </div>
-                  <div className="flex justify-between font-mono text-[11px]">
-                    <span className="text-[#68736D]">Stories:</span>
-                    <span className="text-[#17231F] font-semibold">{bld.estimated_floors} {bld.estimated_floors === 1 ? 'Floor' : 'Floors'}</span>
-                  </div>
-                  <div className="flex justify-between text-[10px] pt-1 border-t border-[#DCE2DC]">
+                  <div className="flex justify-between items-center text-[10px] pt-2 border-t border-[#DCE2DC]">
                     <span className="text-[#68736D]">Evidence Source:</span>
-                    <span className="text-[#17231F] truncate max-w-[150px]" title={bld.height_source}>
+                    <span className="text-[#17231F] font-medium truncate max-w-[160px] text-right" title={bld.height_source}>
                       {bld.height_source}
                     </span>
                   </div>
@@ -433,71 +438,77 @@ export const RightInspector: React.FC = () => {
 
               {/* SIHE Multi-Source Breakdown */}
               <div>
-                <span className="text-[10px] font-semibold text-[#68736D] uppercase tracking-wider block mb-1">
+                <span className="text-[10px] font-bold text-[#68736D] uppercase tracking-wider block mb-1.5">
                   SIHE Neural & Shadow Geometry
                 </span>
-                <div className="bg-[#F5F6F3] p-2.5 rounded border border-[#DCE2DC] grid grid-cols-2 gap-1.5 font-mono text-[10px]">
-                  <div className="bg-[#FFFFFF] p-1.5 rounded border border-[#DCE2DC]">
-                    <span className="text-[#68736D] block text-[9px]">SIHE nDSM</span>
-                    <span className="text-[#17231F] font-semibold">{bld.sihe_height_m !== undefined ? `${bld.sihe_height_m} m` : 'N/A'}</span>
+                <div className="grid grid-cols-2 gap-2">
+                  <div className="bg-[#F5F6F3] p-2.5 rounded-lg border border-[#DCE2DC] flex flex-col justify-between">
+                    <span className="text-[9px] uppercase font-semibold text-[#68736D] tracking-wider">SIHE nDSM</span>
+                    <span className="font-mono text-xs font-bold text-[#17231F] mt-1">
+                      {bld.sihe_height_m !== undefined ? `${bld.sihe_height_m} m` : '—'}
+                    </span>
                   </div>
-                  <div className="bg-[#FFFFFF] p-1.5 rounded border border-[#DCE2DC]">
-                    <span className="text-[#68736D] block text-[9px]">APEX RIDGE</span>
-                    <span className="text-[#286653] font-semibold">{bld.sihe_peak_height_m !== undefined ? `${bld.sihe_peak_height_m} m` : 'N/A'}</span>
+                  <div className="bg-[#F5F6F3] p-2.5 rounded-lg border border-[#DCE2DC] flex flex-col justify-between">
+                    <span className="text-[9px] uppercase font-semibold text-[#68736D] tracking-wider">Apex Ridge</span>
+                    <span className="font-mono text-xs font-bold text-[#286653] mt-1">
+                      {bld.sihe_peak_height_m !== undefined ? `${bld.sihe_peak_height_m} m` : '—'}
+                    </span>
                   </div>
-                  <div className="bg-[#FFFFFF] p-1.5 rounded border border-[#DCE2DC]">
-                    <span className="text-[#68736D] block text-[9px]">SHADOW RAY</span>
-                    <span className="text-[#B7791F] font-semibold">
+                  <div className="bg-[#F5F6F3] p-2.5 rounded-lg border border-[#DCE2DC] flex flex-col justify-between">
+                    <span className="text-[9px] uppercase font-semibold text-[#68736D] tracking-wider">Shadow Ray</span>
+                    <span className="font-mono text-xs font-semibold text-[#B7791F] mt-1">
                       {bld.shadow_height_m && bld.shadow_height_m > 0 ? `${bld.shadow_height_m} m` : 'Uncast'}
                     </span>
                   </div>
-                  <div className="bg-[#FFFFFF] p-1.5 rounded border border-[#DCE2DC]">
-                    <span className="text-[#68736D] block text-[9px]">ROOF PITCH</span>
-                    <span className="text-[#426B8A] font-semibold truncate block">{bld.sihe_roof_planarity || 'Planar'}</span>
+                  <div className="bg-[#F5F6F3] p-2.5 rounded-lg border border-[#DCE2DC] flex flex-col justify-between">
+                    <span className="text-[9px] uppercase font-semibold text-[#68736D] tracking-wider">Roof Pitch</span>
+                    <span className="font-mono text-xs font-semibold text-[#426B8A] mt-1 truncate">
+                      {bld.sihe_roof_planarity || 'Planar'}
+                    </span>
                   </div>
                 </div>
               </div>
 
               {/* Footprint & Roof Morphology */}
               <div>
-                <span className="text-[10px] font-semibold text-[#68736D] uppercase tracking-wider block mb-1">
+                <span className="text-[10px] font-bold text-[#68736D] uppercase tracking-wider block mb-1.5">
                   Morphological Properties
                 </span>
-                <div className="bg-[#F5F6F3] p-2.5 rounded border border-[#DCE2DC] space-y-1.5 text-[11px]">
-                  <div className="flex justify-between font-mono">
-                    <span className="text-[#68736D]">Footprint Area:</span>
-                    <span className="text-[#17231F] font-semibold">{bld.footprint_area_m2} m²</span>
+                <div className="bg-[#F5F6F3] p-3 rounded-lg border border-[#DCE2DC] divide-y divide-[#DCE2DC]/70 text-[11px]">
+                  <div className="flex justify-between py-1.5 first:pt-0 font-mono">
+                    <span className="text-[#68736D] font-sans">Footprint Area:</span>
+                    <span className="text-[#17231F] font-bold">{bld.footprint_area_m2} m²</span>
                   </div>
-                  <div className="flex justify-between font-mono">
-                    <span className="text-[#68736D]">Dimensions:</span>
-                    <span className="text-[#17231F]">{bld.length_m}m × {bld.width_m}m</span>
+                  <div className="flex justify-between py-1.5 font-mono">
+                    <span className="text-[#68736D] font-sans">Dimensions:</span>
+                    <span className="text-[#17231F] font-medium">{bld.length_m}m × {bld.width_m}m</span>
                   </div>
-                  <div className="flex justify-between font-mono">
-                    <span className="text-[#68736D]">Orientation:</span>
-                    <span className="text-[#17231F]">{bld.orientation_deg}° N</span>
+                  <div className="flex justify-between py-1.5 font-mono">
+                    <span className="text-[#68736D] font-sans">Orientation:</span>
+                    <span className="text-[#17231F] font-medium">{bld.orientation_deg}° N</span>
                   </div>
-                  <div className="flex justify-between">
+                  <div className="flex justify-between py-1.5">
                     <span className="text-[#68736D]">Typology:</span>
-                    <span className="text-[#286653] font-semibold">{bld.building_type || 'Unclassified'}</span>
+                    <span className="text-[#286653] font-semibold text-right">{bld.building_type || 'Unclassified'}</span>
                   </div>
-                  <div className="flex justify-between">
+                  <div className="flex justify-between py-1.5">
                     <span className="text-[#68736D]">Roof Style:</span>
-                    <span className="text-[#17231F] font-medium">{bld.roof_shape}</span>
+                    <span className="text-[#17231F] font-medium text-right">{bld.roof_shape}</span>
                   </div>
-                  <div className="flex justify-between">
+                  <div className="flex justify-between py-1.5">
                     <span className="text-[#68736D]">Material / Appearance:</span>
-                    <span className="text-[#17231F]">{bld.roof_material}</span>
+                    <span className="text-[#17231F] text-right">{bld.roof_material}</span>
                   </div>
                   {bld.floor_count_category && (
-                    <div className="flex justify-between font-mono text-[10px] pt-1 border-t border-[#DCE2DC]">
-                      <span className="text-[#68736D]">Floor Category:</span>
+                    <div className="flex justify-between py-1.5 font-mono text-[10.5px]">
+                      <span className="text-[#68736D] font-sans">Floor Category:</span>
                       <span className="text-[#286653] font-semibold">{bld.floor_count_category}</span>
                     </div>
                   )}
                   {bld.vegetation_proximity_category && (
-                    <div className="flex justify-between font-mono text-[10px]">
-                      <span className="text-[#68736D]">Vegetation Proximity:</span>
-                      <span className="text-[#17231F] font-semibold">
+                    <div className="flex justify-between py-1.5 font-mono text-[10.5px]">
+                      <span className="text-[#68736D] font-sans">Vegetation Proximity:</span>
+                      <span className="text-[#17231F] font-semibold text-right">
                         {bld.vegetation_proximity_m !== null && bld.vegetation_proximity_m !== undefined
                           ? `${bld.vegetation_proximity_m}m (${bld.vegetation_proximity_category})`
                           : bld.vegetation_proximity_category}
@@ -505,25 +516,25 @@ export const RightInspector: React.FC = () => {
                     </div>
                   )}
                   {bld.model_version && (
-                    <div className="flex justify-between font-mono text-[9px] text-[#68736D]">
+                    <div className="flex justify-between py-1.5 font-mono text-[9px] text-[#68736D]">
                       <span>Model:</span>
                       <span className="truncate max-w-[155px]">{bld.model_version}</span>
                     </div>
                   )}
                   {bld.roof_appearance_note && (
-                    <div className="text-[9px] text-[#68736D] italic pt-1 border-t border-[#DCE2DC]">
+                    <div className="text-[9.5px] text-[#68736D] italic py-1.5">
                       {bld.roof_appearance_note}
                     </div>
                   )}
                   {bld.has_hvac_units && (
-                    <div className="flex items-center gap-1 text-[#286653] text-[10px] pt-1 border-t border-[#DCE2DC]">
-                      <CheckCircle2 className="w-3 h-3" />
+                    <div className="flex items-center gap-1.5 text-[#286653] text-[10.5px] pt-1.5">
+                      <CheckCircle2 className="w-3.5 h-3.5 shrink-0" />
                       <span>Rooftop Mechanical / HVAC Units</span>
                     </div>
                   )}
                   {bld.has_solar_panels && (
-                    <div className="flex items-center gap-1 text-[#B7791F] text-[10px] pt-1 border-t border-[#DCE2DC]">
-                      <CheckCircle2 className="w-3 h-3" />
+                    <div className="flex items-center gap-1.5 text-[#B7791F] text-[10.5px] pt-1.5">
+                      <CheckCircle2 className="w-3.5 h-3.5 shrink-0" />
                       <span>Photovoltaic Solar Panels</span>
                     </div>
                   )}
@@ -608,19 +619,24 @@ export const RightInspector: React.FC = () => {
               </button>
 
               {/* Feature Header */}
-              <div className="flex items-center justify-between pb-2 border-b border-[#DCE2DC]">
-                <div className="flex items-center gap-2">
-                  <div className="w-6 h-6 rounded bg-[#E8EFEA] border border-[#286653] flex items-center justify-center text-[#286653]">
-                    <Trees className="w-3.5 h-3.5" />
+              <div className="pb-3 border-b border-[#DCE2DC] space-y-2">
+                <div className="flex items-center justify-between">
+                  <div className="flex items-center gap-2.5">
+                    <div className="w-8 h-8 rounded-lg bg-[#E8EFEA] border border-[#286653]/30 flex items-center justify-center text-[#286653] shrink-0 shadow-2xs">
+                      <Trees className="w-4 h-4" />
+                    </div>
+                    <div className="font-mono font-bold text-sm text-[#17231F] tracking-tight whitespace-nowrap">
+                      {tree.id}
+                    </div>
                   </div>
-                  <div>
-                    <div className="font-mono font-bold text-xs text-[#17231F]">{tree.id}</div>
-                    <div className="text-[10px] text-[#68736D]">{tree.vegetation_category}</div>
-                  </div>
+                  <span className="text-[10px] font-mono px-2 py-0.5 rounded-full bg-[#E8EFEA] text-[#286653] font-semibold border border-[#286653]/30">
+                    {Math.round(tree.detection_confidence * 100)}% Conf
+                  </span>
                 </div>
-                <span className="text-[10px] font-mono px-1.5 py-0.5 rounded bg-[#E8EFEA] text-[#286653] font-semibold border border-[#286653]">
-                  {Math.round(tree.detection_confidence * 100)}% Conf
-                </span>
+                <div className="text-[11px] text-[#286653] font-medium bg-[#F5F6F3] border border-[#DCE2DC] px-2.5 py-1 rounded-md flex items-center gap-1.5">
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#286653] shrink-0" />
+                  <span className="truncate">{tree.vegetation_category}</span>
+                </div>
               </div>
 
               {/* Crown Dimensions */}
@@ -730,10 +746,10 @@ export const RightInspector: React.FC = () => {
 
       {/* Bottom Dismiss Selection button (if feature selected) */}
       {selectedFeature && (
-        <div className="p-2.5 border-t border-[#DCE2DC] bg-[#F5F6F3]">
+        <div className="p-3 border-t border-[#DCE2DC] bg-[#F5F6F3]">
           <button
             onClick={() => selectFeature(null)}
-            className="w-full py-1 rounded bg-[#FFFFFF] hover:bg-[#EDF1EC] border border-[#DCE2DC] text-[#68736D] text-[11px] font-medium transition-colors"
+            className="w-full py-2 rounded-md bg-white hover:bg-[#E8EFEA] border border-[#DCE2DC] hover:border-[#286653] text-[#286653] text-xs font-semibold transition-all shadow-2xs cursor-pointer active:scale-98"
           >
             Clear Selection
           </button>

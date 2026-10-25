@@ -29,6 +29,9 @@ test_*.png
 test_*.jpg
 backend/debug_*.png
 backend/core/debug_*.jpg
+backend/exports/
+backend/uploads/
+backend/data/investigations/inv_*
 *.log
 
 # OS
