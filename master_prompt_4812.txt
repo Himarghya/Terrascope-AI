@@ -1,0 +1,405 @@
+<USER_REQUEST>
+# ANTIGRAVITY MASTER PROMPT — TERRASCOPE AI
+## Repository Audit, Flagship Innovation, Metric 3D Reconstruction & Modular Disaster Intelligence
+
+Act as a senior geospatial AI/ML engineer, computer-vision researcher, full-stack architect, and real-time 3D graphics engineer.
+
+You are working inside my existing project, Terrascope AI. Your task is to understand the current codebase, identify what already works, determine what is missing, answer the team's technical questions with evidence, and implement the single most valuable missing feature without breaking existing functionality.
+
+**Do not rebuild the application from scratch. Do not duplicate existing features. Do not implement every suggested idea.**
+
+The goal is to create a technically credible, demonstrable satellite-to-3D and disaster-intelligence platform with a clear flagship innovation.
+
+---
+
+# PHASE 1 — AUDIT THE ENTIRE EXISTING PROJECT
+
+Before modifying code, inspect the repository thoroughly.
+
+1. Examine the frontend, backend, model inference pipeline, training scripts, data preprocessing, API routes, 3D viewer, configuration, and deployment files.
+2. Identify all existing functionality and distinguish between:
+   - Fully implemented and tested features.
+   - Implemented but incomplete features.
+   - Mock data, simulated outputs, placeholder buttons, and hardcoded results.
+   - Models that have been trained versus models that are merely configured.
+   - Features that are planned but do not exist.
+3. Trace the complete workflow from image upload to preprocessing, inference, geospatial post-processing, 3D reconstruction, and visualization.
+4. Identify dependencies, environment requirements, model checkpoints, dataset paths, and GPU/CPU assumptions.
+5. Run the available tests and existing application where possible. Record actual errors rather than assuming the project works.
+6. Inspect the existing Git status and preserve uncommitted changes.
+
+Create `docs/PROJECT_AUDIT.md` containing:
+- Current architecture and component diagram.
+- Existing features and their implementation status.
+- Models, datasets, and output formats currently used.
+- Accuracy metrics actually measured, with their evaluation methods.
+- Technical debt, performance bottlenecks, and integration risks.
+- Missing features ranked by impact, feasibility, data availability, and development time.
+- Exact files and components that should be extended for the selected feature.
+
+Do not begin implementation until you have completed the audit and selected the best missing feature.
+
+# PHASE 2 — SELECT ONE FLAGSHIP INNOVATION
+
+The project already focuses on satellite imagery, terrain analysis, building footprints, building-height estimation, and 3D reconstruction to the extent these are present in the existing implementation.
+
+Evaluate the following potential differentiators:
+
+A. Pre-disaster versus post-disaster building change detection.
+
+B. Building damage classification and affected-area estimation.
+
+C. Rubble footprint and debris-height estimation.
+
+D. Terrain-aware disaster accessibility and candidate evacuation-route analysis.
+
+E. Metric building reconstruction with quantified uncertainty.
+
+F. Heat-island analysis, solar suitability, property-site selection, and telecom tower planning.
+
+Do not implement all these features.
+
+Choose ONE primary innovation using the following criteria:
+- Meaningful differentiation from existing products.
+- Feasible implementation within the current repository and project timeline.
+- Availability of suitable datasets and measurable ground truth.
+- Ability to demonstrate the result convincingly.
+- Integration with existing features.
+- Practical value for disaster response.
+- Honest, reproducible evaluation.
+
+My preferred direction is pre/post-disaster structural change assessment, with building damage and affected-area estimation. However, choose a different feature if the repository audit shows that this is already implemented or another missing feature is substantially more feasible and valuable.
+
+The innovation should use the existing 3D reconstruction pipeline as a foundation, not replace it.
+
+Create `docs/FLAGSHIP_FEATURE.md` explaining:
+- The selected innovation.
+- The specific problem it solves.
+- Why existing features do not already solve it.
+- The proposed workflow.
+- Required datasets and labels.
+- Model architecture and alternatives considered.
+- Expected output and evaluation metrics.
+- Known limitations and development milestones.
+
+Implement only the selected flagship feature in this iteration. Make future capabilities extensible through modular interfaces, but do not build speculative features that lack data or validation.
+
+# PHASE 3 — INVESTIGATE THE EXISTING MODEL'S OUTPUTS
+
+Determine exactly what the current AI model predicts. Do not assume that its outputs are metric measurements.
+
+Inspect the model architecture, inference code, preprocessing, post-processing, and checkpoint metadata.
+
+Answer these questions in `docs/MODEL_OUTPUTS_AND_METRIC_SCALE.md`:
+
+1. Does the model predict relative depth, metric depth, terrain elevation, surface elevation, building height, building masks, or some combination?
+2. What are the output tensor dimensions, resolution, data type, units, and numerical range?
+3. Are the values normalized between 0 and 1? If so, where and why?
+4. Is normalization used only for visualization, or does it alter the actual prediction?
+5. Can the current output be converted into metres using a justified calibration method?
+6. Which external reference datasets or measurements are required?
+7. How are image pixels mapped to geographic coordinates?
+8. What coordinate reference system, horizontal units, vertical datum, and elevation reference are used?
+9. Does the output preserve geographic alignment when the image is resized, cropped, or tiled?
+10. Which outputs are currently used to construct the 3D scene?
+
+Provide representative real output shapes and sample values from the actual model when execution is possible.
+
+Explain the difference between:
+- Relative depth: model-dependent relative ordering or depth values.
+- Metric depth: distance from the camera, expressed in physical units.
+- Ground elevation: elevation relative to a defined vertical datum.
+- Surface elevation: elevation of roofs, vegetation, and terrain surfaces.
+- Building height: vertical difference between a building surface and its local ground.
+- Confidence: a calibrated or otherwise defined measure of prediction reliability.
+
+Never treat a normalized depth value as metres.
+
+If the current model does not support metric reconstruction, document the gap and implement a clearly defined interface for metric calibration or reference-data fusion. Do not claim that a mathematically rescaled relative-depth map automatically becomes physically accurate.
+
+# PHASE 4 — VERIFY BUILDING FOOTPRINT AND HEIGHT ACCURACY
+
+Investigate whether the existing implementation accurately identifies the actual base area of each building.
+
+Evaluate roof masks, building footprints, adjacent structures, shadows, vegetation, occlusion, roof overhangs, and partially visible buildings.
+
+If the project already has footprint extraction, improve or evaluate that component rather than adding a duplicate segmentation model.
+
+For each building, support a structured record where appropriate:
+
+{
+  "building_id": "unique identifier",
+  "footprint_geometry": "georeferenced polygon",
+  "footprint_area_m2": "calculated from projected geometry",
+  "estimated_height_m": "estimated vertical height",
+  "ground_elevation_m": "if available",
+  "height_method": "documented estimation method",
+  "footprint_confidence": "defined confidence measure",
+  "height_uncertainty_m": "only if supported by the method",
+  "source_image_id": "input image reference",
+  "quality_flags": []
+}
+
+This is a schema example, not permission to fabricate prediction values.
+
+Requirements:
+- Preserve actual geographic coordinates and metadata.
+- Calculate area in a suitable projected coordinate system or use a geodesic method.
+- Distinguish roof outline from building footprint when they differ.
+- Handle overlapping or touching buildings.
+- Report missing or unreliable measurements.
+- Evaluate footprint IoU, precision, recall, and height MAE/RMSE in metres wherever reference labels exist.
+- Report results by scene type and image resolution.
+- Never invent accuracy percentages or claim a benchmark was achieved without testing.
+
+If reliable height references are unavailable, state that limitation and implement the evaluation pipeline so it can be used when reference data becomes available.
+
+# PHASE 5 — IMPLEMENT THE FLAGSHIP DISASTER FEATURE
+
+If pre/post-disaster change assessment is selected, implement it as a separate, reusable module.
+
+Required workflow:
+
+1. Accept pre-event and post-event images or reference existing image assets.
+2. Validate their resolution, geographic coverage, coordinate systems, and acquisition metadata.
+3. Register the images where necessary and account for changes in viewpoint, scale, and alignment.
+4. Reuse the existing building footprint and reconstruction pipeline.
+5. Identify probable building and surface changes.
+6. Estimate affected building footprints and affected area.
+7. Generate damage-related classifications only if the model and training labels support them.
+8. Where appropriate, combine surface elevation or height estimates from compatible sources.
+9. Produce confidence values or explicit quality flags using a documented method.
+10. Render affected buildings and changed areas in the existing viewer.
+11. Export structured results and a machine-readable report.
+
+Possible output formats:
+- GeoJSON for affected building polygons and attributes.
+- GeoTIFF or Cloud Optimized GeoTIFF for georeferenced raster predictions.
+- JSON for summaries, metrics, uncertainty, and job status.
+- GLB/glTF for individual 3D objects where appropriate.
+- 3D Tiles for streaming large geographic scenes where appropriate.
+
+Do not estimate exact rubble heights from RGB imagery alone unless the method has been validated for that task. Distinguish observed changes from inferred damage.
+
+For volumetric estimates, identify the required surface models, assumptions, coordinate alignment, and uncertainty. Do not infer precise debris volume from a damage classification or a normalized depth image.
+
+# PHASE 6 — DATASETS AND TRAINING PIPELINE
+
+Investigate suitable datasets before selecting or training any model.
+
+Potential starting points include:
+- xBD for satellite imagery and building damage labels.
+- SpaceNet datasets for relevant building footprints and geospatial imagery.
+- GlobalBuildingAtlas for building footprints, estimated heights, and LoD1 models.
+- Public LiDAR and elevation datasets where geographic coverage and licensing permit.
+- Local or regional government datasets where openly accessible.
+- Synthetic scenes for supplementary training and controlled testing.
+
+Verify the actual availability, resolution, licensing, geographic coverage, label definitions, and suitability of each dataset. Do not assume that a building damage dataset includes rubble-height ground truth.
+
+Build a reproducible dataset pipeline:
+- Data acquisition instructions.
+- Preprocessing and image alignment.
+- Label validation.
+- Training, validation, and test splits.
+- Geographic separation between splits where feasible to reduce spatial leakage.
+- Training configuration and random seeds.
+- Evaluation scripts and saved metrics.
+- Checkpoint versioning.
+
+Do not train a large model merely because training is technically possible.
+
+First establish a baseline using a pretrained model or a simple method. Fine-tune only when appropriate data, compute, and validation are available.
+
+If the necessary dataset is missing, build the integration and evaluation interfaces, document the missing data, and use clearly labeled demo outputs. Never silently substitute synthetic outputs for real predictions.
+
+# PHASE 7 — CESIUM / THREE.JS / PLAYER CONTROLLER INTEGRATION
+
+Inspect the existing 3D viewer before integrating an external controller.
+
+Reference projects:
+https://hh-hang.github.io/three-player-controller/
+https://github.com/hh-hang/three-player-controller
+https://github.com/hh-hang/cesium-player-controller
+
+Review their current APIs, license, dependencies, collision handling, and compatibility with the project's installed versions.
+
+Use the controller that matches the actual renderer and scene architecture. Do not combine Cesium and Three.js indiscriminately or create duplicate rendering loops.
+
+If integration is appropriate:
+- Keep player movement separate from terrain and building reconstruction.
+- Implement an adapter that accepts the existing scene and geometry.
+- Preserve existing navigation and camera controls.
+- Reuse the library's supported collision and lifecycle APIs.
+- Add a clean fallback if the controller fails to initialize.
+
+For large scenes:
+- Use Cesium 3D Tiles streaming where appropriate.
+- Load detailed content near the camera and progressively simplify distant content.
+- Tune screen-space error, tile cache size, memory budgets, and rendering quality.
+- Use chunked or simplified collision geometry.
+- Avoid one enormous collision mesh for an entire city.
+- Build BVHs asynchronously or in workers where supported.
+- Load and release nearby collision chunks according to player position.
+- Separate visual geometry from collision geometry.
+- Avoid blocking the render loop with mesh processing.
+- Handle incomplete tile loading without allowing the player to fall through the world.
+
+Create a performance test scene and measure frame rate, memory usage, scene loading time, and collision-query cost on available hardware.
+
+Do not promise a fixed frame rate on every laptop or phone without testing.
+
+# PHASE 8 — CLIENT/SERVER COMPUTATION
+
+Inspect the current deployment architecture and implement a practical hybrid design.
+
+Client-side responsibilities may include:
+- Rendering and navigation.
+- Visibility and level-of-detail management.
+- Lightweight interaction.
+- Displaying already generated model outputs.
+- Local caching of permitted assets.
+
+Server-side responsibilities may include:
+- Large-image preprocessing.
+- Neural-network inference when hardware permits.
+- Heavy reconstruction and change detection.
+- Dataset access, job management, and asset preparation.
+- Storage, caching, and export generation.
+
+Requirements:
+- The browser must not need to download model weights unless local inference is an intentional feature.
+- Expose a stable API between inference and the frontend.
+- Add asynchronous jobs for expensive tasks.
+- Provide job status, progress, failure handling, and result retrieval.
+- Avoid blocking HTTP requests during long-running inference.
+- Validate uploaded files, dimensions, formats, and sizes.
+- Keep credentials and privileged API keys on the server.
+- Provide CPU inference where practical and GPU acceleration when available.
+- Consider device capability and network conditions.
+- Use streaming and caching instead of downloading the entire scene.
+- Make local inference an optional future capability if it is not currently supported.
+
+If a trained model is available, make its inference service deployable as a web-accessible endpoint. Otherwise, prepare the interface and a clearly labeled demonstration mode.
+
+Do not pretend that training occurred locally or that a model has been deployed when it has not.
+
+# PHASE 9 — FUTURE MODULE INTERFACES
+
+Do not implement the following as additional flagship features in this iteration. Define interfaces only when useful for the architecture.
+
+Potential future modules:
+- Road-crack detection.
+- Hazard-aware candidate escape routes.
+- Heat-island mapping.
+- Roof solar suitability.
+- Property-site suitability ranking.
+- Telecom tower site analysis.
+- Game-ready building and terrain exports.
+
+Each module must declare its inputs, outputs, data dependencies, geographic requirements, and confidence limitations.
+
+For road damage, distinguish visible crack detection from actual crack-depth measurement. Route analysis must combine road connectivity with known or inferred hazards; it must not guarantee that a route is safe.
+
+For solar suitability, account for roof geometry, shadows, irradiance, and available temporal data. A single overhead image cannot establish annual solar potential.
+
+For property and telecom planning, support existing licensed or open geospatial datasets and user-supplied areas of interest. Do not depend on unrestricted access to live satellite imagery or private land records.
+
+# PHASE 10 — FRONTEND AND DEMONSTRATION
+
+Preserve the existing design system and improve the interface only where it helps the selected feature.
+
+The application should provide:
+- Image or area selection.
+- Input-data validation.
+- Processing status.
+- A map and 3D scene.
+- Individual building inspection.
+- Clear separation between observed data, model estimates, and illustrative data.
+- Confidence and data-quality indicators.
+- A before/after comparison when relevant.
+- Downloadable results.
+- Useful error messages.
+
+Do not add unnecessary icons, decorative panels, excessive gradients, or placeholder analytics.
+
+Avoid fabricated charts, fake metrics, and meaningless loading animations. Every control should work.
+
+If a model is still training, allow the frontend to use a stable API contract so that a real inference service can be connected later without rewriting the application.
+
+# PHASE 11 — TESTING AND ACCEPTANCE CRITERIA
+
+After implementation:
+
+1. Run existing tests and add tests for the new module.
+2. Run linting, type checking, and builds supported by the project.
+3. Test API input validation and error handling.
+4. Test geospatial coordinate transformations and exported geometry.
+5. Verify that predictions and confidence values are not silently fabricated.
+6. Verify that the 3D viewer still works with existing inputs.
+7. Test missing datasets, missing checkpoints, and unavailable GPU scenarios.
+8. Benchmark performance using the available environment.
+9. Document any tests that could not be run.
+
+Do not report a test as passed unless it was actually executed.
+
+Do not claim a feature is complete when it only has a UI placeholder or a mocked backend.
+
+# PHASE 12 — FINAL DELIVERABLES
+
+Deliver the actual code changes, not just a proposal.
+
+Produce:
+- `docs/PROJECT_AUDIT.md`
+- `docs/FLAGSHIP_FEATURE.md`
+- `docs/MODEL_OUTPUTS_AND_METRIC_SCALE.md`
+- `docs/DATASETS_AND_TRAINING.md`
+- `docs/ARCHITECTURE_AND_DEPLOYMENT.md`
+- Updated source code, tests, and configuration where required.
+- An API specification or equivalent documentation.
+- Setup and run instructions.
+- A list of required environment variables, without exposing secrets.
+- A list of model weights and datasets that still need to be obtained.
+- Actual test results and measured performance.
+- A short integration guide for connecting the frontend to a deployed inference endpoint.
+
+In the final response, answer these questions explicitly:
+
+1. What already existed in the project?
+2. What was genuinely new?
+3. Why was that feature selected over the alternatives?
+4. What does the model output, and are its values normalized or metric?
+5. Is the building footprint accurate, and what evidence supports the answer?
+6. Can rubble height be estimated reliably with the available data?
+7. What datasets are needed, and are they actually available?
+8. What runs on the user's device versus the server?
+9. How does collision detection work in the existing 3D scene?
+10. How are large scenes optimized for low-end hardware?
+11. Can the model be exposed through a deployed API, and what remains before deployment?
+12. What was implemented and tested during this session?
+13. What remains incomplete or unverified?
+14. What should the team implement next?
+
+## NON-NEGOTIABLE RULES
+
+- Audit before coding.
+- Preserve existing functionality.
+- Do not create duplicate features.
+- Select one flagship innovation.
+- Prefer measurable progress over feature count.
+- Do not invent model accuracy, dataset availability, training progress, or deployment status.
+- Do not claim physically accurate 3D geometry without appropriate reference measurements.
+- Do not assume that relative depth is metric height.
+- Keep components modular, testable, and independently deployable.
+- Reuse appropriate open-source components after checking their licenses and compatibility.
+- If a requirement cannot be implemented because data, hardware, or dependencies are unavailable, document the limitation and implement the best honest fallback.
+- Make real code changes, run the available checks, and finish with a concise summary of what actually works.
+
+Begin with repository inspection and the audit. Then select and implement the single best missing feature.
+
+
+merge anything new from this to my main project and answer the question 
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-10-18T23:21:15+05:30.
+</ADDITIONAL_METADATA>

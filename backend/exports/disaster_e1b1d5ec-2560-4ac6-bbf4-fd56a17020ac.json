@@ -1,0 +1,5609 @@
+{
+  "assessment_id": "e1b1d5ec-2560-4ac6-bbf4-fd56a17020ac",
+  "timestamp": 1792347104.863933,
+  "gsd_m": 0.35,
+  "scene_dimensions_px": {
+    "width": 1024,
+    "height": 1024
+  },
+  "scene_coverage_m": {
+    "width": 358.4,
+    "height": 358.4
+  },
+  "summary_kpis": {
+    "total_buildings_assessed": 55,
+    "total_damaged_structures": 55,
+    "overall_damage_rate_pct": 100.0,
+    "destroyed_count": 43,
+    "major_damage_count": 8,
+    "minor_damage_count": 4,
+    "no_damage_count": 0,
+    "total_debris_volume_m3": 104272.8,
+    "debris_volume_uncertainty_m3": 8876.3,
+    "rubble_bulking_factor": 1.3,
+    "emergency_priority": "CRITICAL"
+  },
+  "assessed_buildings": [
+    {
+      "building_id": "BLD-041",
+      "damage_class": 3,
+      "damage_label": "Destroyed",
+      "severity": "Critical",
+      "pre_height_m": 7.31,
+      "post_height_m": 2.93,
+      "delta_height_m": 4.37,
+      "collapse_percentage": 59.9,
+      "footprint_area_m2": 2124.4,
+      "debris_volume_m3": 12080.6,
+      "debris_uncertainty_m3": 2346.1,
+      "confidence_score": 0.91,
+      "roughness_metric": 852.7,
+      "polygon_px": [
+        [
+          117,
+          263
+        ],
+        [
+          0,
+          263
+        ],
+        [
+          0,
+          103
+        ],
+        [
+          117,
+          103
+        ]
+      ],
+      "center_px": [
+        59,
+        183
+      ],
+      "building_type": "Residential / Commercial",
+      "quality_flags": [
+        "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+      ]
+    },
+    {
+      "building_id": "BLD-042",
+      "damage_class": 3,
+      "damage_label": "Destroyed",
+      "severity": "Critical",
+      "pre_height_m": 6.84,
+      "post_height_m": 1.18,
+      "delta_height_m": 5.67,
+      "collapse_percentage": 82.8,
+      "footprint_area_m2": 68.3,
+      "debris_volume_m3": 503.0,
+      "debris_uncertainty_m3": 97.7,
+      "confidence_score": 0.91,
+      "roughness_metric": 25.9,
+      "polygon_px": [
+        [
+          750,
+          103
+        ],
+        [
+          749,
+          112
+        ],
+        [
+          751,
+          116
+        ],
+        [
+          763,
+          126
+        ],
+        [
+          770,
+          126
+        ],
+        [
+          777,
+          113
+        ],
+        [
+          776,
+          105
+        ],
+        [
+          770,
+          101
+        ],
+        [
+          753,
+          101
+        ]
+      ],
+      "center_px": [
+        763,
+        114
+      ],
+      "building_type": "Residential / Commercial",
+      "quality_flags": [
+        "Pancake/Full Roof Collapse Detected",
+        "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+      ]
+    },
+    {
+      "building_id": "BLD-017",
+      "damage_class": 2,
+      "damage_label": "Major Damage",
+      "severity": "High",
+      "pre_height_m": 6.4,
+      "post_height_m": 3.23,
+      "delta_height_m": 3.17,
+      "collapse_percentage": 49.5,
+      "footprint_area_m2": 1827.3,
+      "debris_volume_m3": 7534.0,
+      "debris_uncertainty_m3": 1463.1,
+      "confidence_score": 0.86,
+      "roughness_metric": 83.6,
+      "polygon_px": [
+        [
+          185,
+          639
+        ],
+        [
+          182,
+          517
+        ],
+        [
+          319,
+          514
+        ],
+        [
+          322,
+          636
+        ]
+      ],
+      "center_px": [
+        252,
+        577
+      ],
+      "building_type": "Residential / Commercial",
+      "quality_flags": []
+    },
+    {
+      "building_id": "BLD-006",
+      "damage_class": 3,
+      "damage_label": "Destroyed",
+      "severity": "Critical",
+      "pre_height_m": 6.54,
+      "post_height_m": 2.55,
+      "delta_height_m": 3.98,
+      "collapse_percentage": 61.0,
+      "footprint_area_m2": 8179.5,
+      "debris_volume_m3": 42371.9,
+      "debris_uncertainty_m3": 8228.6,
+      "confidence_score": 0.91,
+      "roughness_metric": 402.8,
+      "polygon_px": [
+        [
+          1008,
+          687
+        ],
+        [
+          917,
+          665
+        ],
+        [
+          892,
+          764
+        ],
+        [
+          845,
+          773
+        ],
+        [
+          876,
+          688
+        ],
+        [
+          779,
+          690
+        ],
+        [
+          814,
+          749
+        ],
+        [
+          715,
+          818
+        ],
+        [
+          713,
+          877
+        ],
+        [
+          818,
+          888
+        ],
+        [
+          837,
+          828
+        ],
+        [
+          841,
+          988
+        ],
+        [
+          708,
+          992
+        ],
+        [
+          701,
+          1023
+        ],
+        [
+          941,
+          1023
+        ],
+        [
+          942,
+          954
+        ],
+        [
+          1023,
+          950
+        ],
+        [
+          1023,
+          868
+        ],
+        [
+          912,
+          858
+        ],
+        [
+          921,
+          819
+        ],
+        [
+          1023,
+          814
+        ]
+      ],
+      "center_px": [
+        862,
+        844
+      ],
+      "building_type": "Residential / Commercial",
+      "quality_flags": []
+    },
+    {
+      "building_id": "BLD-033",
+      "damage_class": 3,
+      "damage_label": "Destroyed",
+      "severity": "Critical",
+      "pre_height_m": 6.51,
+      "post_height_m": 2.62,
+      "delta_height_m": 3.89,
+      "collapse_percentage": 59.7,
+      "footprint_area_m2": 89.9,
+      "debris_volume_m3": 454.1,
+      "debris_uncertainty_m3": 88.2,
+      "confidence_score": 0.91,
+      "roughness_metric": 230.8,
+      "polygon_px": [
+        [
+          273,
+          197
+        ],
+        [
+          264,
+          207
+        ],
+        [
+          263,
+          219
+        ],
+        [
+          266,
+          228
+        ],
+        [
+          272,
+          234
+        ],
+        [
+          281,
+          234
+        ],
+        [
+          285,
+          230
+        ],
+        [
+          289,
+          210
+        ],
+        [
+          280,
+          199
+        ]
+      ],
+      "center_px": [
+        276,
+        216
+      ],
+      "building_type": "Residential / Commercial",
+      "quality_flags": []
+    },
+    {
+      "building_id": "BLD-031",
+      "damage_class": 1,
+      "damage_label": "Minor Damage",
+      "severity": "Moderate",
+      "pre_height_m": 6.05,
+      "post_height_m": 4.7,
+      "delta_height_m": 1.34,
+      "collapse_percentage": 22.2,
+      "footprint_area_m2": 37.2,
+      "debris_volume_m3": 64.9,
+      "debris_uncertainty_m3": 12.6,
+      "confidence_score": 0.82,
+      "roughness_metric": 161.7,
+      "polygon_px": [
+        [
+          988,
+          230
+        ],
+        [
+          967,
+          230
+        ],
+        [
+          967,
+          212
+        ],
+        [
+          988,
+          212
+        ]
+      ],
+      "center_px": [
+        978,
+        221
+      ],
+      "building_type": "Residential / Commercial",
+      "quality_flags": []
+    },
+    {
+      "building_id": "BLD-015",
+      "damage_class": 3,
+      "damage_label": "Destroyed",
+      "severity": "Critical",
+      "pre_height_m": 5.96,
+      "post_height_m": 2.32,
+      "delta_height_m": 3.64,
+      "collapse_percentage": 61.0,
+      "footprint_area_m2": 871.3,
+      "debris_volume_m3": 4120.5,
+      "debris_uncertainty_m3": 800.2,
+      "confidence_score": 0.91,
+      "roughness_metric": 89.3,
+      "polygon_px": [
+        [
+          895,
+          655
+        ],
+        [
+          893,
+          521
+        ],
+        [
+          954,
+          520
+        ],
+        [
+          956,
+          654
+        ]
+      ],
+      "center_px": [
+        925,
+        588
+      ],
+      "building_type": "Residential / Commercial",
+      "quality_flags": []
+    },
+    {
+      "building_id": "BLD-039",
+      "damage_class": 3,
+      "damage_label": "Destroyed",
+      "severity": "Critical",
+      "pre_height_m": 5.93,
+      "post_height_m": 1.55,
+      "delta_height_m": 4.38,
+      "collapse_percentage": 73.9,
+      "footprint_area_m2": 102.8,
+      "debris_volume_m3": 585.9,
+      "debris_uncertainty_m3": 113.8,
+      "confidence_score": 0.91,
+      "roughness_metric": 11.5,
+      "polygon_px": [
+        [
+          892,
+          177
+        ],
+        [
+          865,
+          177
+        ],
+        [
+          865,
+          141
+        ],
+        [
+          892,
+          141
+        ]
+      ],
+      "center_px": [
+        879,
+        159
+      ],
+      "building_type": "Residential / Commercial",
+      "quality_flags": [
+        "Pancake/Full Roof Collapse Detected"
+      ]
+    },
+    {
+      "building_id": "BLD-016",
+      "damage_class": 3,
+      "damage_label": "Destroyed",
+      "severity": "Critical",
+      "pre_height_m": 5.88,
+      "post_height_m": 0.32,
+      "delta_height_m": 5.56,
+      "collapse_percentage": 94.6,
+      "footprint_area_m2": 125.2,
+      "debris_volume_m3": 904.3,
+      "debris_uncertainty_m3": 175.6,
+      "confidence_score": 0.91,
+      "roughness_metric": 44.3,
+      "polygon_px": [
+        [
+          46,
+          562
+        ],
+        [
+          18,
+          562
+        ],
+        [
+          18,
+          518
+        ],
+        [
+          46,
+          518
+        ]
+      ],
+      "center_px": [
+        32,
+        540
+      ],
+      "building_type": "Residential / Commercial",
+      "quality_flags": [
+        "Pancake/Full Roof Collapse Detected"
+      ]
+    },
+    {
+      "building_id": "BLD-019",
+      "damage_class": 3,
+      "damage_label": "Destroyed",
+      "severity": "Critical",
+      "pre_height_m": 5.78,
+      "post_height_m": 1.53,
+      "delta_height_m": 4.25,
+      "collapse_percentage": 73.4,
+      "footprint_area_m2": 1024.8,
+      "debris_volume_m3": 5655.5,
+      "debris_uncertainty_m3": 1098.3,
+      "confidence_score": 0.91,
+      "roughness_metric": 66.9,
+      "polygon_px": [
+        [
+          834,
+          418
+        ],
+        [
+          823,
+          431
+        ],
+        [
+          825,
+          471
+        ],
+        [
+          778,
+          474
+        ],
+        [
+          774,
+          514
+        ],
+        [
+          822,
+          521
+        ],
+        [
+          832,
+          558
+        ],
+        [
+          870,
+          557
+        ],
+        [
+          867,
+          432
+        ]
+      ],
+      "center_px": [
+        822,
+        488
+      ],
+      "building_type": "Residential / Commercial",
+      "quality_flags": [
+        "Pancake/Full Roof Collapse Detected"
+      ]
+    },
+    {
+      "building_id": "BLD-055",
+      "damage_class": 3,
+      "damage_label": "Destroyed",
+      "severity": "Critical",
+      "pre_height_m": 5.68,
+      "post_height_m": 1.79,
+      "delta_height_m": 3.9,
+      "collapse_percentage": 68.6,
+      "footprint_area_m2": 33.0,
+      "debris_volume_m3": 167.2,
+      "debris_uncertainty_m3": 32.5,
+      "confidence_score": 0.91,
+      "roughness_metric": 27.6,
+      "polygon_px": [
+        [
+          261,
+          0
+        ],
+        [
+          261,
+          4
+        ],
+        [
+          268,
+          14
+        ],
+        [
+          272,
+          16
+        ],
+        [
+          279,
+          14
+        ],
+        [
+          283,
+          0
+        ]
+      ],
+      "center_px": [
+        272,
+        8
+      ],
+      "building_type": "Residential / Commercial",
+      "quality_flags": [
+        "Pancake/Full Roof Collapse Detected"
+      ]
+    },
+    {
+      "building_id": "BLD-040",
+      "damage_class": 3,
+      "damage_label": "Destroyed",
+      "severity": "Critical",
+      "pre_height_m": 5.48,
+      "post_height_m": 1.9,
+      "delta_height_m": 3.58,
+      "collapse_percentage": 65.3,
+      "footprint_area_m2": 149.9,
+      "debris_volume_m3": 696.9,
+      "debris_uncertainty_m3": 135.3,
+      "confidence_score": 0.91,
+      "roughness_metric": 21.9,
+      "polygon_px": [
+        [
+          1023,
+          182
+        ],
+        [
+          987,
+          182
+        ],
+        [
+          987,
+          140
+        ],
+        [
+          1023,
+          140
+        ]
+      ],
+      "center_px": [
+        1005,
+        161
+      ],
+      "building_type": "Residential / Commercial",
+      "quality_flags": [
+        "Pancake/Full Roof Collapse Detected"
+      ]
+    },
+    {
+      "building_id": "BLD-001",
+      "damage_class": 3,
+      "damage_label": "Destroyed",
+      "severity": "Critical",
+      "pre_height_m": 5.54,
+      "post_height_m": 1.14,
+      "delta_height_m": 4.4,
+      "collapse_percentage": 79.4,
+      "footprint_area_m2": 139.1,
+      "debris_volume_m3": 795.7,
+      "debris_uncertainty_m3": 154.5,
+      "confidence_score": 0.91,
+      "roughness_metric": 31.2,
+      "polygon_px": [
+        [
+          80,
+          1022
+        ],
+        [
+          125,
+          1023
+        ],
+        [
+          124,
+          1004
+        ],
+        [
+          121,
+          995
+        ],
+        [
+          116,
+          991
+        ],
+        [
+          94,
+          992
+        ],
+        [
+          89,
+          1000
+        ],
+        [
+          88,
+          1012
+        ]
+      ],
+      "center_px": [
+        103,
+        1007
+      ],
+      "building_type": "Residential / Commercial",
+      "quality_flags": [
+        "Pancake/Full Roof Collapse Detected"
+      ]
+    },
+    {
+      "building_id": "BLD-022",
+      "damage_class": 3,
+      "damage_label": "Destroyed",
+      "severity": "Critical",
+      "pre_height_m": 5.5,
+      "post_height_m": 1.18,
+      "delta_height_m": 4.32,
+      "collapse_percentage": 78.5,
+      "footprint_area_m2": 497.8,
+      "debris_volume_m3": 2793.5,
+      "debris_uncertainty_m3": 542.5,
+      "confidence_score": 0.91,
+      "roughness_metric": 21.0,
+      "polygon_px": [
+        [
+          63,
+          361
+        ],
+        [
+          58,
+          367
+        ],
+        [
+          62,
+          401
+        ],
+        [
+          56,
+          456
+        ],
+        [
+          64,
+          461
+        ],
+        [
+          85,
+          459
+        ],
+        [
+          94,
+          452
+        ],
+        [
+          112,
+          415
+        ],
+        [
+          112,
+          401
+        ],
+        [
+          96,
+          392
+        ],
+        [
+          92,
+          363
+        ]
+      ],
+      "center_px": [
+        84,
+        411
+      ],
+      "building_type": "Residential / Commercial",
+      "quality_flags": [
+        "Pancake/Full Roof Collapse Detected",
+        "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+      ]
+    },
+    {
+      "building_id": "BLD-037",
+      "damage_class": 2,
+      "damage_label": "Major Damage",
+      "severity": "High",
+      "pre_height_m": 5.58,
+      "post_height_m": 3.66,
+      "delta_height_m": 1.91,
+      "collapse_percentage": 34.3,
+      "footprint_area_m2": 90.4,
+      "debris_volume_m3": 225.0,
+      "debris_uncertainty_m3": 43.7,
+      "confidence_score": 0.86,
+      "roughness_metric": 209.7,
+      "polygon_px": [
+        [
+          365,
+          222
+        ],
+        [
+          337,
+          222
+        ],
+        [
+          337,
+          190
+        ],
+        [
+          365,
+          190
+        ]
+      ],
+      "center_px": [
+        351,
+        206
+      ],
+      "building_type": "Residential / Commercial",
+      "quality_flags": []
+    },
+    {
+      "building_id": "BLD-043",
+      "damage_class": 3,
+      "damage_label": "Destroyed",
+      "severity": "Critical",
+      "pre_height_m": 5.35,
+      "post_height_m": 2.22,
+      "delta_height_m": 3.13,
+      "collapse_percentage": 58.6,
+      "footprint_area_m2": 111.3,
+      "debris_volume_m3": 452.9,
+      "debris_uncertainty_m3": 88.0,
+      "confidence_score": 0.91,
+      "roughness_metric": 111.5,
+      "polygon_px": [
+        [
+          239,
+          129
+        ],
+        [
+          203,
+          129
+        ],
+        [
+          203,
+          100
+        ],
+        [
+          239,
+          100
+        ]
+      ],
+      "center_px": [
+        221,
+        115
+      ],
+      "building_type": "Residential / Commercial",
+      "quality_flags": []
+    },
+    {
+      "building_id": "BLD-044",
+      "damage_class": 2,
+      "damage_label": "Major Damage",
+      "severity": "High",
+      "pre_height_m": 5.42,
+      "post_height_m": 2.44,
+      "delta_height_m": 2.98,
+      "collapse_percentage": 55.0,
+      "footprint_area_m2": 105.5,
+      "debris_volume_m3": 408.6,
+      "debris_uncertainty_m3": 79.4,
+      "confidence_score": 0.86,
+      "roughness_metric": 48.6,
+      "polygon_px": [
+        [
+          880,
+          134
+        ],
+        [
+          850,
+          134
+        ],
+        [
+          850,
+          99
+        ],
+        [
+          880,
+          99
+        ]
+      ],
+      "center_px": [
+        865,
+        117
+      ],
+      "building_type": "Residential / Commercial",
+      "quality_flags": [
+        "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+      ]
+    },
+    {
+      "building_id": "BLD-005",
+      "damage_class": 3,
+      "damage_label": "Destroyed",
+      "severity": "Critical",
+      "pre_height_m": 5.3,
+      "post_height_m": 1.22,
+      "delta_height_m": 4.08,
+      "collapse_percentage": 77.0,
+      "footprint_area_m2": 680.0,
+      "debris_volume_m3": 3610.5,
+      "debris_uncertainty_m3": 701.2,
+      "confidence_score": 0.91,
+      "roughness_metric": 31.4,
+      "polygon_px": [
+        [
+          124,
+          730
+        ],
+        [
+          69,
+          737
+        ],
+        [
+          78,
+          776
+        ],
+        [
+          66,
+          793
+        ],
+        [
+          61,
+          833
+        ],
+        [
+          70,
+          844
+        ],
+        [
+          78,
+          843
+        ],
+        [
+          90,
+          825
+        ],
+        [
+          125,
+          817
+        ],
+        [
+          126,
+          786
+        ],
+        [
+          109,
+          777
+        ],
+        [
+          127,
+          758
+        ]
+      ],
+      "center_px": [
+        94,
+        787
+      ],
+      "building_type": "Residential / Commercial",
+      "quality_flags": [
+        "Pancake/Full Roof Collapse Detected"
+      ]
+    },
+    {
+      "building_id": "BLD-032",
+      "damage_class": 2,
+      "damage_label": "Major Damage",
+      "severity": "High",
+      "pre_height_m": 5.39,
+      "post_height_m": 3.23,
+      "delta_height_m": 2.16,
+      "collapse_percentage": 40.1,
+      "footprint_area_m2": 41.3,
+      "debris_volume_m3": 116.2,
+      "debris_uncertainty_m3": 22.6,
+      "confidence_score": 0.86,
+      "roughness_metric": 244.4,
+      "polygon_px": [
+        [
+          209,
+          224
+        ],
+        [
+          190,
+          224
+        ],
+        [
+          190,
+          203
+        ],
+        [
+          209,
+          203
+        ]
+      ],
+      "center_px": [
+        200,
+        214
+      ],
+      "building_type": "Residential / Commercial",
+      "quality_flags": []
+    },
+    {
+      "building_id": "BLD-030",
+      "damage_class": 2,
+      "damage_label": "Major Damage",
+      "severity": "High",
+      "pre_height_m": 5.13,
+      "post_height_m": 2.67,
+      "delta_height_m": 2.46,
+      "collapse_percentage": 48.0,
+      "footprint_area_m2": 27.3,
+      "debris_volume_m3": 87.5,
+      "debris_uncertainty_m3": 17.0,
+      "confidence_score": 0.86,
+      "roughness_metric": 90.8,
+      "polygon_px": [
+        [
+          1020,
+          212
+        ],
+        [
+          1014,
+          219
+        ],
+        [
+          1013,
+          230
+        ],
+        [
+          1014,
+          234
+        ],
+        [
+          1023,
+          240
+        ],
+        [
+          1023,
+          212
+        ]
+      ],
+      "center_px": [
+        1018,
+        226
+      ],
+      "building_type": "Residential / Commercial",
+      "quality_flags": [
+        "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+      ]
+    },
+    {
+      "building_id": "BLD-028",
+      "damage_class": 3,
+      "damage_label": "Destroyed",
+      "severity": "Critical",
+      "pre_height_m": 4.97,
+      "post_height_m": 1.7,
+      "delta_height_m": 3.27,
+      "collapse_percentage": 65.9,
+      "footprint_area_m2": 86.5,
+      "debris_volume_m3": 367.7,
+      "debris_uncertainty_m3": 71.4,
+      "confidence_score": 0.91,
+      "roughness_metric": 57.1,
+      "polygon_px": [
+        [
+          663,
+          260
+        ],
+        [
+          627,
+          260
+        ],
+        [
+          627,
+          238
+        ],
+        [
+          663,
+          238
+        ]
+      ],
+      "center_px": [
+        645,
+        249
+      ],
+      "building_type": "Residential / Commercial",
+      "quality_flags": [
+        "Pancake/Full Roof Collapse Detected"
+      ]
+    },
+    {
+      "building_id": "BLD-035",
+      "damage_class": 3,
+      "damage_label": "Destroyed",
+      "severity": "Critical",
+      "pre_height_m": 5.03,
+      "post_height_m": 1.47,
+      "delta_height_m": 3.56,
+      "collapse_percentage": 70.8,
+      "footprint_area_m2": 336.8,
+      "debris_volume_m3": 1560.1,
+      "debris_uncertainty_m3": 303.0,
+      "confidence_score": 0.91,
+      "roughness_metric": 17.9,
+      "polygon_px": [
+        [
+          557,
+          298
+        ],
+        [
+          528,
+          298
+        ],
+        [
+          528,
+          193
+        ],
+        [
+          557,
+          193
+        ]
+      ],
+      "center_px": [
+        543,
+        246
+      ],
+      "building_type": "Residential / Commercial",
+      "quality_flags": [
+        "Pancake/Full Roof Collapse Detected"
+      ]
+    },
+    {
+      "building_id": "BLD-038",
+      "damage_class": 3,
+      "damage_label": "Destroyed",
+      "severity": "Critical",
+      "pre_height_m": 5.13,
+      "post_height_m": 1.94,
+      "delta_height_m": 3.18,
+      "collapse_percentage": 62.1,
+      "footprint_area_m2": 197.9,
+      "debris_volume_m3": 818.8,
+      "debris_uncertainty_m3": 159.0,
+      "confidence_score": 0.91,
+      "roughness_metric": 146.8,
+      "polygon_px": [
+        [
+          804,
+          223
+        ],
+        [
+          753,
+          223
+        ],
+        [
+          753,
+          186
+        ],
+        [
+          804,
+          186
+        ]
+      ],
+      "center_px": [
+        779,
+        205
+      ],
+      "building_type": "Residential / Commercial",
+      "quality_flags": [
+        "Pancake/Full Roof Collapse Detected"
+      ]
+    },
+    {
+      "building_id": "BLD-049",
+      "damage_class": 3,
+      "damage_label": "Destroyed",
+      "severity": "Critical",
+      "pre_height_m": 5.06,
+      "post_height_m": 1.69,
+      "delta_height_m": 3.37,
+      "collapse_percentage": 66.7,
+      "footprint_area_m2": 141.4,
+      "debris_volume_m3": 620.3,
+      "debris_uncertainty_m3": 120.5,
+      "confidence_score": 0.91,
+      "roughness_metric": 22.9,
+      "polygon_px": [
+        [
+          477,
+          117
+        ],
+        [
+          450,
+          117
+        ],
+        [
+          450,
+          69
+        ],
+        [
+          477,
+          69
+        ]
+      ],
+      "center_px": [
+        464,
+        93
+      ],
+      "building_type": "Residential / Commercial",
+      "quality_flags": [
+        "Pancake/Full Roof Collapse Detected",
+        "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+      ]
+    },
+    {
+      "building_id": "BLD-008",
+      "damage_class": 2,
+      "damage_label": "Major Damage",
+      "severity": "High",
+      "pre_height_m": 4.86,
+      "post_height_m": 2.68,
+      "delta_height_m": 2.18,
+      "collapse_percentage": 44.9,
+      "footprint_area_m2": 159.2,
+      "debris_volume_m3": 451.6,
+      "debris_uncertainty_m3": 87.7,
+      "confidence_score": 0.86,
+      "roughness_metric": 63.7,
+      "polygon_px": [
+        [
+          116,
+          685
+        ],
+        [
+          73,
+          685
+        ],
+        [
+          73,
+          651
+        ],
+        [
+          116,
+          651
+        ]
+      ],
+      "center_px": [
+        95,
+        668
+      ],
+      "building_type": "Residential / Commercial",
+      "quality_flags": []
+    },
+    {
+      "building_id": "BLD-010",
+      "damage_class": 3,
+      "damage_label": "Destroyed",
+      "severity": "Critical",
+      "pre_height_m": 4.97,
+      "post_height_m": 0.58,
+      "delta_height_m": 4.4,
+      "collapse_percentage": 88.4,
+      "footprint_area_m2": 168.6,
+      "debris_volume_m3": 963.4,
+      "debris_uncertainty_m3": 187.1,
+      "confidence_score": 0.91,
+      "roughness_metric": 71.2,
+      "polygon_px": [
+        [
+          47,
+          676
+        ],
+        [
+          16,
+          676
+        ],
+        [
+          16,
+          627
+        ],
+        [
+          47,
+          627
+        ]
+      ],
+      "center_px": [
+        32,
+        652
+      ],
+      "building_type": "Residential / Commercial",
+      "quality_flags": [
+        "Pancake/Full Roof Collapse Detected",
+        "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+      ]
+    },
+    {
+      "building_id": "BLD-018",
+      "damage_class": 1,
+      "damage_label": "Minor Damage",
+      "severity": "Moderate",
+      "pre_height_m": 5.29,
+      "post_height_m": 6.0,
+      "delta_height_m": 0.0,
+      "collapse_percentage": 0.0,
+      "footprint_area_m2": 89.9,
+      "debris_volume_m3": 0.0,
+      "debris_uncertainty_m3": 0.0,
+      "confidence_score": 0.82,
+      "roughness_metric": 365.8,
+      "polygon_px": [
+        [
+          229,
+          463
+        ],
+        [
+          196,
+          463
+        ],
+        [
+          196,
+          436
+        ],
+        [
+          229,
+          436
+        ]
+      ],
+      "center_px": [
+        213,
+        450
+      ],
+      "building_type": "Residential / Commercial",
+      "quality_flags": [
+        "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+      ]
+    },
+    {
+      "building_id": "BLD-051",
+      "damage_class": 3,
+      "damage_label": "Destroyed",
+      "severity": "Critical",
+      "pre_height_m": 5.23,
+      "post_height_m": 0.87,
+      "delta_height_m": 4.35,
+      "collapse_percentage": 83.3,
+      "footprint_area_m2": 51.7,
+      "debris_volume_m3": 292.7,
+      "debris_uncertainty_m3": 56.8,
+      "confidence_score": 0.91,
+      "roughness_metric": 31.2,
+      "polygon_px": [
+        [
+          110,
+          50
+        ],
+        [
+          89,
+          50
+        ],
+        [
+          89,
+          25
+        ],
+        [
+          110,
+          25
+        ]
+      ],
+      "center_px": [
+        100,
+        38
+      ],
+      "building_type": "Residential / Commercial",
+      "quality_flags": [
+        "Pancake/Full Roof Collapse Detected"
+      ]
+    },
+    {
+      "building_id": "BLD-052",
+      "damage_class": 3,
+      "damage_label": "Destroyed",
+      "severity": "Critical",
+      "pre_height_m": 5.06,
+      "post_height_m": 1.56,
+      "delta_height_m": 3.5,
+      "collapse_percentage": 69.2,
+      "footprint_area_m2": 120.8,
+      "debris_volume_m3": 549.9,
+      "debris_uncertainty_m3": 106.8,
+      "confidence_score": 0.91,
+      "roughness_metric": 8420.7,
+      "polygon_px": [
+        [
+          871,
+          2
+        ],
+        [
+          860,
+          8
+        ],
+        [
+          857,
+          22
+        ],
+        [
+          859,
+          27
+        ],
+        [
+          865,
+          32
+        ],
+        [
+          880,
+          34
+        ],
+        [
+          894,
+          24
+        ],
+        [
+          896,
+          13
+        ],
+        [
+          887,
+          4
+        ]
+      ],
+      "center_px": [
+        877,
+        18
+      ],
+      "building_type": "Residential / Commercial",
+      "quality_flags": [
+        "Pancake/Full Roof Collapse Detected"
+      ]
+    },
+    {
+      "building_id": "BLD-020",
+      "damage_class": 3,
+      "damage_label": "Destroyed",
+      "severity": "Critical",
+      "pre_height_m": 4.93,
+      "post_height_m": 1.95,
+      "delta_height_m": 2.98,
+      "collapse_percentage": 60.5,
+      "footprint_area_m2": 167.6,
+      "debris_volume_m3": 649.6,
+      "debris_uncertainty_m3": 126.2,
+      "confidence_score": 0.91,
+      "roughness_metric": 159.5,
+      "polygon_px": [
+        [
+          290,
+          464
+        ],
+        [
+          257,
+          464
+        ],
+        [
+          257,
+          414
+        ],
+        [
+          290,
+          414
+        ]
+      ],
+      "center_px": [
+        274,
+        439
+      ],
+      "building_type": "Residential / Commercial",
+      "quality_flags": [
+        "Pancake/Full Roof Collapse Detected"
+      ]
+    },
+    {
+      "building_id": "BLD-021",
+      "damage_class": 3,
+      "damage_label": "Destroyed",
+      "severity": "Critical",
+      "pre_height_m": 4.8,
+      "post_height_m": 1.65,
+      "delta_height_m": 3.15,
+      "collapse_percentage": 65.6,
+      "footprint_area_m2": 131.3,
+      "debris_volume_m3": 537.9,
+      "debris_uncertainty_m3": 104.5,
+      "confidence_score": 0.91,
+      "roughness_metric": 71.9,
+      "polygon_px": [
+        [
+          237,
+          420
+        ],
+        [
+          192,
+          420
+        ],
+        [
+          192,
+          392
+        ],
+        [
+          237,
+          392
+        ]
+      ],
+      "center_px": [
+        215,
+        406
+      ],
+      "building_type": "Residential / Commercial",
+      "quality_flags": [
+        "Pancake/Full Roof Collapse Detected"
+      ]
+    },
+    {
+      "building_id": "BLD-050",
+      "damage_class": 3,
+      "damage_label": "Destroyed",
+      "severity": "Critical",
+      "pre_height_m": 4.79,
+      "post_height_m": 1.87,
+      "delta_height_m": 2.92,
+      "collapse_percentage": 61.0,
+      "footprint_area_m2": 245.2,
+      "debris_volume_m3": 930.1,
+      "debris_uncertainty_m3": 180.6,
+      "confidence_score": 0.91,
+      "roughness_metric": 112.7,
+      "polygon_px": [
+        [
+          336,
+          123
+        ],
+        [
+          334,
+          57
+        ],
+        [
+          367,
+          56
+        ],
+        [
+          369,
+          122
+        ]
+      ],
+      "center_px": [
+        352,
+        90
+      ],
+      "building_type": "Residential / Commercial",
+      "quality_flags": [
+        "Pancake/Full Roof Collapse Detected"
+      ]
+    },
+    {
+      "building_id": "BLD-003",
+      "damage_class": 3,
+      "damage_label": "Destroyed",
+      "severity": "Critical",
+      "pre_height_m": 4.78,
+      "post_height_m": 1.24,
+      "delta_height_m": 3.54,
+      "collapse_percentage": 74.0,
+      "footprint_area_m2": 223.4,
+      "debris_volume_m3": 1028.1,
+      "debris_uncertainty_m3": 199.7,
+      "confidence_score": 0.91,
+      "roughness_metric": 1263.6,
+      "polygon_px": [
+        [
+          407,
+          873
+        ],
+        [
+          408,
+          886
+        ],
+        [
+          414,
+          893
+        ],
+        [
+          428,
+          891
+        ],
+        [
+          435,
+          879
+        ],
+        [
+          446,
+          887
+        ],
+        [
+          446,
+          878
+        ],
+        [
+          451,
+          879
+        ],
+        [
+          450,
+          888
+        ],
+        [
+          486,
+          897
+        ],
+        [
+          499,
+          893
+        ],
+        [
+          497,
+          872
+        ],
+        [
+          492,
+          869
+        ],
+        [
+          450,
+          873
+        ],
+        [
+          411,
+          869
+        ]
+      ],
+      "center_px": [
+        453,
+        883
+      ],
+      "building_type": "Residential / Commercial",
+      "quality_flags": [
+        "Pancake/Full Roof Collapse Detected",
+        "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+      ]
+    },
+    {
+      "building_id": "BLD-011",
+      "damage_class": 3,
+      "damage_label": "Destroyed",
+      "severity": "Critical",
+      "pre_height_m": 4.71,
+      "post_height_m": 0.87,
+      "delta_height_m": 3.84,
+      "collapse_percentage": 81.6,
+      "footprint_area_m2": 313.4,
+      "debris_volume_m3": 1563.6,
+      "debris_uncertainty_m3": 303.7,
+      "confidence_score": 0.91,
+      "roughness_metric": 247.6,
+      "polygon_px": [
+        [
+          766,
+          621
+        ],
+        [
+          766,
+          635
+        ],
+        [
+          773,
+          644
+        ],
+        [
+          790,
+          640
+        ],
+        [
+          801,
+          631
+        ],
+        [
+          809,
+          651
+        ],
+        [
+          845,
+          653
+        ],
+        [
+          858,
+          648
+        ],
+        [
+          859,
+          622
+        ],
+        [
+          855,
+          618
+        ],
+        [
+          799,
+          622
+        ],
+        [
+          792,
+          617
+        ],
+        [
+          772,
+          616
+        ]
+      ],
+      "center_px": [
+        813,
+        635
+      ],
+      "building_type": "Residential / Commercial",
+      "quality_flags": [
+        "Pancake/Full Roof Collapse Detected",
+        "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+      ]
+    },
+    {
+      "building_id": "BLD-012",
+      "damage_class": 3,
+      "damage_label": "Destroyed",
+      "severity": "Critical",
+      "pre_height_m": 4.48,
+      "post_height_m": 1.09,
+      "delta_height_m": 3.39,
+      "collapse_percentage": 75.7,
+      "footprint_area_m2": 313.6,
+      "debris_volume_m3": 1383.5,
+      "debris_uncertainty_m3": 268.7,
+      "confidence_score": 0.91,
+      "roughness_metric": 106.6,
+      "polygon_px": [
+        [
+          859,
+          608
+        ],
+        [
+          765,
+          608
+        ],
+        [
+          765,
+          574
+        ],
+        [
+          859,
+          574
+        ]
+      ],
+      "center_px": [
+        812,
+        591
+      ],
+      "building_type": "Residential / Commercial",
+      "quality_flags": [
+        "Pancake/Full Roof Collapse Detected",
+        "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+      ]
+    },
+    {
+      "building_id": "BLD-013",
+      "damage_class": 3,
+      "damage_label": "Destroyed",
+      "severity": "Critical",
+      "pre_height_m": 4.65,
+      "post_height_m": 1.07,
+      "delta_height_m": 3.57,
+      "collapse_percentage": 76.9,
+      "footprint_area_m2": 192.8,
+      "debris_volume_m3": 895.7,
+      "debris_uncertainty_m3": 173.9,
+      "confidence_score": 0.91,
+      "roughness_metric": 151.9,
+      "polygon_px": [
+        [
+          94,
+          614
+        ],
+        [
+          62,
+          614
+        ],
+        [
+          62,
+          560
+        ],
+        [
+          94,
+          560
+        ]
+      ],
+      "center_px": [
+        78,
+        587
+      ],
+      "building_type": "Residential / Commercial",
+      "quality_flags": [
+        "Pancake/Full Roof Collapse Detected"
+      ]
+    },
+    {
+      "building_id": "BLD-023",
+      "damage_class": 3,
+      "damage_label": "Destroyed",
+      "severity": "Critical",
+      "pre_height_m": 4.62,
+      "post_height_m": 1.89,
+      "delta_height_m": 2.73,
+      "collapse_percentage": 59.2,
+      "footprint_area_m2": 153.1,
+      "debris_volume_m3": 543.8,
+      "debris_uncertainty_m3": 105.6,
+      "confidence_score": 0.91,
+      "roughness_metric": 20.7,
+      "polygon_px": [
+        [
+          229,
+          381
+        ],
+        [
+          183,
+          381
+        ],
+        [
+          183,
+          351
+        ],
+        [
+          229,
+          351
+        ]
+      ],
+      "center_px": [
+        206,
+        366
+      ],
+      "building_type": "Residential / Commercial",
+      "quality_flags": [
+        "Pancake/Full Roof Collapse Detected",
+        "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+      ]
+    },
+    {
+      "building_id": "BLD-026",
+      "damage_class": 1,
+      "damage_label": "Minor Damage",
+      "severity": "Moderate",
+      "pre_height_m": 4.51,
+      "post_height_m": 3.44,
+      "delta_height_m": 1.07,
+      "collapse_percentage": 23.7,
+      "footprint_area_m2": 113.4,
+      "debris_volume_m3": 157.8,
+      "debris_uncertainty_m3": 30.6,
+      "confidence_score": 0.82,
+      "roughness_metric": 274.5,
+      "polygon_px": [
+        [
+          670,
+          319
+        ],
+        [
+          644,
+          319
+        ],
+        [
+          644,
+          279
+        ],
+        [
+          670,
+          279
+        ]
+      ],
+      "center_px": [
+        657,
+        299
+      ],
+      "building_type": "Residential / Commercial",
+      "quality_flags": []
+    },
+    {
+      "building_id": "BLD-027",
+      "damage_class": 3,
+      "damage_label": "Destroyed",
+      "severity": "Critical",
+      "pre_height_m": 4.67,
+      "post_height_m": 0.55,
+      "delta_height_m": 4.12,
+      "collapse_percentage": 88.2,
+      "footprint_area_m2": 91.8,
+      "debris_volume_m3": 491.5,
+      "debris_uncertainty_m3": 95.4,
+      "confidence_score": 0.91,
+      "roughness_metric": 9.5,
+      "polygon_px": [
+        [
+          455,
+          304
+        ],
+        [
+          424,
+          304
+        ],
+        [
+          424,
+          275
+        ],
+        [
+          455,
+          275
+        ]
+      ],
+      "center_px": [
+        440,
+        290
+      ],
+      "building_type": "Residential / Commercial",
+      "quality_flags": [
+        "Pancake/Full Roof Collapse Detected"
+      ]
+    },
+    {
+      "building_id": "BLD-045",
+      "damage_class": 3,
+      "damage_label": "Destroyed",
+      "severity": "Critical",
+      "pre_height_m": 4.58,
+      "post_height_m": 1.68,
+      "delta_height_m": 2.9,
+      "collapse_percentage": 63.3,
+      "footprint_area_m2": 81.8,
+      "debris_volume_m3": 308.2,
+      "debris_uncertainty_m3": 59.9,
+      "confidence_score": 0.91,
+      "roughness_metric": 254.7,
+      "polygon_px": [
+        [
+          279,
+          120
+        ],
+        [
+          255,
+          120
+        ],
+        [
+          255,
+          86
+        ],
+        [
+          279,
+          86
+        ]
+      ],
+      "center_px": [
+        267,
+        103
+      ],
+      "building_type": "Residential / Commercial",
+      "quality_flags": [
+        "Pancake/Full Roof Collapse Detected"
+      ]
+    },
+    {
+      "building_id": "BLD-046",
+      "damage_class": 3,
+      "damage_label": "Destroyed",
+      "severity": "Critical",
+      "pre_height_m": 4.71,
+      "post_height_m": 1.25,
+      "delta_height_m": 3.45,
+      "collapse_percentage": 73.4,
+      "footprint_area_m2": 263.9,
+      "debris_volume_m3": 1184.9,
+      "debris_uncertainty_m3": 230.1,
+      "confidence_score": 0.91,
+      "roughness_metric": 52.0,
+      "polygon_px": [
+        [
+          551,
+          93
+        ],
+        [
+          540,
+          84
+        ],
+        [
+          500,
+          88
+        ],
+        [
+          491,
+          103
+        ],
+        [
+          492,
+          121
+        ],
+        [
+          499,
+          126
+        ],
+        [
+          513,
+          123
+        ],
+        [
+          514,
+          110
+        ],
+        [
+          521,
+          104
+        ],
+        [
+          526,
+          125
+        ],
+        [
+          546,
+          129
+        ],
+        [
+          553,
+          122
+        ]
+      ],
+      "center_px": [
+        522,
+        107
+      ],
+      "building_type": "Residential / Commercial",
+      "quality_flags": [
+        "Pancake/Full Roof Collapse Detected"
+      ]
+    },
+    {
+      "building_id": "BLD-047",
+      "damage_class": 3,
+      "damage_label": "Destroyed",
+      "severity": "Critical",
+      "pre_height_m": 4.63,
+      "post_height_m": 1.58,
+      "delta_height_m": 3.05,
+      "collapse_percentage": 65.9,
+      "footprint_area_m2": 178.2,
+      "debris_volume_m3": 707.7,
+      "debris_uncertainty_m3": 137.4,
+      "confidence_score": 0.91,
+      "roughness_metric": 50.7,
+      "polygon_px": [
+        [
+          437,
+          135
+        ],
+        [
+          410,
+          135
+        ],
+        [
+          410,
+          76
+        ],
+        [
+          437,
+          76
+        ]
+      ],
+      "center_px": [
+        424,
+        106
+      ],
+      "building_type": "Residential / Commercial",
+      "quality_flags": [
+        "Pancake/Full Roof Collapse Detected"
+      ]
+    },
+    {
+      "building_id": "BLD-002",
+      "damage_class": 3,
+      "damage_label": "Destroyed",
+      "severity": "Critical",
+      "pre_height_m": 4.58,
+      "post_height_m": 0.31,
+      "delta_height_m": 4.27,
+      "collapse_percentage": 93.3,
+      "footprint_area_m2": 41.5,
+      "debris_volume_m3": 230.4,
+      "debris_uncertainty_m3": 44.7,
+      "confidence_score": 0.91,
+      "roughness_metric": 33.1,
+      "polygon_px": [
+        [
+          97,
+          886
+        ],
+        [
+          92,
+          883
+        ],
+        [
+          82,
+          885
+        ],
+        [
+          75,
+          893
+        ],
+        [
+          77,
+          904
+        ],
+        [
+          80,
+          906
+        ],
+        [
+          91,
+          904
+        ],
+        [
+          89,
+          896
+        ],
+        [
+          97,
+          892
+        ]
+      ],
+      "center_px": [
+        86,
+        895
+      ],
+      "building_type": "Residential / Commercial",
+      "quality_flags": [
+        "Pancake/Full Roof Collapse Detected"
+      ]
+    },
+    {
+      "building_id": "BLD-024",
+      "damage_class": 2,
+      "damage_label": "Major Damage",
+      "severity": "High",
+      "pre_height_m": 4.63,
+      "post_height_m": 2.57,
+      "delta_height_m": 2.06,
+      "collapse_percentage": 44.4,
+      "footprint_area_m2": 91.2,
+      "debris_volume_m3": 243.8,
+      "debris_uncertainty_m3": 47.3,
+      "confidence_score": 0.86,
+      "roughness_metric": 290.8,
+      "polygon_px": [
+        [
+          1023,
+          330
+        ],
+        [
+          996,
+          330
+        ],
+        [
+          996,
+          299
+        ],
+        [
+          1023,
+          299
+        ]
+      ],
+      "center_px": [
+        1010,
+        315
+      ],
+      "building_type": "Residential / Commercial",
+      "quality_flags": []
+    },
+    {
+      "building_id": "BLD-025",
+      "damage_class": 3,
+      "damage_label": "Destroyed",
+      "severity": "Critical",
+      "pre_height_m": 4.66,
+      "post_height_m": 1.0,
+      "delta_height_m": 3.67,
+      "collapse_percentage": 78.6,
+      "footprint_area_m2": 51.6,
+      "debris_volume_m3": 245.9,
+      "debris_uncertainty_m3": 47.8,
+      "confidence_score": 0.91,
+      "roughness_metric": 15.7,
+      "polygon_px": [
+        [
+          777,
+          300
+        ],
+        [
+          751,
+          300
+        ],
+        [
+          751,
+          280
+        ],
+        [
+          777,
+          280
+        ]
+      ],
+      "center_px": [
+        764,
+        290
+      ],
+      "building_type": "Residential / Commercial",
+      "quality_flags": [
+        "Pancake/Full Roof Collapse Detected"
+      ]
+    },
+    {
+      "building_id": "BLD-034",
+      "damage_class": 3,
+      "damage_label": "Destroyed",
+      "severity": "Critical",
+      "pre_height_m": 4.63,
+      "post_height_m": 1.85,
+      "delta_height_m": 2.78,
+      "collapse_percentage": 60.0,
+      "footprint_area_m2": 314.3,
+      "debris_volume_m3": 1135.7,
+      "debris_uncertainty_m3": 220.6,
+      "confidence_score": 0.91,
+      "roughness_metric": 32.6,
+      "polygon_px": [
+        [
+          606,
+          300
+        ],
+        [
+          576,
+          299
+        ],
+        [
+          578,
+          193
+        ],
+        [
+          607,
+          194
+        ]
+      ],
+      "center_px": [
+        592,
+        247
+      ],
+      "building_type": "Residential / Commercial",
+      "quality_flags": [
+        "Pancake/Full Roof Collapse Detected"
+      ]
+    },
+    {
+      "building_id": "BLD-048",
+      "damage_class": 3,
+      "damage_label": "Destroyed",
+      "severity": "Critical",
+      "pre_height_m": 4.32,
+      "post_height_m": 1.08,
+      "delta_height_m": 3.24,
+      "collapse_percentage": 74.9,
+      "footprint_area_m2": 147.8,
+      "debris_volume_m3": 621.9,
+      "debris_uncertainty_m3": 120.8,
+      "confidence_score": 0.91,
+      "roughness_metric": 87.3,
+      "polygon_px": [
+        [
+          297,
+          120
+        ],
+        [
+          293,
+          74
+        ],
+        [
+          323,
+          72
+        ],
+        [
+          327,
+          118
+        ]
+      ],
+      "center_px": [
+        310,
+        96
+      ],
+      "building_type": "Residential / Commercial",
+      "quality_flags": [
+        "Pancake/Full Roof Collapse Detected"
+      ]
+    },
+    {
+      "building_id": "BLD-054",
+      "damage_class": 3,
+      "damage_label": "Destroyed",
+      "severity": "Critical",
+      "pre_height_m": 4.53,
+      "post_height_m": 1.9,
+      "delta_height_m": 2.63,
+      "collapse_percentage": 58.0,
+      "footprint_area_m2": 48.1,
+      "debris_volume_m3": 164.2,
+      "debris_uncertainty_m3": 31.9,
+      "confidence_score": 0.91,
+      "roughness_metric": 67.3,
+      "polygon_px": [
+        [
+          364,
+          12
+        ],
+        [
+          324,
+          12
+        ],
+        [
+          324,
+          0
+        ],
+        [
+          364,
+          0
+        ]
+      ],
+      "center_px": [
+        344,
+        6
+      ],
+      "building_type": "Residential / Commercial",
+      "quality_flags": [
+        "Pancake/Full Roof Collapse Detected"
+      ]
+    },
+    {
+      "building_id": "BLD-029",
+      "damage_class": 3,
+      "damage_label": "Destroyed",
+      "severity": "Critical",
+      "pre_height_m": 4.43,
+      "post_height_m": 1.35,
+      "delta_height_m": 3.08,
+      "collapse_percentage": 69.5,
+      "footprint_area_m2": 119.4,
+      "debris_volume_m3": 477.5,
+      "debris_uncertainty_m3": 92.7,
+      "confidence_score": 0.91,
+      "roughness_metric": 12.7,
+      "polygon_px": [
+        [
+          460,
+          262
+        ],
+        [
+          421,
+          262
+        ],
+        [
+          421,
+          232
+        ],
+        [
+          460,
+          232
+        ]
+      ],
+      "center_px": [
+        441,
+        247
+      ],
+      "building_type": "Residential / Commercial",
+      "quality_flags": [
+        "Pancake/Full Roof Collapse Detected"
+      ]
+    },
+    {
+      "building_id": "BLD-004",
+      "damage_class": 1,
+      "damage_label": "Minor Damage",
+      "severity": "Moderate",
+      "pre_height_m": 4.04,
+      "post_height_m": 3.45,
+      "delta_height_m": 0.59,
+      "collapse_percentage": 14.6,
+      "footprint_area_m2": 129.5,
+      "debris_volume_m3": 99.5,
+      "debris_uncertainty_m3": 19.3,
+      "confidence_score": 0.82,
+      "roughness_metric": 94.6,
+      "polygon_px": [
+        [
+          604,
+          889
+        ],
+        [
+          550,
+          889
+        ],
+        [
+          550,
+          865
+        ],
+        [
+          604,
+          865
+        ]
+      ],
+      "center_px": [
+        577,
+        877
+      ],
+      "building_type": "Residential / Commercial",
+      "quality_flags": []
+    },
+    {
+      "building_id": "BLD-007",
+      "damage_class": 3,
+      "damage_label": "Destroyed",
+      "severity": "Critical",
+      "pre_height_m": 4.23,
+      "post_height_m": 0.97,
+      "delta_height_m": 3.26,
+      "collapse_percentage": 77.1,
+      "footprint_area_m2": 72.8,
+      "debris_volume_m3": 308.2,
+      "debris_uncertainty_m3": 59.9,
+      "confidence_score": 0.91,
+      "roughness_metric": 573.9,
+      "polygon_px": [
+        [
+          795,
+          674
+        ],
+        [
+          767,
+          674
+        ],
+        [
+          767,
+          651
+        ],
+        [
+          795,
+          651
+        ]
+      ],
+      "center_px": [
+        781,
+        663
+      ],
+      "building_type": "Residential / Commercial",
+      "quality_flags": [
+        "Pancake/Full Roof Collapse Detected",
+        "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+      ]
+    },
+    {
+      "building_id": "BLD-009",
+      "damage_class": 2,
+      "damage_label": "Major Damage",
+      "severity": "High",
+      "pre_height_m": 4.14,
+      "post_height_m": 2.28,
+      "delta_height_m": 1.87,
+      "collapse_percentage": 45.0,
+      "footprint_area_m2": 106.4,
+      "debris_volume_m3": 258.2,
+      "debris_uncertainty_m3": 50.1,
+      "confidence_score": 0.86,
+      "roughness_metric": 71.7,
+      "polygon_px": [
+        [
+          373,
+          686
+        ],
+        [
+          349,
+          686
+        ],
+        [
+          349,
+          642
+        ],
+        [
+          373,
+          642
+        ]
+      ],
+      "center_px": [
+        361,
+        664
+      ],
+      "building_type": "Residential / Commercial",
+      "quality_flags": [
+        "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+      ]
+    },
+    {
+      "building_id": "BLD-014",
+      "damage_class": 3,
+      "damage_label": "Destroyed",
+      "severity": "Critical",
+      "pre_height_m": 4.06,
+      "post_height_m": 0.69,
+      "delta_height_m": 3.37,
+      "collapse_percentage": 83.0,
+      "footprint_area_m2": 83.6,
+      "debris_volume_m3": 366.5,
+      "debris_uncertainty_m3": 71.2,
+      "confidence_score": 0.91,
+      "roughness_metric": 292.3,
+      "polygon_px": [
+        [
+          799,
+          567
+        ],
+        [
+          767,
+          567
+        ],
+        [
+          767,
+          543
+        ],
+        [
+          799,
+          543
+        ]
+      ],
+      "center_px": [
+        783,
+        555
+      ],
+      "building_type": "Residential / Commercial",
+      "quality_flags": [
+        "Pancake/Full Roof Collapse Detected",
+        "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+      ]
+    },
+    {
+      "building_id": "BLD-036",
+      "damage_class": 3,
+      "damage_label": "Destroyed",
+      "severity": "Critical",
+      "pre_height_m": 4.02,
+      "post_height_m": 1.72,
+      "delta_height_m": 2.31,
+      "collapse_percentage": 57.3,
+      "footprint_area_m2": 103.1,
+      "debris_volume_m3": 309.2,
+      "debris_uncertainty_m3": 60.0,
+      "confidence_score": 0.91,
+      "roughness_metric": 71.0,
+      "polygon_px": [
+        [
+          460,
+          215
+        ],
+        [
+          422,
+          215
+        ],
+        [
+          422,
+          190
+        ],
+        [
+          460,
+          190
+        ]
+      ],
+      "center_px": [
+        441,
+        203
+      ],
+      "building_type": "Residential / Commercial",
+      "quality_flags": [
+        "Pancake/Full Roof Collapse Detected"
+      ]
+    },
+    {
+      "building_id": "BLD-053",
+      "damage_class": 3,
+      "damage_label": "Destroyed",
+      "severity": "Critical",
+      "pre_height_m": 3.55,
+      "post_height_m": 0.35,
+      "delta_height_m": 3.2,
+      "collapse_percentage": 90.1,
+      "footprint_area_m2": 42.3,
+      "debris_volume_m3": 176.2,
+      "debris_uncertainty_m3": 34.2,
+      "confidence_score": 0.91,
+      "roughness_metric": 10.5,
+      "polygon_px": [
+        [
+          430,
+          24
+        ],
+        [
+          414,
+          24
+        ],
+        [
+          414,
+          0
+        ],
+        [
+          430,
+          0
+        ]
+      ],
+      "center_px": [
+        422,
+        12
+      ],
+      "building_type": "Residential / Commercial",
+      "quality_flags": [
+        "Pancake/Full Roof Collapse Detected",
+        "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+      ]
+    }
+  ],
+  "geojson": {
+    "type": "FeatureCollection",
+    "metadata": {
+      "title": "Terrascope AI \u2014 Disaster Structural Damage & Debris Assessment",
+      "generated_at": 1792347104.8638759,
+      "gsd_m": 0.35,
+      "bulking_factor": 1.3,
+      "coordinate_system": "Local Metric Cartesian (Origin at Scene Center)"
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "building_id": "BLD-041",
+          "damage_class": 3,
+          "damage_label": "Destroyed",
+          "severity": "Critical",
+          "pre_height_m": 7.31,
+          "post_height_m": 2.93,
+          "delta_height_m": 4.37,
+          "collapse_pct": 59.9,
+          "footprint_area_m2": 2124.4,
+          "debris_volume_m3": 12080.6,
+          "debris_uncertainty_m3": 2346.1,
+          "confidence": 0.91,
+          "quality_flags": [
+            "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+          ]
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -138.25,
+                -87.15
+              ],
+              [
+                -179.2,
+                -87.15
+              ],
+              [
+                -179.2,
+                -143.15
+              ],
+              [
+                -138.25,
+                -143.15
+              ],
+              [
+                -138.25,
+                -87.15
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "building_id": "BLD-042",
+          "damage_class": 3,
+          "damage_label": "Destroyed",
+          "severity": "Critical",
+          "pre_height_m": 6.84,
+          "post_height_m": 1.18,
+          "delta_height_m": 5.67,
+          "collapse_pct": 82.8,
+          "footprint_area_m2": 68.3,
+          "debris_volume_m3": 503.0,
+          "debris_uncertainty_m3": 97.7,
+          "confidence": 0.91,
+          "quality_flags": [
+            "Pancake/Full Roof Collapse Detected",
+            "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+          ]
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                83.3,
+                -143.15
+              ],
+              [
+                82.95,
+                -140.0
+              ],
+              [
+                83.65,
+                -138.6
+              ],
+              [
+                87.85,
+                -135.1
+              ],
+              [
+                90.3,
+                -135.1
+              ],
+              [
+                92.75,
+                -139.65
+              ],
+              [
+                92.4,
+                -142.45
+              ],
+              [
+                90.3,
+                -143.85
+              ],
+              [
+                84.35,
+                -143.85
+              ],
+              [
+                83.3,
+                -143.15
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "building_id": "BLD-017",
+          "damage_class": 2,
+          "damage_label": "Major Damage",
+          "severity": "High",
+          "pre_height_m": 6.4,
+          "post_height_m": 3.23,
+          "delta_height_m": 3.17,
+          "collapse_pct": 49.5,
+          "footprint_area_m2": 1827.3,
+          "debris_volume_m3": 7534.0,
+          "debris_uncertainty_m3": 1463.1,
+          "confidence": 0.86,
+          "quality_flags": []
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -114.45,
+                44.45
+              ],
+              [
+                -115.5,
+                1.75
+              ],
+              [
+                -67.55,
+                0.7
+              ],
+              [
+                -66.5,
+                43.4
+              ],
+              [
+                -114.45,
+                44.45
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "building_id": "BLD-006",
+          "damage_class": 3,
+          "damage_label": "Destroyed",
+          "severity": "Critical",
+          "pre_height_m": 6.54,
+          "post_height_m": 2.55,
+          "delta_height_m": 3.98,
+          "collapse_pct": 61.0,
+          "footprint_area_m2": 8179.5,
+          "debris_volume_m3": 42371.9,
+          "debris_uncertainty_m3": 8228.6,
+          "confidence": 0.91,
+          "quality_flags": []
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                173.6,
+                61.25
+              ],
+              [
+                141.75,
+                53.55
+              ],
+              [
+                133.0,
+                88.2
+              ],
+              [
+                116.55,
+                91.35
+              ],
+              [
+                127.4,
+                61.6
+              ],
+              [
+                93.45,
+                62.3
+              ],
+              [
+                105.7,
+                82.95
+              ],
+              [
+                71.05,
+                107.1
+              ],
+              [
+                70.35,
+                127.75
+              ],
+              [
+                107.1,
+                131.6
+              ],
+              [
+                113.75,
+                110.6
+              ],
+              [
+                115.15,
+                166.6
+              ],
+              [
+                68.6,
+                168.0
+              ],
+              [
+                66.15,
+                178.85
+              ],
+              [
+                150.15,
+                178.85
+              ],
+              [
+                150.5,
+                154.7
+              ],
+              [
+                178.85,
+                153.3
+              ],
+              [
+                178.85,
+                124.6
+              ],
+              [
+                140.0,
+                121.1
+              ],
+              [
+                143.15,
+                107.45
+              ],
+              [
+                178.85,
+                105.7
+              ],
+              [
+                173.6,
+                61.25
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "building_id": "BLD-033",
+          "damage_class": 3,
+          "damage_label": "Destroyed",
+          "severity": "Critical",
+          "pre_height_m": 6.51,
+          "post_height_m": 2.62,
+          "delta_height_m": 3.89,
+          "collapse_pct": 59.7,
+          "footprint_area_m2": 89.9,
+          "debris_volume_m3": 454.1,
+          "debris_uncertainty_m3": 88.2,
+          "confidence": 0.91,
+          "quality_flags": []
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -83.65,
+                -110.25
+              ],
+              [
+                -86.8,
+                -106.75
+              ],
+              [
+                -87.15,
+                -102.55
+              ],
+              [
+                -86.1,
+                -99.4
+              ],
+              [
+                -84.0,
+                -97.3
+              ],
+              [
+                -80.85,
+                -97.3
+              ],
+              [
+                -79.45,
+                -98.7
+              ],
+              [
+                -78.05,
+                -105.7
+              ],
+              [
+                -81.2,
+                -109.55
+              ],
+              [
+                -83.65,
+                -110.25
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "building_id": "BLD-031",
+          "damage_class": 1,
+          "damage_label": "Minor Damage",
+          "severity": "Moderate",
+          "pre_height_m": 6.05,
+          "post_height_m": 4.7,
+          "delta_height_m": 1.34,
+          "collapse_pct": 22.2,
+          "footprint_area_m2": 37.2,
+          "debris_volume_m3": 64.9,
+          "debris_uncertainty_m3": 12.6,
+          "confidence": 0.82,
+          "quality_flags": []
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                166.6,
+                -98.7
+              ],
+              [
+                159.25,
+                -98.7
+              ],
+              [
+                159.25,
+                -105.0
+              ],
+              [
+                166.6,
+                -105.0
+              ],
+              [
+                166.6,
+                -98.7
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "building_id": "BLD-015",
+          "damage_class": 3,
+          "damage_label": "Destroyed",
+          "severity": "Critical",
+          "pre_height_m": 5.96,
+          "post_height_m": 2.32,
+          "delta_height_m": 3.64,
+          "collapse_pct": 61.0,
+          "footprint_area_m2": 871.3,
+          "debris_volume_m3": 4120.5,
+          "debris_uncertainty_m3": 800.2,
+          "confidence": 0.91,
+          "quality_flags": []
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                134.05,
+                50.05
+              ],
+              [
+                133.35,
+                3.15
+              ],
+              [
+                154.7,
+                2.8
+              ],
+              [
+                155.4,
+                49.7
+              ],
+              [
+                134.05,
+                50.05
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "building_id": "BLD-039",
+          "damage_class": 3,
+          "damage_label": "Destroyed",
+          "severity": "Critical",
+          "pre_height_m": 5.93,
+          "post_height_m": 1.55,
+          "delta_height_m": 4.38,
+          "collapse_pct": 73.9,
+          "footprint_area_m2": 102.8,
+          "debris_volume_m3": 585.9,
+          "debris_uncertainty_m3": 113.8,
+          "confidence": 0.91,
+          "quality_flags": [
+            "Pancake/Full Roof Collapse Detected"
+          ]
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                133.0,
+                -117.25
+              ],
+              [
+                123.55,
+                -117.25
+              ],
+              [
+                123.55,
+                -129.85
+              ],
+              [
+                133.0,
+                -129.85
+              ],
+              [
+                133.0,
+                -117.25
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "building_id": "BLD-016",
+          "damage_class": 3,
+          "damage_label": "Destroyed",
+          "severity": "Critical",
+          "pre_height_m": 5.88,
+          "post_height_m": 0.32,
+          "delta_height_m": 5.56,
+          "collapse_pct": 94.6,
+          "footprint_area_m2": 125.2,
+          "debris_volume_m3": 904.3,
+          "debris_uncertainty_m3": 175.6,
+          "confidence": 0.91,
+          "quality_flags": [
+            "Pancake/Full Roof Collapse Detected"
+          ]
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -163.1,
+                17.5
+              ],
+              [
+                -172.9,
+                17.5
+              ],
+              [
+                -172.9,
+                2.1
+              ],
+              [
+                -163.1,
+                2.1
+              ],
+              [
+                -163.1,
+                17.5
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "building_id": "BLD-019",
+          "damage_class": 3,
+          "damage_label": "Destroyed",
+          "severity": "Critical",
+          "pre_height_m": 5.78,
+          "post_height_m": 1.53,
+          "delta_height_m": 4.25,
+          "collapse_pct": 73.4,
+          "footprint_area_m2": 1024.8,
+          "debris_volume_m3": 5655.5,
+          "debris_uncertainty_m3": 1098.3,
+          "confidence": 0.91,
+          "quality_flags": [
+            "Pancake/Full Roof Collapse Detected"
+          ]
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                112.7,
+                -32.9
+              ],
+              [
+                108.85,
+                -28.35
+              ],
+              [
+                109.55,
+                -14.35
+              ],
+              [
+                93.1,
+                -13.3
+              ],
+              [
+                91.7,
+                0.7
+              ],
+              [
+                108.5,
+                3.15
+              ],
+              [
+                112.0,
+                16.1
+              ],
+              [
+                125.3,
+                15.75
+              ],
+              [
+                124.25,
+                -28.0
+              ],
+              [
+                112.7,
+                -32.9
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "building_id": "BLD-055",
+          "damage_class": 3,
+          "damage_label": "Destroyed",
+          "severity": "Critical",
+          "pre_height_m": 5.68,
+          "post_height_m": 1.79,
+          "delta_height_m": 3.9,
+          "collapse_pct": 68.6,
+          "footprint_area_m2": 33.0,
+          "debris_volume_m3": 167.2,
+          "debris_uncertainty_m3": 32.5,
+          "confidence": 0.91,
+          "quality_flags": [
+            "Pancake/Full Roof Collapse Detected"
+          ]
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -87.85,
+                -179.2
+              ],
+              [
+                -87.85,
+                -177.8
+              ],
+              [
+                -85.4,
+                -174.3
+              ],
+              [
+                -84.0,
+                -173.6
+              ],
+              [
+                -81.55,
+                -174.3
+              ],
+              [
+                -80.15,
+                -179.2
+              ],
+              [
+                -87.85,
+                -179.2
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "building_id": "BLD-040",
+          "damage_class": 3,
+          "damage_label": "Destroyed",
+          "severity": "Critical",
+          "pre_height_m": 5.48,
+          "post_height_m": 1.9,
+          "delta_height_m": 3.58,
+          "collapse_pct": 65.3,
+          "footprint_area_m2": 149.9,
+          "debris_volume_m3": 696.9,
+          "debris_uncertainty_m3": 135.3,
+          "confidence": 0.91,
+          "quality_flags": [
+            "Pancake/Full Roof Collapse Detected"
+          ]
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                178.85,
+                -115.5
+              ],
+              [
+                166.25,
+                -115.5
+              ],
+              [
+                166.25,
+                -130.2
+              ],
+              [
+                178.85,
+                -130.2
+              ],
+              [
+                178.85,
+                -115.5
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "building_id": "BLD-001",
+          "damage_class": 3,
+          "damage_label": "Destroyed",
+          "severity": "Critical",
+          "pre_height_m": 5.54,
+          "post_height_m": 1.14,
+          "delta_height_m": 4.4,
+          "collapse_pct": 79.4,
+          "footprint_area_m2": 139.1,
+          "debris_volume_m3": 795.7,
+          "debris_uncertainty_m3": 154.5,
+          "confidence": 0.91,
+          "quality_flags": [
+            "Pancake/Full Roof Collapse Detected"
+          ]
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -151.2,
+                178.5
+              ],
+              [
+                -135.45,
+                178.85
+              ],
+              [
+                -135.8,
+                172.2
+              ],
+              [
+                -136.85,
+                169.05
+              ],
+              [
+                -138.6,
+                167.65
+              ],
+              [
+                -146.3,
+                168.0
+              ],
+              [
+                -148.05,
+                170.8
+              ],
+              [
+                -148.4,
+                175.0
+              ],
+              [
+                -151.2,
+                178.5
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "building_id": "BLD-022",
+          "damage_class": 3,
+          "damage_label": "Destroyed",
+          "severity": "Critical",
+          "pre_height_m": 5.5,
+          "post_height_m": 1.18,
+          "delta_height_m": 4.32,
+          "collapse_pct": 78.5,
+          "footprint_area_m2": 497.8,
+          "debris_volume_m3": 2793.5,
+          "debris_uncertainty_m3": 542.5,
+          "confidence": 0.91,
+          "quality_flags": [
+            "Pancake/Full Roof Collapse Detected",
+            "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+          ]
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -157.15,
+                -52.85
+              ],
+              [
+                -158.9,
+                -50.75
+              ],
+              [
+                -157.5,
+                -38.85
+              ],
+              [
+                -159.6,
+                -19.6
+              ],
+              [
+                -156.8,
+                -17.85
+              ],
+              [
+                -149.45,
+                -18.55
+              ],
+              [
+                -146.3,
+                -21.0
+              ],
+              [
+                -140.0,
+                -33.95
+              ],
+              [
+                -140.0,
+                -38.85
+              ],
+              [
+                -145.6,
+                -42.0
+              ],
+              [
+                -147.0,
+                -52.15
+              ],
+              [
+                -157.15,
+                -52.85
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "building_id": "BLD-037",
+          "damage_class": 2,
+          "damage_label": "Major Damage",
+          "severity": "High",
+          "pre_height_m": 5.58,
+          "post_height_m": 3.66,
+          "delta_height_m": 1.91,
+          "collapse_pct": 34.3,
+          "footprint_area_m2": 90.4,
+          "debris_volume_m3": 225.0,
+          "debris_uncertainty_m3": 43.7,
+          "confidence": 0.86,
+          "quality_flags": []
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -51.45,
+                -101.5
+              ],
+              [
+                -61.25,
+                -101.5
+              ],
+              [
+                -61.25,
+                -112.7
+              ],
+              [
+                -51.45,
+                -112.7
+              ],
+              [
+                -51.45,
+                -101.5
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "building_id": "BLD-043",
+          "damage_class": 3,
+          "damage_label": "Destroyed",
+          "severity": "Critical",
+          "pre_height_m": 5.35,
+          "post_height_m": 2.22,
+          "delta_height_m": 3.13,
+          "collapse_pct": 58.6,
+          "footprint_area_m2": 111.3,
+          "debris_volume_m3": 452.9,
+          "debris_uncertainty_m3": 88.0,
+          "confidence": 0.91,
+          "quality_flags": []
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -95.55,
+                -134.05
+              ],
+              [
+                -108.15,
+                -134.05
+              ],
+              [
+                -108.15,
+                -144.2
+              ],
+              [
+                -95.55,
+                -144.2
+              ],
+              [
+                -95.55,
+                -134.05
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "building_id": "BLD-044",
+          "damage_class": 2,
+          "damage_label": "Major Damage",
+          "severity": "High",
+          "pre_height_m": 5.42,
+          "post_height_m": 2.44,
+          "delta_height_m": 2.98,
+          "collapse_pct": 55.0,
+          "footprint_area_m2": 105.5,
+          "debris_volume_m3": 408.6,
+          "debris_uncertainty_m3": 79.4,
+          "confidence": 0.86,
+          "quality_flags": [
+            "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+          ]
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                128.8,
+                -132.3
+              ],
+              [
+                118.3,
+                -132.3
+              ],
+              [
+                118.3,
+                -144.55
+              ],
+              [
+                128.8,
+                -144.55
+              ],
+              [
+                128.8,
+                -132.3
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "building_id": "BLD-005",
+          "damage_class": 3,
+          "damage_label": "Destroyed",
+          "severity": "Critical",
+          "pre_height_m": 5.3,
+          "post_height_m": 1.22,
+          "delta_height_m": 4.08,
+          "collapse_pct": 77.0,
+          "footprint_area_m2": 680.0,
+          "debris_volume_m3": 3610.5,
+          "debris_uncertainty_m3": 701.2,
+          "confidence": 0.91,
+          "quality_flags": [
+            "Pancake/Full Roof Collapse Detected"
+          ]
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -135.8,
+                76.3
+              ],
+              [
+                -155.05,
+                78.75
+              ],
+              [
+                -151.9,
+                92.4
+              ],
+              [
+                -156.1,
+                98.35
+              ],
+              [
+                -157.85,
+                112.35
+              ],
+              [
+                -154.7,
+                116.2
+              ],
+              [
+                -151.9,
+                115.85
+              ],
+              [
+                -147.7,
+                109.55
+              ],
+              [
+                -135.45,
+                106.75
+              ],
+              [
+                -135.1,
+                95.9
+              ],
+              [
+                -141.05,
+                92.75
+              ],
+              [
+                -134.75,
+                86.1
+              ],
+              [
+                -135.8,
+                76.3
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "building_id": "BLD-032",
+          "damage_class": 2,
+          "damage_label": "Major Damage",
+          "severity": "High",
+          "pre_height_m": 5.39,
+          "post_height_m": 3.23,
+          "delta_height_m": 2.16,
+          "collapse_pct": 40.1,
+          "footprint_area_m2": 41.3,
+          "debris_volume_m3": 116.2,
+          "debris_uncertainty_m3": 22.6,
+          "confidence": 0.86,
+          "quality_flags": []
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -106.05,
+                -100.8
+              ],
+              [
+                -112.7,
+                -100.8
+              ],
+              [
+                -112.7,
+                -108.15
+              ],
+              [
+                -106.05,
+                -108.15
+              ],
+              [
+                -106.05,
+                -100.8
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "building_id": "BLD-030",
+          "damage_class": 2,
+          "damage_label": "Major Damage",
+          "severity": "High",
+          "pre_height_m": 5.13,
+          "post_height_m": 2.67,
+          "delta_height_m": 2.46,
+          "collapse_pct": 48.0,
+          "footprint_area_m2": 27.3,
+          "debris_volume_m3": 87.5,
+          "debris_uncertainty_m3": 17.0,
+          "confidence": 0.86,
+          "quality_flags": [
+            "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+          ]
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                177.8,
+                -105.0
+              ],
+              [
+                175.7,
+                -102.55
+              ],
+              [
+                175.35,
+                -98.7
+              ],
+              [
+                175.7,
+                -97.3
+              ],
+              [
+                178.85,
+                -95.2
+              ],
+              [
+                178.85,
+                -105.0
+              ],
+              [
+                177.8,
+                -105.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "building_id": "BLD-028",
+          "damage_class": 3,
+          "damage_label": "Destroyed",
+          "severity": "Critical",
+          "pre_height_m": 4.97,
+          "post_height_m": 1.7,
+          "delta_height_m": 3.27,
+          "collapse_pct": 65.9,
+          "footprint_area_m2": 86.5,
+          "debris_volume_m3": 367.7,
+          "debris_uncertainty_m3": 71.4,
+          "confidence": 0.91,
+          "quality_flags": [
+            "Pancake/Full Roof Collapse Detected"
+          ]
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                52.85,
+                -88.2
+              ],
+              [
+                40.25,
+                -88.2
+              ],
+              [
+                40.25,
+                -95.9
+              ],
+              [
+                52.85,
+                -95.9
+              ],
+              [
+                52.85,
+                -88.2
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "building_id": "BLD-035",
+          "damage_class": 3,
+          "damage_label": "Destroyed",
+          "severity": "Critical",
+          "pre_height_m": 5.03,
+          "post_height_m": 1.47,
+          "delta_height_m": 3.56,
+          "collapse_pct": 70.8,
+          "footprint_area_m2": 336.8,
+          "debris_volume_m3": 1560.1,
+          "debris_uncertainty_m3": 303.0,
+          "confidence": 0.91,
+          "quality_flags": [
+            "Pancake/Full Roof Collapse Detected"
+          ]
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                15.75,
+                -74.9
+              ],
+              [
+                5.6,
+                -74.9
+              ],
+              [
+                5.6,
+                -111.65
+              ],
+              [
+                15.75,
+                -111.65
+              ],
+              [
+                15.75,
+                -74.9
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "building_id": "BLD-038",
+          "damage_class": 3,
+          "damage_label": "Destroyed",
+          "severity": "Critical",
+          "pre_height_m": 5.13,
+          "post_height_m": 1.94,
+          "delta_height_m": 3.18,
+          "collapse_pct": 62.1,
+          "footprint_area_m2": 197.9,
+          "debris_volume_m3": 818.8,
+          "debris_uncertainty_m3": 159.0,
+          "confidence": 0.91,
+          "quality_flags": [
+            "Pancake/Full Roof Collapse Detected"
+          ]
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                102.2,
+                -101.15
+              ],
+              [
+                84.35,
+                -101.15
+              ],
+              [
+                84.35,
+                -114.1
+              ],
+              [
+                102.2,
+                -114.1
+              ],
+              [
+                102.2,
+                -101.15
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "building_id": "BLD-049",
+          "damage_class": 3,
+          "damage_label": "Destroyed",
+          "severity": "Critical",
+          "pre_height_m": 5.06,
+          "post_height_m": 1.69,
+          "delta_height_m": 3.37,
+          "collapse_pct": 66.7,
+          "footprint_area_m2": 141.4,
+          "debris_volume_m3": 620.3,
+          "debris_uncertainty_m3": 120.5,
+          "confidence": 0.91,
+          "quality_flags": [
+            "Pancake/Full Roof Collapse Detected",
+            "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+          ]
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -12.25,
+                -138.25
+              ],
+              [
+                -21.7,
+                -138.25
+              ],
+              [
+                -21.7,
+                -155.05
+              ],
+              [
+                -12.25,
+                -155.05
+              ],
+              [
+                -12.25,
+                -138.25
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "building_id": "BLD-008",
+          "damage_class": 2,
+          "damage_label": "Major Damage",
+          "severity": "High",
+          "pre_height_m": 4.86,
+          "post_height_m": 2.68,
+          "delta_height_m": 2.18,
+          "collapse_pct": 44.9,
+          "footprint_area_m2": 159.2,
+          "debris_volume_m3": 451.6,
+          "debris_uncertainty_m3": 87.7,
+          "confidence": 0.86,
+          "quality_flags": []
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -138.6,
+                60.55
+              ],
+              [
+                -153.65,
+                60.55
+              ],
+              [
+                -153.65,
+                48.65
+              ],
+              [
+                -138.6,
+                48.65
+              ],
+              [
+                -138.6,
+                60.55
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "building_id": "BLD-010",
+          "damage_class": 3,
+          "damage_label": "Destroyed",
+          "severity": "Critical",
+          "pre_height_m": 4.97,
+          "post_height_m": 0.58,
+          "delta_height_m": 4.4,
+          "collapse_pct": 88.4,
+          "footprint_area_m2": 168.6,
+          "debris_volume_m3": 963.4,
+          "debris_uncertainty_m3": 187.1,
+          "confidence": 0.91,
+          "quality_flags": [
+            "Pancake/Full Roof Collapse Detected",
+            "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+          ]
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -162.75,
+                57.4
+              ],
+              [
+                -173.6,
+                57.4
+              ],
+              [
+                -173.6,
+                40.25
+              ],
+              [
+                -162.75,
+                40.25
+              ],
+              [
+                -162.75,
+                57.4
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "building_id": "BLD-018",
+          "damage_class": 1,
+          "damage_label": "Minor Damage",
+          "severity": "Moderate",
+          "pre_height_m": 5.29,
+          "post_height_m": 6.0,
+          "delta_height_m": 0.0,
+          "collapse_pct": 0.0,
+          "footprint_area_m2": 89.9,
+          "debris_volume_m3": 0.0,
+          "debris_uncertainty_m3": 0.0,
+          "confidence": 0.82,
+          "quality_flags": [
+            "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+          ]
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -99.05,
+                -17.15
+              ],
+              [
+                -110.6,
+                -17.15
+              ],
+              [
+                -110.6,
+                -26.6
+              ],
+              [
+                -99.05,
+                -26.6
+              ],
+              [
+                -99.05,
+                -17.15
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "building_id": "BLD-051",
+          "damage_class": 3,
+          "damage_label": "Destroyed",
+          "severity": "Critical",
+          "pre_height_m": 5.23,
+          "post_height_m": 0.87,
+          "delta_height_m": 4.35,
+          "collapse_pct": 83.3,
+          "footprint_area_m2": 51.7,
+          "debris_volume_m3": 292.7,
+          "debris_uncertainty_m3": 56.8,
+          "confidence": 0.91,
+          "quality_flags": [
+            "Pancake/Full Roof Collapse Detected"
+          ]
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -140.7,
+                -161.7
+              ],
+              [
+                -148.05,
+                -161.7
+              ],
+              [
+                -148.05,
+                -170.45
+              ],
+              [
+                -140.7,
+                -170.45
+              ],
+              [
+                -140.7,
+                -161.7
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "building_id": "BLD-052",
+          "damage_class": 3,
+          "damage_label": "Destroyed",
+          "severity": "Critical",
+          "pre_height_m": 5.06,
+          "post_height_m": 1.56,
+          "delta_height_m": 3.5,
+          "collapse_pct": 69.2,
+          "footprint_area_m2": 120.8,
+          "debris_volume_m3": 549.9,
+          "debris_uncertainty_m3": 106.8,
+          "confidence": 0.91,
+          "quality_flags": [
+            "Pancake/Full Roof Collapse Detected"
+          ]
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                125.65,
+                -178.5
+              ],
+              [
+                121.8,
+                -176.4
+              ],
+              [
+                120.75,
+                -171.5
+              ],
+              [
+                121.45,
+                -169.75
+              ],
+              [
+                123.55,
+                -168.0
+              ],
+              [
+                128.8,
+                -167.3
+              ],
+              [
+                133.7,
+                -170.8
+              ],
+              [
+                134.4,
+                -174.65
+              ],
+              [
+                131.25,
+                -177.8
+              ],
+              [
+                125.65,
+                -178.5
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "building_id": "BLD-020",
+          "damage_class": 3,
+          "damage_label": "Destroyed",
+          "severity": "Critical",
+          "pre_height_m": 4.93,
+          "post_height_m": 1.95,
+          "delta_height_m": 2.98,
+          "collapse_pct": 60.5,
+          "footprint_area_m2": 167.6,
+          "debris_volume_m3": 649.6,
+          "debris_uncertainty_m3": 126.2,
+          "confidence": 0.91,
+          "quality_flags": [
+            "Pancake/Full Roof Collapse Detected"
+          ]
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -77.7,
+                -16.8
+              ],
+              [
+                -89.25,
+                -16.8
+              ],
+              [
+                -89.25,
+                -34.3
+              ],
+              [
+                -77.7,
+                -34.3
+              ],
+              [
+                -77.7,
+                -16.8
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "building_id": "BLD-021",
+          "damage_class": 3,
+          "damage_label": "Destroyed",
+          "severity": "Critical",
+          "pre_height_m": 4.8,
+          "post_height_m": 1.65,
+          "delta_height_m": 3.15,
+          "collapse_pct": 65.6,
+          "footprint_area_m2": 131.3,
+          "debris_volume_m3": 537.9,
+          "debris_uncertainty_m3": 104.5,
+          "confidence": 0.91,
+          "quality_flags": [
+            "Pancake/Full Roof Collapse Detected"
+          ]
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -96.25,
+                -32.2
+              ],
+              [
+                -112.0,
+                -32.2
+              ],
+              [
+                -112.0,
+                -42.0
+              ],
+              [
+                -96.25,
+                -42.0
+              ],
+              [
+                -96.25,
+                -32.2
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "building_id": "BLD-050",
+          "damage_class": 3,
+          "damage_label": "Destroyed",
+          "severity": "Critical",
+          "pre_height_m": 4.79,
+          "post_height_m": 1.87,
+          "delta_height_m": 2.92,
+          "collapse_pct": 61.0,
+          "footprint_area_m2": 245.2,
+          "debris_volume_m3": 930.1,
+          "debris_uncertainty_m3": 180.6,
+          "confidence": 0.91,
+          "quality_flags": [
+            "Pancake/Full Roof Collapse Detected"
+          ]
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -61.6,
+                -136.15
+              ],
+              [
+                -62.3,
+                -159.25
+              ],
+              [
+                -50.75,
+                -159.6
+              ],
+              [
+                -50.05,
+                -136.5
+              ],
+              [
+                -61.6,
+                -136.15
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "building_id": "BLD-003",
+          "damage_class": 3,
+          "damage_label": "Destroyed",
+          "severity": "Critical",
+          "pre_height_m": 4.78,
+          "post_height_m": 1.24,
+          "delta_height_m": 3.54,
+          "collapse_pct": 74.0,
+          "footprint_area_m2": 223.4,
+          "debris_volume_m3": 1028.1,
+          "debris_uncertainty_m3": 199.7,
+          "confidence": 0.91,
+          "quality_flags": [
+            "Pancake/Full Roof Collapse Detected",
+            "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+          ]
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -36.75,
+                126.35
+              ],
+              [
+                -36.4,
+                130.9
+              ],
+              [
+                -34.3,
+                133.35
+              ],
+              [
+                -29.4,
+                132.65
+              ],
+              [
+                -26.95,
+                128.45
+              ],
+              [
+                -23.1,
+                131.25
+              ],
+              [
+                -23.1,
+                128.1
+              ],
+              [
+                -21.35,
+                128.45
+              ],
+              [
+                -21.7,
+                131.6
+              ],
+              [
+                -9.1,
+                134.75
+              ],
+              [
+                -4.55,
+                133.35
+              ],
+              [
+                -5.25,
+                126.0
+              ],
+              [
+                -7.0,
+                124.95
+              ],
+              [
+                -21.7,
+                126.35
+              ],
+              [
+                -35.35,
+                124.95
+              ],
+              [
+                -36.75,
+                126.35
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "building_id": "BLD-011",
+          "damage_class": 3,
+          "damage_label": "Destroyed",
+          "severity": "Critical",
+          "pre_height_m": 4.71,
+          "post_height_m": 0.87,
+          "delta_height_m": 3.84,
+          "collapse_pct": 81.6,
+          "footprint_area_m2": 313.4,
+          "debris_volume_m3": 1563.6,
+          "debris_uncertainty_m3": 303.7,
+          "confidence": 0.91,
+          "quality_flags": [
+            "Pancake/Full Roof Collapse Detected",
+            "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+          ]
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                88.9,
+                38.15
+              ],
+              [
+                88.9,
+                43.05
+              ],
+              [
+                91.35,
+                46.2
+              ],
+              [
+                97.3,
+                44.8
+              ],
+              [
+                101.15,
+                41.65
+              ],
+              [
+                103.95,
+                48.65
+              ],
+              [
+                116.55,
+                49.35
+              ],
+              [
+                121.1,
+                47.6
+              ],
+              [
+                121.45,
+                38.5
+              ],
+              [
+                120.05,
+                37.1
+              ],
+              [
+                100.45,
+                38.5
+              ],
+              [
+                98.0,
+                36.75
+              ],
+              [
+                91.0,
+                36.4
+              ],
+              [
+                88.9,
+                38.15
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "building_id": "BLD-012",
+          "damage_class": 3,
+          "damage_label": "Destroyed",
+          "severity": "Critical",
+          "pre_height_m": 4.48,
+          "post_height_m": 1.09,
+          "delta_height_m": 3.39,
+          "collapse_pct": 75.7,
+          "footprint_area_m2": 313.6,
+          "debris_volume_m3": 1383.5,
+          "debris_uncertainty_m3": 268.7,
+          "confidence": 0.91,
+          "quality_flags": [
+            "Pancake/Full Roof Collapse Detected",
+            "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+          ]
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                121.45,
+                33.6
+              ],
+              [
+                88.55,
+                33.6
+              ],
+              [
+                88.55,
+                21.7
+              ],
+              [
+                121.45,
+                21.7
+              ],
+              [
+                121.45,
+                33.6
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "building_id": "BLD-013",
+          "damage_class": 3,
+          "damage_label": "Destroyed",
+          "severity": "Critical",
+          "pre_height_m": 4.65,
+          "post_height_m": 1.07,
+          "delta_height_m": 3.57,
+          "collapse_pct": 76.9,
+          "footprint_area_m2": 192.8,
+          "debris_volume_m3": 895.7,
+          "debris_uncertainty_m3": 173.9,
+          "confidence": 0.91,
+          "quality_flags": [
+            "Pancake/Full Roof Collapse Detected"
+          ]
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -146.3,
+                35.7
+              ],
+              [
+                -157.5,
+                35.7
+              ],
+              [
+                -157.5,
+                16.8
+              ],
+              [
+                -146.3,
+                16.8
+              ],
+              [
+                -146.3,
+                35.7
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "building_id": "BLD-023",
+          "damage_class": 3,
+          "damage_label": "Destroyed",
+          "severity": "Critical",
+          "pre_height_m": 4.62,
+          "post_height_m": 1.89,
+          "delta_height_m": 2.73,
+          "collapse_pct": 59.2,
+          "footprint_area_m2": 153.1,
+          "debris_volume_m3": 543.8,
+          "debris_uncertainty_m3": 105.6,
+          "confidence": 0.91,
+          "quality_flags": [
+            "Pancake/Full Roof Collapse Detected",
+            "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+          ]
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -99.05,
+                -45.85
+              ],
+              [
+                -115.15,
+                -45.85
+              ],
+              [
+                -115.15,
+                -56.35
+              ],
+              [
+                -99.05,
+                -56.35
+              ],
+              [
+                -99.05,
+                -45.85
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "building_id": "BLD-026",
+          "damage_class": 1,
+          "damage_label": "Minor Damage",
+          "severity": "Moderate",
+          "pre_height_m": 4.51,
+          "post_height_m": 3.44,
+          "delta_height_m": 1.07,
+          "collapse_pct": 23.7,
+          "footprint_area_m2": 113.4,
+          "debris_volume_m3": 157.8,
+          "debris_uncertainty_m3": 30.6,
+          "confidence": 0.82,
+          "quality_flags": []
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                55.3,
+                -67.55
+              ],
+              [
+                46.2,
+                -67.55
+              ],
+              [
+                46.2,
+                -81.55
+              ],
+              [
+                55.3,
+                -81.55
+              ],
+              [
+                55.3,
+                -67.55
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "building_id": "BLD-027",
+          "damage_class": 3,
+          "damage_label": "Destroyed",
+          "severity": "Critical",
+          "pre_height_m": 4.67,
+          "post_height_m": 0.55,
+          "delta_height_m": 4.12,
+          "collapse_pct": 88.2,
+          "footprint_area_m2": 91.8,
+          "debris_volume_m3": 491.5,
+          "debris_uncertainty_m3": 95.4,
+          "confidence": 0.91,
+          "quality_flags": [
+            "Pancake/Full Roof Collapse Detected"
+          ]
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -19.95,
+                -72.8
+              ],
+              [
+                -30.8,
+                -72.8
+              ],
+              [
+                -30.8,
+                -82.95
+              ],
+              [
+                -19.95,
+                -82.95
+              ],
+              [
+                -19.95,
+                -72.8
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "building_id": "BLD-045",
+          "damage_class": 3,
+          "damage_label": "Destroyed",
+          "severity": "Critical",
+          "pre_height_m": 4.58,
+          "post_height_m": 1.68,
+          "delta_height_m": 2.9,
+          "collapse_pct": 63.3,
+          "footprint_area_m2": 81.8,
+          "debris_volume_m3": 308.2,
+          "debris_uncertainty_m3": 59.9,
+          "confidence": 0.91,
+          "quality_flags": [
+            "Pancake/Full Roof Collapse Detected"
+          ]
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -81.55,
+                -137.2
+              ],
+              [
+                -89.95,
+                -137.2
+              ],
+              [
+                -89.95,
+                -149.1
+              ],
+              [
+                -81.55,
+                -149.1
+              ],
+              [
+                -81.55,
+                -137.2
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "building_id": "BLD-046",
+          "damage_class": 3,
+          "damage_label": "Destroyed",
+          "severity": "Critical",
+          "pre_height_m": 4.71,
+          "post_height_m": 1.25,
+          "delta_height_m": 3.45,
+          "collapse_pct": 73.4,
+          "footprint_area_m2": 263.9,
+          "debris_volume_m3": 1184.9,
+          "debris_uncertainty_m3": 230.1,
+          "confidence": 0.91,
+          "quality_flags": [
+            "Pancake/Full Roof Collapse Detected"
+          ]
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                13.65,
+                -146.65
+              ],
+              [
+                9.8,
+                -149.8
+              ],
+              [
+                -4.2,
+                -148.4
+              ],
+              [
+                -7.35,
+                -143.15
+              ],
+              [
+                -7.0,
+                -136.85
+              ],
+              [
+                -4.55,
+                -135.1
+              ],
+              [
+                0.35,
+                -136.15
+              ],
+              [
+                0.7,
+                -140.7
+              ],
+              [
+                3.15,
+                -142.8
+              ],
+              [
+                4.9,
+                -135.45
+              ],
+              [
+                11.9,
+                -134.05
+              ],
+              [
+                14.35,
+                -136.5
+              ],
+              [
+                13.65,
+                -146.65
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "building_id": "BLD-047",
+          "damage_class": 3,
+          "damage_label": "Destroyed",
+          "severity": "Critical",
+          "pre_height_m": 4.63,
+          "post_height_m": 1.58,
+          "delta_height_m": 3.05,
+          "collapse_pct": 65.9,
+          "footprint_area_m2": 178.2,
+          "debris_volume_m3": 707.7,
+          "debris_uncertainty_m3": 137.4,
+          "confidence": 0.91,
+          "quality_flags": [
+            "Pancake/Full Roof Collapse Detected"
+          ]
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -26.25,
+                -131.95
+              ],
+              [
+                -35.7,
+                -131.95
+              ],
+              [
+                -35.7,
+                -152.6
+              ],
+              [
+                -26.25,
+                -152.6
+              ],
+              [
+                -26.25,
+                -131.95
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "building_id": "BLD-002",
+          "damage_class": 3,
+          "damage_label": "Destroyed",
+          "severity": "Critical",
+          "pre_height_m": 4.58,
+          "post_height_m": 0.31,
+          "delta_height_m": 4.27,
+          "collapse_pct": 93.3,
+          "footprint_area_m2": 41.5,
+          "debris_volume_m3": 230.4,
+          "debris_uncertainty_m3": 44.7,
+          "confidence": 0.91,
+          "quality_flags": [
+            "Pancake/Full Roof Collapse Detected"
+          ]
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -145.25,
+                130.9
+              ],
+              [
+                -147.0,
+                129.85
+              ],
+              [
+                -150.5,
+                130.55
+              ],
+              [
+                -152.95,
+                133.35
+              ],
+              [
+                -152.25,
+                137.2
+              ],
+              [
+                -151.2,
+                137.9
+              ],
+              [
+                -147.35,
+                137.2
+              ],
+              [
+                -148.05,
+                134.4
+              ],
+              [
+                -145.25,
+                133.0
+              ],
+              [
+                -145.25,
+                130.9
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "building_id": "BLD-024",
+          "damage_class": 2,
+          "damage_label": "Major Damage",
+          "severity": "High",
+          "pre_height_m": 4.63,
+          "post_height_m": 2.57,
+          "delta_height_m": 2.06,
+          "collapse_pct": 44.4,
+          "footprint_area_m2": 91.2,
+          "debris_volume_m3": 243.8,
+          "debris_uncertainty_m3": 47.3,
+          "confidence": 0.86,
+          "quality_flags": []
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                178.85,
+                -63.7
+              ],
+              [
+                169.4,
+                -63.7
+              ],
+              [
+                169.4,
+                -74.55
+              ],
+              [
+                178.85,
+                -74.55
+              ],
+              [
+                178.85,
+                -63.7
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "building_id": "BLD-025",
+          "damage_class": 3,
+          "damage_label": "Destroyed",
+          "severity": "Critical",
+          "pre_height_m": 4.66,
+          "post_height_m": 1.0,
+          "delta_height_m": 3.67,
+          "collapse_pct": 78.6,
+          "footprint_area_m2": 51.6,
+          "debris_volume_m3": 245.9,
+          "debris_uncertainty_m3": 47.8,
+          "confidence": 0.91,
+          "quality_flags": [
+            "Pancake/Full Roof Collapse Detected"
+          ]
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                92.75,
+                -74.2
+              ],
+              [
+                83.65,
+                -74.2
+              ],
+              [
+                83.65,
+                -81.2
+              ],
+              [
+                92.75,
+                -81.2
+              ],
+              [
+                92.75,
+                -74.2
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "building_id": "BLD-034",
+          "damage_class": 3,
+          "damage_label": "Destroyed",
+          "severity": "Critical",
+          "pre_height_m": 4.63,
+          "post_height_m": 1.85,
+          "delta_height_m": 2.78,
+          "collapse_pct": 60.0,
+          "footprint_area_m2": 314.3,
+          "debris_volume_m3": 1135.7,
+          "debris_uncertainty_m3": 220.6,
+          "confidence": 0.91,
+          "quality_flags": [
+            "Pancake/Full Roof Collapse Detected"
+          ]
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                32.9,
+                -74.2
+              ],
+              [
+                22.4,
+                -74.55
+              ],
+              [
+                23.1,
+                -111.65
+              ],
+              [
+                33.25,
+                -111.3
+              ],
+              [
+                32.9,
+                -74.2
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "building_id": "BLD-048",
+          "damage_class": 3,
+          "damage_label": "Destroyed",
+          "severity": "Critical",
+          "pre_height_m": 4.32,
+          "post_height_m": 1.08,
+          "delta_height_m": 3.24,
+          "collapse_pct": 74.9,
+          "footprint_area_m2": 147.8,
+          "debris_volume_m3": 621.9,
+          "debris_uncertainty_m3": 120.8,
+          "confidence": 0.91,
+          "quality_flags": [
+            "Pancake/Full Roof Collapse Detected"
+          ]
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -75.25,
+                -137.2
+              ],
+              [
+                -76.65,
+                -153.3
+              ],
+              [
+                -66.15,
+                -154.0
+              ],
+              [
+                -64.75,
+                -137.9
+              ],
+              [
+                -75.25,
+                -137.2
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "building_id": "BLD-054",
+          "damage_class": 3,
+          "damage_label": "Destroyed",
+          "severity": "Critical",
+          "pre_height_m": 4.53,
+          "post_height_m": 1.9,
+          "delta_height_m": 2.63,
+          "collapse_pct": 58.0,
+          "footprint_area_m2": 48.1,
+          "debris_volume_m3": 164.2,
+          "debris_uncertainty_m3": 31.9,
+          "confidence": 0.91,
+          "quality_flags": [
+            "Pancake/Full Roof Collapse Detected"
+          ]
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -51.8,
+                -175.0
+              ],
+              [
+                -65.8,
+                -175.0
+              ],
+              [
+                -65.8,
+                -179.2
+              ],
+              [
+                -51.8,
+                -179.2
+              ],
+              [
+                -51.8,
+                -175.0
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "building_id": "BLD-029",
+          "damage_class": 3,
+          "damage_label": "Destroyed",
+          "severity": "Critical",
+          "pre_height_m": 4.43,
+          "post_height_m": 1.35,
+          "delta_height_m": 3.08,
+          "collapse_pct": 69.5,
+          "footprint_area_m2": 119.4,
+          "debris_volume_m3": 477.5,
+          "debris_uncertainty_m3": 92.7,
+          "confidence": 0.91,
+          "quality_flags": [
+            "Pancake/Full Roof Collapse Detected"
+          ]
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -18.2,
+                -87.5
+              ],
+              [
+                -31.85,
+                -87.5
+              ],
+              [
+                -31.85,
+                -98.0
+              ],
+              [
+                -18.2,
+                -98.0
+              ],
+              [
+                -18.2,
+                -87.5
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "building_id": "BLD-004",
+          "damage_class": 1,
+          "damage_label": "Minor Damage",
+          "severity": "Moderate",
+          "pre_height_m": 4.04,
+          "post_height_m": 3.45,
+          "delta_height_m": 0.59,
+          "collapse_pct": 14.6,
+          "footprint_area_m2": 129.5,
+          "debris_volume_m3": 99.5,
+          "debris_uncertainty_m3": 19.3,
+          "confidence": 0.82,
+          "quality_flags": []
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                32.2,
+                131.95
+              ],
+              [
+                13.3,
+                131.95
+              ],
+              [
+                13.3,
+                123.55
+              ],
+              [
+                32.2,
+                123.55
+              ],
+              [
+                32.2,
+                131.95
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "building_id": "BLD-007",
+          "damage_class": 3,
+          "damage_label": "Destroyed",
+          "severity": "Critical",
+          "pre_height_m": 4.23,
+          "post_height_m": 0.97,
+          "delta_height_m": 3.26,
+          "collapse_pct": 77.1,
+          "footprint_area_m2": 72.8,
+          "debris_volume_m3": 308.2,
+          "debris_uncertainty_m3": 59.9,
+          "confidence": 0.91,
+          "quality_flags": [
+            "Pancake/Full Roof Collapse Detected",
+            "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+          ]
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                99.05,
+                56.7
+              ],
+              [
+                89.25,
+                56.7
+              ],
+              [
+                89.25,
+                48.65
+              ],
+              [
+                99.05,
+                48.65
+              ],
+              [
+                99.05,
+                56.7
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "building_id": "BLD-009",
+          "damage_class": 2,
+          "damage_label": "Major Damage",
+          "severity": "High",
+          "pre_height_m": 4.14,
+          "post_height_m": 2.28,
+          "delta_height_m": 1.87,
+          "collapse_pct": 45.0,
+          "footprint_area_m2": 106.4,
+          "debris_volume_m3": 258.2,
+          "debris_uncertainty_m3": 50.1,
+          "confidence": 0.86,
+          "quality_flags": [
+            "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+          ]
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -48.65,
+                60.9
+              ],
+              [
+                -57.05,
+                60.9
+              ],
+              [
+                -57.05,
+                45.5
+              ],
+              [
+                -48.65,
+                45.5
+              ],
+              [
+                -48.65,
+                60.9
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "building_id": "BLD-014",
+          "damage_class": 3,
+          "damage_label": "Destroyed",
+          "severity": "Critical",
+          "pre_height_m": 4.06,
+          "post_height_m": 0.69,
+          "delta_height_m": 3.37,
+          "collapse_pct": 83.0,
+          "footprint_area_m2": 83.6,
+          "debris_volume_m3": 366.5,
+          "debris_uncertainty_m3": 71.2,
+          "confidence": 0.91,
+          "quality_flags": [
+            "Pancake/Full Roof Collapse Detected",
+            "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+          ]
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                100.45,
+                19.25
+              ],
+              [
+                89.25,
+                19.25
+              ],
+              [
+                89.25,
+                10.85
+              ],
+              [
+                100.45,
+                10.85
+              ],
+              [
+                100.45,
+                19.25
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "building_id": "BLD-036",
+          "damage_class": 3,
+          "damage_label": "Destroyed",
+          "severity": "Critical",
+          "pre_height_m": 4.02,
+          "post_height_m": 1.72,
+          "delta_height_m": 2.31,
+          "collapse_pct": 57.3,
+          "footprint_area_m2": 103.1,
+          "debris_volume_m3": 309.2,
+          "debris_uncertainty_m3": 60.0,
+          "confidence": 0.91,
+          "quality_flags": [
+            "Pancake/Full Roof Collapse Detected"
+          ]
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -18.2,
+                -103.95
+              ],
+              [
+                -31.5,
+                -103.95
+              ],
+              [
+                -31.5,
+                -112.7
+              ],
+              [
+                -18.2,
+                -112.7
+              ],
+              [
+                -18.2,
+                -103.95
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "building_id": "BLD-053",
+          "damage_class": 3,
+          "damage_label": "Destroyed",
+          "severity": "Critical",
+          "pre_height_m": 3.55,
+          "post_height_m": 0.35,
+          "delta_height_m": 3.2,
+          "collapse_pct": 90.1,
+          "footprint_area_m2": 42.3,
+          "debris_volume_m3": 176.2,
+          "debris_uncertainty_m3": 34.2,
+          "confidence": 0.91,
+          "quality_flags": [
+            "Pancake/Full Roof Collapse Detected",
+            "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+          ]
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -28.7,
+                -170.8
+              ],
+              [
+                -34.3,
+                -170.8
+              ],
+              [
+                -34.3,
+                -179.2
+              ],
+              [
+                -28.7,
+                -179.2
+              ],
+              [
+                -28.7,
+                -170.8
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "scientific_methodology": {
+    "damage_standard": "xBD / Joint Damage Scale (Levels 0-3)",
+    "height_collapse_model": "\u0394H = max(0, H_pre - H_post)",
+    "volumetric_formulation": "V_debris = Area * \u0394H * K_bulking \u00b1 \u03c3_V",
+    "assumptions_and_limitations": [
+      "Height estimates are derived from monocular aerial/satellite neural regression above local datum.",
+      "Debris expansion coefficient assumes mixed masonry/concrete rubble (K=1.30 \u00b1 0.15).",
+      "Monocular RGB imagery cannot penetrate dense dust clouds or measure hidden subterranean foundation voids.",
+      "Ground truth validation requires post-event LiDAR or stereoscopic photogrammetric DSM."
+    ]
+  }
+}

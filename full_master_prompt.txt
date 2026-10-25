@@ -1,0 +1,292 @@
+<USER_REQUEST>
+# TERRASCOPE AI — Multi-Building 2D Terrain-to-3D Reconstruction Engine
+
+Act as a senior geospatial AI engineer, computer vision researcher, photogrammetry specialist, 3D graphics developer, and full-stack architect.
+
+Build a fully functional AI-powered feature in Terrascope AI that accepts a single top-down satellite image, aerial image, drone image, or terrain image containing multiple buildings and reconstructs it into an interactive 3D environment.
+
+## PRIMARY OBJECTIVE
+
+Convert a 2D overhead image of a geographical area into a navigable 3D scene containing ALL identifiable buildings, terrain features, vegetation, roads, and surrounding environmental elements.
+
+The result must resemble a miniature digital twin of the original location.
+
+The system must NOT reconstruct just one building, generate a random city, produce a flat image with artificial shadows, or display an unrelated generic 3D environment.
+
+It must preserve the relative locations, footprints, orientations, spacing, shapes, and visible characteristics of individual buildings from the input image.
+
+Every reconstructed building must have actual 3D geometry and must be independently inspectable from different camera angles.
+
+## 1. IMAGE UPLOAD AND GEOREFERENCING
+
+Create an upload interface that supports:
+- Satellite imagery.
+- Aerial and drone orthophotos.
+- Top-down images of campuses, towns, cities, villages, industrial areas, and disaster zones.
+- Terrain and landscape images containing multiple structures.
+
+Allow optional metadata:
+- Geographic coordinates and bounding box.
+- Image ground sampling distance or approximate spatial resolution.
+- Elevation data, if available.
+- Known building heights or number of floors, if available.
+
+If the image is georeferenced, preserve its coordinate system and scale. If not, create a local coordinate system and clearly mark all estimated measurements as approximate.
+
+Validate image quality and warn the user if the resolution is insufficient to identify individual buildings.
+
+## 2. INTELLIGENT SCENE UNDERSTANDING
+
+Before generating geometry, analyze the entire input image.
+
+Perform semantic segmentation and instance segmentation to distinguish individual objects.
+
+Detect and classify:
+- Every visible building and its unique footprint.
+- Residential buildings, apartments, commercial structures, industrial buildings, warehouses, and other identifiable building types.
+- Roads, streets, intersections, driveways, and pathways.
+- Grass, trees, bushes, and other vegetation.
+- Bare soil, rocks, hills, valleys, water bodies, and other visible terrain features.
+- Bridges, walls, parking lots, and other identifiable infrastructure when image quality permits.
+
+Assign each detected building a unique ID, such as B001, B002, B003, and so on.
+
+Create a spatial inventory containing the building's image coordinates, polygon footprint, orientation, estimated area, shape, confidence score, and estimated height.
+
+Do not merge adjacent buildings into one structure unless they genuinely form a single building.
+
+Avoid duplicate detection and ensure that every visible building is represented in the final scene.
+
+## 3. BUILDING FOOTPRINT EXTRACTION
+
+For every detected building:
+
+1. Extract its polygonal footprint from the image.
+2. Refine the polygon boundaries and remove background pixels.
+3. Preserve irregular shapes, wings, courtyards, extensions, and connected sections when identifiable.
+4. Estimate orientation and relative dimensions.
+5. Distinguish separate buildings that are close together.
+6. Associate each footprint with a unique 3D object.
+
+Use suitable segmentation models such as a fine-tuned segmentation network, Mask2Former, or SAM 2 where appropriate. Combine detection and segmentation rather than relying on a single model for every task.
+
+The output must contain a separate geometric representation for each building.
+
+## 4. BUILDING HEIGHT AND 3D GEOMETRY ESTIMATION
+
+Convert every footprint into a plausible three-dimensional building.
+
+Estimate height using the strongest available evidence, prioritizing:
+- LiDAR point clouds or digital surface models.
+- Stereo imagery or multiple aerial views.
+- Known building height or floor-count information.
+- Shadows and solar geometry when the necessary information is available.
+- Architectural appearance and contextual clues.
+- Statistical height estimates based on building type and local context.
+
+If only a single top-down image is available, acknowledge that exact building heights, facades, roofs hidden by the camera angle, and internal geometry cannot be reliably recovered.
+
+In this situation, generate plausible estimated geometry instead of pretending the result is an exact reconstruction.
+
+Reconstruct:
+- Building footprint and vertical walls.
+- Estimated height and floor levels when supported.
+- Flat, sloped, gabled, or other recognizable roof shapes.
+- Roof extensions, courtyards, and visible structural irregularities.
+- Distinct height profiles for neighboring buildings.
+
+Do not assign the same height or identical geometry to every building.
+
+Buildings with insufficient information should use clearly identified estimated geometry and remain editable.
+
+## 5. TERRAIN RECONSTRUCTION
+
+Reconstruct the surrounding ground surface rather than placing buildings on an entirely flat plane by default.
+
+Use elevation data, such as a DEM or DSM, if available.
+
+Generate a terrain mesh representing:
+- Hills and valleys.
+- Slopes and elevation changes.
+- Ridges and depressions.
+- Riverbanks and water boundaries.
+- Embankments and other detectable terrain features.
+
+Use appropriate elevation datasets when available. If no elevation data exists, use a clearly identified approximate terrain surface based on visible evidence, without inventing precise elevations.
+
+Maintain correct relative positioning between terrain, roads, vegetation, and building foundations.
+
+## 6. ROADS, VEGETATION, AND ENVIRONMENT
+
+Reconstruct the surrounding environment using extracted features.
+
+Roads:
+- Preserve their paths, widths where measurable, intersections, and connectivity.
+- Represent them as terrain-following surfaces.
+
+Vegetation:
+- Detect individual tree clusters and larger vegetation areas.
+- Place approximate 3D vegetation models at detected locations.
+- Estimate canopy size from visible evidence.
+- Avoid placing trees over detected building footprints.
+
+Other elements:
+- Reconstruct parking lots, open grounds, pathways, water bodies, and other identifiable features.
+- Preserve the relative arrangement of all objects.
+
+Clearly distinguish directly observed features from inferred or procedurally generated details.
+
+## 7. COMPLETE 3D SCENE GENERATION
+
+Use Three.js with React Three Fiber, or an equivalent capable real-time 3D engine, to render the reconstructed environment.
+
+The scene must contain:
+- Individually modeled buildings.
+- A terrain mesh.
+- Road and pathway geometry.
+- Vegetation and other reconstructed objects.
+- Appropriate materials, textures, shadows, and lighting.
+- A consistent coordinate system and correct spatial alignment.
+
+Use instanced rendering for repeated vegetation or other suitable objects to maintain performance.
+
+Do not render the source image as a flat billboard and label it a 3D reconstruction.
+
+The terrain and every building must possess actual 3D geometry.
+
+## 8. INTERACTIVE 3D EXPLORATION
+
+Provide a professional, fully interactive 3D viewport.
+
+Required camera controls:
+- Orbit around the entire terrain.
+- Rotate freely around the reconstructed location.
+- Zoom in and out.
+- Pan across the environment.
+- Switch between top-down, oblique, and ground-level perspectives.
+- Fit the entire scene into the viewport.
+- Focus on a selected building.
+
+Users must be able to inspect every building from the front, back, left, right, and elevated perspectives, within the limits of the reconstructed geometry.
+
+Implement raycasting or equivalent object picking so clicking a building selects the correct 3D object.
+
+When a building is selected:
+- Highlight its boundaries.
+- Display its unique ID.
+- Show its estimated footprint area and height.
+- Show its estimated floor count and building classification when available.
+- Display confidence and data provenance for important measurements.
+
+Provide a building inventory panel with search, selection, visibility toggles, and navigation to each detected building.
+
+Allow users to hide terrain, roads, vegetation, or individual buildings to inspect the reconstruction.
+
+## 9. GEOSPATIAL ACCURACY AND UNCERTAINTY
+
+Maintain a clear distinction between measured, model-predicted, and procedurally generated information.
+
+For each building, record:
+- Footprint confidence.
+- Height estimate and uncertainty, where available.
+- Geometry reconstruction method.
+- Source data used.
+- Missing or inferred features.
+
+Never fabricate precise elevations, building dimensions, or geographic coordinates.
+
+If the image lacks enough information to recover a building's hidden sides or roof structure, generate a reasonable approximation and label it accordingly.
+
+When more accurate source data is available, incorporate it to improve the reconstruction.
+
+## 10. PERFORMANCE AND SCALABILITY
+
+The system must handle scenes ranging from a small campus to a large settlement.
+
+Implement:
+- Spatial indexing and level of detail.
+- Efficient mesh generation and geometry simplification.
+- Texture optimization.
+- Frustum culling and instanced rendering.
+- Progressive scene loading for large datasets.
+- Background processing for expensive reconstruction tasks.
+- Clear processing stages and error reporting.
+
+Do not create thousands of unnecessarily detailed meshes when simpler geometry is sufficient.
+
+Preserve individual building identity even when optimizing the scene.
+
+## 11. EXPORT
+
+Allow the user to export the reconstructed scene in appropriate formats, prioritizing:
+- GLB or glTF for textured 3D scenes.
+- OBJ for geometry where suitable.
+- GeoJSON for extracted building footprints.
+- A metadata JSON file containing building IDs, estimated measurements, and confidence values.
+
+Keep georeferencing information when the source supports it and the chosen format can preserve it, or provide a companion metadata file.
+
+## 12. SUGGESTED TECHNICAL ARCHITECTURE
+
+Frontend:
+- React and TypeScript.
+- Three.js and React Three Fiber.
+- Drei for useful 3D controls and helpers.
+- A clean, professional geospatial interface.
+
+Backend:
+- FastAPI and Python.
+- Rasterio, GDAL, GeoPandas, Shapely, and suitable geospatial utilities.
+- PyTorch and appropriate computer vision models.
+- Open3D or other suitable geometry-processing libraries where needed.
+
+Data sources:
+- Digital elevation models and digital surface models.
+- LiDAR point clouds when available.
+- Stereo or multi-view aerial imagery.
+- Building footprint datasets such as OpenStreetMap or Microsoft building footprints where coverage and licensing permit.
+- Public satellite imagery and other authorized geospatial datasets.
+
+Use the appropriate data source for each reconstruction task. Do not assume that a building footprint dataset contains building heights.
+
+Do not substitute mock API responses, random building generators, hardcoded sample buildings, or static demo scenes for the real reconstruction pipeline.
+
+## 13. IMPLEMENTATION REQUIREMENTS
+
+First inspect the existing Terrascope AI codebase and identify its framework, components, routing, backend, and existing geospatial capabilities.
+
+Integrate this feature into the existing project rather than replacing the application with an unrelated implementation.
+
+Implement the actual end-to-end workflow:
+
+Image upload → image analysis → building instance segmentation → footprint extraction → height estimation → terrain reconstruction → 3D mesh generation → interactive rendering → object selection → export.
+
+Every stage must have a defined input, output, error state, and validation process.
+
+Build a usable initial version first, then improve reconstruction accuracy incrementally.
+
+Include proper loading indicators, progress reporting, processing errors, empty states, and a clear explanation when source data is insufficient.
+
+The final result should feel like a professional geospatial digital-twin platform, not a generic AI-generated dashboard.
+
+## FINAL ACCEPTANCE TEST
+
+Test the implementation using a top-down image containing at least 20 visible buildings of different shapes and sizes.
+
+Verify that:
+1. Multiple buildings are detected and individually identified.
+2. Their footprints remain aligned with the source image.
+3. The resulting scene contains actual 3D building geometry.
+4. Buildings have distinct plausible heights rather than identical extrusions.
+5. The terrain, roads, and vegetation remain spatially aligned.
+6. The camera can orbit around the scene and inspect buildings from all sides.
+7. Clicking a building selects the correct object and displays its metadata.
+8. The reconstructed scene can be exported.
+9. Uncertain or inferred geometry is identified honestly.
+10. The implementation works on actual uploaded images rather than only on a bundled demonstration.
+
+Prioritize geometric correctness, preservation of all buildings, interactive exploration, and transparent uncertainty over decorative visual effects.
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-10-15T04:24:40+05:30.
+</ADDITIONAL_METADATA>

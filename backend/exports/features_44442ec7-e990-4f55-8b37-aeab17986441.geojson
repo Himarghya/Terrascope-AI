@@ -1,0 +1,6325 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "BLD-021",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              249.6,
+              -0.98,
+              0.0
+            ],
+            [
+              245.7,
+              -15.93,
+              0.0
+            ],
+            [
+              261.95,
+              -19.82,
+              0.0
+            ],
+            [
+              265.2,
+              -4.88,
+              0.0
+            ],
+            [
+              249.6,
+              -0.98,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-021",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 109.4,
+        "estimated_height_m": 7.8,
+        "height_uncertainty_m": 3.6,
+        "estimated_floors": 3,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-005",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -305.5,
+              71.83,
+              0.0
+            ],
+            [
+              -318.5,
+              69.88,
+              0.0
+            ],
+            [
+              -315.25,
+              50.38,
+              0.0
+            ],
+            [
+              -302.25,
+              51.68,
+              0.0
+            ],
+            [
+              -305.5,
+              71.83,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-005",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 199.6,
+        "estimated_height_m": 7.7,
+        "height_uncertainty_m": 3.5,
+        "estimated_floors": 3,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-022",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              318.5,
+              58.18,
+              0.0
+            ],
+            [
+              307.45,
+              54.27,
+              0.0
+            ],
+            [
+              311.35,
+              41.27,
+              0.0
+            ],
+            [
+              323.05,
+              45.18,
+              0.0
+            ],
+            [
+              318.5,
+              58.18,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-022",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 107.9,
+        "estimated_height_m": 6.4,
+        "height_uncertainty_m": 2.4,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-007",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              193.7,
+              147.22,
+              0.0
+            ],
+            [
+              185.25,
+              134.88,
+              0.0
+            ],
+            [
+              196.95,
+              127.08,
+              0.0
+            ],
+            [
+              204.75,
+              138.78,
+              0.0
+            ],
+            [
+              193.7,
+              147.22,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-007",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 159.1,
+        "estimated_height_m": 6.2,
+        "height_uncertainty_m": 2.4,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-025",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -323.7,
+              142.03,
+              0.0
+            ],
+            [
+              -322.4,
+              133.58,
+              0.0
+            ],
+            [
+              -300.3,
+              135.53,
+              0.0
+            ],
+            [
+              -300.95,
+              143.97,
+              0.0
+            ],
+            [
+              -323.7,
+              142.03,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-025",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 100.1,
+        "estimated_height_m": 6.2,
+        "height_uncertainty_m": 1.3,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-027",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              280.8,
+              -20.48,
+              0.0
+            ],
+            [
+              290.55,
+              -29.57,
+              0.0
+            ],
+            [
+              298.35,
+              -21.12,
+              0.0
+            ],
+            [
+              289.25,
+              -12.03,
+              0.0
+            ],
+            [
+              280.8,
+              -20.48,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-027",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 98.4,
+        "estimated_height_m": 6.2,
+        "height_uncertainty_m": 3.1,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-073",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              265.2,
+              139.43,
+              0.0
+            ],
+            [
+              259.35,
+              134.22,
+              0.0
+            ],
+            [
+              267.15,
+              125.12,
+              0.0
+            ],
+            [
+              273.0,
+              130.33,
+              0.0
+            ],
+            [
+              265.2,
+              139.43,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-073",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 41.2,
+        "estimated_height_m": 6.1,
+        "height_uncertainty_m": 2.2,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-052",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -109.2,
+              -15.93,
+              0.0
+            ],
+            [
+              -117.65,
+              -17.88,
+              0.0
+            ],
+            [
+              -115.05,
+              -28.93,
+              0.0
+            ],
+            [
+              -106.6,
+              -26.98,
+              0.0
+            ],
+            [
+              -109.2,
+              -15.93,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-052",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 53.4,
+        "estimated_height_m": 6.0,
+        "height_uncertainty_m": 2.5,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-065",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -82.55,
+              -87.42,
+              0.0
+            ],
+            [
+              -89.05,
+              -91.98,
+              0.0
+            ],
+            [
+              -84.5,
+              -98.48,
+              0.0
+            ],
+            [
+              -78.0,
+              -93.28,
+              0.0
+            ],
+            [
+              -82.55,
+              -87.42,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-065",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 46.3,
+        "estimated_height_m": 6.0,
+        "height_uncertainty_m": 1.5,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-072",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -117.0,
+              -19.18,
+              0.0
+            ],
+            [
+              -123.5,
+              -19.18,
+              0.0
+            ],
+            [
+              -122.85,
+              -28.28,
+              0.0
+            ],
+            [
+              -116.35,
+              -27.62,
+              0.0
+            ],
+            [
+              -117.0,
+              -19.18,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-072",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 41.4,
+        "estimated_height_m": 6.0,
+        "height_uncertainty_m": 2.5,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-081",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -142.35,
+              -143.33,
+              0.0
+            ],
+            [
+              -141.05,
+              -154.38,
+              0.0
+            ],
+            [
+              -137.15,
+              -154.38,
+              0.0
+            ],
+            [
+              -138.45,
+              -143.33,
+              0.0
+            ],
+            [
+              -142.35,
+              -143.33,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-081",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 35.7,
+        "estimated_height_m": 6.0,
+        "height_uncertainty_m": 2.8,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-082",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -76.05,
+              -84.83,
+              0.0
+            ],
+            [
+              -82.55,
+              -88.08,
+              0.0
+            ],
+            [
+              -78.0,
+              -95.88,
+              0.0
+            ],
+            [
+              -72.15,
+              -91.98,
+              0.0
+            ],
+            [
+              -76.05,
+              -84.83,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-082",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 35.7,
+        "estimated_height_m": 6.0,
+        "height_uncertainty_m": 1.6,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-030",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -295.1,
+              -27.62,
+              0.0
+            ],
+            [
+              -297.05,
+              -38.02,
+              0.0
+            ],
+            [
+              -282.1,
+              -39.98,
+              0.0
+            ],
+            [
+              -280.15,
+              -29.57,
+              0.0
+            ],
+            [
+              -295.1,
+              -27.62,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-030",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 96.5,
+        "estimated_height_m": 5.9,
+        "height_uncertainty_m": 2.3,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-070",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -154.05,
+              85.48,
+              0.0
+            ],
+            [
+              -154.7,
+              75.73,
+              0.0
+            ],
+            [
+              -143.0,
+              75.08,
+              0.0
+            ],
+            [
+              -143.0,
+              84.83,
+              0.0
+            ],
+            [
+              -154.05,
+              85.48,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-070",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 43.1,
+        "estimated_height_m": 5.8,
+        "height_uncertainty_m": 1.6,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-088",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              189.15,
+              -98.48,
+              0.0
+            ],
+            [
+              190.45,
+              -107.58,
+              0.0
+            ],
+            [
+              196.3,
+              -106.28,
+              0.0
+            ],
+            [
+              194.35,
+              -97.17,
+              0.0
+            ],
+            [
+              189.15,
+              -98.48,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-088",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 33.2,
+        "estimated_height_m": 5.8,
+        "height_uncertainty_m": 1.8,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-014",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              325.65,
+              62.08,
+              0.0
+            ],
+            [
+              317.85,
+              58.83,
+              0.0
+            ],
+            [
+              325.65,
+              40.62,
+              0.0
+            ],
+            [
+              333.45,
+              43.88,
+              0.0
+            ],
+            [
+              325.65,
+              62.08,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-014",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 123.8,
+        "estimated_height_m": 5.7,
+        "height_uncertainty_m": 1.7,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-045",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -176.8,
+              -143.97,
+              0.0
+            ],
+            [
+              -173.55,
+              -153.08,
+              0.0
+            ],
+            [
+              -165.1,
+              -150.47,
+              0.0
+            ],
+            [
+              -167.7,
+              -141.38,
+              0.0
+            ],
+            [
+              -176.8,
+              -143.97,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-045",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 59.6,
+        "estimated_height_m": 5.7,
+        "height_uncertainty_m": 2.1,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-054",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              209.95,
+              81.58,
+              0.0
+            ],
+            [
+              217.1,
+              80.92,
+              0.0
+            ],
+            [
+              218.4,
+              91.33,
+              0.0
+            ],
+            [
+              211.25,
+              91.98,
+              0.0
+            ],
+            [
+              209.95,
+              81.58,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-054",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 53.0,
+        "estimated_height_m": 5.7,
+        "height_uncertainty_m": 2.4,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-071",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              280.15,
+              12.68,
+              0.0
+            ],
+            [
+              274.3,
+              6.83,
+              0.0
+            ],
+            [
+              284.05,
+              -2.27,
+              0.0
+            ],
+            [
+              289.25,
+              2.93,
+              0.0
+            ],
+            [
+              280.15,
+              12.68,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-071",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 41.6,
+        "estimated_height_m": 5.7,
+        "height_uncertainty_m": 2.5,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-078",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              98.8,
+              -51.68,
+              0.0
+            ],
+            [
+              107.25,
+              -54.93,
+              0.0
+            ],
+            [
+              109.85,
+              -47.12,
+              0.0
+            ],
+            [
+              101.4,
+              -44.52,
+              0.0
+            ],
+            [
+              98.8,
+              -51.68,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-078",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 37.8,
+        "estimated_height_m": 5.7,
+        "height_uncertainty_m": 2.2,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-079",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -273.0,
+              63.38,
+              0.0
+            ],
+            [
+              -277.55,
+              60.12,
+              0.0
+            ],
+            [
+              -271.05,
+              51.68,
+              0.0
+            ],
+            [
+              -267.15,
+              54.93,
+              0.0
+            ],
+            [
+              -273.0,
+              63.38,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-079",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 37.0,
+        "estimated_height_m": 5.7,
+        "height_uncertainty_m": 1.9,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-087",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -157.95,
+              129.68,
+              0.0
+            ],
+            [
+              -162.5,
+              124.48,
+              0.0
+            ],
+            [
+              -155.35,
+              117.33,
+              0.0
+            ],
+            [
+              -150.8,
+              122.53,
+              0.0
+            ],
+            [
+              -157.95,
+              129.68,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-087",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 33.8,
+        "estimated_height_m": 5.7,
+        "height_uncertainty_m": 1.9,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-101",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -187.85,
+              112.12,
+              0.0
+            ],
+            [
+              -186.55,
+              104.33,
+              0.0
+            ],
+            [
+              -182.0,
+              104.98,
+              0.0
+            ],
+            [
+              -183.3,
+              112.78,
+              0.0
+            ],
+            [
+              -187.85,
+              112.12,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-101",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 26.6,
+        "estimated_height_m": 5.6,
+        "height_uncertainty_m": 1.4,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-102",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -306.15,
+              34.12,
+              0.0
+            ],
+            [
+              -302.9,
+              28.93,
+              0.0
+            ],
+            [
+              -298.35,
+              31.53,
+              0.0
+            ],
+            [
+              -300.95,
+              36.73,
+              0.0
+            ],
+            [
+              -306.15,
+              34.12,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-102",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 26.2,
+        "estimated_height_m": 5.6,
+        "height_uncertainty_m": 2.4,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-046",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              199.55,
+              39.98,
+              0.0
+            ],
+            [
+              197.6,
+              33.48,
+              0.0
+            ],
+            [
+              208.0,
+              30.23,
+              0.0
+            ],
+            [
+              209.95,
+              36.73,
+              0.0
+            ],
+            [
+              199.55,
+              39.98,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-046",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 55.8,
+        "estimated_height_m": 5.4,
+        "height_uncertainty_m": 1.6,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-050",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -237.25,
+              -86.78,
+              0.0
+            ],
+            [
+              -237.25,
+              -95.88,
+              0.0
+            ],
+            [
+              -228.8,
+              -95.23,
+              0.0
+            ],
+            [
+              -229.45,
+              -86.78,
+              0.0
+            ],
+            [
+              -237.25,
+              -86.78,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-050",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 53.7,
+        "estimated_height_m": 5.4,
+        "height_uncertainty_m": 2.1,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-058",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              329.55,
+              39.98,
+              0.0
+            ],
+            [
+              323.7,
+              38.02,
+              0.0
+            ],
+            [
+              326.95,
+              28.28,
+              0.0
+            ],
+            [
+              332.8,
+              30.23,
+              0.0
+            ],
+            [
+              329.55,
+              39.98,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-058",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 49.0,
+        "estimated_height_m": 5.4,
+        "height_uncertainty_m": 1.6,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-075",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              89.05,
+              -58.83,
+              0.0
+            ],
+            [
+              83.2,
+              -61.43,
+              0.0
+            ],
+            [
+              87.75,
+              -72.48,
+              0.0
+            ],
+            [
+              93.6,
+              -70.53,
+              0.0
+            ],
+            [
+              89.05,
+              -58.83,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-075",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 39.3,
+        "estimated_height_m": 5.4,
+        "height_uncertainty_m": 1.8,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-085",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              53.95,
+              -0.98,
+              0.0
+            ],
+            [
+              45.5,
+              -0.98,
+              0.0
+            ],
+            [
+              45.5,
+              -8.12,
+              0.0
+            ],
+            [
+              53.95,
+              -8.12,
+              0.0
+            ],
+            [
+              53.95,
+              -0.98,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-085",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 34.2,
+        "estimated_height_m": 5.4,
+        "height_uncertainty_m": 1.8,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-086",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -220.35,
+              -95.88,
+              0.0
+            ],
+            [
+              -216.45,
+              -103.67,
+              0.0
+            ],
+            [
+              -210.6,
+              -100.42,
+              0.0
+            ],
+            [
+              -215.15,
+              -92.62,
+              0.0
+            ],
+            [
+              -220.35,
+              -95.88,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-086",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 34.0,
+        "estimated_height_m": 5.4,
+        "height_uncertainty_m": 1.9,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-092",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -331.5,
+              -96.53,
+              0.0
+            ],
+            [
+              -325.65,
+              -97.83,
+              0.0
+            ],
+            [
+              -323.05,
+              -88.73,
+              0.0
+            ],
+            [
+              -328.9,
+              -87.42,
+              0.0
+            ],
+            [
+              -331.5,
+              -96.53,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-092",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 31.1,
+        "estimated_height_m": 5.4,
+        "height_uncertainty_m": 1.6,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-099",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -181.35,
+              -25.68,
+              0.0
+            ],
+            [
+              -185.9,
+              -26.32,
+              0.0
+            ],
+            [
+              -183.95,
+              -36.08,
+              0.0
+            ],
+            [
+              -179.4,
+              -34.77,
+              0.0
+            ],
+            [
+              -181.35,
+              -25.68,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-099",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 27.5,
+        "estimated_height_m": 5.4,
+        "height_uncertainty_m": 1.5,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-105",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -214.5,
+              -114.08,
+              0.0
+            ],
+            [
+              -209.95,
+              -116.03,
+              0.0
+            ],
+            [
+              -208.0,
+              -108.88,
+              0.0
+            ],
+            [
+              -212.55,
+              -106.92,
+              0.0
+            ],
+            [
+              -214.5,
+              -114.08,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-105",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 25.8,
+        "estimated_height_m": 5.4,
+        "height_uncertainty_m": 2.0,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-106",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              16.9,
+              -75.73,
+              0.0
+            ],
+            [
+              13.0,
+              -78.33,
+              0.0
+            ],
+            [
+              17.55,
+              -86.12,
+              0.0
+            ],
+            [
+              21.45,
+              -83.53,
+              0.0
+            ],
+            [
+              16.9,
+              -75.73,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-106",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 25.8,
+        "estimated_height_m": 5.4,
+        "height_uncertainty_m": 2.1,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-109",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -108.55,
+              -68.58,
+              0.0
+            ],
+            [
+              -113.75,
+              -70.53,
+              0.0
+            ],
+            [
+              -109.85,
+              -79.62,
+              0.0
+            ],
+            [
+              -104.65,
+              -77.67,
+              0.0
+            ],
+            [
+              -108.55,
+              -68.58,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-109",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 24.7,
+        "estimated_height_m": 5.4,
+        "height_uncertainty_m": 2.0,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-110",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -27.3,
+              -72.48,
+              0.0
+            ],
+            [
+              -33.8,
+              -74.42,
+              0.0
+            ],
+            [
+              -32.5,
+              -81.58,
+              0.0
+            ],
+            [
+              -25.35,
+              -80.28,
+              0.0
+            ],
+            [
+              -27.3,
+              -72.48,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-110",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 24.7,
+        "estimated_height_m": 5.4,
+        "height_uncertainty_m": 1.7,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-112",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -300.95,
+              -57.52,
+              0.0
+            ],
+            [
+              -301.6,
+              -62.08,
+              0.0
+            ],
+            [
+              -291.2,
+              -64.03,
+              0.0
+            ],
+            [
+              -290.55,
+              -59.48,
+              0.0
+            ],
+            [
+              -300.95,
+              -57.52,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-112",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 24.3,
+        "estimated_height_m": 5.4,
+        "height_uncertainty_m": 2.4,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-024",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -85.15,
+              103.67,
+              0.0
+            ],
+            [
+              -87.1,
+              90.03,
+              0.0
+            ],
+            [
+              -74.1,
+              88.08,
+              0.0
+            ],
+            [
+              -72.15,
+              101.73,
+              0.0
+            ],
+            [
+              -85.15,
+              103.67,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-024",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 103.7,
+        "estimated_height_m": 5.1,
+        "height_uncertainty_m": 1.2,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-111",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.75,
+              87.42,
+              0.0
+            ],
+            [
+              44.2,
+              86.78,
+              0.0
+            ],
+            [
+              44.2,
+              75.73,
+              0.0
+            ],
+            [
+              48.75,
+              76.38,
+              0.0
+            ],
+            [
+              48.75,
+              87.42,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-111",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 24.7,
+        "estimated_height_m": 4.8,
+        "height_uncertainty_m": 1.3,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-002",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              68.9,
+              108.88,
+              0.0
+            ],
+            [
+              57.85,
+              101.08,
+              0.0
+            ],
+            [
+              74.75,
+              77.03,
+              0.0
+            ],
+            [
+              86.45,
+              84.83,
+              0.0
+            ],
+            [
+              68.9,
+              108.88,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-002",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 248.6,
+        "estimated_height_m": 4.7,
+        "height_uncertainty_m": 0.7,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-013",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -120.25,
+              145.28,
+              0.0
+            ],
+            [
+              -105.95,
+              121.23,
+              0.0
+            ],
+            [
+              -97.5,
+              126.43,
+              0.0
+            ],
+            [
+              -111.8,
+              150.47,
+              0.0
+            ],
+            [
+              -120.25,
+              145.28,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-013",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 131.0,
+        "estimated_height_m": 4.6,
+        "height_uncertainty_m": 1.8,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-017",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              68.9,
+              148.53,
+              0.0
+            ],
+            [
+              57.85,
+              146.58,
+              0.0
+            ],
+            [
+              60.45,
+              131.62,
+              0.0
+            ],
+            [
+              71.5,
+              133.58,
+              0.0
+            ],
+            [
+              68.9,
+              148.53,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-017",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 116.2,
+        "estimated_height_m": 4.6,
+        "height_uncertainty_m": 1.0,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-015",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              52.65,
+              104.98,
+              0.0
+            ],
+            [
+              42.25,
+              99.78,
+              0.0
+            ],
+            [
+              49.4,
+              86.12,
+              0.0
+            ],
+            [
+              59.8,
+              91.33,
+              0.0
+            ],
+            [
+              52.65,
+              104.98,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-015",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 117.0,
+        "estimated_height_m": 4.5,
+        "height_uncertainty_m": 1.0,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-093",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -154.05,
+              -68.58,
+              0.0
+            ],
+            [
+              -158.6,
+              -72.48,
+              0.0
+            ],
+            [
+              -152.1,
+              -80.28,
+              0.0
+            ],
+            [
+              -146.9,
+              -76.38,
+              0.0
+            ],
+            [
+              -154.05,
+              -68.58,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-093",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 30.2,
+        "estimated_height_m": 4.4,
+        "height_uncertainty_m": 0.6,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-009",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -57.2,
+              67.28,
+              0.0
+            ],
+            [
+              -50.7,
+              53.62,
+              0.0
+            ],
+            [
+              -39.65,
+              58.18,
+              0.0
+            ],
+            [
+              -46.15,
+              71.83,
+              0.0
+            ],
+            [
+              -57.2,
+              67.28,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-009",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 150.2,
+        "estimated_height_m": 4.3,
+        "height_uncertainty_m": 1.1,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-037",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -26.0,
+              -23.73,
+              0.0
+            ],
+            [
+              -35.1,
+              -30.88,
+              0.0
+            ],
+            [
+              -24.05,
+              -45.18,
+              0.0
+            ],
+            [
+              -14.95,
+              -37.38,
+              0.0
+            ],
+            [
+              -26.0,
+              -23.73,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-037",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 75.4,
+        "estimated_height_m": 4.3,
+        "height_uncertainty_m": 0.7,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-041",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -256.1,
+              -101.73,
+              0.0
+            ],
+            [
+              -251.55,
+              -114.08,
+              0.0
+            ],
+            [
+              -243.75,
+              -111.48,
+              0.0
+            ],
+            [
+              -247.65,
+              -99.12,
+              0.0
+            ],
+            [
+              -256.1,
+              -101.73,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-041",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 66.3,
+        "estimated_height_m": 4.3,
+        "height_uncertainty_m": 3.1,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-060",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.4,
+              93.28,
+              0.0
+            ],
+            [
+              1.3,
+              90.67,
+              0.0
+            ],
+            [
+              3.9,
+              82.88,
+              0.0
+            ],
+            [
+              12.35,
+              84.83,
+              0.0
+            ],
+            [
+              10.4,
+              93.28,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-060",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 48.2,
+        "estimated_height_m": 4.3,
+        "height_uncertainty_m": 1.1,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-063",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -62.4,
+              124.48,
+              0.0
+            ],
+            [
+              -65.65,
+              117.98,
+              0.0
+            ],
+            [
+              -53.3,
+              110.83,
+              0.0
+            ],
+            [
+              -50.05,
+              117.33,
+              0.0
+            ],
+            [
+              -62.4,
+              124.48,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-063",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 47.3,
+        "estimated_height_m": 4.3,
+        "height_uncertainty_m": 0.7,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-095",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -162.5,
+              41.27,
+              0.0
+            ],
+            [
+              -161.2,
+              34.12,
+              0.0
+            ],
+            [
+              -156.0,
+              34.77,
+              0.0
+            ],
+            [
+              -157.3,
+              41.93,
+              0.0
+            ],
+            [
+              -162.5,
+              41.27,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-095",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 29.8,
+        "estimated_height_m": 4.2,
+        "height_uncertainty_m": 0.9,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-023",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.35,
+              127.08,
+              0.0
+            ],
+            [
+              68.25,
+              119.92,
+              0.0
+            ],
+            [
+              78.0,
+              106.92,
+              0.0
+            ],
+            [
+              87.1,
+              114.08,
+              0.0
+            ],
+            [
+              77.35,
+              127.08,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-023",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 107.3,
+        "estimated_height_m": 4.1,
+        "height_uncertainty_m": 1.2,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-033",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.1,
+              151.12,
+              0.0
+            ],
+            [
+              44.85,
+              134.88,
+              0.0
+            ],
+            [
+              54.6,
+              132.93,
+              0.0
+            ],
+            [
+              57.85,
+              149.18,
+              0.0
+            ],
+            [
+              48.1,
+              151.12,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-033",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 87.5,
+        "estimated_height_m": 4.1,
+        "height_uncertainty_m": 0.6,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-042",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -4.55,
+              54.27,
+              0.0
+            ],
+            [
+              -13.0,
+              48.43,
+              0.0
+            ],
+            [
+              -3.25,
+              34.77,
+              0.0
+            ],
+            [
+              4.55,
+              40.62,
+              0.0
+            ],
+            [
+              -4.55,
+              54.27,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-042",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 63.2,
+        "estimated_height_m": 4.1,
+        "height_uncertainty_m": 0.7,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-011",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              225.55,
+              -137.47,
+              0.0
+            ],
+            [
+              222.3,
+              -147.22,
+              0.0
+            ],
+            [
+              247.0,
+              -155.03,
+              0.0
+            ],
+            [
+              250.25,
+              -145.93,
+              0.0
+            ],
+            [
+              225.55,
+              -137.47,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-011",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 142.0,
+        "estimated_height_m": 3.9,
+        "height_uncertainty_m": 2.1,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-044",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -123.5,
+              -108.23,
+              0.0
+            ],
+            [
+              -126.75,
+              -116.03,
+              0.0
+            ],
+            [
+              -116.35,
+              -120.58,
+              0.0
+            ],
+            [
+              -113.1,
+              -112.12,
+              0.0
+            ],
+            [
+              -123.5,
+              -108.23,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-044",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 60.4,
+        "estimated_height_m": 3.9,
+        "height_uncertainty_m": 0.7,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-076",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              213.85,
+              119.28,
+              0.0
+            ],
+            [
+              203.45,
+              118.62,
+              0.0
+            ],
+            [
+              204.1,
+              112.12,
+              0.0
+            ],
+            [
+              214.5,
+              112.78,
+              0.0
+            ],
+            [
+              213.85,
+              119.28,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-076",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 38.2,
+        "estimated_height_m": 3.9,
+        "height_uncertainty_m": 0.8,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-008",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              115.05,
+              -129.68,
+              0.0
+            ],
+            [
+              106.6,
+              -153.72,
+              0.0
+            ],
+            [
+              119.6,
+              -158.28,
+              0.0
+            ],
+            [
+              128.05,
+              -134.22,
+              0.0
+            ],
+            [
+              115.05,
+              -129.68,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-008",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 154.0,
+        "estimated_height_m": 3.8,
+        "height_uncertainty_m": 1.6,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-104",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              177.45,
+              136.18,
+              0.0
+            ],
+            [
+              169.65,
+              136.18,
+              0.0
+            ],
+            [
+              169.65,
+              129.03,
+              0.0
+            ],
+            [
+              177.45,
+              129.03,
+              0.0
+            ],
+            [
+              177.45,
+              136.18,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-104",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 26.0,
+        "estimated_height_m": 3.8,
+        "height_uncertainty_m": 1.4,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-114",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -153.4,
+              95.23,
+              0.0
+            ],
+            [
+              -144.95,
+              91.98,
+              0.0
+            ],
+            [
+              -143.0,
+              95.88,
+              0.0
+            ],
+            [
+              -151.45,
+              99.78,
+              0.0
+            ],
+            [
+              -153.4,
+              95.23,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-114",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 24.3,
+        "estimated_height_m": 3.8,
+        "height_uncertainty_m": 0.8,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-010",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              26.65,
+              131.62,
+              0.0
+            ],
+            [
+              20.15,
+              120.58,
+              0.0
+            ],
+            [
+              39.65,
+              109.53,
+              0.0
+            ],
+            [
+              46.15,
+              119.92,
+              0.0
+            ],
+            [
+              26.65,
+              131.62,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-010",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 149.4,
+        "estimated_height_m": 3.7,
+        "height_uncertainty_m": 2.0,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-020",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              244.4,
+              149.83,
+              0.0
+            ],
+            [
+              243.1,
+              134.88,
+              0.0
+            ],
+            [
+              253.5,
+              134.22,
+              0.0
+            ],
+            [
+              254.8,
+              149.18,
+              0.0
+            ],
+            [
+              244.4,
+              149.83,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-020",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 111.1,
+        "estimated_height_m": 3.7,
+        "height_uncertainty_m": 2.6,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-001",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -15.6,
+              114.08,
+              0.0
+            ],
+            [
+              -31.85,
+              104.98,
+              0.0
+            ],
+            [
+              -14.3,
+              71.17,
+              0.0
+            ],
+            [
+              2.6,
+              80.28,
+              0.0
+            ],
+            [
+              -15.6,
+              114.08,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-001",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 276.7,
+        "estimated_height_m": 3.6,
+        "height_uncertainty_m": 1.5,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-068",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              194.35,
+              -80.92,
+              0.0
+            ],
+            [
+              182.0,
+              -83.53,
+              0.0
+            ],
+            [
+              183.95,
+              -91.98,
+              0.0
+            ],
+            [
+              195.65,
+              -90.03,
+              0.0
+            ],
+            [
+              194.35,
+              -80.92,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-068",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 44.4,
+        "estimated_height_m": 3.6,
+        "height_uncertainty_m": 2.1,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-108",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              242.45,
+              132.28,
+              0.0
+            ],
+            [
+              240.5,
+              123.83,
+              0.0
+            ],
+            [
+              245.05,
+              123.17,
+              0.0
+            ],
+            [
+              247.0,
+              131.62,
+              0.0
+            ],
+            [
+              242.45,
+              132.28,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-108",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 24.9,
+        "estimated_height_m": 3.6,
+        "height_uncertainty_m": 0.6,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-003",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              330.85,
+              26.98,
+              0.0
+            ],
+            [
+              315.25,
+              26.98,
+              0.0
+            ],
+            [
+              315.25,
+              1.62,
+              0.0
+            ],
+            [
+              330.85,
+              1.62,
+              0.0
+            ],
+            [
+              330.85,
+              26.98,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-003",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 209.8,
+        "estimated_height_m": 3.5,
+        "height_uncertainty_m": 2.8,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-004",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              309.4,
+              -74.42,
+              0.0
+            ],
+            [
+              314.6,
+              -97.83,
+              0.0
+            ],
+            [
+              329.55,
+              -93.92,
+              0.0
+            ],
+            [
+              324.35,
+              -71.17,
+              0.0
+            ],
+            [
+              309.4,
+              -74.42,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-004",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 206.2,
+        "estimated_height_m": 3.5,
+        "height_uncertainty_m": 0.8,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-006",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -248.3,
+              -60.12,
+              0.0
+            ],
+            [
+              -245.7,
+              -80.28,
+              0.0
+            ],
+            [
+              -227.5,
+              -77.67,
+              0.0
+            ],
+            [
+              -230.1,
+              -57.52,
+              0.0
+            ],
+            [
+              -248.3,
+              -60.12,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-006",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 173.4,
+        "estimated_height_m": 3.5,
+        "height_uncertainty_m": 2.3,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-012",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -270.4,
+              -36.08,
+              0.0
+            ],
+            [
+              -266.5,
+              -75.73,
+              0.0
+            ],
+            [
+              -256.75,
+              -74.42,
+              0.0
+            ],
+            [
+              -260.65,
+              -35.43,
+              0.0
+            ],
+            [
+              -270.4,
+              -36.08,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-012",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 133.3,
+        "estimated_height_m": 3.5,
+        "height_uncertainty_m": 2.5,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-016",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -341.9,
+              -5.53,
+              0.0
+            ],
+            [
+              -315.25,
+              -13.97,
+              0.0
+            ],
+            [
+              -311.35,
+              -0.98,
+              0.0
+            ],
+            [
+              -338.0,
+              7.48,
+              0.0
+            ],
+            [
+              -341.9,
+              -5.53,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-016",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 116.6,
+        "estimated_height_m": 3.5,
+        "height_uncertainty_m": 3.5,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-018",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              260.65,
+              90.67,
+              0.0
+            ],
+            [
+              286.0,
+              80.92,
+              0.0
+            ],
+            [
+              292.5,
+              99.12,
+              0.0
+            ],
+            [
+              267.15,
+              108.23,
+              0.0
+            ],
+            [
+              260.65,
+              90.67,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-018",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 115.3,
+        "estimated_height_m": 3.5,
+        "height_uncertainty_m": 2.0,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-019",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              281.45,
+              78.98,
+              0.0
+            ],
+            [
+              289.9,
+              60.77,
+              0.0
+            ],
+            [
+              297.7,
+              64.67,
+              0.0
+            ],
+            [
+              289.9,
+              82.88,
+              0.0
+            ],
+            [
+              281.45,
+              78.98,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-019",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 113.4,
+        "estimated_height_m": 3.5,
+        "height_uncertainty_m": 2.8,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-026",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -193.05,
+              -43.23,
+              0.0
+            ],
+            [
+              -196.95,
+              -52.98,
+              0.0
+            ],
+            [
+              -178.75,
+              -60.77,
+              0.0
+            ],
+            [
+              -174.85,
+              -50.38,
+              0.0
+            ],
+            [
+              -193.05,
+              -43.23,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-026",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 99.1,
+        "estimated_height_m": 3.5,
+        "height_uncertainty_m": 0.6,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-028",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -111.15,
+              -28.93,
+              0.0
+            ],
+            [
+              -123.5,
+              -38.02,
+              0.0
+            ],
+            [
+              -114.4,
+              -51.02,
+              0.0
+            ],
+            [
+              -102.05,
+              -42.58,
+              0.0
+            ],
+            [
+              -111.15,
+              -28.93,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-028",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 98.2,
+        "estimated_height_m": 3.5,
+        "height_uncertainty_m": 2.2,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-029",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -122.85,
+              127.08,
+              0.0
+            ],
+            [
+              -113.75,
+              101.08,
+              0.0
+            ],
+            [
+              -107.25,
+              103.67,
+              0.0
+            ],
+            [
+              -116.35,
+              129.03,
+              0.0
+            ],
+            [
+              -122.85,
+              127.08,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-029",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 97.0,
+        "estimated_height_m": 3.5,
+        "height_uncertainty_m": 2.0,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-031",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -234.65,
+              -23.07,
+              0.0
+            ],
+            [
+              -250.25,
+              -25.68,
+              0.0
+            ],
+            [
+              -248.3,
+              -37.38,
+              0.0
+            ],
+            [
+              -232.7,
+              -34.77,
+              0.0
+            ],
+            [
+              -234.65,
+              -23.07,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-031",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 94.0,
+        "estimated_height_m": 3.5,
+        "height_uncertainty_m": 1.7,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-032",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -154.7,
+              -47.12,
+              0.0
+            ],
+            [
+              -141.7,
+              -57.52,
+              0.0
+            ],
+            [
+              -135.2,
+              -49.08,
+              0.0
+            ],
+            [
+              -148.2,
+              -38.68,
+              0.0
+            ],
+            [
+              -154.7,
+              -47.12,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-032",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 93.4,
+        "estimated_height_m": 3.5,
+        "height_uncertainty_m": 2.5,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-034",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -217.75,
+              125.78,
+              0.0
+            ],
+            [
+              -209.95,
+              115.38,
+              0.0
+            ],
+            [
+              -199.55,
+              123.83,
+              0.0
+            ],
+            [
+              -207.35,
+              133.58,
+              0.0
+            ],
+            [
+              -217.75,
+              125.78,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-034",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 84.3,
+        "estimated_height_m": 3.5,
+        "height_uncertainty_m": 2.2,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-035",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -245.7,
+              62.08,
+              0.0
+            ],
+            [
+              -228.15,
+              60.77,
+              0.0
+            ],
+            [
+              -227.5,
+              70.53,
+              0.0
+            ],
+            [
+              -245.05,
+              71.83,
+              0.0
+            ],
+            [
+              -245.7,
+              62.08,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-035",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 77.1,
+        "estimated_height_m": 3.5,
+        "height_uncertainty_m": 2.1,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-036",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              150.15,
+              78.33,
+              0.0
+            ],
+            [
+              135.85,
+              69.88,
+              0.0
+            ],
+            [
+              143.0,
+              56.23,
+              0.0
+            ],
+            [
+              157.95,
+              64.67,
+              0.0
+            ],
+            [
+              150.15,
+              78.33,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-036",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 75.8,
+        "estimated_height_m": 3.5,
+        "height_uncertainty_m": 1.1,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-038",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -238.55,
+              135.53,
+              0.0
+            ],
+            [
+              -219.7,
+              131.62,
+              0.0
+            ],
+            [
+              -217.75,
+              139.43,
+              0.0
+            ],
+            [
+              -236.6,
+              143.33,
+              0.0
+            ],
+            [
+              -238.55,
+              135.53,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-038",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 73.5,
+        "estimated_height_m": 3.5,
+        "height_uncertainty_m": 2.6,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-039",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              195.65,
+              28.93,
+              0.0
+            ],
+            [
+              202.15,
+              10.08,
+              0.0
+            ],
+            [
+              213.85,
+              13.97,
+              0.0
+            ],
+            [
+              206.7,
+              32.83,
+              0.0
+            ],
+            [
+              195.65,
+              28.93,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-039",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 70.3,
+        "estimated_height_m": 3.5,
+        "height_uncertainty_m": 1.8,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-040",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.65,
+              -92.62,
+              0.0
+            ],
+            [
+              -75.4,
+              -93.92,
+              0.0
+            ],
+            [
+              -72.8,
+              -109.53,
+              0.0
+            ],
+            [
+              -63.05,
+              -107.58,
+              0.0
+            ],
+            [
+              -65.65,
+              -92.62,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-040",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 69.1,
+        "estimated_height_m": 3.5,
+        "height_uncertainty_m": 2.0,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-043",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -218.4,
+              45.83,
+              0.0
+            ],
+            [
+              -213.2,
+              35.43,
+              0.0
+            ],
+            [
+              -203.45,
+              39.98,
+              0.0
+            ],
+            [
+              -208.65,
+              50.38,
+              0.0
+            ],
+            [
+              -218.4,
+              45.83,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-043",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 62.3,
+        "estimated_height_m": 3.5,
+        "height_uncertainty_m": 1.6,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-047",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              298.35,
+              82.88,
+              0.0
+            ],
+            [
+              304.85,
+              68.58,
+              0.0
+            ],
+            [
+              312.65,
+              72.48,
+              0.0
+            ],
+            [
+              306.15,
+              86.12,
+              0.0
+            ],
+            [
+              298.35,
+              82.88,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-047",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 54.9,
+        "estimated_height_m": 3.5,
+        "height_uncertainty_m": 2.7,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-048",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              57.2,
+              -8.78,
+              0.0
+            ],
+            [
+              61.75,
+              -28.93,
+              0.0
+            ],
+            [
+              67.6,
+              -27.62,
+              0.0
+            ],
+            [
+              63.05,
+              -7.48,
+              0.0
+            ],
+            [
+              57.2,
+              -8.78,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-048",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 54.5,
+        "estimated_height_m": 3.5,
+        "height_uncertainty_m": 2.0,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-049",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -61.1,
+              -66.62,
+              0.0
+            ],
+            [
+              -53.3,
+              -84.17,
+              0.0
+            ],
+            [
+              -48.1,
+              -81.58,
+              0.0
+            ],
+            [
+              -55.9,
+              -64.67,
+              0.0
+            ],
+            [
+              -61.1,
+              -66.62,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-049",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 54.3,
+        "estimated_height_m": 3.5,
+        "height_uncertainty_m": 2.2,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-051",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              234.65,
+              149.83,
+              0.0
+            ],
+            [
+              232.05,
+              138.78,
+              0.0
+            ],
+            [
+              239.85,
+              137.47,
+              0.0
+            ],
+            [
+              241.8,
+              148.53,
+              0.0
+            ],
+            [
+              234.65,
+              149.83,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-051",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 53.7,
+        "estimated_height_m": 3.5,
+        "height_uncertainty_m": 2.8,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-053",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -202.15,
+              34.77,
+              0.0
+            ],
+            [
+              -199.55,
+              21.78,
+              0.0
+            ],
+            [
+              -192.4,
+              23.73,
+              0.0
+            ],
+            [
+              -195.0,
+              36.08,
+              0.0
+            ],
+            [
+              -202.15,
+              34.77,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-053",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 53.2,
+        "estimated_height_m": 3.5,
+        "height_uncertainty_m": 0.6,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-055",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -267.15,
+              146.58,
+              0.0
+            ],
+            [
+              -270.4,
+              129.68,
+              0.0
+            ],
+            [
+              -258.7,
+              127.73,
+              0.0
+            ],
+            [
+              -255.45,
+              143.97,
+              0.0
+            ],
+            [
+              -267.15,
+              146.58,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-055",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 52.4,
+        "estimated_height_m": 3.5,
+        "height_uncertainty_m": 1.6,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-056",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              101.4,
+              -2.27,
+              0.0
+            ],
+            [
+              90.35,
+              -2.93,
+              0.0
+            ],
+            [
+              91.0,
+              -9.43,
+              0.0
+            ],
+            [
+              102.05,
+              -8.12,
+              0.0
+            ],
+            [
+              101.4,
+              -2.27,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-056",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 51.8,
+        "estimated_height_m": 3.5,
+        "height_uncertainty_m": 2.2,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-057",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              109.85,
+              7.48,
+              0.0
+            ],
+            [
+              94.25,
+              7.48,
+              0.0
+            ],
+            [
+              94.25,
+              -2.93,
+              0.0
+            ],
+            [
+              109.85,
+              -2.93,
+              0.0
+            ],
+            [
+              109.85,
+              7.48,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-057",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 50.3,
+        "estimated_height_m": 3.5,
+        "height_uncertainty_m": 2.0,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-059",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              249.6,
+              29.57,
+              0.0
+            ],
+            [
+              243.1,
+              23.73,
+              0.0
+            ],
+            [
+              250.25,
+              16.57,
+              0.0
+            ],
+            [
+              256.1,
+              23.07,
+              0.0
+            ],
+            [
+              249.6,
+              29.57,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-059",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 48.6,
+        "estimated_height_m": 3.5,
+        "height_uncertainty_m": 1.4,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-061",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              202.15,
+              60.77,
+              0.0
+            ],
+            [
+              195.65,
+              58.18,
+              0.0
+            ],
+            [
+              199.55,
+              45.83,
+              0.0
+            ],
+            [
+              206.7,
+              48.43,
+              0.0
+            ],
+            [
+              202.15,
+              60.77,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-061",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 47.7,
+        "estimated_height_m": 3.5,
+        "height_uncertainty_m": 1.5,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-062",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              266.5,
+              -55.58,
+              0.0
+            ],
+            [
+              266.5,
+              -69.88,
+              0.0
+            ],
+            [
+              272.35,
+              -70.53,
+              0.0
+            ],
+            [
+              272.35,
+              -56.23,
+              0.0
+            ],
+            [
+              266.5,
+              -55.58,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-062",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 47.3,
+        "estimated_height_m": 3.5,
+        "height_uncertainty_m": 2.4,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-064",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.75,
+              -80.92,
+              0.0
+            ],
+            [
+              140.4,
+              -86.12,
+              0.0
+            ],
+            [
+              143.0,
+              -78.98,
+              0.0
+            ],
+            [
+              129.35,
+              -73.78,
+              0.0
+            ],
+            [
+              126.75,
+              -80.92,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-064",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 46.5,
+        "estimated_height_m": 3.5,
+        "height_uncertainty_m": 2.3,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-066",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -265.2,
+              -8.12,
+              0.0
+            ],
+            [
+              -268.45,
+              -14.62,
+              0.0
+            ],
+            [
+              -252.85,
+              -21.12,
+              0.0
+            ],
+            [
+              -250.25,
+              -14.62,
+              0.0
+            ],
+            [
+              -265.2,
+              -8.12,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-066",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 46.3,
+        "estimated_height_m": 3.5,
+        "height_uncertainty_m": 1.7,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-067",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -139.75,
+              4.23,
+              0.0
+            ],
+            [
+              -131.3,
+              -6.17,
+              0.0
+            ],
+            [
+              -126.1,
+              -1.62,
+              0.0
+            ],
+            [
+              -134.55,
+              8.78,
+              0.0
+            ],
+            [
+              -139.75,
+              4.23,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-067",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 46.1,
+        "estimated_height_m": 3.5,
+        "height_uncertainty_m": 2.2,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-069",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              38.35,
+              -15.28,
+              0.0
+            ],
+            [
+              40.3,
+              -25.68,
+              0.0
+            ],
+            [
+              47.45,
+              -24.38,
+              0.0
+            ],
+            [
+              45.5,
+              -13.97,
+              0.0
+            ],
+            [
+              38.35,
+              -15.28,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-069",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 43.3,
+        "estimated_height_m": 3.5,
+        "height_uncertainty_m": 2.4,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-074",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              273.65,
+              -81.58,
+              0.0
+            ],
+            [
+              267.8,
+              -85.48,
+              0.0
+            ],
+            [
+              273.65,
+              -93.92,
+              0.0
+            ],
+            [
+              279.5,
+              -89.38,
+              0.0
+            ],
+            [
+              273.65,
+              -81.58,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-074",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 40.6,
+        "estimated_height_m": 3.5,
+        "height_uncertainty_m": 1.0,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-077",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -273.0,
+              -113.42,
+              0.0
+            ],
+            [
+              -265.2,
+              -115.38,
+              0.0
+            ],
+            [
+              -263.25,
+              -104.33,
+              0.0
+            ],
+            [
+              -271.05,
+              -102.38,
+              0.0
+            ],
+            [
+              -273.0,
+              -113.42,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-077",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 37.8,
+        "estimated_height_m": 3.5,
+        "height_uncertainty_m": 2.4,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-080",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -159.9,
+              -13.97,
+              0.0
+            ],
+            [
+              -156.0,
+              -25.03,
+              0.0
+            ],
+            [
+              -150.8,
+              -23.07,
+              0.0
+            ],
+            [
+              -154.7,
+              -12.03,
+              0.0
+            ],
+            [
+              -159.9,
+              -13.97,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-080",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 36.5,
+        "estimated_height_m": 3.5,
+        "height_uncertainty_m": 1.8,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-083",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -240.5,
+              -90.03,
+              0.0
+            ],
+            [
+              -247.0,
+              -91.33,
+              0.0
+            ],
+            [
+              -245.05,
+              -101.73,
+              0.0
+            ],
+            [
+              -238.55,
+              -100.42,
+              0.0
+            ],
+            [
+              -240.5,
+              -90.03,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-083",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 35.1,
+        "estimated_height_m": 3.5,
+        "height_uncertainty_m": 3.1,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-084",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              28.6,
+              -35.43,
+              0.0
+            ],
+            [
+              27.95,
+              -47.12,
+              0.0
+            ],
+            [
+              34.45,
+              -47.12,
+              0.0
+            ],
+            [
+              35.1,
+              -35.43,
+              0.0
+            ],
+            [
+              28.6,
+              -35.43,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-084",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 34.2,
+        "estimated_height_m": 3.5,
+        "height_uncertainty_m": 0.6,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-089",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              312.0,
+              -41.93,
+              0.0
+            ],
+            [
+              315.25,
+              -51.02,
+              0.0
+            ],
+            [
+              321.1,
+              -48.43,
+              0.0
+            ],
+            [
+              317.85,
+              -39.98,
+              0.0
+            ],
+            [
+              312.0,
+              -41.93,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-089",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 32.5,
+        "estimated_height_m": 3.5,
+        "height_uncertainty_m": 2.1,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-090",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              40.3,
+              -11.38,
+              0.0
+            ],
+            [
+              31.85,
+              -11.38,
+              0.0
+            ],
+            [
+              31.85,
+              -20.48,
+              0.0
+            ],
+            [
+              40.3,
+              -20.48,
+              0.0
+            ],
+            [
+              40.3,
+              -11.38,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-090",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 32.5,
+        "estimated_height_m": 3.5,
+        "height_uncertainty_m": 2.3,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-091",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -300.3,
+              112.78,
+              0.0
+            ],
+            [
+              -288.6,
+              107.58,
+              0.0
+            ],
+            [
+              -286.65,
+              112.12,
+              0.0
+            ],
+            [
+              -298.35,
+              117.33,
+              0.0
+            ],
+            [
+              -300.3,
+              112.78,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-091",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 32.1,
+        "estimated_height_m": 3.5,
+        "height_uncertainty_m": 2.5,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-094",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -16.25,
+              147.88,
+              0.0
+            ],
+            [
+              -19.5,
+              140.08,
+              0.0
+            ],
+            [
+              -10.4,
+              136.18,
+              0.0
+            ],
+            [
+              -7.15,
+              143.97,
+              0.0
+            ],
+            [
+              -16.25,
+              147.88,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-094",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 30.2,
+        "estimated_height_m": 3.5,
+        "height_uncertainty_m": 0.6,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-096",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              26.0,
+              -22.43,
+              0.0
+            ],
+            [
+              35.1,
+              -31.53,
+              0.0
+            ],
+            [
+              39.0,
+              -27.62,
+              0.0
+            ],
+            [
+              29.25,
+              -18.53,
+              0.0
+            ],
+            [
+              26.0,
+              -22.43,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-096",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 28.9,
+        "estimated_height_m": 3.5,
+        "height_uncertainty_m": 2.4,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-097",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              43.55,
+              -90.67,
+              0.0
+            ],
+            [
+              44.2,
+              -101.08,
+              0.0
+            ],
+            [
+              51.35,
+              -101.08,
+              0.0
+            ],
+            [
+              50.7,
+              -90.03,
+              0.0
+            ],
+            [
+              43.55,
+              -90.67,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-097",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 28.7,
+        "estimated_height_m": 3.5,
+        "height_uncertainty_m": 1.9,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-098",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -214.5,
+              -17.23,
+              0.0
+            ],
+            [
+              -217.1,
+              -23.73,
+              0.0
+            ],
+            [
+              -209.3,
+              -26.98,
+              0.0
+            ],
+            [
+              -206.7,
+              -20.48,
+              0.0
+            ],
+            [
+              -214.5,
+              -17.23,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-098",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 28.7,
+        "estimated_height_m": 3.5,
+        "height_uncertainty_m": 0.6,
+        "estimated_floors": 1,
+        "roof_shape": "Hipped Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-100",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -235.95,
+              54.27,
+              0.0
+            ],
+            [
+              -232.7,
+              43.23,
+              0.0
+            ],
+            [
+              -228.8,
+              44.52,
+              0.0
+            ],
+            [
+              -231.4,
+              55.58,
+              0.0
+            ],
+            [
+              -235.95,
+              54.27,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-100",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 26.8,
+        "estimated_height_m": 3.5,
+        "height_uncertainty_m": 2.1,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-103",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              61.75,
+              -51.68,
+              0.0
+            ],
+            [
+              65.65,
+              -61.43,
+              0.0
+            ],
+            [
+              69.55,
+              -59.48,
+              0.0
+            ],
+            [
+              65.65,
+              -49.73,
+              0.0
+            ],
+            [
+              61.75,
+              -51.68,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-103",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 26.0,
+        "estimated_height_m": 3.5,
+        "height_uncertainty_m": 1.8,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-107",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              268.45,
+              134.22,
+              0.0
+            ],
+            [
+              277.55,
+              131.62,
+              0.0
+            ],
+            [
+              279.5,
+              136.83,
+              0.0
+            ],
+            [
+              270.4,
+              140.08,
+              0.0
+            ],
+            [
+              268.45,
+              134.22,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-107",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 25.1,
+        "estimated_height_m": 3.5,
+        "height_uncertainty_m": 2.7,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-113",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              91.0,
+              -47.12,
+              0.0
+            ],
+            [
+              94.25,
+              -56.23,
+              0.0
+            ],
+            [
+              98.8,
+              -54.93,
+              0.0
+            ],
+            [
+              96.2,
+              -45.18,
+              0.0
+            ],
+            [
+              91.0,
+              -47.12,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-113",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 24.3,
+        "estimated_height_m": 3.5,
+        "height_uncertainty_m": 1.6,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -223.6,
+          13.33,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-001",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 10.3,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -284.7,
+          -97.83,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-002",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 7.4,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.25,
+          -62.73,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-003",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 7.4,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-004",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -282.1,
+          -104.98,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-004",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 7.1,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-005",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.05,
+          -61.43,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-005",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 6.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-006",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          92.3,
+          -36.73,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-006",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 6.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-007",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -137.8,
+          -108.23,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-007",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 6.0,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-008",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.85,
+          -129.03,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-008",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 6.0,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-009",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -230.75,
+          22.43,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-009",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.5,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-010",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.65,
+          128.38,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-010",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.5,
+        "estimated_canopy_height_m": 4.2,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-011",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          157.3,
+          -123.83,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-011",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.0,
+        "estimated_canopy_height_m": 5.2,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-012",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -304.85,
+          15.93,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-012",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.8,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-013",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -223.6,
+          0.33,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-013",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.8,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-014",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          246.35,
+          80.28,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-014",
+        "category": "Coniferous",
+        "crown_diameter_m": 4.3,
+        "estimated_canopy_height_m": 4.4,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-015",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.55,
+          -69.23,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-015",
+        "category": "Coniferous",
+        "crown_diameter_m": 3.7,
+        "estimated_canopy_height_m": 5.0,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-016",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -159.9,
+          14.62,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-016",
+        "category": "Coniferous",
+        "crown_diameter_m": 3.7,
+        "estimated_canopy_height_m": 4.0,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-017",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.35,
+          37.38,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-017",
+        "category": "Coniferous",
+        "crown_diameter_m": 3.7,
+        "estimated_canopy_height_m": 3.9,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-018",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -219.05,
+          -8.12,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-018",
+        "category": "Coniferous",
+        "crown_diameter_m": 3.7,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-019",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -222.3,
+          -4.23,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-019",
+        "category": "Coniferous",
+        "crown_diameter_m": 3.7,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-020",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          196.95,
+          65.98,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-020",
+        "category": "Coniferous",
+        "crown_diameter_m": 3.7,
+        "estimated_canopy_height_m": 4.4,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-021",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1,
+          136.18,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-021",
+        "category": "Coniferous",
+        "crown_diameter_m": 3.7,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-022",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          236.6,
+          82.23,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-022",
+        "category": "Coniferous",
+        "crown_diameter_m": 3.6,
+        "estimated_canopy_height_m": 3.7,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-023",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          168.35,
+          86.12,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-023",
+        "category": "Coniferous",
+        "crown_diameter_m": 3.6,
+        "estimated_canopy_height_m": 5.1,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-024",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -139.1,
+          82.88,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-024",
+        "category": "Coniferous",
+        "crown_diameter_m": 3.6,
+        "estimated_canopy_height_m": 3.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-025",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -154.7,
+          91.98,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-025",
+        "category": "Coniferous",
+        "crown_diameter_m": 3.6,
+        "estimated_canopy_height_m": 3.7,
+        "detection_confidence": 0.9
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            10.0,
+            20.0
+          ],
+          [
+            40.0,
+            60.0
+          ]
+        ]
+      },
+      "properties": {
+        "id": "M-01",
+        "horizontal_distance_m": 50.0,
+        "surface_3d_distance_m": 50.49,
+        "delta_elevation_m": 7.0,
+        "slope_deg": 8.0,
+        "point_a_elevation": 5.0,
+        "point_b_elevation": 12.0,
+        "reliability": "Calibrated Metric (m)"
+      }
+    }
+  ]
+}

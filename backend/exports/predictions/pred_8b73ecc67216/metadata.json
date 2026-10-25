@@ -1,0 +1,14 @@
+{
+  "prediction_id": "pred_8b73ecc67216",
+  "width": 256,
+  "height": 256,
+  "height_units": "relative_normalized_0_to_1",
+  "is_calibrated": false,
+  "stats": {
+    "min": 0.0,
+    "max": 1.0,
+    "mean": 0.3931,
+    "std": 0.125
+  },
+  "created_at": 1792889377.5851655
+}

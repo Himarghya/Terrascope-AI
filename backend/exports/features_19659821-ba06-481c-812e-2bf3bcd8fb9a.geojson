@@ -1,0 +1,7403 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "BLD-010",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -311.22,
+              381.71,
+              0.0
+            ],
+            [
+              -307.23,
+              271.32,
+              0.0
+            ],
+            [
+              -242.06,
+              273.98,
+              0.0
+            ],
+            [
+              -246.05,
+              384.37,
+              0.0
+            ],
+            [
+              -311.22,
+              381.71,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-010",
+        "building_type": "Commercial / Industrial Structure",
+        "footprint_area_m2": 4695.5,
+        "estimated_height_m": 10.2,
+        "height_uncertainty_m": 4.6,
+        "estimated_floors": 3,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-003",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              364.42,
+              220.78,
+              0.0
+            ],
+            [
+              300.58,
+              200.83,
+              0.0
+            ],
+            [
+              333.83,
+              91.77,
+              0.0
+            ],
+            [
+              397.67,
+              111.72,
+              0.0
+            ],
+            [
+              364.42,
+              220.78,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-003",
+        "building_type": "Commercial / Industrial Structure",
+        "footprint_area_m2": 6154.9,
+        "estimated_height_m": 9.1,
+        "height_uncertainty_m": 3.5,
+        "estimated_floors": 3,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-009",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -256.69,
+              -337.82,
+              0.0
+            ],
+            [
+              -297.92,
+              -392.35,
+              0.0
+            ],
+            [
+              -232.75,
+              -441.56,
+              0.0
+            ],
+            [
+              -191.52,
+              -388.36,
+              0.0
+            ],
+            [
+              -256.69,
+              -337.82,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-009",
+        "building_type": "Commercial / Industrial Structure",
+        "footprint_area_m2": 4805.2,
+        "estimated_height_m": 9.1,
+        "height_uncertainty_m": 2.8,
+        "estimated_floors": 3,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-032",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -219.45,
+              387.03,
+              0.0
+            ],
+            [
+              -248.71,
+              336.49,
+              0.0
+            ],
+            [
+              -206.15,
+              312.55,
+              0.0
+            ],
+            [
+              -178.22,
+              361.76,
+              0.0
+            ],
+            [
+              -219.45,
+              387.03,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-032",
+        "building_type": "Commercial / Industrial Structure",
+        "footprint_area_m2": 1355.9,
+        "estimated_height_m": 9.0,
+        "height_uncertainty_m": 3.0,
+        "estimated_floors": 3,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-017",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              676.97,
+              -150.29,
+              0.0
+            ],
+            [
+              607.81,
+              -150.29,
+              0.0
+            ],
+            [
+              607.81,
+              -224.77,
+              0.0
+            ],
+            [
+              676.97,
+              -224.77,
+              0.0
+            ],
+            [
+              676.97,
+              -150.29,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-017",
+        "building_type": "Commercial / Industrial Structure",
+        "footprint_area_m2": 3195.5,
+        "estimated_height_m": 8.9,
+        "height_uncertainty_m": 3.2,
+        "estimated_floors": 3,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-020",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -162.26,
+              444.22,
+              0.0
+            ],
+            [
+              -220.78,
+              441.56,
+              0.0
+            ],
+            [
+              -216.79,
+              367.08,
+              0.0
+            ],
+            [
+              -158.27,
+              371.07,
+              0.0
+            ],
+            [
+              -162.26,
+              444.22,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-020",
+        "building_type": "Commercial / Industrial Structure",
+        "footprint_area_m2": 2757.7,
+        "estimated_height_m": 8.1,
+        "height_uncertainty_m": 1.6,
+        "estimated_floors": 3,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-029",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.14,
+              -43.89,
+              0.0
+            ],
+            [
+              51.87,
+              -53.2,
+              0.0
+            ],
+            [
+              73.15,
+              -117.04,
+              0.0
+            ],
+            [
+              98.42,
+              -109.06,
+              0.0
+            ],
+            [
+              77.14,
+              -43.89,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-029",
+        "building_type": "Commercial / Industrial Structure",
+        "footprint_area_m2": 1442.5,
+        "estimated_height_m": 7.9,
+        "height_uncertainty_m": 2.4,
+        "estimated_floors": 3,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-026",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.97,
+              15.96,
+              0.0
+            ],
+            [
+              -27.93,
+              2.66,
+              0.0
+            ],
+            [
+              -6.65,
+              -59.85,
+              0.0
+            ],
+            [
+              33.25,
+              -46.55,
+              0.0
+            ],
+            [
+              11.97,
+              15.96,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-026",
+        "building_type": "Commercial / Industrial Structure",
+        "footprint_area_m2": 1595.5,
+        "estimated_height_m": 7.6,
+        "height_uncertainty_m": 1.4,
+        "estimated_floors": 3,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-043",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -421.61,
+              -283.29,
+              0.0
+            ],
+            [
+              -441.56,
+              -305.9,
+              0.0
+            ],
+            [
+              -409.64,
+              -335.16,
+              0.0
+            ],
+            [
+              -388.36,
+              -312.55,
+              0.0
+            ],
+            [
+              -421.61,
+              -283.29,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-043",
+        "building_type": "Commercial / Industrial Structure",
+        "footprint_area_m2": 841.1,
+        "estimated_height_m": 7.6,
+        "height_uncertainty_m": 1.0,
+        "estimated_floors": 3,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-002",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              53.2,
+              -359.1,
+              0.0
+            ],
+            [
+              71.82,
+              -457.52,
+              0.0
+            ],
+            [
+              154.28,
+              -441.56,
+              0.0
+            ],
+            [
+              135.66,
+              -343.14,
+              0.0
+            ],
+            [
+              53.2,
+              -359.1,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-002",
+        "building_type": "Commercial / Industrial Structure",
+        "footprint_area_m2": 6911.1,
+        "estimated_height_m": 7.5,
+        "height_uncertainty_m": 2.3,
+        "estimated_floors": 3,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-006",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -462.84,
+              462.84,
+              0.0
+            ],
+            [
+              -521.36,
+              441.56,
+              0.0
+            ],
+            [
+              -480.13,
+              331.17,
+              0.0
+            ],
+            [
+              -421.61,
+              352.45,
+              0.0
+            ],
+            [
+              -462.84,
+              462.84,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-006",
+        "building_type": "Commercial / Industrial Structure",
+        "footprint_area_m2": 5121.0,
+        "estimated_height_m": 7.5,
+        "height_uncertainty_m": 1.4,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-062",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -569.24,
+              349.79,
+              0.0
+            ],
+            [
+              -585.2,
+              339.15,
+              0.0
+            ],
+            [
+              -563.92,
+              305.9,
+              0.0
+            ],
+            [
+              -547.96,
+              316.54,
+              0.0
+            ],
+            [
+              -569.24,
+              349.79,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-062",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 368.8,
+        "estimated_height_m": 7.5,
+        "height_uncertainty_m": 3.5,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-067",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -397.67,
+              223.44,
+              0.0
+            ],
+            [
+              -413.63,
+              211.47,
+              0.0
+            ],
+            [
+              -397.67,
+              190.19,
+              0.0
+            ],
+            [
+              -381.71,
+              203.49,
+              0.0
+            ],
+            [
+              -397.67,
+              223.44,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-067",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 135.3,
+        "estimated_height_m": 7.4,
+        "height_uncertainty_m": 0.6,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-031",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -477.47,
+              -312.55,
+              0.0
+            ],
+            [
+              -444.22,
+              -371.07,
+              0.0
+            ],
+            [
+              -405.65,
+              -349.79,
+              0.0
+            ],
+            [
+              -438.9,
+              -291.27,
+              0.0
+            ],
+            [
+              -477.47,
+              -312.55,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-031",
+        "building_type": "Commercial / Industrial Structure",
+        "footprint_area_m2": 1362.1,
+        "estimated_height_m": 7.1,
+        "height_uncertainty_m": 2.1,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-018",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -315.21,
+              -66.5,
+              0.0
+            ],
+            [
+              -376.39,
+              -97.09,
+              0.0
+            ],
+            [
+              -348.46,
+              -150.29,
+              0.0
+            ],
+            [
+              -287.28,
+              -119.7,
+              0.0
+            ],
+            [
+              -315.21,
+              -66.5,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-018",
+        "building_type": "Commercial / Industrial Structure",
+        "footprint_area_m2": 3069.9,
+        "estimated_height_m": 7.0,
+        "height_uncertainty_m": 2.6,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-068",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.46,
+              230.09,
+              0.0
+            ],
+            [
+              81.13,
+              219.45,
+              0.0
+            ],
+            [
+              95.76,
+              216.79,
+              0.0
+            ],
+            [
+              98.42,
+              228.76,
+              0.0
+            ],
+            [
+              82.46,
+              230.09,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-068",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 127.4,
+        "estimated_height_m": 6.9,
+        "height_uncertainty_m": 0.7,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-035",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -392.35,
+              297.92,
+              0.0
+            ],
+            [
+              -428.26,
+              296.59,
+              0.0
+            ],
+            [
+              -425.6,
+              228.76,
+              0.0
+            ],
+            [
+              -389.69,
+              230.09,
+              0.0
+            ],
+            [
+              -392.35,
+              297.92,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-035",
+        "building_type": "Commercial / Industrial Structure",
+        "footprint_area_m2": 1226.7,
+        "estimated_height_m": 6.7,
+        "height_uncertainty_m": 2.4,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-037",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              522.69,
+              309.89,
+              0.0
+            ],
+            [
+              554.61,
+              285.95,
+              0.0
+            ],
+            [
+              578.55,
+              317.87,
+              0.0
+            ],
+            [
+              546.63,
+              341.81,
+              0.0
+            ],
+            [
+              522.69,
+              309.89,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-037",
+        "building_type": "Commercial / Industrial Structure",
+        "footprint_area_m2": 1049.8,
+        "estimated_height_m": 6.6,
+        "height_uncertainty_m": 1.1,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-045",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              113.05,
+              212.8,
+              0.0
+            ],
+            [
+              73.15,
+              208.81,
+              0.0
+            ],
+            [
+              79.8,
+              148.96,
+              0.0
+            ],
+            [
+              119.7,
+              152.95,
+              0.0
+            ],
+            [
+              113.05,
+              212.8,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-045",
+        "building_type": "Commercial / Industrial Structure",
+        "footprint_area_m2": 782.7,
+        "estimated_height_m": 6.6,
+        "height_uncertainty_m": 0.9,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-004",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              204.82,
+              -78.47,
+              0.0
+            ],
+            [
+              134.33,
+              -101.08,
+              0.0
+            ],
+            [
+              175.56,
+              -235.41,
+              0.0
+            ],
+            [
+              247.38,
+              -214.13,
+              0.0
+            ],
+            [
+              204.82,
+              -78.47,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-004",
+        "building_type": "Commercial / Industrial Structure",
+        "footprint_area_m2": 5895.7,
+        "estimated_height_m": 6.4,
+        "height_uncertainty_m": 2.5,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-007",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              191.52,
+              -292.6,
+              0.0
+            ],
+            [
+              216.79,
+              -405.65,
+              0.0
+            ],
+            [
+              275.31,
+              -391.02,
+              0.0
+            ],
+            [
+              250.04,
+              -279.3,
+              0.0
+            ],
+            [
+              191.52,
+              -292.6,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-007",
+        "building_type": "Commercial / Industrial Structure",
+        "footprint_area_m2": 5075.9,
+        "estimated_height_m": 6.3,
+        "height_uncertainty_m": 1.2,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-056",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              99.75,
+              38.57,
+              0.0
+            ],
+            [
+              81.13,
+              34.58,
+              0.0
+            ],
+            [
+              87.78,
+              6.65,
+              0.0
+            ],
+            [
+              105.07,
+              10.64,
+              0.0
+            ],
+            [
+              99.75,
+              38.57,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-056",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 454.6,
+        "estimated_height_m": 6.3,
+        "height_uncertainty_m": 0.8,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-012",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              551.95,
+              -26.6,
+              0.0
+            ],
+            [
+              585.2,
+              -91.77,
+              0.0
+            ],
+            [
+              638.4,
+              -65.17,
+              0.0
+            ],
+            [
+              605.15,
+              0.0,
+              0.0
+            ],
+            [
+              551.95,
+              -26.6,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-012",
+        "building_type": "Commercial / Industrial Structure",
+        "footprint_area_m2": 3619.2,
+        "estimated_height_m": 6.2,
+        "height_uncertainty_m": 2.0,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-036",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -42.56,
+              46.55,
+              0.0
+            ],
+            [
+              -29.26,
+              6.65,
+              0.0
+            ],
+            [
+              6.65,
+              18.62,
+              0.0
+            ],
+            [
+              -7.98,
+              58.52,
+              0.0
+            ],
+            [
+              -42.56,
+              46.55,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-036",
+        "building_type": "Commercial / Industrial Structure",
+        "footprint_area_m2": 1075.5,
+        "estimated_height_m": 6.2,
+        "height_uncertainty_m": 0.8,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-057",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -187.53,
+              321.86,
+              0.0
+            ],
+            [
+              -182.21,
+              293.93,
+              0.0
+            ],
+            [
+              -159.6,
+              297.92,
+              0.0
+            ],
+            [
+              -164.92,
+              325.85,
+              0.0
+            ],
+            [
+              -187.53,
+              321.86,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-057",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 451.1,
+        "estimated_height_m": 6.2,
+        "height_uncertainty_m": 2.3,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-048",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              348.46,
+              -86.45,
+              0.0
+            ],
+            [
+              320.53,
+              -90.44,
+              0.0
+            ],
+            [
+              325.85,
+              -127.68,
+              0.0
+            ],
+            [
+              353.78,
+              -123.69,
+              0.0
+            ],
+            [
+              348.46,
+              -86.45,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-048",
+        "building_type": "Commercial / Industrial Structure",
+        "footprint_area_m2": 687.2,
+        "estimated_height_m": 6.1,
+        "height_uncertainty_m": 0.9,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-061",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -204.82,
+              -70.49,
+              0.0
+            ],
+            [
+              -202.16,
+              -94.43,
+              0.0
+            ],
+            [
+              -182.21,
+              -90.44,
+              0.0
+            ],
+            [
+              -186.2,
+              -66.5,
+              0.0
+            ],
+            [
+              -204.82,
+              -70.49,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-061",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 369.7,
+        "estimated_height_m": 6.1,
+        "height_uncertainty_m": 1.0,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-066",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              188.86,
+              -63.84,
+              0.0
+            ],
+            [
+              170.24,
+              -70.49,
+              0.0
+            ],
+            [
+              174.23,
+              -82.46,
+              0.0
+            ],
+            [
+              192.85,
+              -75.81,
+              0.0
+            ],
+            [
+              188.86,
+              -63.84,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-066",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 137.1,
+        "estimated_height_m": 6.1,
+        "height_uncertainty_m": 0.6,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-011",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -267.33,
+              -251.37,
+              0.0
+            ],
+            [
+              -196.84,
+              -300.58,
+              0.0
+            ],
+            [
+              -152.95,
+              -236.74,
+              0.0
+            ],
+            [
+              -223.44,
+              -187.53,
+              0.0
+            ],
+            [
+              -267.33,
+              -251.37,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-011",
+        "building_type": "Commercial / Industrial Structure",
+        "footprint_area_m2": 4471.8,
+        "estimated_height_m": 6.0,
+        "height_uncertainty_m": 1.9,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-049",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              155.61,
+              -34.58,
+              0.0
+            ],
+            [
+              171.57,
+              -66.5,
+              0.0
+            ],
+            [
+              203.49,
+              -50.54,
+              0.0
+            ],
+            [
+              186.2,
+              -18.62,
+              0.0
+            ],
+            [
+              155.61,
+              -34.58,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-049",
+        "building_type": "Commercial / Industrial Structure",
+        "footprint_area_m2": 637.7,
+        "estimated_height_m": 6.0,
+        "height_uncertainty_m": 1.1,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-025",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -131.67,
+              -262.01,
+              0.0
+            ],
+            [
+              -102.41,
+              -304.57,
+              0.0
+            ],
+            [
+              -70.49,
+              -283.29,
+              0.0
+            ],
+            [
+              -98.42,
+              -239.4,
+              0.0
+            ],
+            [
+              -131.67,
+              -262.01,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-025",
+        "building_type": "Commercial / Industrial Structure",
+        "footprint_area_m2": 1619.4,
+        "estimated_height_m": 5.9,
+        "height_uncertainty_m": 0.8,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-046",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              441.56,
+              -301.91,
+              0.0
+            ],
+            [
+              418.95,
+              -321.86,
+              0.0
+            ],
+            [
+              440.23,
+              -345.8,
+              0.0
+            ],
+            [
+              462.84,
+              -324.52,
+              0.0
+            ],
+            [
+              441.56,
+              -301.91,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-046",
+        "building_type": "Commercial / Industrial Structure",
+        "footprint_area_m2": 730.6,
+        "estimated_height_m": 5.9,
+        "height_uncertainty_m": 0.6,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-055",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -7.98,
+              -53.2,
+              0.0
+            ],
+            [
+              -5.32,
+              -86.45,
+              0.0
+            ],
+            [
+              17.29,
+              -85.12,
+              0.0
+            ],
+            [
+              14.63,
+              -51.87,
+              0.0
+            ],
+            [
+              -7.98,
+              -53.2,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-055",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 548.4,
+        "estimated_height_m": 5.9,
+        "height_uncertainty_m": 1.2,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-050",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              200.83,
+              51.87,
+              0.0
+            ],
+            [
+              174.23,
+              46.55,
+              0.0
+            ],
+            [
+              179.55,
+              18.62,
+              0.0
+            ],
+            [
+              206.15,
+              23.94,
+              0.0
+            ],
+            [
+              200.83,
+              51.87,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-050",
+        "building_type": "Commercial / Industrial Structure",
+        "footprint_area_m2": 624.4,
+        "estimated_height_m": 5.8,
+        "height_uncertainty_m": 0.7,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-071",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              250.04,
+              289.94,
+              0.0
+            ],
+            [
+              243.39,
+              287.28,
+              0.0
+            ],
+            [
+              248.71,
+              266.0,
+              0.0
+            ],
+            [
+              255.36,
+              267.33,
+              0.0
+            ],
+            [
+              250.04,
+              289.94,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-071",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 36.3,
+        "estimated_height_m": 5.8,
+        "height_uncertainty_m": 0.6,
+        "estimated_floors": 2,
+        "roof_shape": "Hipped Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-015",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              50.54,
+              -227.43,
+              0.0
+            ],
+            [
+              -13.3,
+              -239.4,
+              0.0
+            ],
+            [
+              -2.66,
+              -300.58,
+              0.0
+            ],
+            [
+              61.18,
+              -288.61,
+              0.0
+            ],
+            [
+              50.54,
+              -227.43,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-015",
+        "building_type": "Commercial / Industrial Structure",
+        "footprint_area_m2": 3238.9,
+        "estimated_height_m": 5.7,
+        "height_uncertainty_m": 2.2,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-044",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -401.66,
+              369.74,
+              0.0
+            ],
+            [
+              -428.26,
+              368.41,
+              0.0
+            ],
+            [
+              -425.6,
+              325.85,
+              0.0
+            ],
+            [
+              -399.0,
+              327.18,
+              0.0
+            ],
+            [
+              -401.66,
+              369.74,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-044",
+        "building_type": "Commercial / Industrial Structure",
+        "footprint_area_m2": 804.8,
+        "estimated_height_m": 5.7,
+        "height_uncertainty_m": 0.8,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-053",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -154.28,
+              -127.68,
+              0.0
+            ],
+            [
+              -182.21,
+              -130.34,
+              0.0
+            ],
+            [
+              -179.55,
+              -164.92,
+              0.0
+            ],
+            [
+              -151.62,
+              -163.59,
+              0.0
+            ],
+            [
+              -154.28,
+              -127.68,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-053",
+        "building_type": "Commercial / Industrial Structure",
+        "footprint_area_m2": 602.3,
+        "estimated_height_m": 5.7,
+        "height_uncertainty_m": 0.6,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-072",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.47,
+              243.39,
+              0.0
+            ],
+            [
+              77.14,
+              238.07,
+              0.0
+            ],
+            [
+              101.08,
+              232.75,
+              0.0
+            ],
+            [
+              102.41,
+              238.07,
+              0.0
+            ],
+            [
+              78.47,
+              243.39,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-072",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 34.5,
+        "estimated_height_m": 5.7,
+        "height_uncertainty_m": 0.6,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-038",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -396.34,
+              -276.64,
+              0.0
+            ],
+            [
+              -315.21,
+              -289.94,
+              0.0
+            ],
+            [
+              -309.89,
+              -259.35,
+              0.0
+            ],
+            [
+              -391.02,
+              -246.05,
+              0.0
+            ],
+            [
+              -396.34,
+              -276.64,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-038",
+        "building_type": "Commercial / Industrial Structure",
+        "footprint_area_m2": 1034.8,
+        "estimated_height_m": 5.6,
+        "height_uncertainty_m": 1.9,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-069",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -254.03,
+              -142.31,
+              0.0
+            ],
+            [
+              -239.4,
+              -175.56,
+              0.0
+            ],
+            [
+              -231.42,
+              -172.9,
+              0.0
+            ],
+            [
+              -246.05,
+              -138.32,
+              0.0
+            ],
+            [
+              -254.03,
+              -142.31,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-069",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 67.2,
+        "estimated_height_m": 5.6,
+        "height_uncertainty_m": 0.6,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-008",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              400.33,
+              363.09,
+              0.0
+            ],
+            [
+              488.11,
+              324.52,
+              0.0
+            ],
+            [
+              518.7,
+              396.34,
+              0.0
+            ],
+            [
+              430.92,
+              434.91,
+              0.0
+            ],
+            [
+              400.33,
+              363.09,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-008",
+        "building_type": "Commercial / Industrial Structure",
+        "footprint_area_m2": 4844.1,
+        "estimated_height_m": 5.5,
+        "height_uncertainty_m": 2.7,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-023",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              232.75,
+              232.75,
+              0.0
+            ],
+            [
+              211.47,
+              170.24,
+              0.0
+            ],
+            [
+              248.71,
+              156.94,
+              0.0
+            ],
+            [
+              269.99,
+              219.45,
+              0.0
+            ],
+            [
+              232.75,
+              232.75,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-023",
+        "building_type": "Commercial / Industrial Structure",
+        "footprint_area_m2": 1871.5,
+        "estimated_height_m": 5.5,
+        "height_uncertainty_m": 2.4,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-024",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              123.69,
+              -129.01,
+              0.0
+            ],
+            [
+              67.83,
+              -130.34,
+              0.0
+            ],
+            [
+              69.16,
+              -186.2,
+              0.0
+            ],
+            [
+              123.69,
+              -184.87,
+              0.0
+            ],
+            [
+              123.69,
+              -129.01,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-024",
+        "building_type": "Commercial / Industrial Structure",
+        "footprint_area_m2": 1819.3,
+        "estimated_height_m": 5.5,
+        "height_uncertainty_m": 1.3,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-033",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -121.03,
+              -146.3,
+              0.0
+            ],
+            [
+              -110.39,
+              -200.83,
+              0.0
+            ],
+            [
+              -79.8,
+              -195.51,
+              0.0
+            ],
+            [
+              -90.44,
+              -139.65,
+              0.0
+            ],
+            [
+              -121.03,
+              -146.3,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-033",
+        "building_type": "Commercial / Industrial Structure",
+        "footprint_area_m2": 1304.6,
+        "estimated_height_m": 5.5,
+        "height_uncertainty_m": 1.5,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-052",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              140.98,
+              -202.16,
+              0.0
+            ],
+            [
+              130.34,
+              -235.41,
+              0.0
+            ],
+            [
+              160.93,
+              -244.72,
+              0.0
+            ],
+            [
+              171.57,
+              -211.47,
+              0.0
+            ],
+            [
+              140.98,
+              -202.16,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-052",
+        "building_type": "Commercial / Industrial Structure",
+        "footprint_area_m2": 605.8,
+        "estimated_height_m": 5.5,
+        "height_uncertainty_m": 0.6,
+        "estimated_floors": 2,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-060",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -78.47,
+              187.53,
+              0.0
+            ],
+            [
+              -93.1,
+              162.26,
+              0.0
+            ],
+            [
+              -59.85,
+              143.64,
+              0.0
+            ],
+            [
+              -45.22,
+              168.91,
+              0.0
+            ],
+            [
+              -78.47,
+              187.53,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-060",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 397.1,
+        "estimated_height_m": 5.5,
+        "height_uncertainty_m": 1.5,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-021",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -541.31,
+              -50.54,
+              0.0
+            ],
+            [
+              -585.2,
+              -86.45,
+              0.0
+            ],
+            [
+              -553.28,
+              -123.69,
+              0.0
+            ],
+            [
+              -510.72,
+              -86.45,
+              0.0
+            ],
+            [
+              -541.31,
+              -50.54,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-021",
+        "building_type": "Commercial / Industrial Structure",
+        "footprint_area_m2": 2284.5,
+        "estimated_height_m": 5.4,
+        "height_uncertainty_m": 1.0,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-022",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -18.62,
+              -69.16,
+              0.0
+            ],
+            [
+              -67.83,
+              -78.47,
+              0.0
+            ],
+            [
+              -54.53,
+              -146.3,
+              0.0
+            ],
+            [
+              -5.32,
+              -136.99,
+              0.0
+            ],
+            [
+              -18.62,
+              -69.16,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-022",
+        "building_type": "Commercial / Industrial Structure",
+        "footprint_area_m2": 2115.6,
+        "estimated_height_m": 5.4,
+        "height_uncertainty_m": 0.6,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-027",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              566.58,
+              -162.26,
+              0.0
+            ],
+            [
+              528.01,
+              -170.24,
+              0.0
+            ],
+            [
+              545.3,
+              -250.04,
+              0.0
+            ],
+            [
+              585.2,
+              -242.06,
+              0.0
+            ],
+            [
+              566.58,
+              -162.26,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-027",
+        "building_type": "Commercial / Industrial Structure",
+        "footprint_area_m2": 1542.5,
+        "estimated_height_m": 5.4,
+        "height_uncertainty_m": 2.4,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-028",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -252.7,
+              -106.4,
+              0.0
+            ],
+            [
+              -228.76,
+              -176.89,
+              0.0
+            ],
+            [
+              -199.5,
+              -167.58,
+              0.0
+            ],
+            [
+              -223.44,
+              -97.09,
+              0.0
+            ],
+            [
+              -252.7,
+              -106.4,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-028",
+        "building_type": "Commercial / Industrial Structure",
+        "footprint_area_m2": 1542.5,
+        "estimated_height_m": 5.4,
+        "height_uncertainty_m": 1.2,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-001",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -418.95,
+              25.27,
+              0.0
+            ],
+            [
+              -375.06,
+              -87.78,
+              0.0
+            ],
+            [
+              -293.93,
+              -55.86,
+              0.0
+            ],
+            [
+              -336.49,
+              57.19,
+              0.0
+            ],
+            [
+              -418.95,
+              25.27,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-001",
+        "building_type": "Commercial / Industrial Structure",
+        "footprint_area_m2": 7279.0,
+        "estimated_height_m": 5.3,
+        "height_uncertainty_m": 1.6,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-005",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              15.96,
+              287.28,
+              0.0
+            ],
+            [
+              -87.78,
+              238.07,
+              0.0
+            ],
+            [
+              -26.6,
+              107.73,
+              0.0
+            ],
+            [
+              77.14,
+              156.94,
+              0.0
+            ],
+            [
+              15.96,
+              287.28,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-005",
+        "building_type": "Commercial / Industrial Structure",
+        "footprint_area_m2": 5733.9,
+        "estimated_height_m": 5.3,
+        "height_uncertainty_m": 2.3,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-013",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              381.71,
+              -67.83,
+              0.0
+            ],
+            [
+              391.02,
+              -148.96,
+              0.0
+            ],
+            [
+              442.89,
+              -143.64,
+              0.0
+            ],
+            [
+              433.58,
+              -62.51,
+              0.0
+            ],
+            [
+              381.71,
+              -67.83,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-013",
+        "building_type": "Commercial / Industrial Structure",
+        "footprint_area_m2": 3591.8,
+        "estimated_height_m": 5.3,
+        "height_uncertainty_m": 1.6,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-041",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              231.42,
+              62.51,
+              0.0
+            ],
+            [
+              198.17,
+              51.87,
+              0.0
+            ],
+            [
+              206.15,
+              21.28,
+              0.0
+            ],
+            [
+              240.73,
+              31.92,
+              0.0
+            ],
+            [
+              231.42,
+              62.51,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-041",
+        "building_type": "Commercial / Industrial Structure",
+        "footprint_area_m2": 934.0,
+        "estimated_height_m": 5.3,
+        "height_uncertainty_m": 0.7,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-042",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              399.0,
+              -166.25,
+              0.0
+            ],
+            [
+              416.29,
+              -214.13,
+              0.0
+            ],
+            [
+              437.57,
+              -206.15,
+              0.0
+            ],
+            [
+              420.28,
+              -158.27,
+              0.0
+            ],
+            [
+              399.0,
+              -166.25,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-042",
+        "building_type": "Commercial / Industrial Structure",
+        "footprint_area_m2": 887.1,
+        "estimated_height_m": 5.3,
+        "height_uncertainty_m": 1.2,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-014",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -97.09,
+              129.01,
+              0.0
+            ],
+            [
+              -150.29,
+              123.69,
+              0.0
+            ],
+            [
+              -142.31,
+              46.55,
+              0.0
+            ],
+            [
+              -89.11,
+              51.87,
+              0.0
+            ],
+            [
+              -97.09,
+              129.01,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-014",
+        "building_type": "Commercial / Industrial Structure",
+        "footprint_area_m2": 3539.6,
+        "estimated_height_m": 5.2,
+        "height_uncertainty_m": 1.2,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-016",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -458.85,
+              -355.11,
+              0.0
+            ],
+            [
+              -537.32,
+              -356.44,
+              0.0
+            ],
+            [
+              -535.99,
+              -420.28,
+              0.0
+            ],
+            [
+              -458.85,
+              -417.62,
+              0.0
+            ],
+            [
+              -458.85,
+              -355.11,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-016",
+        "building_type": "Commercial / Industrial Structure",
+        "footprint_area_m2": 3207.0,
+        "estimated_height_m": 5.2,
+        "height_uncertainty_m": 1.9,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-019",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -250.04,
+              97.09,
+              0.0
+            ],
+            [
+              -210.14,
+              14.63,
+              0.0
+            ],
+            [
+              -167.58,
+              34.58,
+              0.0
+            ],
+            [
+              -206.15,
+              118.37,
+              0.0
+            ],
+            [
+              -250.04,
+              97.09,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-019",
+        "building_type": "Commercial / Industrial Structure",
+        "footprint_area_m2": 2778.9,
+        "estimated_height_m": 5.2,
+        "height_uncertainty_m": 1.8,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-030",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              514.71,
+              -75.81,
+              0.0
+            ],
+            [
+              478.8,
+              -75.81,
+              0.0
+            ],
+            [
+              480.13,
+              -123.69,
+              0.0
+            ],
+            [
+              514.71,
+              -123.69,
+              0.0
+            ],
+            [
+              514.71,
+              -75.81,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-030",
+        "building_type": "Commercial / Industrial Structure",
+        "footprint_area_m2": 1386.8,
+        "estimated_height_m": 5.2,
+        "height_uncertainty_m": 0.8,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-040",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.15,
+              -195.51,
+              0.0
+            ],
+            [
+              70.49,
+              -243.39,
+              0.0
+            ],
+            [
+              134.33,
+              -246.05,
+              0.0
+            ],
+            [
+              136.99,
+              -198.17,
+              0.0
+            ],
+            [
+              73.15,
+              -195.51,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-040",
+        "building_type": "Commercial / Industrial Structure",
+        "footprint_area_m2": 944.6,
+        "estimated_height_m": 5.0,
+        "height_uncertainty_m": 1.5,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-034",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -191.52,
+              -2.66,
+              0.0
+            ],
+            [
+              -186.2,
+              -63.84,
+              0.0
+            ],
+            [
+              -151.62,
+              -61.18,
+              0.0
+            ],
+            [
+              -156.94,
+              1.33,
+              0.0
+            ],
+            [
+              -191.52,
+              -2.66,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-034",
+        "building_type": "Commercial / Industrial Structure",
+        "footprint_area_m2": 1284.2,
+        "estimated_height_m": 4.8,
+        "height_uncertainty_m": 0.9,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-039",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              670.32,
+              -344.47,
+              0.0
+            ],
+            [
+              638.4,
+              -344.47,
+              0.0
+            ],
+            [
+              638.4,
+              -377.72,
+              0.0
+            ],
+            [
+              670.32,
+              -377.72,
+              0.0
+            ],
+            [
+              670.32,
+              -344.47,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-039",
+        "building_type": "Commercial / Industrial Structure",
+        "footprint_area_m2": 1025.1,
+        "estimated_height_m": 4.7,
+        "height_uncertainty_m": 1.0,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-064",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -53.2,
+              -299.25,
+              0.0
+            ],
+            [
+              -77.14,
+              -308.56,
+              0.0
+            ],
+            [
+              -66.5,
+              -335.16,
+              0.0
+            ],
+            [
+              -43.89,
+              -327.18,
+              0.0
+            ],
+            [
+              -53.2,
+              -299.25,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-064",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 332.6,
+        "estimated_height_m": 4.7,
+        "height_uncertainty_m": 0.6,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-059",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -603.82,
+              42.56,
+              0.0
+            ],
+            [
+              -586.53,
+              18.62,
+              0.0
+            ],
+            [
+              -570.57,
+              30.59,
+              0.0
+            ],
+            [
+              -587.86,
+              54.53,
+              0.0
+            ],
+            [
+              -603.82,
+              42.56,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-059",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 424.5,
+        "estimated_height_m": 4.6,
+        "height_uncertainty_m": 1.2,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-070",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              59.85,
+              250.04,
+              0.0
+            ],
+            [
+              54.53,
+              246.05,
+              0.0
+            ],
+            [
+              69.16,
+              230.09,
+              0.0
+            ],
+            [
+              74.48,
+              234.08,
+              0.0
+            ],
+            [
+              59.85,
+              250.04,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-070",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 36.3,
+        "estimated_height_m": 4.6,
+        "height_uncertainty_m": 0.6,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-065",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -219.45,
+              -54.53,
+              0.0
+            ],
+            [
+              -187.53,
+              -63.84,
+              0.0
+            ],
+            [
+              -182.21,
+              -46.55,
+              0.0
+            ],
+            [
+              -214.13,
+              -37.24,
+              0.0
+            ],
+            [
+              -219.45,
+              -54.53,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-065",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 322.8,
+        "estimated_height_m": 4.5,
+        "height_uncertainty_m": 0.8,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-051",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              53.2,
+              102.41,
+              0.0
+            ],
+            [
+              57.19,
+              74.48,
+              0.0
+            ],
+            [
+              82.46,
+              77.14,
+              0.0
+            ],
+            [
+              78.47,
+              106.4,
+              0.0
+            ],
+            [
+              53.2,
+              102.41,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-051",
+        "building_type": "Commercial / Industrial Structure",
+        "footprint_area_m2": 608.5,
+        "estimated_height_m": 4.0,
+        "height_uncertainty_m": 0.6,
+        "estimated_floors": 1,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-063",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              299.25,
+              77.14,
+              0.0
+            ],
+            [
+              285.95,
+              66.5,
+              0.0
+            ],
+            [
+              321.86,
+              22.61,
+              0.0
+            ],
+            [
+              335.16,
+              33.25,
+              0.0
+            ],
+            [
+              299.25,
+              77.14,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-063",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 344.9,
+        "estimated_height_m": 4.0,
+        "height_uncertainty_m": 2.2,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-054",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              464.17,
+              -147.63,
+              0.0
+            ],
+            [
+              445.55,
+              -159.6,
+              0.0
+            ],
+            [
+              470.82,
+              -194.18,
+              0.0
+            ],
+            [
+              489.44,
+              -182.21,
+              0.0
+            ],
+            [
+              464.17,
+              -147.63,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-054",
+        "building_type": "Commercial / Industrial Structure",
+        "footprint_area_m2": 582.9,
+        "estimated_height_m": 3.9,
+        "height_uncertainty_m": 2.2,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-047",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              567.91,
+              15.96,
+              0.0
+            ],
+            [
+              529.34,
+              1.33,
+              0.0
+            ],
+            [
+              542.64,
+              -34.58,
+              0.0
+            ],
+            [
+              581.21,
+              -19.95,
+              0.0
+            ],
+            [
+              567.91,
+              15.96,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-047",
+        "building_type": "Commercial / Industrial Structure",
+        "footprint_area_m2": 712.9,
+        "estimated_height_m": 3.7,
+        "height_uncertainty_m": 1.6,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-058",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              526.68,
+              -194.18,
+              0.0
+            ],
+            [
+              509.39,
+              -196.84,
+              0.0
+            ],
+            [
+              522.69,
+              -269.99,
+              0.0
+            ],
+            [
+              541.31,
+              -266.0,
+              0.0
+            ],
+            [
+              526.68,
+              -194.18,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-058",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 444.0,
+        "estimated_height_m": 3.5,
+        "height_uncertainty_m": 2.3,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.95,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -680.96,
+          444.22,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-001",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -586.53,
+          262.01,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-002",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -634.41,
+          351.12,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-003",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-004",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -606.48,
+          248.71,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-004",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-005",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -614.46,
+          315.21,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-005",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-006",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0,
+          -198.17,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-006",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 9.8,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-007",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          308.56,
+          -264.67,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-007",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 8.0,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-008",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -680.96,
+          333.83,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-008",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-009",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          679.63,
+          -14.63,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-009",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 9.7,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-010",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          444.22,
+          -445.55,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-010",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-011",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          440.23,
+          73.15,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-011",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-012",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          659.68,
+          -11.97,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-012",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 7.4,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-013",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          357.77,
+          -227.43,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-013",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 7.4,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-014",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          327.18,
+          -242.06,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-014",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 7.8,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-015",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -680.96,
+          176.89,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-015",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-016",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -388.36,
+          69.16,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-016",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 11.1,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-017",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -599.83,
+          102.41,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-017",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-018",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -557.27,
+          218.12,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-018",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-019",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.5,
+          347.13,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-019",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 9.1,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-020",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          539.98,
+          -445.55,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-020",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-021",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -25.27,
+          -215.46,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-021",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 7.7,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-022",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -490.77,
+          106.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-022",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 4.3,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-023",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          506.73,
+          26.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-023",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-024",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -680.96,
+          208.81,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-024",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-025",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -522.69,
+          93.1,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-025",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 3.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-026",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -563.92,
+          160.93,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-026",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-027",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -598.5,
+          -445.55,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-027",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 3.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-028",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.75,
+          296.59,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-028",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 8.7,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-029",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          504.07,
+          -417.62,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-029",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-030",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -573.23,
+          187.53,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-030",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-031",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -543.97,
+          154.28,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-031",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-032",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -285.95,
+          146.3,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-032",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 8.2,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-033",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          458.85,
+          -59.85,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-033",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 10.8,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-034",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493.43,
+          -47.88,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-034",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 9.6,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-035",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -643.72,
+          121.03,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-035",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-036",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          243.39,
+          313.88,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-036",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.8,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-037",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          482.79,
+          22.61,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-037",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-038",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          550.62,
+          -417.62,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-038",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-039",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -602.49,
+          198.17,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-039",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-040",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          368.41,
+          -46.55,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-040",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.3,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-041",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          613.13,
+          54.53,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-041",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-042",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          461.51,
+          -255.36,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-042",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 7.8,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-043",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          297.92,
+          296.59,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-043",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.8,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-044",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.02,
+          272.65,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-044",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 7.9,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-045",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -262.01,
+          -54.53,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-045",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 8.4,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-046",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -190.19,
+          140.98,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-046",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 7.4,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-047",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          601.16,
+          359.1,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-047",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 7.6,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-048",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -613.13,
+          71.82,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-048",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-049",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -260.68,
+          176.89,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-049",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.3,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-050",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.06,
+          -324.52,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-050",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 8.1,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-051",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -107.73,
+          331.17,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-051",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.9,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-052",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          214.13,
+          79.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-052",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 7.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-053",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          396.34,
+          10.64,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-053",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 7.0,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-054",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          598.5,
+          33.25,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-054",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 5.0,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-055",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          308.56,
+          -445.55,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-055",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 7.7,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-056",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          171.57,
+          -297.92,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-056",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 9.9,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-057",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.43,
+          -119.7,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-057",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.7,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-058",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          466.83,
+          442.89,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-058",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 7.7,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-059",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          550.62,
+          444.22,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-059",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.7,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-060",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          211.47,
+          444.22,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-060",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 5.8,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-061",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -559.93,
+          -404.32,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-061",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 3.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-062",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          422.94,
+          -10.64,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-062",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 4.3,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-063",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          577.22,
+          75.81,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-063",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-064",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -297.92,
+          10.64,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-064",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 8.0,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-065",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          679.63,
+          -131.67,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-065",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.9,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-066",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          597.17,
+          71.82,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-066",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-067",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -571.9,
+          -42.56,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-067",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 7.1,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-068",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          554.61,
+          63.84,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-068",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-069",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -655.69,
+          268.66,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-069",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-070",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          332.5,
+          228.76,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-070",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 5.6,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-071",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          184.87,
+          315.21,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-071",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.6,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-072",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.57,
+          -158.27,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-072",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.6,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-073",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -561.26,
+          -433.58,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-073",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-074",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          222.11,
+          -268.66,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-074",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 9.3,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-075",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -424.27,
+          -54.53,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-075",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 7.9,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-076",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -617.12,
+          -86.45,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-076",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 5.8,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-077",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          529.34,
+          379.05,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-077",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 7.0,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-078",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          574.56,
+          344.47,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-078",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.4,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-079",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -160.93,
+          227.43,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-079",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 7.1,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-080",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          373.73,
+          -363.09,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-080",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.7,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-081",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -637.07,
+          160.93,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-081",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-082",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -539.98,
+          129.01,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-082",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-083",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          315.21,
+          9.31,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-083",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.4,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-084",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          389.69,
+          -50.54,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-084",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 7.0,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-085",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          321.86,
+          -57.19,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-085",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.1,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-086",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -379.05,
+          -182.21,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-086",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.2,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-087",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          340.48,
+          -49.21,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-087",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.4,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-088",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.95,
+          216.79,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-088",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.1,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-089",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          166.25,
+          13.3,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-089",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 5.7,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-090",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          389.69,
+          -23.94,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-090",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 4.9,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-091",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          381.71,
+          226.1,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-091",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.1,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-092",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -607.81,
+          140.98,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-092",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-093",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          542.64,
+          102.41,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-093",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-094",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          649.04,
+          315.21,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-094",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 5.7,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-095",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.18,
+          -254.03,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-095",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 5.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-096",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          50.54,
+          288.61,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-096",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 5.9,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-097",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -146.3,
+          -224.77,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-097",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 5.9,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-098",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -593.18,
+          -119.7,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-098",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 5.8,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-099",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          192.85,
+          332.5,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-099",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 4.0,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-100",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -542.64,
+          45.22,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-100",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 4.7,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-101",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -219.45,
+          -85.12,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-101",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.6,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-102",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -434.91,
+          127.68,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-102",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 3.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-103",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          637.07,
+          -311.22,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-103",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-104",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          168.91,
+          -1.33,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-104",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 5.8,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-105",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -529.34,
+          51.87,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-105",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 3.6,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-106",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -276.64,
+          -183.54,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-106",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 5.8,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-107",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -583.87,
+          69.16,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-107",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 3.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-108",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -156.94,
+          22.61,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-108",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 5.8,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-109",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.29,
+          -445.55,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-109",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.0,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-110",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          420.28,
+          335.16,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-110",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-111",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -529.34,
+          -335.16,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-111",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 3.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-112",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          156.94,
+          343.14,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-112",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-113",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -680.96,
+          373.73,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-113",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-114",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -558.6,
+          -299.25,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-114",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-115",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          442.89,
+          -14.63,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-115",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 4.0,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-116",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -488.11,
+          -442.89,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-116",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 5.6,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-117",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -615.79,
+          45.22,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-117",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-118",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          551.95,
+          22.61,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-118",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-119",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          271.32,
+          -118.37,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-119",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 5.3,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-120",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          594.51,
+          -206.15,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-120",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 3.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-121",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -125.02,
+          14.63,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-121",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.7,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-122",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -529.34,
+          -14.63,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-122",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.2,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-123",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          610.47,
+          -445.55,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-123",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 4.4,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-124",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          180.88,
+          337.82,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-124",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-125",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          339.15,
+          46.55,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-125",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-126",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -559.93,
+          27.93,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-126",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 5.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-127",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -661.01,
+          -121.03,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-127",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 4.3,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-128",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -259.35,
+          -122.36,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-128",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.3,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-129",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -171.57,
+          -107.73,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-129",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 5.8,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-130",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -569.24,
+          18.62,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-130",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 5.6,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-131",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -135.66,
+          -250.04,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-131",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 5.9,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-132",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -514.71,
+          61.18,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-132",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 3.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-133",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.65,
+          303.24,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-133",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 4.6,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-134",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -611.8,
+          34.58,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-134",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-135",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -522.69,
+          -441.56,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-135",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 3.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-136",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          438.9,
+          113.05,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-136",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-137",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          611.8,
+          -300.58,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-137",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-138",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          371.07,
+          29.26,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-138",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 4.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-139",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          380.38,
+          393.68,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-139",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-140",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          376.39,
+          -445.55,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-140",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 3.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-141",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          440.23,
+          -279.3,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-141",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 5.3,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-142",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -348.46,
+          292.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-142",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-143",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          71.82,
+          47.88,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-143",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 5.7,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-144",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -211.47,
+          -99.75,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-144",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 6.2,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-145",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          429.59,
+          17.29,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-145",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.0,
+        "estimated_canopy_height_m": 3.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-146",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.39,
+          2.66,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-146",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 11.3,
+        "estimated_canopy_height_m": 5.8,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-147",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          210.14,
+          327.18,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-147",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 11.3,
+        "estimated_canopy_height_m": 4.1,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-148",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          176.89,
+          -444.22,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-148",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 11.3,
+        "estimated_canopy_height_m": 6.8,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-149",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -239.4,
+          -75.81,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-149",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 11.3,
+        "estimated_canopy_height_m": 4.8,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-150",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -542.64,
+          -309.89,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-150",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 10.9,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-151",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          672.98,
+          299.25,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-151",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 10.9,
+        "estimated_canopy_height_m": 5.6,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-152",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          347.13,
+          -317.87,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-152",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 10.2,
+        "estimated_canopy_height_m": 6.0,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-153",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          585.2,
+          -304.57,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-153",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 10.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-154",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -359.1,
+          95.76,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-154",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 10.2,
+        "estimated_canopy_height_m": 4.8,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-155",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -680.96,
+          395.01,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-155",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 10.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-156",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          679.63,
+          155.61,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-156",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 10.2,
+        "estimated_canopy_height_m": 6.4,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-157",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          645.05,
+          51.87,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-157",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 10.2,
+        "estimated_canopy_height_m": 3.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-158",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          373.73,
+          -81.13,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-158",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 10.2,
+        "estimated_canopy_height_m": 6.4,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-159",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -549.29,
+          -356.44,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-159",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 9.8,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-160",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          595.84,
+          -429.59,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-160",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 9.8,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-161",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -541.31,
+          -438.9,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-161",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 9.8,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-162",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -675.64,
+          -183.54,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-162",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 9.8,
+        "estimated_canopy_height_m": 5.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-163",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          654.36,
+          81.13,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-163",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 9.8,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-164",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          321.86,
+          -81.13,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-164",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 9.8,
+        "estimated_canopy_height_m": 4.7,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-165",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -680.96,
+          -426.93,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-165",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 9.8,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-166",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -539.98,
+          -445.55,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-166",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 9.8,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-167",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          369.74,
+          -99.75,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-167",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 8.7,
+        "estimated_canopy_height_m": 5.9,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-168",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.57,
+          -284.62,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-168",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 8.7,
+        "estimated_canopy_height_m": 3.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-169",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          579.88,
+          107.73,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-169",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 8.7,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-170",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -142.31,
+          -118.37,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-170",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 8.7,
+        "estimated_canopy_height_m": 5.0,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-171",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.63,
+          1.33,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-171",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 8.7,
+        "estimated_canopy_height_m": 5.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-172",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          357.77,
+          29.26,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-172",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 8.7,
+        "estimated_canopy_height_m": 3.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-173",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -539.98,
+          -321.86,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-173",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 7.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-174",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -534.66,
+          375.06,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-174",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 7.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-175",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          258.02,
+          -445.55,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-175",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 7.6,
+        "estimated_canopy_height_m": 4.3,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-176",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          335.16,
+          430.92,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-176",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 7.6,
+        "estimated_canopy_height_m": 3.7,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-177",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -140.98,
+          -184.87,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-177",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 7.6,
+        "estimated_canopy_height_m": 4.1,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-178",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          539.98,
+          27.93,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-178",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 7.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-179",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          482.79,
+          -206.15,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-179",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 7.6,
+        "estimated_canopy_height_m": 6.4,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-180",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          679.63,
+          -315.21,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-180",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 7.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-181",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          549.29,
+          -379.05,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-181",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 7.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-182",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -676.97,
+          -136.99,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-182",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 7.3,
+        "estimated_canopy_height_m": 4.8,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-183",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -601.16,
+          422.94,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-183",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 7.3,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-184",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          530.67,
+          -27.93,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-184",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 7.3,
+        "estimated_canopy_height_m": 3.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-185",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          649.04,
+          -295.26,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-185",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 7.3,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-186",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.74,
+          259.35,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-186",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 7.3,
+        "estimated_canopy_height_m": 5.2,
+        "detection_confidence": 0.9
+      }
+    }
+  ]
+}

@@ -1,0 +1,919 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "B001",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -151.2,
+              -155.2,
+              6.44
+            ],
+            [
+              -151.2,
+              -150.0,
+              6.66
+            ],
+            [
+              -140.0,
+              -149.6,
+              7.18
+            ],
+            [
+              -136.4,
+              -144.4,
+              7.46
+            ],
+            [
+              -140.0,
+              -138.4,
+              10.57
+            ],
+            [
+              -151.2,
+              -138.0,
+              9.09
+            ],
+            [
+              -151.2,
+              -134.4,
+              10.94
+            ],
+            [
+              -118.4,
+              -134.4,
+              11.52
+            ],
+            [
+              -118.4,
+              -155.2,
+              6.57
+            ],
+            [
+              -151.2,
+              -155.2,
+              6.44
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "B001",
+        "building_type": "Commercial Office / Retail Center",
+        "footprint_area_m2": 522.1,
+        "estimated_height_m": 16.8,
+        "height_uncertainty_m": 3.0,
+        "estimated_floors": 5,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Terracotta Ceramic Tile",
+        "orientation_deg": 0.0,
+        "confidence": 0.76,
+        "height_source": "Shadow Trigonometric Geometry (Solar Azimuth/Elevation)",
+        "validation_status": "Validated via Footprint-to-Ground Differential Sampling"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "B002",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              40.8,
+              -151.2,
+              7.13
+            ],
+            [
+              40.8,
+              -128.4,
+              10.07
+            ],
+            [
+              73.6,
+              -128.4,
+              10.69
+            ],
+            [
+              69.2,
+              -133.2,
+              9.84
+            ],
+            [
+              59.6,
+              -133.6,
+              9.76
+            ],
+            [
+              56.4,
+              -136.8,
+              6.91
+            ],
+            [
+              57.2,
+              -142.8,
+              6.95
+            ],
+            [
+              65.2,
+              -145.2,
+              6.8
+            ],
+            [
+              67.6,
+              -151.2,
+              6.82
+            ],
+            [
+              40.8,
+              -151.2,
+              7.13
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "B002",
+        "building_type": "Commercial Office / Retail Center",
+        "footprint_area_m2": 500.3,
+        "estimated_height_m": 16.8,
+        "height_uncertainty_m": 3.0,
+        "estimated_floors": 5,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Terracotta Ceramic Tile",
+        "orientation_deg": 0.0,
+        "confidence": 0.76,
+        "height_source": "Shadow Trigonometric Geometry (Solar Azimuth/Elevation)",
+        "validation_status": "Validated via Footprint-to-Ground Differential Sampling"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "B003",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -147.2,
+              -91.2,
+              5.33
+            ],
+            [
+              -147.2,
+              -68.4,
+              11.89
+            ],
+            [
+              -110.4,
+              -68.4,
+              7.73
+            ],
+            [
+              -110.4,
+              -91.2,
+              5.55
+            ],
+            [
+              -147.2,
+              -91.2,
+              5.33
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "B003",
+        "building_type": "Commercial Office / Retail Center",
+        "footprint_area_m2": 839.0,
+        "estimated_height_m": 16.5,
+        "height_uncertainty_m": 4.5,
+        "estimated_floors": 5,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Terracotta Ceramic Tile",
+        "orientation_deg": 0.0,
+        "confidence": 0.62,
+        "height_source": "Footprint Morphology & Contextual Priors (No Clear Shadow Discovered)",
+        "validation_status": "Validated via Footprint-to-Ground Differential Sampling"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "B004",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -51.6,
+              -88.0,
+              3.18
+            ],
+            [
+              -56.0,
+              -88.0,
+              3.35
+            ],
+            [
+              -53.2,
+              -85.2,
+              2.0
+            ],
+            [
+              -52.8,
+              -74.4,
+              1.07
+            ],
+            [
+              -56.4,
+              -69.2,
+              0.64
+            ],
+            [
+              -69.2,
+              -69.2,
+              0.58
+            ],
+            [
+              -72.8,
+              -74.4,
+              0.61
+            ],
+            [
+              -84.0,
+              -75.2,
+              2.26
+            ],
+            [
+              -84.0,
+              -59.6,
+              3.11
+            ],
+            [
+              -51.6,
+              -59.6,
+              2.53
+            ],
+            [
+              -51.6,
+              -88.0,
+              3.18
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "B004",
+        "building_type": "Multi-Family Residential / Apartment",
+        "footprint_area_m2": 403.9,
+        "estimated_height_m": 11.0,
+        "height_uncertainty_m": 3.0,
+        "estimated_floors": 3,
+        "roof_shape": "Flat Roof",
+        "roof_material": "Reflective White Membrane / Metal Deck",
+        "orientation_deg": 0.0,
+        "confidence": 0.58,
+        "height_source": "Footprint Morphology & Contextual Priors (No Clear Shadow Discovered)",
+        "validation_status": "Validated via Footprint-to-Ground Differential Sampling"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "B005",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -53.6,
+              44.0,
+              4.71
+            ],
+            [
+              -64.0,
+              44.0,
+              5.34
+            ],
+            [
+              -61.2,
+              46.8,
+              4.19
+            ],
+            [
+              -60.8,
+              57.6,
+              2.54
+            ],
+            [
+              -64.4,
+              62.8,
+              2.69
+            ],
+            [
+              -77.2,
+              62.8,
+              2.88
+            ],
+            [
+              -80.8,
+              57.6,
+              2.66
+            ],
+            [
+              -92.0,
+              56.8,
+              4.4
+            ],
+            [
+              -90.0,
+              66.4,
+              4.3
+            ],
+            [
+              -53.6,
+              68.4,
+              4.83
+            ],
+            [
+              -53.6,
+              44.0,
+              4.71
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "B005",
+        "building_type": "Institutional / Public Facility",
+        "footprint_area_m2": 347.0,
+        "estimated_height_m": 7.5,
+        "height_uncertainty_m": 2.2,
+        "estimated_floors": 2,
+        "roof_shape": "Flat Roof",
+        "roof_material": "Reinforced Concrete / Gravel Built-Up Roof",
+        "orientation_deg": 0.0,
+        "confidence": 0.57,
+        "height_source": "Footprint Morphology & Contextual Priors (No Clear Shadow Discovered)",
+        "validation_status": "Validated via Footprint-to-Ground Differential Sampling"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "B006",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -155.2,
+              48.8,
+              6.36
+            ],
+            [
+              -155.2,
+              73.6,
+              10.63
+            ],
+            [
+              -114.4,
+              72.4,
+              6.46
+            ],
+            [
+              -114.4,
+              48.8,
+              6.35
+            ],
+            [
+              -155.2,
+              48.8,
+              6.36
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "B006",
+        "building_type": "Commercial Office / Retail Center",
+        "footprint_area_m2": 1004.9,
+        "estimated_height_m": 16.8,
+        "height_uncertainty_m": 3.0,
+        "estimated_floors": 5,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Terracotta Ceramic Tile",
+        "orientation_deg": 0.0,
+        "confidence": 0.81,
+        "height_source": "Shadow Trigonometric Geometry (Solar Azimuth/Elevation)",
+        "validation_status": "Validated via Footprint-to-Ground Differential Sampling"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "B007",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              44.8,
+              48.8,
+              5.7
+            ],
+            [
+              44.8,
+              75.6,
+              11.41
+            ],
+            [
+              81.2,
+              75.6,
+              8.98
+            ],
+            [
+              89.6,
+              72.4,
+              6.3
+            ],
+            [
+              89.6,
+              48.8,
+              5.39
+            ],
+            [
+              44.8,
+              48.8,
+              5.7
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "B007",
+        "building_type": "Commercial Office / Retail Center",
+        "footprint_area_m2": 1181.9,
+        "estimated_height_m": 16.5,
+        "height_uncertainty_m": 4.5,
+        "estimated_floors": 5,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Terracotta Ceramic Tile",
+        "orientation_deg": 0.0,
+        "confidence": 0.62,
+        "height_source": "Footprint Morphology & Contextual Priors (No Clear Shadow Discovered)",
+        "validation_status": "Validated via Footprint-to-Ground Differential Sampling"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "B008",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              112.8,
+              52.8,
+              5.11
+            ],
+            [
+              112.8,
+              75.6,
+              4.7
+            ],
+            [
+              153.6,
+              75.6,
+              7.13
+            ],
+            [
+              153.6,
+              52.8,
+              6.11
+            ],
+            [
+              112.8,
+              52.8,
+              5.11
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "B008",
+        "building_type": "Commercial Office / Retail Center",
+        "footprint_area_m2": 930.2,
+        "estimated_height_m": 16.8,
+        "height_uncertainty_m": 3.0,
+        "estimated_floors": 5,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Terracotta Ceramic Tile",
+        "orientation_deg": 0.0,
+        "confidence": 0.8,
+        "height_source": "Shadow Trigonometric Geometry (Solar Azimuth/Elevation)",
+        "validation_status": "Validated via Footprint-to-Ground Differential Sampling"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "B009",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -151.2,
+              112.8,
+              5.91
+            ],
+            [
+              -151.2,
+              139.6,
+              6.4
+            ],
+            [
+              -116.4,
+              139.6,
+              4.81
+            ],
+            [
+              -116.4,
+              112.8,
+              4.91
+            ],
+            [
+              -151.2,
+              112.8,
+              5.91
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "B009",
+        "building_type": "Commercial Office / Retail Center",
+        "footprint_area_m2": 932.6,
+        "estimated_height_m": 16.5,
+        "height_uncertainty_m": 4.5,
+        "estimated_floors": 5,
+        "roof_shape": "Hipped Roof",
+        "roof_material": "Terracotta Ceramic Tile",
+        "orientation_deg": 0.0,
+        "confidence": 0.63,
+        "height_source": "Footprint Morphology & Contextual Priors (No Clear Shadow Discovered)",
+        "validation_status": "Validated via Footprint-to-Ground Differential Sampling"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "B010",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.8,
+              112.8,
+              6.14
+            ],
+            [
+              116.8,
+              141.6,
+              11.15
+            ],
+            [
+              159.6,
+              141.6,
+              9.93
+            ],
+            [
+              159.6,
+              112.8,
+              6.22
+            ],
+            [
+              116.8,
+              112.8,
+              6.14
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "B010",
+        "building_type": "Commercial Office / Retail Center",
+        "footprint_area_m2": 1232.6,
+        "estimated_height_m": 16.5,
+        "height_uncertainty_m": 4.5,
+        "estimated_floors": 5,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Terracotta Ceramic Tile",
+        "orientation_deg": 0.0,
+        "confidence": 0.63,
+        "height_source": "Footprint Morphology & Contextual Priors (No Clear Shadow Discovered)",
+        "validation_status": "Validated via Footprint-to-Ground Differential Sampling"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "B011",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.4,
+              116.0,
+              2.6
+            ],
+            [
+              76.0,
+              116.0,
+              2.92
+            ],
+            [
+              79.2,
+              129.6,
+              0.39
+            ],
+            [
+              75.6,
+              134.8,
+              0.35
+            ],
+            [
+              62.8,
+              134.8,
+              0.43
+            ],
+            [
+              59.2,
+              129.6,
+              0.55
+            ],
+            [
+              48.0,
+              128.8,
+              2.66
+            ],
+            [
+              48.0,
+              142.4,
+              3.2
+            ],
+            [
+              88.4,
+              142.4,
+              2.23
+            ],
+            [
+              88.4,
+              116.0,
+              2.6
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "B011",
+        "building_type": "Multi-Family Residential / Apartment",
+        "footprint_area_m2": 550.3,
+        "estimated_height_m": 11.0,
+        "height_uncertainty_m": 3.0,
+        "estimated_floors": 3,
+        "roof_shape": "Flat Roof",
+        "roof_material": "Reflective White Membrane / Metal Deck",
+        "orientation_deg": 0.0,
+        "confidence": 0.58,
+        "height_source": "Footprint Morphology & Contextual Priors (No Clear Shadow Discovered)",
+        "validation_status": "Validated via Footprint-to-Ground Differential Sampling"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.84,
+          -168.92,
+          7.34
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-001",
+        "category": "Broadleaf Deciduous Tree",
+        "crown_diameter_m": 7.8,
+        "crown_area_m2": 47.2,
+        "estimated_canopy_height_m": 22.5,
+        "vitality_status": "Healthy / High Photosynthetic Vigour",
+        "species_note": "Broadleaf crown (Species uncertain without high-resolution seasonal or spectral phenology)",
+        "confidence": 0.88
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.96,
+          -138.04,
+          7.38
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-002",
+        "category": "Broadleaf Deciduous Tree",
+        "crown_diameter_m": 9.7,
+        "crown_area_m2": 73.8,
+        "estimated_canopy_height_m": 20.9,
+        "vitality_status": "Healthy / High Photosynthetic Vigour",
+        "species_note": "Broadleaf crown (Species uncertain without high-resolution seasonal or spectral phenology)",
+        "confidence": 0.87
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          178.84,
+          -103.2,
+          12.73
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-003",
+        "category": "Broadleaf Deciduous Tree",
+        "crown_diameter_m": 7.9,
+        "crown_area_m2": 49.6,
+        "estimated_canopy_height_m": 10.2,
+        "vitality_status": "Healthy / High Photosynthetic Vigour",
+        "species_note": "Broadleaf crown (Species uncertain without high-resolution seasonal or spectral phenology)",
+        "confidence": 0.85
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-004",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.72,
+          -93.24,
+          9.61
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-004",
+        "category": "Broadleaf Deciduous Tree",
+        "crown_diameter_m": 8.4,
+        "crown_area_m2": 55.7,
+        "estimated_canopy_height_m": 19.6,
+        "vitality_status": "Healthy / High Photosynthetic Vigour",
+        "species_note": "Broadleaf crown (Species uncertain without high-resolution seasonal or spectral phenology)",
+        "confidence": 0.88
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-005",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -173.16,
+          -47.12,
+          7.75
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-005",
+        "category": "Broadleaf Deciduous Tree",
+        "crown_diameter_m": 7.9,
+        "crown_area_m2": 49.4,
+        "estimated_canopy_height_m": 21.9,
+        "vitality_status": "Healthy / High Photosynthetic Vigour",
+        "species_note": "Broadleaf crown (Species uncertain without high-resolution seasonal or spectral phenology)",
+        "confidence": 0.89
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-006",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          168.84,
+          38.88,
+          7.52
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-006",
+        "category": "Broadleaf Deciduous Tree",
+        "crown_diameter_m": 7.9,
+        "crown_area_m2": 49.4,
+        "estimated_canopy_height_m": 22.9,
+        "vitality_status": "Healthy / High Photosynthetic Vigour",
+        "species_note": "Broadleaf crown (Species uncertain without high-resolution seasonal or spectral phenology)",
+        "confidence": 0.89
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-007",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.48,
+          88.56,
+          7.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-007",
+        "category": "Broadleaf Deciduous Tree",
+        "crown_diameter_m": 8.0,
+        "crown_area_m2": 50.1,
+        "estimated_canopy_height_m": 22.8,
+        "vitality_status": "Healthy / High Photosynthetic Vigour",
+        "species_note": "Broadleaf crown (Species uncertain without high-resolution seasonal or spectral phenology)",
+        "confidence": 0.88
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-008",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.92,
+          91.88,
+          5.91
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-008",
+        "category": "Broadleaf Deciduous Tree",
+        "crown_diameter_m": 8.5,
+        "crown_area_m2": 56.2,
+        "estimated_canopy_height_m": 20.0,
+        "vitality_status": "Healthy / High Photosynthetic Vigour",
+        "species_note": "Broadleaf crown (Species uncertain without high-resolution seasonal or spectral phenology)",
+        "confidence": 0.86
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-009",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.04,
+          164.96,
+          13.07
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-009",
+        "category": "Broadleaf Deciduous Tree",
+        "crown_diameter_m": 11.5,
+        "crown_area_m2": 103.7,
+        "estimated_canopy_height_m": 9.4,
+        "vitality_status": "Healthy / High Photosynthetic Vigour",
+        "species_note": "Broadleaf crown (Species uncertain without high-resolution seasonal or spectral phenology)",
+        "confidence": 0.84
+      }
+    }
+  ]
+}

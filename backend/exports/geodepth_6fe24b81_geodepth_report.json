@@ -1,0 +1,208 @@
+{
+  "job_id": "geodepth_6fe24b81",
+  "filename": "jacksonville_aerial.png",
+  "dimensions": {
+    "width": 1024,
+    "height": 1024
+  },
+  "gsd_m": 0.35,
+  "is_calibrated": true,
+  "calibration": {
+    "success": true,
+    "calibration_type": "known_distance",
+    "pixel_distance_px": 200.0,
+    "known_distance_m": 70.0,
+    "calibrated_gsd_m": 0.35,
+    "scale_adjustment_factor": 1.0,
+    "reliability": "High"
+  },
+  "terrain_stats": {
+    "elevation_source": "Derived Relative Surface Relief",
+    "elevation_min_m": 0.0,
+    "elevation_max_m": 19.8,
+    "elevation_range_m": 19.8,
+    "building_count": 55,
+    "tree_count": 179,
+    "ground_area_sq_km": 0.128
+  },
+  "analytics": {
+    "slope": {
+      "mean_slope_deg": 53.9,
+      "max_slope_deg": 85.8,
+      "mean_slope_pct": 272.7,
+      "categories": {
+        "flat_lt_5deg": 4.8,
+        "gentle_5_to_15deg": 8.6,
+        "moderate_15_to_30deg": 10.8,
+        "steep_gt_30deg": 75.7
+      }
+    },
+    "aspect": {
+      "dominant_direction": "South",
+      "distribution": {
+        "North": 15.1,
+        "Northeast": 10.5,
+        "East": 12.5,
+        "Southeast": 11.1,
+        "South": 15.6,
+        "Southwest": 11.2,
+        "West": 12.0,
+        "Northwest": 10.1,
+        "Flat (No Aspect)": 2.0
+      }
+    },
+    "elevation": {
+      "elevation_min_m": 0.0,
+      "elevation_max_m": 19.71,
+      "elevation_mean_m": 4.42,
+      "elevation_median_m": 3.26,
+      "elevation_std_m": 4.46,
+      "elevation_range_m": 19.71,
+      "histogram": [
+        {
+          "bin_start": 0.0,
+          "bin_end": 1.0,
+          "count": 4920,
+          "pct": 30.0
+        },
+        {
+          "bin_start": 1.0,
+          "bin_end": 2.0,
+          "count": 1600,
+          "pct": 9.8
+        },
+        {
+          "bin_start": 2.0,
+          "bin_end": 3.0,
+          "count": 1267,
+          "pct": 7.7
+        },
+        {
+          "bin_start": 3.0,
+          "bin_end": 3.9,
+          "count": 1291,
+          "pct": 7.9
+        },
+        {
+          "bin_start": 3.9,
+          "bin_end": 4.9,
+          "count": 1326,
+          "pct": 8.1
+        },
+        {
+          "bin_start": 4.9,
+          "bin_end": 5.9,
+          "count": 1195,
+          "pct": 7.3
+        },
+        {
+          "bin_start": 5.9,
+          "bin_end": 6.9,
+          "count": 1065,
+          "pct": 6.5
+        },
+        {
+          "bin_start": 6.9,
+          "bin_end": 7.9,
+          "count": 816,
+          "pct": 5.0
+        },
+        {
+          "bin_start": 7.9,
+          "bin_end": 8.9,
+          "count": 463,
+          "pct": 2.8
+        },
+        {
+          "bin_start": 8.9,
+          "bin_end": 9.9,
+          "count": 344,
+          "pct": 2.1
+        },
+        {
+          "bin_start": 9.9,
+          "bin_end": 10.8,
+          "count": 321,
+          "pct": 2.0
+        },
+        {
+          "bin_start": 10.8,
+          "bin_end": 11.8,
+          "count": 304,
+          "pct": 1.9
+        },
+        {
+          "bin_start": 11.8,
+          "bin_end": 12.8,
+          "count": 302,
+          "pct": 1.8
+        },
+        {
+          "bin_start": 12.8,
+          "bin_end": 13.8,
+          "count": 242,
+          "pct": 1.5
+        },
+        {
+          "bin_start": 13.8,
+          "bin_end": 14.8,
+          "count": 215,
+          "pct": 1.3
+        },
+        {
+          "bin_start": 14.8,
+          "bin_end": 15.8,
+          "count": 228,
+          "pct": 1.4
+        },
+        {
+          "bin_start": 15.8,
+          "bin_end": 16.8,
+          "count": 163,
+          "pct": 1.0
+        },
+        {
+          "bin_start": 16.8,
+          "bin_end": 17.7,
+          "count": 124,
+          "pct": 0.8
+        },
+        {
+          "bin_start": 17.7,
+          "bin_end": 18.7,
+          "count": 104,
+          "pct": 0.6
+        },
+        {
+          "bin_start": 18.7,
+          "bin_end": 19.7,
+          "count": 94,
+          "pct": 0.6
+        }
+      ],
+      "depressions_detected": 1291,
+      "peaks_detected": 677
+    },
+    "drainage": {
+      "pooling_area_sq_m": 69.7,
+      "susceptibility_area_pct": 3.5,
+      "max_ponding_depth_m": 12.54,
+      "mean_ponding_depth_m": 2.47,
+      "drainage_flow_indicator": "Well-drained topographic gradient",
+      "scientific_disclaimer": "Exploratory terrain screening only. Does not replace hydraulic, meteorological, or catchment flood modeling."
+    },
+    "landslide_screening": {
+      "risk_level": "High Topographic Relief (Multiple steep slope corridors)",
+      "slopes_over_30_deg_pct": 75.7,
+      "slopes_over_45_deg_pct": 66.5,
+      "steep_concave_chute_area_sq_m": 731.8,
+      "scientific_disclaimer": "Topographic slope screening only. Geotechnical stability requires geological surveys, soil cohesion, pore pressure, and rainfall data."
+    }
+  },
+  "total_buildings": 55,
+  "total_trees": 179,
+  "caveats": [
+    "Measurements are approximate/relative unless calibrated with reference dimensions or external DEM.",
+    "Copernicus DEM 30m grid is coarse macro-relief, not building-level geometry."
+  ]
+}

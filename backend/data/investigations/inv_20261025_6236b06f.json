@@ -1,0 +1,190 @@
+{
+  "investigation_id": "inv_20261025_6236b06f",
+  "area_name": "test_unified_job_001",
+  "job_id": "test_unified_job_001",
+  "created_at": "2026-10-25T01:18:49.426779+00:00",
+  "last_successful_update": "2026-10-25T02:02:48.590345+00:00",
+  "input_image_ids": [
+    "tile_test_unified_job_001_rgb"
+  ],
+  "acquisition_dates": {
+    "baseline_date": "2026-03-15T10:30:00Z",
+    "latest_pass": "2026-10-25T01:18:49.426779+00:00"
+  },
+  "objectives": [
+    "3D Building Footprint & Elevation Extraction",
+    "Topographic Slope & Terrain Relief Analysis",
+    "Bitemporal Structural Change & Hazard Susceptibility"
+  ],
+  "completed_operations": [
+    {
+      "operation": "get_building_details",
+      "timestamp": "2026-10-25T01:18:49.446544+00:00",
+      "summary": "Inspected Building bldg_12 (Height: 24.5m, Floors: 8)",
+      "status": "SUCCESS"
+    },
+    {
+      "operation": "get_change_detection_results",
+      "timestamp": "2026-10-25T01:18:49.459258+00:00",
+      "summary": "Damaged: 5, Collapsed: 2",
+      "status": "SUCCESS"
+    },
+    {
+      "operation": "get_building_details",
+      "timestamp": "2026-10-25T01:18:49.472819+00:00",
+      "summary": "Inspected Building bldg_12 (Height: 24.5m, Floors: 8)",
+      "status": "SUCCESS"
+    },
+    {
+      "operation": "get_building_details",
+      "timestamp": "2026-10-25T01:22:06.441680+00:00",
+      "summary": "Inspected Building bldg_12 (Height: 24.5m, Floors: 8)",
+      "status": "SUCCESS"
+    },
+    {
+      "operation": "get_change_detection_results",
+      "timestamp": "2026-10-25T01:22:06.454747+00:00",
+      "summary": "Damaged: 5, Collapsed: 2",
+      "status": "SUCCESS"
+    },
+    {
+      "operation": "get_building_details",
+      "timestamp": "2026-10-25T01:22:06.471708+00:00",
+      "summary": "Inspected Building bldg_12 (Height: 24.5m, Floors: 8)",
+      "status": "SUCCESS"
+    },
+    {
+      "operation": "get_building_details",
+      "timestamp": "2026-10-25T01:39:08.277398+00:00",
+      "summary": "Inspected Building bldg_12 (Height: 24.5m, Floors: 8)",
+      "status": "SUCCESS"
+    },
+    {
+      "operation": "get_change_detection_results",
+      "timestamp": "2026-10-25T01:39:08.289281+00:00",
+      "summary": "Damaged: 5, Collapsed: 2",
+      "status": "SUCCESS"
+    },
+    {
+      "operation": "get_building_details",
+      "timestamp": "2026-10-25T01:39:08.303731+00:00",
+      "summary": "Inspected Building bldg_12 (Height: 24.5m, Floors: 8)",
+      "status": "SUCCESS"
+    },
+    {
+      "operation": "get_building_details",
+      "timestamp": "2026-10-25T01:53:27.465741+00:00",
+      "summary": "Inspected Building bldg_12 (Height: 24.5m, Floors: 8)",
+      "status": "SUCCESS",
+      "model_identifier": "terrascope-local-grounded:deterministic-v2",
+      "task_status": "VERIFIED_COMPLETED"
+    },
+    {
+      "operation": "get_change_detection_results",
+      "timestamp": "2026-10-25T01:53:27.479217+00:00",
+      "summary": "Damaged: 5, Collapsed: 2",
+      "status": "SUCCESS",
+      "model_identifier": "terrascope-local-grounded:deterministic-v2",
+      "task_status": "VERIFIED_COMPLETED"
+    },
+    {
+      "operation": "get_building_details",
+      "timestamp": "2026-10-25T01:53:27.492947+00:00",
+      "summary": "Inspected Building bldg_12 (Height: 24.5m, Floors: 8)",
+      "status": "SUCCESS",
+      "model_identifier": "terrascope-local-grounded:deterministic-v2",
+      "task_status": "VERIFIED_COMPLETED"
+    },
+    {
+      "operation": "get_building_details",
+      "timestamp": "2026-10-25T02:02:22.547903+00:00",
+      "summary": "Inspected Building bldg_12 (Height: 24.5m, Floors: 8)",
+      "status": "SUCCESS",
+      "model_identifier": "terrascope-local-grounded:deterministic-v2",
+      "task_status": "VERIFIED_COMPLETED"
+    },
+    {
+      "operation": "get_change_detection_results",
+      "timestamp": "2026-10-25T02:02:22.572077+00:00",
+      "summary": "Damaged: 5, Collapsed: 2",
+      "status": "SUCCESS",
+      "model_identifier": "terrascope-local-grounded:deterministic-v2",
+      "task_status": "VERIFIED_COMPLETED"
+    },
+    {
+      "operation": "get_building_details",
+      "timestamp": "2026-10-25T02:02:22.591922+00:00",
+      "summary": "Inspected Building bldg_12 (Height: 24.5m, Floors: 8)",
+      "status": "SUCCESS",
+      "model_identifier": "terrascope-local-grounded:deterministic-v2",
+      "task_status": "VERIFIED_COMPLETED"
+    },
+    {
+      "operation": "get_building_details",
+      "timestamp": "2026-10-25T02:02:48.557320+00:00",
+      "summary": "Inspected Building bldg_12 (Height: 24.5m, Floors: 8)",
+      "status": "SUCCESS",
+      "model_identifier": "terrascope-local-grounded:deterministic-v2",
+      "task_status": "VERIFIED_COMPLETED"
+    },
+    {
+      "operation": "get_change_detection_results",
+      "timestamp": "2026-10-25T02:02:48.573794+00:00",
+      "summary": "Damaged: 5, Collapsed: 2",
+      "status": "SUCCESS",
+      "model_identifier": "terrascope-local-grounded:deterministic-v2",
+      "task_status": "VERIFIED_COMPLETED"
+    },
+    {
+      "operation": "get_building_details",
+      "timestamp": "2026-10-25T02:02:48.590345+00:00",
+      "summary": "Inspected Building bldg_12 (Height: 24.5m, Floors: 8)",
+      "status": "SUCCESS",
+      "model_identifier": "terrascope-local-grounded:deterministic-v2",
+      "task_status": "VERIFIED_COMPLETED"
+    }
+  ],
+  "pending_tasks": [
+    {
+      "task_id": "task_1_area_assessment",
+      "operation": "get_analysis_results",
+      "description": "Extract building footprints, heights, and terrain density",
+      "dependencies": [],
+      "status": "PENDING"
+    },
+    {
+      "task_id": "task_2_terrain_summary",
+      "operation": "get_terrain_summary",
+      "description": "Profile ground elevations, slopes, and Copernicus 30m calibration",
+      "dependencies": [
+        "task_1_area_assessment"
+      ],
+      "status": "PENDING"
+    },
+    {
+      "task_id": "task_4_final_report",
+      "operation": "generate_analysis_report",
+      "description": "Synthesize certified evidence-based geospatial intelligence report",
+      "dependencies": [
+        "task_1_area_assessment",
+        "task_2_terrain_summary"
+      ],
+      "status": "PENDING"
+    }
+  ],
+  "errors": [],
+  "evidence_references": {
+    "area_name": "test_unified_job_001",
+    "buildings_analyzed": 0,
+    "elevation_source": "Copernicus 30m DEM + ResNet50 U-Net Depth",
+    "verified_outputs": []
+  },
+  "final_report_status": "IN_PROGRESS",
+  "scheduled_monitoring": {
+    "enabled": false,
+    "frequency": "daily",
+    "last_run": null,
+    "next_scheduled_run": null,
+    "consecutive_passes": 1
+  }
+}

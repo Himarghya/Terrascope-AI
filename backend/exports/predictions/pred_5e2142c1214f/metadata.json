@@ -1,0 +1,14 @@
+{
+  "prediction_id": "pred_5e2142c1214f",
+  "width": 256,
+  "height": 256,
+  "height_units": "meters_above_ground_level",
+  "is_calibrated": true,
+  "stats": {
+    "min": 0.0,
+    "max": 27.12,
+    "mean": 7.12,
+    "std": 3.98
+  },
+  "created_at": 1792889377.705139
+}

@@ -1,0 +1,2575 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "B001",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -38.4,
+              -123.0,
+              2.32
+            ],
+            [
+              -36.8,
+              -113.8,
+              2.43
+            ],
+            [
+              -30.8,
+              -114.6,
+              1.77
+            ],
+            [
+              -25.6,
+              -116.6,
+              1.44
+            ],
+            [
+              -26.8,
+              -123.0,
+              1.09
+            ],
+            [
+              -38.4,
+              -123.0,
+              2.32
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "B001",
+        "building_type": "Residential Single-Family / Villa",
+        "footprint_area_m2": 93.1,
+        "estimated_height_m": 4.2,
+        "height_uncertainty_m": 1.5,
+        "estimated_floors": 1,
+        "roof_shape": "Flat Roof",
+        "roof_material": "Reflective White Membrane / Metal Deck",
+        "orientation_deg": -6.7,
+        "confidence": 0.62,
+        "height_source": "Footprint Morphology & Contextual Priors (No Clear Shadow Discovered)",
+        "validation_status": "Validated via Footprint-to-Ground Differential Sampling"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "B002",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.0,
+              -119.0,
+              1.99
+            ],
+            [
+              105.6,
+              -115.0,
+              1.96
+            ],
+            [
+              107.6,
+              -113.0,
+              1.7
+            ],
+            [
+              109.2,
+              -107.8,
+              1.31
+            ],
+            [
+              110.8,
+              -106.2,
+              1.54
+            ],
+            [
+              110.8,
+              -108.2,
+              1.42
+            ],
+            [
+              113.2,
+              -110.6,
+              1.32
+            ],
+            [
+              114.4,
+              -110.6,
+              1.31
+            ],
+            [
+              112.8,
+              -113.8,
+              1.33
+            ],
+            [
+              109.2,
+              -114.2,
+              1.31
+            ],
+            [
+              106.8,
+              -116.6,
+              1.95
+            ],
+            [
+              106.0,
+              -119.0,
+              1.99
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "B002",
+        "building_type": "Institutional / Public Facility",
+        "footprint_area_m2": 34.6,
+        "estimated_height_m": 4.2,
+        "height_uncertainty_m": 1.5,
+        "estimated_floors": 1,
+        "roof_shape": "Flat Roof",
+        "roof_material": "Reflective White Membrane / Metal Deck",
+        "orientation_deg": 63.4,
+        "confidence": 0.59,
+        "height_source": "Footprint Morphology & Contextual Priors (No Clear Shadow Discovered)",
+        "validation_status": "Validated via Footprint-to-Ground Differential Sampling"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "B003",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              121.6,
+              -105.4,
+              1.3
+            ],
+            [
+              122.4,
+              -104.6,
+              1.3
+            ],
+            [
+              122.4,
+              -101.8,
+              1.51
+            ],
+            [
+              124.8,
+              -101.8,
+              1.38
+            ],
+            [
+              128.0,
+              -99.0,
+              1.89
+            ],
+            [
+              130.0,
+              -99.8,
+              1.71
+            ],
+            [
+              127.2,
+              -103.0,
+              1.14
+            ],
+            [
+              127.2,
+              -105.0,
+              1.05
+            ],
+            [
+              121.6,
+              -105.4,
+              1.3
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "B003",
+        "building_type": "Institutional / Public Facility",
+        "footprint_area_m2": 23.9,
+        "estimated_height_m": 4.2,
+        "height_uncertainty_m": 1.5,
+        "estimated_floors": 1,
+        "roof_shape": "Flat Roof",
+        "roof_material": "Reflective White Membrane / Metal Deck",
+        "orientation_deg": 26.6,
+        "confidence": 0.6,
+        "height_source": "Footprint Morphology & Contextual Priors (No Clear Shadow Discovered)",
+        "validation_status": "Validated via Footprint-to-Ground Differential Sampling"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "B004",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -137.6,
+              -103.4,
+              4.3
+            ],
+            [
+              -144.4,
+              -104.2,
+              5.65
+            ],
+            [
+              -183.2,
+              -96.2,
+              5.63
+            ],
+            [
+              -180.4,
+              -83.4,
+              3.54
+            ],
+            [
+              -142.0,
+              -91.4,
+              3.01
+            ],
+            [
+              -142.8,
+              -99.0,
+              3.95
+            ],
+            [
+              -137.6,
+              -103.4,
+              4.3
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "B004",
+        "building_type": "Industrial Logistics / Warehouse",
+        "footprint_area_m2": 510.2,
+        "estimated_height_m": 16.8,
+        "height_uncertainty_m": 3.0,
+        "estimated_floors": 5,
+        "roof_shape": "Linear / Industrial Gabled",
+        "roof_material": "Reinforced Concrete / Gravel Built-Up Roof",
+        "orientation_deg": -11.3,
+        "confidence": 0.77,
+        "height_source": "Shadow Trigonometric Geometry (Solar Azimuth/Elevation)",
+        "validation_status": "Validated via Footprint-to-Ground Differential Sampling"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "B005",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              44.4,
+              -103.8,
+              3.97
+            ],
+            [
+              42.4,
+              -103.8,
+              3.79
+            ],
+            [
+              41.6,
+              -104.6,
+              3.69
+            ],
+            [
+              34.8,
+              -103.8,
+              3.68
+            ],
+            [
+              30.4,
+              -99.4,
+              4.46
+            ],
+            [
+              34.0,
+              -99.4,
+              3.94
+            ],
+            [
+              39.6,
+              -101.4,
+              3.84
+            ],
+            [
+              44.4,
+              -101.8,
+              4.12
+            ],
+            [
+              44.4,
+              -103.8,
+              3.97
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "B005",
+        "building_type": "Industrial Logistics / Warehouse",
+        "footprint_area_m2": 38.2,
+        "estimated_height_m": 4.2,
+        "height_uncertainty_m": 1.5,
+        "estimated_floors": 1,
+        "roof_shape": "Linear / Industrial Gabled",
+        "roof_material": "Reinforced Concrete / Gravel Built-Up Roof",
+        "orientation_deg": -13.0,
+        "confidence": 0.59,
+        "height_source": "Footprint Morphology & Contextual Priors (No Clear Shadow Discovered)",
+        "validation_status": "Validated via Footprint-to-Ground Differential Sampling"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "B006",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -70.0,
+              -93.8,
+              1.17
+            ],
+            [
+              -88.4,
+              -90.6,
+              0.94
+            ],
+            [
+              -86.8,
+              -82.6,
+              0.83
+            ],
+            [
+              -84.8,
+              -81.0,
+              1.27
+            ],
+            [
+              -82.0,
+              -83.8,
+              0.08
+            ],
+            [
+              -73.2,
+              -85.0,
+              0.0
+            ],
+            [
+              -68.4,
+              -82.6,
+              0.62
+            ],
+            [
+              -70.0,
+              -93.8,
+              1.17
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "B006",
+        "building_type": "Mixed-Use Urban Structure",
+        "footprint_area_m2": 153.3,
+        "estimated_height_m": 16.8,
+        "height_uncertainty_m": 3.0,
+        "estimated_floors": 5,
+        "roof_shape": "Flat Roof",
+        "roof_material": "Reflective White Membrane / Metal Deck",
+        "orientation_deg": -10.3,
+        "confidence": 0.78,
+        "height_source": "Shadow Trigonometric Geometry (Solar Azimuth/Elevation)",
+        "validation_status": "Validated via Footprint-to-Ground Differential Sampling"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "B007",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -125.6,
+              -82.2,
+              4.18
+            ],
+            [
+              -128.0,
+              -81.0,
+              4.13
+            ],
+            [
+              -131.2,
+              -81.0,
+              4.02
+            ],
+            [
+              -131.2,
+              -79.8,
+              4.07
+            ],
+            [
+              -130.4,
+              -79.0,
+              4.12
+            ],
+            [
+              -130.4,
+              -73.0,
+              4.71
+            ],
+            [
+              -125.2,
+              -73.4,
+              5.17
+            ],
+            [
+              -124.8,
+              -78.2,
+              4.78
+            ],
+            [
+              -125.6,
+              -79.0,
+              4.54
+            ],
+            [
+              -125.6,
+              -82.2,
+              4.18
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "B007",
+        "building_type": "Institutional / Public Facility",
+        "footprint_area_m2": 43.3,
+        "estimated_height_m": 16.8,
+        "height_uncertainty_m": 3.0,
+        "estimated_floors": 5,
+        "roof_shape": "Flat Roof with Parapet",
+        "roof_material": "Reinforced Concrete / Gravel Built-Up Roof",
+        "orientation_deg": 85.6,
+        "confidence": 0.79,
+        "height_source": "Shadow Trigonometric Geometry (Solar Azimuth/Elevation)",
+        "validation_status": "Validated via Footprint-to-Ground Differential Sampling"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "B008",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              192.4,
+              -69.4,
+              4.56
+            ],
+            [
+              188.0,
+              -68.6,
+              4.95
+            ],
+            [
+              191.6,
+              -47.8,
+              3.53
+            ],
+            [
+              192.4,
+              -47.8,
+              3.44
+            ],
+            [
+              192.4,
+              -69.4,
+              4.56
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "B008",
+        "building_type": "Industrial Logistics / Warehouse",
+        "footprint_area_m2": 58.2,
+        "estimated_height_m": 4.2,
+        "height_uncertainty_m": 1.5,
+        "estimated_floors": 1,
+        "roof_shape": "Linear / Industrial Gabled",
+        "roof_material": "Reflective White Membrane / Metal Deck",
+        "orientation_deg": -90.0,
+        "confidence": 0.58,
+        "height_source": "Footprint Morphology & Contextual Priors (No Clear Shadow Discovered)",
+        "validation_status": "Validated via Footprint-to-Ground Differential Sampling"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "B009",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              128.8,
+              -67.4,
+              6.17
+            ],
+            [
+              126.4,
+              -62.6,
+              6.16
+            ],
+            [
+              126.4,
+              -59.4,
+              6.17
+            ],
+            [
+              128.0,
+              -57.4,
+              6.05
+            ],
+            [
+              128.0,
+              -54.6,
+              6.01
+            ],
+            [
+              132.4,
+              -55.4,
+              5.37
+            ],
+            [
+              133.2,
+              -57.0,
+              5.31
+            ],
+            [
+              132.4,
+              -61.8,
+              5.59
+            ],
+            [
+              130.8,
+              -63.8,
+              5.83
+            ],
+            [
+              130.8,
+              -66.6,
+              6.12
+            ],
+            [
+              128.8,
+              -67.4,
+              6.17
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "B009",
+        "building_type": "Institutional / Public Facility",
+        "footprint_area_m2": 55.7,
+        "estimated_height_m": 4.2,
+        "height_uncertainty_m": 1.5,
+        "estimated_floors": 1,
+        "roof_shape": "Flat Roof",
+        "roof_material": "Reinforced Concrete / Gravel Built-Up Roof",
+        "orientation_deg": 77.5,
+        "confidence": 0.61,
+        "height_source": "Footprint Morphology & Contextual Priors (No Clear Shadow Discovered)",
+        "validation_status": "Validated via Footprint-to-Ground Differential Sampling"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "B010",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -12.4,
+              -38.6,
+              4.71
+            ],
+            [
+              -12.8,
+              -38.2,
+              4.57
+            ],
+            [
+              -16.8,
+              -37.8,
+              5.89
+            ],
+            [
+              -17.2,
+              -37.4,
+              4.17
+            ],
+            [
+              -17.2,
+              -36.2,
+              5.27
+            ],
+            [
+              -16.4,
+              -36.6,
+              5.05
+            ],
+            [
+              -12.4,
+              -36.6,
+              3.56
+            ],
+            [
+              -12.4,
+              -38.6,
+              4.71
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "B010",
+        "building_type": "Residential Single-Family / Villa",
+        "footprint_area_m2": 7.0,
+        "estimated_height_m": 7.2,
+        "height_uncertainty_m": 1.3,
+        "estimated_floors": 2,
+        "roof_shape": "Flat Roof",
+        "roof_material": "Reflective White Membrane / Metal Deck",
+        "orientation_deg": -5.2,
+        "confidence": 0.78,
+        "height_source": "Shadow Trigonometric Geometry (Solar Azimuth/Elevation)",
+        "validation_status": "Validated via Footprint-to-Ground Differential Sampling"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "B011",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -16.8,
+              -29.0,
+              3.34
+            ],
+            [
+              -17.2,
+              -25.4,
+              3.15
+            ],
+            [
+              -14.4,
+              -16.6,
+              3.36
+            ],
+            [
+              -6.8,
+              -16.6,
+              1.69
+            ],
+            [
+              -4.0,
+              -13.8,
+              1.77
+            ],
+            [
+              -3.2,
+              -7.8,
+              2.12
+            ],
+            [
+              -0.4,
+              -7.8,
+              2.29
+            ],
+            [
+              -1.6,
+              -15.4,
+              2.14
+            ],
+            [
+              -6.0,
+              -17.8,
+              1.66
+            ],
+            [
+              -8.0,
+              -29.4,
+              1.97
+            ],
+            [
+              -16.8,
+              -29.0,
+              3.34
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "B011",
+        "building_type": "Institutional / Public Facility",
+        "footprint_area_m2": 135.0,
+        "estimated_height_m": 7.5,
+        "height_uncertainty_m": 2.2,
+        "estimated_floors": 2,
+        "roof_shape": "Flat Roof",
+        "roof_material": "Reflective White Membrane / Metal Deck",
+        "orientation_deg": 65.4,
+        "confidence": 0.59,
+        "height_source": "Footprint Morphology & Contextual Priors (No Clear Shadow Discovered)",
+        "validation_status": "Validated via Footprint-to-Ground Differential Sampling"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "B012",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -60.8,
+              -28.2,
+              4.67
+            ],
+            [
+              -74.8,
+              -25.8,
+              6.23
+            ],
+            [
+              -74.4,
+              -21.8,
+              5.07
+            ],
+            [
+              -70.4,
+              -21.8,
+              3.92
+            ],
+            [
+              -68.0,
+              -19.4,
+              3.53
+            ],
+            [
+              -68.0,
+              -16.6,
+              3.84
+            ],
+            [
+              -64.8,
+              -18.2,
+              3.31
+            ],
+            [
+              -60.8,
+              -18.2,
+              3.93
+            ],
+            [
+              -60.0,
+              -19.0,
+              4.06
+            ],
+            [
+              -60.8,
+              -28.2,
+              4.67
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "B012",
+        "building_type": "Institutional / Public Facility",
+        "footprint_area_m2": 108.1,
+        "estimated_height_m": 16.8,
+        "height_uncertainty_m": 3.0,
+        "estimated_floors": 5,
+        "roof_shape": "Flat Roof",
+        "roof_material": "Reinforced Concrete / Gravel Built-Up Roof",
+        "orientation_deg": -12.5,
+        "confidence": 0.79,
+        "height_source": "Shadow Trigonometric Geometry (Solar Azimuth/Elevation)",
+        "validation_status": "Validated via Footprint-to-Ground Differential Sampling"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "B013",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              149.6,
+              -20.6,
+              2.18
+            ],
+            [
+              130.4,
+              -16.6,
+              1.99
+            ],
+            [
+              134.0,
+              0.2,
+              2.05
+            ],
+            [
+              130.8,
+              7.0,
+              3.87
+            ],
+            [
+              135.2,
+              11.0,
+              3.25
+            ],
+            [
+              154.8,
+              7.0,
+              1.64
+            ],
+            [
+              149.6,
+              -20.6,
+              2.18
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "B013",
+        "building_type": "Multi-Family Residential / Apartment",
+        "footprint_area_m2": 567.4,
+        "estimated_height_m": 11.0,
+        "height_uncertainty_m": 3.0,
+        "estimated_floors": 3,
+        "roof_shape": "Flat Roof with Parapet",
+        "roof_material": "Reflective White Membrane / Metal Deck",
+        "orientation_deg": 79.7,
+        "confidence": 0.62,
+        "height_source": "Footprint Morphology & Contextual Priors (No Clear Shadow Discovered)",
+        "validation_status": "Validated via Footprint-to-Ground Differential Sampling"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "B014",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -114.8,
+              -8.2,
+              3.09
+            ],
+            [
+              -110.8,
+              13.4,
+              2.48
+            ],
+            [
+              -105.6,
+              11.8,
+              0.85
+            ],
+            [
+              -109.6,
+              -9.0,
+              1.07
+            ],
+            [
+              -114.8,
+              -8.2,
+              3.09
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "B014",
+        "building_type": "Industrial Logistics / Warehouse",
+        "footprint_area_m2": 107.8,
+        "estimated_height_m": 12.0,
+        "height_uncertainty_m": 2.2,
+        "estimated_floors": 4,
+        "roof_shape": "Linear / Industrial Gabled",
+        "roof_material": "Reflective White Membrane / Metal Deck",
+        "orientation_deg": 79.5,
+        "confidence": 0.77,
+        "height_source": "Shadow Trigonometric Geometry (Solar Azimuth/Elevation)",
+        "validation_status": "Validated via Footprint-to-Ground Differential Sampling"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "B015",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -12.4,
+              -7.8,
+              3.93
+            ],
+            [
+              -15.2,
+              -7.8,
+              4.33
+            ],
+            [
+              -16.4,
+              -6.6,
+              4.64
+            ],
+            [
+              -18.0,
+              -6.6,
+              5.03
+            ],
+            [
+              -17.6,
+              -4.2,
+              5.17
+            ],
+            [
+              -16.0,
+              -5.4,
+              4.72
+            ],
+            [
+              -12.4,
+              -5.4,
+              4.04
+            ],
+            [
+              -12.0,
+              -5.8,
+              4.25
+            ],
+            [
+              -12.4,
+              -7.8,
+              3.93
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "B015",
+        "building_type": "Institutional / Public Facility",
+        "footprint_area_m2": 12.4,
+        "estimated_height_m": 4.2,
+        "height_uncertainty_m": 1.5,
+        "estimated_floors": 1,
+        "roof_shape": "Flat Roof",
+        "roof_material": "Reinforced Concrete / Gravel Built-Up Roof",
+        "orientation_deg": -14.0,
+        "confidence": 0.6,
+        "height_source": "Footprint Morphology & Contextual Priors (No Clear Shadow Discovered)",
+        "validation_status": "Validated via Footprint-to-Ground Differential Sampling"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "B016",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              66.0,
+              10.2,
+              2.63
+            ],
+            [
+              46.0,
+              14.2,
+              6.03
+            ],
+            [
+              46.8,
+              21.4,
+              4.79
+            ],
+            [
+              52.0,
+              21.8,
+              3.5
+            ],
+            [
+              54.8,
+              19.8,
+              2.88
+            ],
+            [
+              59.2,
+              19.8,
+              2.56
+            ],
+            [
+              62.8,
+              16.6,
+              2.1
+            ],
+            [
+              67.2,
+              16.6,
+              1.95
+            ],
+            [
+              66.0,
+              10.2,
+              2.63
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "B016",
+        "building_type": "Institutional / Public Facility",
+        "footprint_area_m2": 150.5,
+        "estimated_height_m": 16.8,
+        "height_uncertainty_m": 3.0,
+        "estimated_floors": 5,
+        "roof_shape": "Flat Roof",
+        "roof_material": "Reflective White Membrane / Metal Deck",
+        "orientation_deg": -9.0,
+        "confidence": 0.78,
+        "height_source": "Shadow Trigonometric Geometry (Solar Azimuth/Elevation)",
+        "validation_status": "Validated via Footprint-to-Ground Differential Sampling"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "B017",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              176.0,
+              28.2,
+              4.33
+            ],
+            [
+              164.4,
+              31.0,
+              5.43
+            ],
+            [
+              160.8,
+              43.4,
+              6.89
+            ],
+            [
+              155.2,
+              41.0,
+              6.88
+            ],
+            [
+              152.4,
+              33.8,
+              5.35
+            ],
+            [
+              145.6,
+              34.6,
+              4.43
+            ],
+            [
+              148.8,
+              59.4,
+              6.64
+            ],
+            [
+              158.8,
+              58.2,
+              6.89
+            ],
+            [
+              160.4,
+              50.2,
+              6.89
+            ],
+            [
+              163.6,
+              50.2,
+              6.89
+            ],
+            [
+              166.0,
+              55.8,
+              6.89
+            ],
+            [
+              180.8,
+              53.8,
+              5.91
+            ],
+            [
+              176.0,
+              28.2,
+              4.33
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "B017",
+        "building_type": "Commercial Office / Retail Center",
+        "footprint_area_m2": 677.2,
+        "estimated_height_m": 16.8,
+        "height_uncertainty_m": 3.0,
+        "estimated_floors": 5,
+        "roof_shape": "Flat Roof",
+        "roof_material": "Terracotta Ceramic Tile",
+        "orientation_deg": -9.9,
+        "confidence": 0.76,
+        "height_source": "Shadow Trigonometric Geometry (Solar Azimuth/Elevation)",
+        "validation_status": "Validated via Footprint-to-Ground Differential Sampling"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "B018",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              42.8,
+              63.8,
+              0.21
+            ],
+            [
+              39.6,
+              65.8,
+              0.29
+            ],
+            [
+              28.8,
+              65.8,
+              2.22
+            ],
+            [
+              32.0,
+              67.0,
+              1.58
+            ],
+            [
+              37.2,
+              72.2,
+              1.01
+            ],
+            [
+              37.2,
+              77.0,
+              1.34
+            ],
+            [
+              46.4,
+              76.2,
+              1.23
+            ],
+            [
+              44.8,
+              65.8,
+              0.46
+            ],
+            [
+              42.8,
+              63.8,
+              0.21
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "B018",
+        "building_type": "Institutional / Public Facility",
+        "footprint_area_m2": 120.8,
+        "estimated_height_m": 8.4,
+        "height_uncertainty_m": 1.5,
+        "estimated_floors": 3,
+        "roof_shape": "Flat Roof",
+        "roof_material": "Reflective White Membrane / Metal Deck",
+        "orientation_deg": -8.9,
+        "confidence": 0.78,
+        "height_source": "Shadow Trigonometric Geometry (Solar Azimuth/Elevation)",
+        "validation_status": "Validated via Footprint-to-Ground Differential Sampling"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "B019",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -69.2,
+              70.2,
+              7.24
+            ],
+            [
+              -70.4,
+              68.6,
+              7.24
+            ],
+            [
+              -71.6,
+              69.8,
+              7.24
+            ],
+            [
+              -73.6,
+              70.6,
+              7.25
+            ],
+            [
+              -76.8,
+              70.6,
+              7.59
+            ],
+            [
+              -77.6,
+              69.8,
+              7.86
+            ],
+            [
+              -76.8,
+              73.0,
+              7.4
+            ],
+            [
+              -74.8,
+              71.0,
+              7.29
+            ],
+            [
+              -73.2,
+              70.6,
+              7.24
+            ],
+            [
+              -69.6,
+              70.6,
+              7.24
+            ],
+            [
+              -69.2,
+              71.0,
+              7.24
+            ],
+            [
+              -69.2,
+              70.2,
+              7.24
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "B019",
+        "building_type": "Institutional / Public Facility",
+        "footprint_area_m2": 8.7,
+        "estimated_height_m": 16.8,
+        "height_uncertainty_m": 3.0,
+        "estimated_floors": 5,
+        "roof_shape": "Flat Roof",
+        "roof_material": "Terracotta Ceramic Tile",
+        "orientation_deg": -9.5,
+        "confidence": 0.74,
+        "height_source": "Shadow Trigonometric Geometry (Solar Azimuth/Elevation)",
+        "validation_status": "Validated via Footprint-to-Ground Differential Sampling"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "B020",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90.4,
+              93.8,
+              3.35
+            ],
+            [
+              87.2,
+              77.4,
+              3.16
+            ],
+            [
+              84.0,
+              78.6,
+              3.14
+            ],
+            [
+              81.2,
+              83.8,
+              1.88
+            ],
+            [
+              76.8,
+              83.8,
+              2.24
+            ],
+            [
+              73.2,
+              80.6,
+              3.11
+            ],
+            [
+              60.8,
+              83.0,
+              2.35
+            ],
+            [
+              61.6,
+              90.2,
+              2.02
+            ],
+            [
+              72.0,
+              95.0,
+              2.46
+            ],
+            [
+              90.4,
+              93.8,
+              3.35
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "B020",
+        "building_type": "Institutional / Public Facility",
+        "footprint_area_m2": 333.4,
+        "estimated_height_m": 16.8,
+        "height_uncertainty_m": 3.0,
+        "estimated_floors": 5,
+        "roof_shape": "Flat Roof",
+        "roof_material": "Reflective White Membrane / Metal Deck",
+        "orientation_deg": -10.7,
+        "confidence": 0.78,
+        "height_source": "Shadow Trigonometric Geometry (Solar Azimuth/Elevation)",
+        "validation_status": "Validated via Footprint-to-Ground Differential Sampling"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "B021",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -128.4,
+              83.4,
+              5.35
+            ],
+            [
+              -125.2,
+              100.2,
+              3.8
+            ],
+            [
+              -122.8,
+              98.6,
+              3.08
+            ],
+            [
+              -118.8,
+              98.6,
+              2.43
+            ],
+            [
+              -117.6,
+              99.8,
+              2.58
+            ],
+            [
+              -113.6,
+              99.0,
+              2.77
+            ],
+            [
+              -115.2,
+              91.4,
+              2.77
+            ],
+            [
+              -120.4,
+              91.0,
+              2.24
+            ],
+            [
+              -122.8,
+              88.6,
+              2.56
+            ],
+            [
+              -123.6,
+              83.8,
+              3.64
+            ],
+            [
+              -125.6,
+              82.6,
+              4.52
+            ],
+            [
+              -128.4,
+              83.4,
+              5.35
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "B021",
+        "building_type": "Institutional / Public Facility",
+        "footprint_area_m2": 138.8,
+        "estimated_height_m": 16.8,
+        "height_uncertainty_m": 3.0,
+        "estimated_floors": 5,
+        "roof_shape": "Flat Roof",
+        "roof_material": "Reflective White Membrane / Metal Deck",
+        "orientation_deg": 78.7,
+        "confidence": 0.78,
+        "height_source": "Shadow Trigonometric Geometry (Solar Azimuth/Elevation)",
+        "validation_status": "Validated via Footprint-to-Ground Differential Sampling"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "B022",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -68.4,
+              83.4,
+              7.09
+            ],
+            [
+              -70.0,
+              84.6,
+              7.09
+            ],
+            [
+              -70.0,
+              85.8,
+              7.09
+            ],
+            [
+              -72.8,
+              89.8,
+              6.95
+            ],
+            [
+              -72.4,
+              94.6,
+              6.06
+            ],
+            [
+              -69.2,
+              91.8,
+              6.97
+            ],
+            [
+              -66.0,
+              91.8,
+              7.01
+            ],
+            [
+              -66.0,
+              87.8,
+              7.09
+            ],
+            [
+              -68.4,
+              85.0,
+              7.09
+            ],
+            [
+              -68.4,
+              83.4,
+              7.09
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "B022",
+        "building_type": "Institutional / Public Facility",
+        "footprint_area_m2": 41.3,
+        "estimated_height_m": 14.4,
+        "height_uncertainty_m": 2.6,
+        "estimated_floors": 4,
+        "roof_shape": "Flat Roof",
+        "roof_material": "Terracotta Ceramic Tile",
+        "orientation_deg": 66.4,
+        "confidence": 0.78,
+        "height_source": "Shadow Trigonometric Geometry (Solar Azimuth/Elevation)",
+        "validation_status": "Validated via Footprint-to-Ground Differential Sampling"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "B023",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              42.8,
+              94.2,
+              1.59
+            ],
+            [
+              41.2,
+              95.4,
+              1.62
+            ],
+            [
+              34.0,
+              95.4,
+              2.61
+            ],
+            [
+              32.0,
+              96.6,
+              2.91
+            ],
+            [
+              32.4,
+              100.6,
+              2.69
+            ],
+            [
+              35.6,
+              103.0,
+              2.07
+            ],
+            [
+              35.6,
+              106.6,
+              2.15
+            ],
+            [
+              33.6,
+              109.4,
+              2.26
+            ],
+            [
+              45.2,
+              108.2,
+              2.84
+            ],
+            [
+              42.8,
+              94.2,
+              1.59
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "B023",
+        "building_type": "Institutional / Public Facility",
+        "footprint_area_m2": 138.8,
+        "estimated_height_m": 16.8,
+        "height_uncertainty_m": 3.0,
+        "estimated_floors": 5,
+        "roof_shape": "Flat Roof",
+        "roof_material": "Reflective White Membrane / Metal Deck",
+        "orientation_deg": 81.9,
+        "confidence": 0.79,
+        "height_source": "Shadow Trigonometric Geometry (Solar Azimuth/Elevation)",
+        "validation_status": "Validated via Footprint-to-Ground Differential Sampling"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "B024",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -44.8,
+              101.4,
+              2.28
+            ],
+            [
+              -50.0,
+              102.2,
+              3.01
+            ],
+            [
+              -48.8,
+              105.8,
+              1.95
+            ],
+            [
+              -48.0,
+              113.8,
+              1.37
+            ],
+            [
+              -46.8,
+              113.4,
+              1.35
+            ],
+            [
+              -46.8,
+              110.6,
+              1.31
+            ],
+            [
+              -44.0,
+              107.8,
+              0.92
+            ],
+            [
+              -44.8,
+              101.4,
+              2.28
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "B024",
+        "building_type": "Mixed-Use Urban Structure",
+        "footprint_area_m2": 43.9,
+        "estimated_height_m": 12.0,
+        "height_uncertainty_m": 2.2,
+        "estimated_floors": 4,
+        "roof_shape": "Flat Roof",
+        "roof_material": "Reflective White Membrane / Metal Deck",
+        "orientation_deg": 80.0,
+        "confidence": 0.78,
+        "height_source": "Shadow Trigonometric Geometry (Solar Azimuth/Elevation)",
+        "validation_status": "Validated via Footprint-to-Ground Differential Sampling"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "B025",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -80.0,
+              108.6,
+              1.14
+            ],
+            [
+              -93.2,
+              111.4,
+              1.91
+            ],
+            [
+              -91.2,
+              122.6,
+              0.87
+            ],
+            [
+              -78.0,
+              122.6,
+              0.49
+            ],
+            [
+              -80.0,
+              108.6,
+              1.14
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "B025",
+        "building_type": "Residential Single-Family / Villa",
+        "footprint_area_m2": 170.5,
+        "estimated_height_m": 7.5,
+        "height_uncertainty_m": 2.2,
+        "estimated_floors": 2,
+        "roof_shape": "Flat Roof",
+        "roof_material": "Reflective White Membrane / Metal Deck",
+        "orientation_deg": 81.9,
+        "confidence": 0.62,
+        "height_source": "Footprint Morphology & Contextual Priors (No Clear Shadow Discovered)",
+        "validation_status": "Validated via Footprint-to-Ground Differential Sampling"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "B026",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -106.0,
+              114.2,
+              2.98
+            ],
+            [
+              -108.8,
+              115.4,
+              3.55
+            ],
+            [
+              -114.4,
+              115.8,
+              4.73
+            ],
+            [
+              -113.6,
+              122.6,
+              4.74
+            ],
+            [
+              -104.4,
+              122.6,
+              2.98
+            ],
+            [
+              -104.4,
+              121.4,
+              2.98
+            ],
+            [
+              -107.2,
+              119.0,
+              3.31
+            ],
+            [
+              -107.2,
+              115.4,
+              3.17
+            ],
+            [
+              -106.0,
+              114.2,
+              2.98
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "B026",
+        "building_type": "Institutional / Public Facility",
+        "footprint_area_m2": 55.6,
+        "estimated_height_m": 4.2,
+        "height_uncertainty_m": 1.5,
+        "estimated_floors": 1,
+        "roof_shape": "Flat Roof",
+        "roof_material": "Reflective White Membrane / Metal Deck",
+        "orientation_deg": -8.1,
+        "confidence": 0.61,
+        "height_source": "Footprint Morphology & Contextual Priors (No Clear Shadow Discovered)",
+        "validation_status": "Validated via Footprint-to-Ground Differential Sampling"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "B027",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -192.8,
+              116.6,
+              0.0
+            ],
+            [
+              -192.8,
+              122.6,
+              0.0
+            ],
+            [
+              -178.4,
+              122.6,
+              0.0
+            ],
+            [
+              -178.4,
+              116.6,
+              0.03
+            ],
+            [
+              -192.8,
+              116.6,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "B027",
+        "building_type": "Residential Single-Family / Villa",
+        "footprint_area_m2": 86.4,
+        "estimated_height_m": 4.2,
+        "height_uncertainty_m": 1.5,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Reflective White Membrane / Metal Deck",
+        "orientation_deg": 0.0,
+        "confidence": 0.62,
+        "height_source": "Footprint Morphology & Contextual Priors (No Clear Shadow Discovered)",
+        "validation_status": "Validated via Footprint-to-Ground Differential Sampling"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -179.44,
+          -116.36,
+          9.5
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-001",
+        "category": "Broadleaf Deciduous Tree",
+        "crown_diameter_m": 5.4,
+        "crown_area_m2": 22.6,
+        "estimated_canopy_height_m": 14.2,
+        "vitality_status": "Moderate Vigour",
+        "species_note": "Broadleaf crown (Species uncertain without high-resolution seasonal or spectral phenology)",
+        "confidence": 0.89
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.72,
+          -77.92,
+          8.76
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-002",
+        "category": "Broadleaf Deciduous Tree",
+        "crown_diameter_m": 9.2,
+        "crown_area_m2": 67.0,
+        "estimated_canopy_height_m": 13.8,
+        "vitality_status": "Moderate Vigour",
+        "species_note": "Broadleaf crown (Species uncertain without high-resolution seasonal or spectral phenology)",
+        "confidence": 0.88
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.36,
+          -75.0,
+          8.19
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-003",
+        "category": "Broadleaf Deciduous Tree",
+        "crown_diameter_m": 8.0,
+        "crown_area_m2": 50.6,
+        "estimated_canopy_height_m": 16.0,
+        "vitality_status": "Moderate Vigour",
+        "species_note": "Broadleaf crown (Species uncertain without high-resolution seasonal or spectral phenology)",
+        "confidence": 0.89
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-004",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -12.44,
+          -69.4,
+          9.26
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-004",
+        "category": "Broadleaf Deciduous Tree",
+        "crown_diameter_m": 8.8,
+        "crown_area_m2": 60.5,
+        "estimated_canopy_height_m": 13.8,
+        "vitality_status": "Moderate Vigour",
+        "species_note": "Broadleaf crown (Species uncertain without high-resolution seasonal or spectral phenology)",
+        "confidence": 0.89
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-005",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.08,
+          -64.88,
+          9.14
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-005",
+        "category": "Broadleaf Deciduous Tree",
+        "crown_diameter_m": 7.0,
+        "crown_area_m2": 39.0,
+        "estimated_canopy_height_m": 12.6,
+        "vitality_status": "Moderate Vigour",
+        "species_note": "Broadleaf crown (Species uncertain without high-resolution seasonal or spectral phenology)",
+        "confidence": 0.85
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-006",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.88,
+          -62.48,
+          9.18
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-006",
+        "category": "Broadleaf Deciduous Tree",
+        "crown_diameter_m": 8.9,
+        "crown_area_m2": 62.2,
+        "estimated_canopy_height_m": 13.2,
+        "vitality_status": "Moderate Vigour",
+        "species_note": "Broadleaf crown (Species uncertain without high-resolution seasonal or spectral phenology)",
+        "confidence": 0.86
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-007",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -53.12,
+          -59.68,
+          8.16
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-007",
+        "category": "Broadleaf Deciduous Tree",
+        "crown_diameter_m": 6.8,
+        "crown_area_m2": 36.8,
+        "estimated_canopy_height_m": 17.5,
+        "vitality_status": "Moderate Vigour",
+        "species_note": "Broadleaf crown (Species uncertain without high-resolution seasonal or spectral phenology)",
+        "confidence": 0.86
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-008",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.72,
+          -57.92,
+          8.76
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-008",
+        "category": "Broadleaf Deciduous Tree",
+        "crown_diameter_m": 8.2,
+        "crown_area_m2": 53.3,
+        "estimated_canopy_height_m": 15.6,
+        "vitality_status": "Healthy / High Photosynthetic Vigour",
+        "species_note": "Broadleaf crown (Species uncertain without high-resolution seasonal or spectral phenology)",
+        "confidence": 0.86
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-009",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.88,
+          -58.48,
+          9.12
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-009",
+        "category": "Broadleaf Deciduous Tree",
+        "crown_diameter_m": 5.6,
+        "crown_area_m2": 24.3,
+        "estimated_canopy_height_m": 14.3,
+        "vitality_status": "Moderate Vigour",
+        "species_note": "Broadleaf crown (Species uncertain without high-resolution seasonal or spectral phenology)",
+        "confidence": 0.87
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-010",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.8,
+          -56.4,
+          9.18
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-010",
+        "category": "Broadleaf Deciduous Tree",
+        "crown_diameter_m": 8.9,
+        "crown_area_m2": 62.4,
+        "estimated_canopy_height_m": 13.1,
+        "vitality_status": "Moderate Vigour",
+        "species_note": "Broadleaf crown (Species uncertain without high-resolution seasonal or spectral phenology)",
+        "confidence": 0.89
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-011",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.72,
+          -56.4,
+          9.18
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-011",
+        "category": "Broadleaf Deciduous Tree",
+        "crown_diameter_m": 11.3,
+        "crown_area_m2": 101.1,
+        "estimated_canopy_height_m": 11.6,
+        "vitality_status": "Moderate Vigour",
+        "species_note": "Broadleaf crown (Species uncertain without high-resolution seasonal or spectral phenology)",
+        "confidence": 0.85
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-012",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.68,
+          -52.72,
+          8.98
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-012",
+        "category": "Broadleaf Deciduous Tree",
+        "crown_diameter_m": 8.4,
+        "crown_area_m2": 55.7,
+        "estimated_canopy_height_m": 15.7,
+        "vitality_status": "Healthy / High Photosynthetic Vigour",
+        "species_note": "Broadleaf crown (Species uncertain without high-resolution seasonal or spectral phenology)",
+        "confidence": 0.86
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-013",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.76,
+          -47.6,
+          7.23
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-013",
+        "category": "Broadleaf Deciduous Tree",
+        "crown_diameter_m": 6.5,
+        "crown_area_m2": 33.3,
+        "estimated_canopy_height_m": 16.1,
+        "vitality_status": "Moderate Vigour",
+        "species_note": "Broadleaf crown (Species uncertain without high-resolution seasonal or spectral phenology)",
+        "confidence": 0.86
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-014",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.28,
+          -41.08,
+          7.23
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-014",
+        "category": "Broadleaf Deciduous Tree",
+        "crown_diameter_m": 8.0,
+        "crown_area_m2": 50.6,
+        "estimated_canopy_height_m": 14.6,
+        "vitality_status": "Moderate Vigour",
+        "species_note": "Broadleaf crown (Species uncertain without high-resolution seasonal or spectral phenology)",
+        "confidence": 0.87
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-015",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -156.64,
+          -39.76,
+          6.31
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-015",
+        "category": "Broadleaf Deciduous Tree",
+        "crown_diameter_m": 7.8,
+        "crown_area_m2": 47.7,
+        "estimated_canopy_height_m": 15.9,
+        "vitality_status": "Moderate Vigour",
+        "species_note": "Broadleaf crown (Species uncertain without high-resolution seasonal or spectral phenology)",
+        "confidence": 0.89
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-016",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.36,
+          -38.2,
+          9.09
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-016",
+        "category": "Broadleaf Deciduous Tree",
+        "crown_diameter_m": 8.7,
+        "crown_area_m2": 59.8,
+        "estimated_canopy_height_m": 14.9,
+        "vitality_status": "Moderate Vigour",
+        "species_note": "Broadleaf crown (Species uncertain without high-resolution seasonal or spectral phenology)",
+        "confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-017",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          184.76,
+          -35.0,
+          7.08
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-017",
+        "category": "Broadleaf Deciduous Tree",
+        "crown_diameter_m": 6.4,
+        "crown_area_m2": 32.5,
+        "estimated_canopy_height_m": 17.1,
+        "vitality_status": "Moderate Vigour",
+        "species_note": "Broadleaf crown (Species uncertain without high-resolution seasonal or spectral phenology)",
+        "confidence": 0.88
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-018",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.52,
+          -26.76,
+          7.76
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-018",
+        "category": "Broadleaf Deciduous Tree",
+        "crown_diameter_m": 8.3,
+        "crown_area_m2": 54.2,
+        "estimated_canopy_height_m": 15.9,
+        "vitality_status": "Moderate Vigour",
+        "species_note": "Broadleaf crown (Species uncertain without high-resolution seasonal or spectral phenology)",
+        "confidence": 0.84
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-019",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -136.84,
+          -24.28,
+          8.62
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-019",
+        "category": "Broadleaf Deciduous Tree",
+        "crown_diameter_m": 8.7,
+        "crown_area_m2": 59.8,
+        "estimated_canopy_height_m": 14.4,
+        "vitality_status": "Healthy / High Photosynthetic Vigour",
+        "species_note": "Broadleaf crown (Species uncertain without high-resolution seasonal or spectral phenology)",
+        "confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-020",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.96,
+          -9.92,
+          7.13
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-020",
+        "category": "Broadleaf Deciduous Tree",
+        "crown_diameter_m": 9.3,
+        "crown_area_m2": 68.6,
+        "estimated_canopy_height_m": 18.0,
+        "vitality_status": "Healthy / High Photosynthetic Vigour",
+        "species_note": "Broadleaf crown (Species uncertain without high-resolution seasonal or spectral phenology)",
+        "confidence": 0.86
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-021",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.88,
+          -7.0,
+          6.89
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-021",
+        "category": "Broadleaf Deciduous Tree",
+        "crown_diameter_m": 7.4,
+        "crown_area_m2": 42.6,
+        "estimated_canopy_height_m": 16.4,
+        "vitality_status": "Moderate Vigour",
+        "species_note": "Broadleaf crown (Species uncertain without high-resolution seasonal or spectral phenology)",
+        "confidence": 0.87
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-022",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -188.4,
+          37.72,
+          8.93
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-022",
+        "category": "Broadleaf Deciduous Tree",
+        "crown_diameter_m": 9.7,
+        "crown_area_m2": 73.6,
+        "estimated_canopy_height_m": 11.8,
+        "vitality_status": "Moderate Vigour",
+        "species_note": "Broadleaf crown (Species uncertain without high-resolution seasonal or spectral phenology)",
+        "confidence": 0.89
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-023",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.88,
+          37.76,
+          7.78
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-023",
+        "category": "Broadleaf Deciduous Tree",
+        "crown_diameter_m": 8.7,
+        "crown_area_m2": 59.4,
+        "estimated_canopy_height_m": 14.9,
+        "vitality_status": "Moderate Vigour",
+        "species_note": "Broadleaf crown (Species uncertain without high-resolution seasonal or spectral phenology)",
+        "confidence": 0.86
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-024",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.76,
+          48.4,
+          8.28
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-024",
+        "category": "Broadleaf Deciduous Tree",
+        "crown_diameter_m": 7.3,
+        "crown_area_m2": 41.4,
+        "estimated_canopy_height_m": 16.2,
+        "vitality_status": "Moderate Vigour",
+        "species_note": "Broadleaf crown (Species uncertain without high-resolution seasonal or spectral phenology)",
+        "confidence": 0.88
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-025",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -167.48,
+          50.52,
+          9.96
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-025",
+        "category": "Broadleaf Deciduous Tree",
+        "crown_diameter_m": 7.9,
+        "crown_area_m2": 49.3,
+        "estimated_canopy_height_m": 11.3,
+        "vitality_status": "Moderate Vigour",
+        "species_note": "Broadleaf crown (Species uncertain without high-resolution seasonal or spectral phenology)",
+        "confidence": 0.86
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-026",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.92,
+          65.56,
+          9.69
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-026",
+        "category": "Broadleaf Deciduous Tree",
+        "crown_diameter_m": 7.5,
+        "crown_area_m2": 44.3,
+        "estimated_canopy_height_m": 14.7,
+        "vitality_status": "Stressed / Senescent",
+        "species_note": "Broadleaf crown (Species uncertain without high-resolution seasonal or spectral phenology)",
+        "confidence": 0.86
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-027",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -109.68,
+          105.56,
+          3.14
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-027",
+        "category": "Broadleaf Deciduous Tree",
+        "crown_diameter_m": 5.8,
+        "crown_area_m2": 26.7,
+        "estimated_canopy_height_m": 20.1,
+        "vitality_status": "Moderate Vigour",
+        "species_note": "Broadleaf crown (Species uncertain without high-resolution seasonal or spectral phenology)",
+        "confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-028",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.36,
+          110.12,
+          9.56
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-028",
+        "category": "Broadleaf Deciduous Tree",
+        "crown_diameter_m": 8.3,
+        "crown_area_m2": 54.4,
+        "estimated_canopy_height_m": 12.9,
+        "vitality_status": "Moderate Vigour",
+        "species_note": "Broadleaf crown (Species uncertain without high-resolution seasonal or spectral phenology)",
+        "confidence": 0.89
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-029",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.72,
+          117.84,
+          2.08
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-029",
+        "category": "Broadleaf Deciduous Tree",
+        "crown_diameter_m": 9.3,
+        "crown_area_m2": 67.7,
+        "estimated_canopy_height_m": 20.6,
+        "vitality_status": "Moderate Vigour",
+        "species_note": "Broadleaf crown (Species uncertain without high-resolution seasonal or spectral phenology)",
+        "confidence": 0.9
+      }
+    }
+  ]
+}

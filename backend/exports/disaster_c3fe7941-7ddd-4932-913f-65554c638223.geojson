@@ -1,0 +1,6229 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "title": "Terrascope AI \u2014 Disaster Structural Damage & Debris Assessment",
+    "generated_at": 1792469169.250223,
+    "gsd_m": 0.35,
+    "bulking_factor": 1.3,
+    "coordinate_system": "Local Metric Cartesian (Origin at Scene Center)"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-100",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 12.11,
+        "post_height_m": 0.43,
+        "delta_height_m": 11.68,
+        "collapse_pct": 96.5,
+        "footprint_area_m2": 11.9,
+        "debris_volume_m3": 180.7,
+        "debris_uncertainty_m3": 35.1,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (87% mud coverage)",
+          "Pancake/Full Roof Collapse Detected"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              36.75,
+              25.38
+            ],
+            [
+              44.1,
+              23.97
+            ],
+            [
+              44.8,
+              27.47
+            ],
+            [
+              37.45,
+              28.87
+            ],
+            [
+              36.75,
+              25.38
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-003",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 9.15,
+        "post_height_m": 0.25,
+        "delta_height_m": 8.9,
+        "collapse_pct": 97.3,
+        "footprint_area_m2": 146.7,
+        "debris_volume_m3": 1696.7,
+        "debris_uncertainty_m3": 329.5,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (93% mud coverage)",
+          "Pancake/Full Roof Collapse Detected",
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -37.8,
+              -44.62
+            ],
+            [
+              -16.8,
+              -49.17
+            ],
+            [
+              -15.4,
+              -43.22
+            ],
+            [
+              -36.4,
+              -38.67
+            ],
+            [
+              -37.8,
+              -44.62
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-009",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 7.66,
+        "post_height_m": 0.41,
+        "delta_height_m": 7.26,
+        "collapse_pct": 94.7,
+        "footprint_area_m2": 43.0,
+        "debris_volume_m3": 405.6,
+        "debris_uncertainty_m3": 78.8,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (55% mud coverage)",
+          "Pancake/Full Roof Collapse Detected",
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              176.4,
+              -7.52
+            ],
+            [
+              185.5,
+              1.57
+            ],
+            [
+              182.35,
+              5.07
+            ],
+            [
+              172.9,
+              -4.02
+            ],
+            [
+              176.4,
+              -7.52
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-077",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 7.68,
+        "post_height_m": 0.99,
+        "delta_height_m": 6.69,
+        "collapse_pct": 87.2,
+        "footprint_area_m2": 14.7,
+        "debris_volume_m3": 127.9,
+        "debris_uncertainty_m3": 24.8,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (100% mud coverage)",
+          "Pancake/Full Roof Collapse Detected",
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -164.5,
+              171.32
+            ],
+            [
+              -162.75,
+              166.77
+            ],
+            [
+              -159.25,
+              168.17
+            ],
+            [
+              -161.35,
+              172.72
+            ],
+            [
+              -164.5,
+              171.32
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-090",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 8.44,
+        "post_height_m": 0.56,
+        "delta_height_m": 7.89,
+        "collapse_pct": 93.4,
+        "footprint_area_m2": 12.7,
+        "debris_volume_m3": 130.2,
+        "debris_uncertainty_m3": 25.3,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (96% mud coverage)",
+          "Pancake/Full Roof Collapse Detected"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              60.9,
+              35.17
+            ],
+            [
+              65.8,
+              32.38
+            ],
+            [
+              67.55,
+              35.88
+            ],
+            [
+              63.0,
+              38.67
+            ],
+            [
+              60.9,
+              35.17
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-004",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 7.45,
+        "post_height_m": 0.29,
+        "delta_height_m": 7.16,
+        "collapse_pct": 96.1,
+        "footprint_area_m2": 76.1,
+        "debris_volume_m3": 708.0,
+        "debris_uncertainty_m3": 137.5,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (97% mud coverage)",
+          "Pancake/Full Roof Collapse Detected"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -191.8,
+              148.92
+            ],
+            [
+              -186.55,
+              138.42
+            ],
+            [
+              -179.2,
+              142.27
+            ],
+            [
+              -184.8,
+              152.77
+            ],
+            [
+              -191.8,
+              148.92
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-108",
+        "damage_class": 1,
+        "damage_label": "Minor Damage",
+        "severity": "Moderate",
+        "pre_height_m": 3.95,
+        "post_height_m": 6.5,
+        "delta_height_m": 0.0,
+        "collapse_pct": 0.0,
+        "footprint_area_m2": 11.5,
+        "debris_volume_m3": 0.0,
+        "debris_uncertainty_m3": 0.0,
+        "confidence": 0.82,
+        "quality_flags": [
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -194.25,
+              34.12
+            ],
+            [
+              -190.05,
+              33.07
+            ],
+            [
+              -189.35,
+              36.22
+            ],
+            [
+              -193.55,
+              37.27
+            ],
+            [
+              -194.25,
+              34.12
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-001",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 1.53,
+        "post_height_m": 0.19,
+        "delta_height_m": 1.34,
+        "collapse_pct": 87.8,
+        "footprint_area_m2": 339.9,
+        "debris_volume_m3": 592.6,
+        "debris_uncertainty_m3": 115.1,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (100% mud coverage)",
+          "Pancake/Full Roof Collapse Detected",
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              51.45,
+              -6.12
+            ],
+            [
+              57.75,
+              -8.57
+            ],
+            [
+              54.6,
+              -16.97
+            ],
+            [
+              36.05,
+              -9.62
+            ],
+            [
+              40.6,
+              2.62
+            ],
+            [
+              53.2,
+              -2.27
+            ],
+            [
+              51.45,
+              -6.12
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-067",
+        "damage_class": 1,
+        "damage_label": "Minor Damage",
+        "severity": "Moderate",
+        "pre_height_m": 3.93,
+        "post_height_m": 4.27,
+        "delta_height_m": 0.0,
+        "collapse_pct": 0.0,
+        "footprint_area_m2": 17.5,
+        "debris_volume_m3": 0.0,
+        "debris_uncertainty_m3": 0.0,
+        "confidence": 0.82,
+        "quality_flags": [
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -189.35,
+              37.62
+            ],
+            [
+              -188.3,
+              42.52
+            ],
+            [
+              -191.8,
+              43.22
+            ],
+            [
+              -192.85,
+              38.32
+            ],
+            [
+              -189.35,
+              37.62
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-012",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 7.55,
+        "post_height_m": 3.88,
+        "delta_height_m": 3.67,
+        "collapse_pct": 48.6,
+        "footprint_area_m2": 39.6,
+        "debris_volume_m3": 188.9,
+        "debris_uncertainty_m3": 36.7,
+        "confidence": 0.91,
+        "quality_flags": [
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -243.25,
+              51.27
+            ],
+            [
+              -239.4,
+              43.22
+            ],
+            [
+              -234.5,
+              45.32
+            ],
+            [
+              -238.35,
+              53.38
+            ],
+            [
+              -243.25,
+              51.27
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-017",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 7.66,
+        "post_height_m": 0.23,
+        "delta_height_m": 7.43,
+        "collapse_pct": 97.0,
+        "footprint_area_m2": 36.3,
+        "debris_volume_m3": 350.5,
+        "debris_uncertainty_m3": 68.1,
+        "confidence": 0.91,
+        "quality_flags": [
+          "Pancake/Full Roof Collapse Detected",
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              64.4,
+              -151.38
+            ],
+            [
+              75.25,
+              -158.02
+            ],
+            [
+              77.7,
+              -154.17
+            ],
+            [
+              66.5,
+              -147.52
+            ],
+            [
+              64.4,
+              -151.38
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-034",
+        "damage_class": 1,
+        "damage_label": "Minor Damage",
+        "severity": "Moderate",
+        "pre_height_m": 4.17,
+        "post_height_m": 4.64,
+        "delta_height_m": 0.0,
+        "collapse_pct": 0.0,
+        "footprint_area_m2": 26.4,
+        "debris_volume_m3": 0.0,
+        "debris_uncertainty_m3": 0.0,
+        "confidence": 0.82,
+        "quality_flags": [
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -260.4,
+              38.32
+            ],
+            [
+              -254.45,
+              41.12
+            ],
+            [
+              -257.25,
+              47.42
+            ],
+            [
+              -263.55,
+              44.27
+            ],
+            [
+              -260.4,
+              38.32
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-092",
+        "damage_class": 2,
+        "damage_label": "Major Damage",
+        "severity": "High",
+        "pre_height_m": 6.75,
+        "post_height_m": 4.85,
+        "delta_height_m": 1.91,
+        "collapse_pct": 28.2,
+        "footprint_area_m2": 12.6,
+        "debris_volume_m3": 31.2,
+        "debris_uncertainty_m3": 6.1,
+        "confidence": 0.86,
+        "quality_flags": [
+          "Partial Mud Deposition (25%)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              50.75,
+              -123.02
+            ],
+            [
+              57.75,
+              -120.92
+            ],
+            [
+              56.7,
+              -116.72
+            ],
+            [
+              49.35,
+              -118.82
+            ],
+            [
+              50.75,
+              -123.02
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-110",
+        "damage_class": 1,
+        "damage_label": "Minor Damage",
+        "severity": "Moderate",
+        "pre_height_m": 7.53,
+        "post_height_m": 6.5,
+        "delta_height_m": 1.03,
+        "collapse_pct": 13.6,
+        "footprint_area_m2": 11.3,
+        "debris_volume_m3": 15.1,
+        "debris_uncertainty_m3": 2.9,
+        "confidence": 0.82,
+        "quality_flags": [
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -197.4,
+              102.02
+            ],
+            [
+              -196.35,
+              109.02
+            ],
+            [
+              -200.2,
+              109.72
+            ],
+            [
+              -201.25,
+              102.72
+            ],
+            [
+              -197.4,
+              102.02
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-087",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 4.79,
+        "post_height_m": 0.3,
+        "delta_height_m": 4.49,
+        "collapse_pct": 93.8,
+        "footprint_area_m2": 13.1,
+        "debris_volume_m3": 76.5,
+        "debris_uncertainty_m3": 14.9,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (100% mud coverage)",
+          "Pancake/Full Roof Collapse Detected",
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              92.75,
+              -56.52
+            ],
+            [
+              94.85,
+              -52.32
+            ],
+            [
+              92.05,
+              -50.92
+            ],
+            [
+              89.95,
+              -55.12
+            ],
+            [
+              92.75,
+              -56.52
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-021",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 6.06,
+        "post_height_m": 0.34,
+        "delta_height_m": 5.73,
+        "collapse_pct": 94.5,
+        "footprint_area_m2": 32.2,
+        "debris_volume_m3": 239.7,
+        "debris_uncertainty_m3": 46.5,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (70% mud coverage)",
+          "Pancake/Full Roof Collapse Detected",
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              206.15,
+              19.77
+            ],
+            [
+              211.4,
+              24.67
+            ],
+            [
+              208.6,
+              27.82
+            ],
+            [
+              203.0,
+              22.92
+            ],
+            [
+              206.15,
+              19.77
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-007",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 6.99,
+        "post_height_m": 0.59,
+        "delta_height_m": 6.39,
+        "collapse_pct": 91.5,
+        "footprint_area_m2": 49.8,
+        "debris_volume_m3": 414.0,
+        "debris_uncertainty_m3": 80.4,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (82% mud coverage)",
+          "Pancake/Full Roof Collapse Detected",
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              37.1,
+              16.27
+            ],
+            [
+              53.9,
+              13.47
+            ],
+            [
+              54.6,
+              16.97
+            ],
+            [
+              37.8,
+              20.12
+            ],
+            [
+              37.1,
+              16.27
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-059",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 5.65,
+        "post_height_m": 1.6,
+        "delta_height_m": 4.06,
+        "collapse_pct": 71.8,
+        "footprint_area_m2": 19.1,
+        "debris_volume_m3": 100.8,
+        "debris_uncertainty_m3": 19.6,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (53% mud coverage)",
+          "Pancake/Full Roof Collapse Detected",
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              236.95,
+              -41.47
+            ],
+            [
+              240.45,
+              -37.27
+            ],
+            [
+              236.25,
+              -34.12
+            ],
+            [
+              232.75,
+              -38.67
+            ],
+            [
+              236.95,
+              -41.47
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-080",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 6.08,
+        "post_height_m": 0.45,
+        "delta_height_m": 5.62,
+        "collapse_pct": 92.6,
+        "footprint_area_m2": 13.8,
+        "debris_volume_m3": 100.9,
+        "debris_uncertainty_m3": 19.6,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (75% mud coverage)",
+          "Pancake/Full Roof Collapse Detected",
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              162.05,
+              -29.57
+            ],
+            [
+              163.1,
+              -34.47
+            ],
+            [
+              167.3,
+              -33.77
+            ],
+            [
+              166.25,
+              -28.52
+            ],
+            [
+              162.05,
+              -29.57
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-002",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 1.6,
+        "post_height_m": 0.17,
+        "delta_height_m": 1.42,
+        "collapse_pct": 89.1,
+        "footprint_area_m2": 156.5,
+        "debris_volume_m3": 289.3,
+        "debris_uncertainty_m3": 56.2,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (100% mud coverage)",
+          "Pancake/Full Roof Collapse Detected",
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -110.95,
+              91.17
+            ],
+            [
+              -95.9,
+              76.12
+            ],
+            [
+              -89.25,
+              83.12
+            ],
+            [
+              -103.95,
+              98.17
+            ],
+            [
+              -110.95,
+              91.17
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-005",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 2.07,
+        "post_height_m": 0.45,
+        "delta_height_m": 1.61,
+        "collapse_pct": 78.0,
+        "footprint_area_m2": 56.3,
+        "debris_volume_m3": 118.0,
+        "debris_uncertainty_m3": 22.9,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (100% mud coverage)",
+          "Pancake/Full Roof Collapse Detected",
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              95.55,
+              -138.42
+            ],
+            [
+              100.1,
+              -152.07
+            ],
+            [
+              103.95,
+              -150.67
+            ],
+            [
+              99.4,
+              -137.02
+            ],
+            [
+              95.55,
+              -138.42
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-006",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 2.48,
+        "post_height_m": 0.37,
+        "delta_height_m": 2.11,
+        "collapse_pct": 85.1,
+        "footprint_area_m2": 54.7,
+        "debris_volume_m3": 150.0,
+        "debris_uncertainty_m3": 29.1,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (67% mud coverage)",
+          "Pancake/Full Roof Collapse Detected",
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              187.95,
+              2.27
+            ],
+            [
+              196.35,
+              10.32
+            ],
+            [
+              193.2,
+              13.82
+            ],
+            [
+              184.45,
+              5.77
+            ],
+            [
+              187.95,
+              2.27
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-008",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 3.9,
+        "post_height_m": 0.29,
+        "delta_height_m": 3.61,
+        "collapse_pct": 92.6,
+        "footprint_area_m2": 44.3,
+        "debris_volume_m3": 207.7,
+        "debris_uncertainty_m3": 40.3,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (98% mud coverage)",
+          "Pancake/Full Roof Collapse Detected"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -148.75,
+              12.42
+            ],
+            [
+              -148.75,
+              4.02
+            ],
+            [
+              -141.4,
+              4.02
+            ],
+            [
+              -141.4,
+              12.42
+            ],
+            [
+              -148.75,
+              12.42
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-010",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 1.39,
+        "post_height_m": 0.28,
+        "delta_height_m": 1.11,
+        "collapse_pct": 79.6,
+        "footprint_area_m2": 41.8,
+        "debris_volume_m3": 60.1,
+        "debris_uncertainty_m3": 11.7,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (97% mud coverage)",
+          "Pancake/Full Roof Collapse Detected"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -71.75,
+              22.57
+            ],
+            [
+              -64.4,
+              32.73
+            ],
+            [
+              -68.25,
+              35.52
+            ],
+            [
+              -75.6,
+              25.38
+            ],
+            [
+              -71.75,
+              22.57
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-011",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 3.82,
+        "post_height_m": 0.22,
+        "delta_height_m": 3.61,
+        "collapse_pct": 94.4,
+        "footprint_area_m2": 40.5,
+        "debris_volume_m3": 189.8,
+        "debris_uncertainty_m3": 36.9,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (90% mud coverage)",
+          "Pancake/Full Roof Collapse Detected"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -111.3,
+              21.52
+            ],
+            [
+              -105.0,
+              15.92
+            ],
+            [
+              -100.8,
+              20.47
+            ],
+            [
+              -107.1,
+              26.07
+            ],
+            [
+              -111.3,
+              21.52
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-013",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 4.29,
+        "post_height_m": 0.3,
+        "delta_height_m": 3.99,
+        "collapse_pct": 93.0,
+        "footprint_area_m2": 37.8,
+        "debris_volume_m3": 196.3,
+        "debris_uncertainty_m3": 38.1,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (99% mud coverage)",
+          "Pancake/Full Roof Collapse Detected",
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.7,
+              -139.47
+            ],
+            [
+              84.35,
+              -135.27
+            ],
+            [
+              81.9,
+              -131.42
+            ],
+            [
+              75.25,
+              -135.62
+            ],
+            [
+              77.7,
+              -139.47
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-014",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 3.64,
+        "post_height_m": 0.35,
+        "delta_height_m": 3.29,
+        "collapse_pct": 90.4,
+        "footprint_area_m2": 37.4,
+        "debris_volume_m3": 160.1,
+        "debris_uncertainty_m3": 31.1,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (44% mud coverage)",
+          "Pancake/Full Roof Collapse Detected",
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              137.9,
+              58.62
+            ],
+            [
+              145.95,
+              60.72
+            ],
+            [
+              144.9,
+              65.62
+            ],
+            [
+              136.85,
+              63.52
+            ],
+            [
+              137.9,
+              58.62
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-015",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 1.76,
+        "post_height_m": 0.41,
+        "delta_height_m": 1.35,
+        "collapse_pct": 76.6,
+        "footprint_area_m2": 37.2,
+        "debris_volume_m3": 65.3,
+        "debris_uncertainty_m3": 12.7,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (45% mud coverage)",
+          "Pancake/Full Roof Collapse Detected"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              101.15,
+              -14.52
+            ],
+            [
+              94.85,
+              -11.38
+            ],
+            [
+              91.7,
+              -17.67
+            ],
+            [
+              98.0,
+              -20.82
+            ],
+            [
+              101.15,
+              -14.52
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-016",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 5.58,
+        "post_height_m": 0.55,
+        "delta_height_m": 5.03,
+        "collapse_pct": 90.1,
+        "footprint_area_m2": 36.6,
+        "debris_volume_m3": 239.1,
+        "debris_uncertainty_m3": 46.4,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (88% mud coverage)",
+          "Pancake/Full Roof Collapse Detected",
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              64.05,
+              21.52
+            ],
+            [
+              65.1,
+              32.73
+            ],
+            [
+              58.45,
+              33.42
+            ],
+            [
+              57.4,
+              22.22
+            ],
+            [
+              64.05,
+              21.52
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-018",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 4.04,
+        "post_height_m": 1.96,
+        "delta_height_m": 2.09,
+        "collapse_pct": 51.6,
+        "footprint_area_m2": 35.0,
+        "debris_volume_m3": 94.9,
+        "debris_uncertainty_m3": 18.4,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (58% mud coverage)",
+          "Pancake/Full Roof Collapse Detected",
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -22.4,
+              -61.42
+            ],
+            [
+              -15.75,
+              -62.12
+            ],
+            [
+              -15.05,
+              -56.52
+            ],
+            [
+              -21.7,
+              -55.47
+            ],
+            [
+              -22.4,
+              -61.42
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-019",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 3.31,
+        "post_height_m": 1.25,
+        "delta_height_m": 2.05,
+        "collapse_pct": 62.1,
+        "footprint_area_m2": 33.8,
+        "debris_volume_m3": 90.2,
+        "debris_uncertainty_m3": 17.5,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (57% mud coverage)",
+          "Pancake/Full Roof Collapse Detected"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              71.75,
+              -112.52
+            ],
+            [
+              72.45,
+              -120.22
+            ],
+            [
+              79.8,
+              -119.52
+            ],
+            [
+              79.1,
+              -111.82
+            ],
+            [
+              71.75,
+              -112.52
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-020",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 1.3,
+        "post_height_m": 0.77,
+        "delta_height_m": 0.53,
+        "collapse_pct": 41.1,
+        "footprint_area_m2": 33.3,
+        "debris_volume_m3": 23.1,
+        "debris_uncertainty_m3": 4.5,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (80% mud coverage)",
+          "Pancake/Full Roof Collapse Detected",
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              240.45,
+              53.72
+            ],
+            [
+              248.5,
+              61.42
+            ],
+            [
+              244.65,
+              65.27
+            ],
+            [
+              236.95,
+              57.22
+            ],
+            [
+              240.45,
+              53.72
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-022",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 1.8,
+        "post_height_m": 0.76,
+        "delta_height_m": 1.04,
+        "collapse_pct": 58.0,
+        "footprint_area_m2": 31.2,
+        "debris_volume_m3": 42.4,
+        "debris_uncertainty_m3": 8.2,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (76% mud coverage)",
+          "Pancake/Full Roof Collapse Detected",
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              138.6,
+              -179.38
+            ],
+            [
+              147.35,
+              -179.38
+            ],
+            [
+              147.35,
+              -171.67
+            ],
+            [
+              138.6,
+              -171.67
+            ],
+            [
+              138.6,
+              -179.38
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-023",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 2.97,
+        "post_height_m": 0.44,
+        "delta_height_m": 2.53,
+        "collapse_pct": 85.3,
+        "footprint_area_m2": 30.9,
+        "debris_volume_m3": 101.6,
+        "debris_uncertainty_m3": 19.7,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (71% mud coverage)",
+          "Pancake/Full Roof Collapse Detected",
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              112.35,
+              54.77
+            ],
+            [
+              122.5,
+              57.57
+            ],
+            [
+              121.45,
+              61.07
+            ],
+            [
+              111.65,
+              58.27
+            ],
+            [
+              112.35,
+              54.77
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-024",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 1.89,
+        "post_height_m": 0.8,
+        "delta_height_m": 1.09,
+        "collapse_pct": 57.8,
+        "footprint_area_m2": 29.8,
+        "debris_volume_m3": 42.3,
+        "debris_uncertainty_m3": 8.2,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (71% mud coverage)",
+          "Pancake/Full Roof Collapse Detected"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -226.45,
+              71.22
+            ],
+            [
+              -222.25,
+              65.62
+            ],
+            [
+              -218.05,
+              68.42
+            ],
+            [
+              -222.25,
+              74.38
+            ],
+            [
+              -226.45,
+              71.22
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-025",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 2.63,
+        "post_height_m": 0.42,
+        "delta_height_m": 2.21,
+        "collapse_pct": 83.9,
+        "footprint_area_m2": 29.7,
+        "debris_volume_m3": 85.3,
+        "debris_uncertainty_m3": 16.6,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (100% mud coverage)",
+          "Pancake/Full Roof Collapse Detected",
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              81.2,
+              8.57
+            ],
+            [
+              91.35,
+              16.97
+            ],
+            [
+              89.25,
+              19.42
+            ],
+            [
+              79.45,
+              11.02
+            ],
+            [
+              81.2,
+              8.57
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-026",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 6.12,
+        "post_height_m": 2.03,
+        "delta_height_m": 4.09,
+        "collapse_pct": 66.8,
+        "footprint_area_m2": 29.3,
+        "debris_volume_m3": 155.7,
+        "debris_uncertainty_m3": 30.2,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (72% mud coverage)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -181.3,
+              47.07
+            ],
+            [
+              -179.2,
+              39.72
+            ],
+            [
+              -173.95,
+              41.12
+            ],
+            [
+              -175.7,
+              48.47
+            ],
+            [
+              -181.3,
+              47.07
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-027",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 2.99,
+        "post_height_m": 1.31,
+        "delta_height_m": 1.69,
+        "collapse_pct": 56.3,
+        "footprint_area_m2": 29.2,
+        "debris_volume_m3": 64.0,
+        "debris_uncertainty_m3": 12.4,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (46% mud coverage)",
+          "Pancake/Full Roof Collapse Detected"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -38.5,
+              -56.87
+            ],
+            [
+              -31.15,
+              -59.67
+            ],
+            [
+              -29.05,
+              -54.42
+            ],
+            [
+              -36.4,
+              -51.62
+            ],
+            [
+              -38.5,
+              -56.87
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-028",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 5.93,
+        "post_height_m": 0.53,
+        "delta_height_m": 5.4,
+        "collapse_pct": 91.1,
+        "footprint_area_m2": 29.0,
+        "debris_volume_m3": 203.6,
+        "debris_uncertainty_m3": 39.5,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (94% mud coverage)",
+          "Pancake/Full Roof Collapse Detected"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -83.3,
+              17.32
+            ],
+            [
+              -82.6,
+              23.62
+            ],
+            [
+              -88.2,
+              24.32
+            ],
+            [
+              -88.9,
+              18.02
+            ],
+            [
+              -83.3,
+              17.32
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-029",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 5.9,
+        "post_height_m": 0.25,
+        "delta_height_m": 5.65,
+        "collapse_pct": 95.8,
+        "footprint_area_m2": 28.7,
+        "debris_volume_m3": 210.7,
+        "debris_uncertainty_m3": 40.9,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (100% mud coverage)",
+          "Pancake/Full Roof Collapse Detected"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              78.75,
+              -109.38
+            ],
+            [
+              82.95,
+              -113.57
+            ],
+            [
+              87.15,
+              -109.02
+            ],
+            [
+              82.6,
+              -104.82
+            ],
+            [
+              78.75,
+              -109.38
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-030",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 5.85,
+        "post_height_m": 0.28,
+        "delta_height_m": 5.57,
+        "collapse_pct": 95.2,
+        "footprint_area_m2": 28.3,
+        "debris_volume_m3": 204.8,
+        "debris_uncertainty_m3": 39.8,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (96% mud coverage)",
+          "Pancake/Full Roof Collapse Detected"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -154.35,
+              29.92
+            ],
+            [
+              -152.25,
+              21.88
+            ],
+            [
+              -147.35,
+              23.27
+            ],
+            [
+              -149.8,
+              31.32
+            ],
+            [
+              -154.35,
+              29.92
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-031",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 5.83,
+        "post_height_m": 0.36,
+        "delta_height_m": 5.47,
+        "collapse_pct": 93.8,
+        "footprint_area_m2": 28.0,
+        "debris_volume_m3": 199.3,
+        "debris_uncertainty_m3": 38.7,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (100% mud coverage)",
+          "Pancake/Full Roof Collapse Detected"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -166.25,
+              162.22
+            ],
+            [
+              -164.15,
+              156.62
+            ],
+            [
+              -158.55,
+              158.72
+            ],
+            [
+              -160.3,
+              164.32
+            ],
+            [
+              -166.25,
+              162.22
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-032",
+        "damage_class": 1,
+        "damage_label": "Minor Damage",
+        "severity": "Moderate",
+        "pre_height_m": 2.0,
+        "post_height_m": 4.74,
+        "delta_height_m": 0.0,
+        "collapse_pct": 0.0,
+        "footprint_area_m2": 27.2,
+        "debris_volume_m3": 0.0,
+        "debris_uncertainty_m3": 0.0,
+        "confidence": 0.82,
+        "quality_flags": [
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -214.55,
+              82.42
+            ],
+            [
+              -205.1,
+              72.62
+            ],
+            [
+              -201.95,
+              75.77
+            ],
+            [
+              -211.4,
+              85.57
+            ],
+            [
+              -214.55,
+              82.42
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-033",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 2.43,
+        "post_height_m": 0.35,
+        "delta_height_m": 2.08,
+        "collapse_pct": 85.6,
+        "footprint_area_m2": 27.0,
+        "debris_volume_m3": 72.9,
+        "debris_uncertainty_m3": 14.2,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (100% mud coverage)",
+          "Pancake/Full Roof Collapse Detected",
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -143.85,
+              17.67
+            ],
+            [
+              -138.6,
+              6.47
+            ],
+            [
+              -135.45,
+              7.87
+            ],
+            [
+              -141.05,
+              19.07
+            ],
+            [
+              -143.85,
+              17.67
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-035",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 1.21,
+        "post_height_m": 1.4,
+        "delta_height_m": 0.0,
+        "collapse_pct": 0.0,
+        "footprint_area_m2": 25.7,
+        "debris_volume_m3": 0.0,
+        "debris_uncertainty_m3": 0.0,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (41% mud coverage)",
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -174.3,
+              1.22
+            ],
+            [
+              -169.4,
+              -3.67
+            ],
+            [
+              -166.6,
+              -1.22
+            ],
+            [
+              -171.15,
+              4.02
+            ],
+            [
+              -174.3,
+              1.22
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-036",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 2.05,
+        "post_height_m": 0.52,
+        "delta_height_m": 1.53,
+        "collapse_pct": 74.5,
+        "footprint_area_m2": 25.4,
+        "debris_volume_m3": 50.4,
+        "debris_uncertainty_m3": 9.8,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (83% mud coverage)",
+          "Pancake/Full Roof Collapse Detected",
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              153.65,
+              0.88
+            ],
+            [
+              157.15,
+              -7.52
+            ],
+            [
+              163.1,
+              -5.07
+            ],
+            [
+              159.6,
+              3.32
+            ],
+            [
+              153.65,
+              0.88
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-037",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 2.4,
+        "post_height_m": 0.35,
+        "delta_height_m": 2.05,
+        "collapse_pct": 85.6,
+        "footprint_area_m2": 25.0,
+        "debris_volume_m3": 66.8,
+        "debris_uncertainty_m3": 13.0,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (96% mud coverage)",
+          "Pancake/Full Roof Collapse Detected",
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -36.75,
+              -7.52
+            ],
+            [
+              -25.2,
+              -18.38
+            ],
+            [
+              -22.75,
+              -15.57
+            ],
+            [
+              -33.95,
+              -4.72
+            ],
+            [
+              -36.75,
+              -7.52
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-038",
+        "damage_class": 0,
+        "damage_label": "No Damage",
+        "severity": "Low",
+        "pre_height_m": 2.07,
+        "post_height_m": 4.4,
+        "delta_height_m": 0.0,
+        "collapse_pct": 0.0,
+        "footprint_area_m2": 24.6,
+        "debris_volume_m3": 0.0,
+        "debris_uncertainty_m3": 0.0,
+        "confidence": 0.94,
+        "quality_flags": []
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -235.9,
+              105.52
+            ],
+            [
+              -234.15,
+              98.17
+            ],
+            [
+              -229.6,
+              99.22
+            ],
+            [
+              -231.0,
+              106.57
+            ],
+            [
+              -235.9,
+              105.52
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-039",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 2.22,
+        "post_height_m": 1.56,
+        "delta_height_m": 0.66,
+        "collapse_pct": 29.7,
+        "footprint_area_m2": 23.9,
+        "debris_volume_m3": 20.5,
+        "debris_uncertainty_m3": 4.0,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (42% mud coverage)",
+          "Pancake/Full Roof Collapse Detected",
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -236.25,
+              71.57
+            ],
+            [
+              -228.55,
+              63.87
+            ],
+            [
+              -225.75,
+              66.67
+            ],
+            [
+              -233.45,
+              74.38
+            ],
+            [
+              -236.25,
+              71.57
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-040",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 3.05,
+        "post_height_m": 0.78,
+        "delta_height_m": 2.27,
+        "collapse_pct": 74.3,
+        "footprint_area_m2": 23.7,
+        "debris_volume_m3": 69.9,
+        "debris_uncertainty_m3": 13.6,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (100% mud coverage)",
+          "Pancake/Full Roof Collapse Detected",
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              115.85,
+              -33.77
+            ],
+            [
+              118.3,
+              -41.82
+            ],
+            [
+              122.85,
+              -40.42
+            ],
+            [
+              120.4,
+              -32.38
+            ],
+            [
+              115.85,
+              -33.77
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-041",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 5.84,
+        "post_height_m": 0.43,
+        "delta_height_m": 5.41,
+        "collapse_pct": 92.6,
+        "footprint_area_m2": 23.1,
+        "debris_volume_m3": 162.3,
+        "debris_uncertainty_m3": 31.5,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (100% mud coverage)",
+          "Pancake/Full Roof Collapse Detected"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -195.65,
+              117.77
+            ],
+            [
+              -190.05,
+              112.52
+            ],
+            [
+              -187.25,
+              115.67
+            ],
+            [
+              -192.85,
+              120.92
+            ],
+            [
+              -195.65,
+              117.77
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-042",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 4.61,
+        "post_height_m": 0.9,
+        "delta_height_m": 3.71,
+        "collapse_pct": 80.5,
+        "footprint_area_m2": 22.4,
+        "debris_volume_m3": 108.1,
+        "debris_uncertainty_m3": 21.0,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (82% mud coverage)",
+          "Pancake/Full Roof Collapse Detected",
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              123.2,
+              57.92
+            ],
+            [
+              130.2,
+              59.67
+            ],
+            [
+              129.5,
+              62.82
+            ],
+            [
+              122.15,
+              61.07
+            ],
+            [
+              123.2,
+              57.92
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-043",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 1.72,
+        "post_height_m": 0.44,
+        "delta_height_m": 1.28,
+        "collapse_pct": 74.3,
+        "footprint_area_m2": 22.3,
+        "debris_volume_m3": 37.2,
+        "debris_uncertainty_m3": 7.2,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (100% mud coverage)",
+          "Pancake/Full Roof Collapse Detected",
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              123.55,
+              -45.32
+            ],
+            [
+              129.5,
+              -51.27
+            ],
+            [
+              131.95,
+              -48.82
+            ],
+            [
+              126.0,
+              -42.88
+            ],
+            [
+              123.55,
+              -45.32
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-044",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 2.22,
+        "post_height_m": 0.56,
+        "delta_height_m": 1.66,
+        "collapse_pct": 74.8,
+        "footprint_area_m2": 22.2,
+        "debris_volume_m3": 48.0,
+        "debris_uncertainty_m3": 9.3,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (46% mud coverage)",
+          "Pancake/Full Roof Collapse Detected",
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              53.2,
+              -59.32
+            ],
+            [
+              63.35,
+              -64.58
+            ],
+            [
+              65.1,
+              -61.42
+            ],
+            [
+              54.6,
+              -56.17
+            ],
+            [
+              53.2,
+              -59.32
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-045",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 5.75,
+        "post_height_m": 1.37,
+        "delta_height_m": 4.37,
+        "collapse_pct": 76.1,
+        "footprint_area_m2": 22.0,
+        "debris_volume_m3": 125.1,
+        "debris_uncertainty_m3": 24.3,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (77% mud coverage)",
+          "Pancake/Full Roof Collapse Detected",
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -156.45,
+              -14.52
+            ],
+            [
+              -152.95,
+              -20.47
+            ],
+            [
+              -148.05,
+              -17.67
+            ],
+            [
+              -151.55,
+              -11.38
+            ],
+            [
+              -156.45,
+              -14.52
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-046",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 6.38,
+        "post_height_m": 0.64,
+        "delta_height_m": 5.74,
+        "collapse_pct": 90.0,
+        "footprint_area_m2": 22.0,
+        "debris_volume_m3": 164.2,
+        "debris_uncertainty_m3": 31.9,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (74% mud coverage)",
+          "Pancake/Full Roof Collapse Detected",
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              56.35,
+              12.42
+            ],
+            [
+              64.05,
+              12.42
+            ],
+            [
+              64.05,
+              18.72
+            ],
+            [
+              56.35,
+              18.72
+            ],
+            [
+              56.35,
+              12.42
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-047",
+        "damage_class": 1,
+        "damage_label": "Minor Damage",
+        "severity": "Moderate",
+        "pre_height_m": 5.84,
+        "post_height_m": 5.81,
+        "delta_height_m": 0.03,
+        "collapse_pct": 0.6,
+        "footprint_area_m2": 21.9,
+        "debris_volume_m3": 1.0,
+        "debris_uncertainty_m3": 0.2,
+        "confidence": 0.82,
+        "quality_flags": [
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -182.7,
+              7.87
+            ],
+            [
+              -179.2,
+              0.88
+            ],
+            [
+              -175.0,
+              2.97
+            ],
+            [
+              -178.15,
+              9.97
+            ],
+            [
+              -182.7,
+              7.87
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-048",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 5.99,
+        "post_height_m": 0.27,
+        "delta_height_m": 5.72,
+        "collapse_pct": 95.5,
+        "footprint_area_m2": 21.6,
+        "debris_volume_m3": 160.6,
+        "debris_uncertainty_m3": 31.2,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (68% mud coverage)",
+          "Pancake/Full Roof Collapse Detected"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -83.65,
+              11.02
+            ],
+            [
+              -79.45,
+              15.92
+            ],
+            [
+              -82.95,
+              19.42
+            ],
+            [
+              -87.5,
+              14.17
+            ],
+            [
+              -83.65,
+              11.02
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-049",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 3.58,
+        "post_height_m": 0.29,
+        "delta_height_m": 3.28,
+        "collapse_pct": 91.8,
+        "footprint_area_m2": 21.5,
+        "debris_volume_m3": 91.8,
+        "debris_uncertainty_m3": 17.8,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (84% mud coverage)",
+          "Pancake/Full Roof Collapse Detected"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -95.2,
+              10.32
+            ],
+            [
+              -90.3,
+              14.87
+            ],
+            [
+              -93.1,
+              17.67
+            ],
+            [
+              -98.0,
+              12.77
+            ],
+            [
+              -95.2,
+              10.32
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-050",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 1.81,
+        "post_height_m": 1.03,
+        "delta_height_m": 0.78,
+        "collapse_pct": 43.0,
+        "footprint_area_m2": 21.2,
+        "debris_volume_m3": 21.4,
+        "debris_uncertainty_m3": 4.2,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (98% mud coverage)",
+          "Pancake/Full Roof Collapse Detected",
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -28.7,
+              36.22
+            ],
+            [
+              -21.7,
+              28.87
+            ],
+            [
+              -17.85,
+              32.73
+            ],
+            [
+              -24.85,
+              40.07
+            ],
+            [
+              -28.7,
+              36.22
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-051",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 2.65,
+        "post_height_m": 0.0,
+        "delta_height_m": 2.65,
+        "collapse_pct": 99.9,
+        "footprint_area_m2": 21.1,
+        "debris_volume_m3": 72.7,
+        "debris_uncertainty_m3": 14.1,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (67% mud coverage)",
+          "Pancake/Full Roof Collapse Detected",
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -108.85,
+              33.77
+            ],
+            [
+              -105.7,
+              38.32
+            ],
+            [
+              -109.2,
+              40.77
+            ],
+            [
+              -112.35,
+              36.57
+            ],
+            [
+              -108.85,
+              33.77
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-052",
+        "damage_class": 1,
+        "damage_label": "Minor Damage",
+        "severity": "Moderate",
+        "pre_height_m": 5.3,
+        "post_height_m": 5.3,
+        "delta_height_m": 0.0,
+        "collapse_pct": 0.0,
+        "footprint_area_m2": 20.7,
+        "debris_volume_m3": 0.0,
+        "debris_uncertainty_m3": 0.0,
+        "confidence": 0.82,
+        "quality_flags": [
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              180.95,
+              71.22
+            ],
+            [
+              190.05,
+              79.62
+            ],
+            [
+              187.25,
+              82.42
+            ],
+            [
+              178.5,
+              74.02
+            ],
+            [
+              180.95,
+              71.22
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-053",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 3.12,
+        "post_height_m": 0.41,
+        "delta_height_m": 2.71,
+        "collapse_pct": 86.8,
+        "footprint_area_m2": 20.3,
+        "debris_volume_m3": 71.5,
+        "debris_uncertainty_m3": 13.9,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (100% mud coverage)",
+          "Pancake/Full Roof Collapse Detected",
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -23.1,
+              -5.42
+            ],
+            [
+              -21.7,
+              -15.22
+            ],
+            [
+              -17.5,
+              -14.52
+            ],
+            [
+              -18.9,
+              -5.07
+            ],
+            [
+              -23.1,
+              -5.42
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-054",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 1.69,
+        "post_height_m": 0.27,
+        "delta_height_m": 1.42,
+        "collapse_pct": 84.0,
+        "footprint_area_m2": 20.0,
+        "debris_volume_m3": 36.9,
+        "debris_uncertainty_m3": 7.2,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (100% mud coverage)",
+          "Pancake/Full Roof Collapse Detected",
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              92.4,
+              -29.22
+            ],
+            [
+              103.95,
+              -34.82
+            ],
+            [
+              106.4,
+              -30.27
+            ],
+            [
+              94.85,
+              -24.32
+            ],
+            [
+              92.4,
+              -29.22
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-055",
+        "damage_class": 1,
+        "damage_label": "Minor Damage",
+        "severity": "Moderate",
+        "pre_height_m": 4.68,
+        "post_height_m": 4.95,
+        "delta_height_m": 0.0,
+        "collapse_pct": 0.0,
+        "footprint_area_m2": 19.9,
+        "debris_volume_m3": 0.0,
+        "debris_uncertainty_m3": 0.0,
+        "confidence": 0.82,
+        "quality_flags": [
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -182.0,
+              29.92
+            ],
+            [
+              -180.95,
+              35.88
+            ],
+            [
+              -185.15,
+              36.57
+            ],
+            [
+              -186.2,
+              30.62
+            ],
+            [
+              -182.0,
+              29.92
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-056",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 5.89,
+        "post_height_m": 0.55,
+        "delta_height_m": 5.34,
+        "collapse_pct": 90.6,
+        "footprint_area_m2": 19.6,
+        "debris_volume_m3": 136.0,
+        "debris_uncertainty_m3": 26.4,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (62% mud coverage)",
+          "Pancake/Full Roof Collapse Detected",
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -164.5,
+              -4.02
+            ],
+            [
+              -159.25,
+              -9.27
+            ],
+            [
+              -156.8,
+              -6.82
+            ],
+            [
+              -161.7,
+              -1.57
+            ],
+            [
+              -164.5,
+              -4.02
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-057",
+        "damage_class": 1,
+        "damage_label": "Minor Damage",
+        "severity": "Moderate",
+        "pre_height_m": 2.25,
+        "post_height_m": 5.33,
+        "delta_height_m": 0.0,
+        "collapse_pct": 0.0,
+        "footprint_area_m2": 19.5,
+        "debris_volume_m3": 0.0,
+        "debris_uncertainty_m3": 0.0,
+        "confidence": 0.82,
+        "quality_flags": [
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -259.7,
+              27.12
+            ],
+            [
+              -257.6,
+              22.57
+            ],
+            [
+              -253.75,
+              24.67
+            ],
+            [
+              -255.85,
+              28.87
+            ],
+            [
+              -259.7,
+              27.12
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-058",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 2.83,
+        "post_height_m": 0.01,
+        "delta_height_m": 2.82,
+        "collapse_pct": 99.7,
+        "footprint_area_m2": 19.5,
+        "debris_volume_m3": 71.6,
+        "debris_uncertainty_m3": 13.9,
+        "confidence": 0.91,
+        "quality_flags": [
+          "Pancake/Full Roof Collapse Detected"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              101.85,
+              -3.32
+            ],
+            [
+              107.8,
+              2.27
+            ],
+            [
+              104.65,
+              5.42
+            ],
+            [
+              99.05,
+              -0.17
+            ],
+            [
+              101.85,
+              -3.32
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-060",
+        "damage_class": 1,
+        "damage_label": "Minor Damage",
+        "severity": "Moderate",
+        "pre_height_m": 5.6,
+        "post_height_m": 6.5,
+        "delta_height_m": 0.0,
+        "collapse_pct": 0.0,
+        "footprint_area_m2": 18.9,
+        "debris_volume_m3": 0.0,
+        "debris_uncertainty_m3": 0.0,
+        "confidence": 0.82,
+        "quality_flags": [
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -165.9,
+              23.27
+            ],
+            [
+              -165.2,
+              29.57
+            ],
+            [
+              -168.0,
+              29.92
+            ],
+            [
+              -169.05,
+              23.62
+            ],
+            [
+              -165.9,
+              23.27
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-061",
+        "damage_class": 1,
+        "damage_label": "Minor Damage",
+        "severity": "Moderate",
+        "pre_height_m": 4.01,
+        "post_height_m": 4.73,
+        "delta_height_m": 0.0,
+        "collapse_pct": 0.0,
+        "footprint_area_m2": 18.6,
+        "debris_volume_m3": 0.0,
+        "debris_uncertainty_m3": 0.0,
+        "confidence": 0.82,
+        "quality_flags": [
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -185.15,
+              55.47
+            ],
+            [
+              -180.95,
+              58.27
+            ],
+            [
+              -183.4,
+              62.12
+            ],
+            [
+              -187.6,
+              59.67
+            ],
+            [
+              -185.15,
+              55.47
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-062",
+        "damage_class": 1,
+        "damage_label": "Minor Damage",
+        "severity": "Moderate",
+        "pre_height_m": 1.97,
+        "post_height_m": 4.38,
+        "delta_height_m": 0.0,
+        "collapse_pct": 0.0,
+        "footprint_area_m2": 18.4,
+        "debris_volume_m3": 0.0,
+        "debris_uncertainty_m3": 0.0,
+        "confidence": 0.82,
+        "quality_flags": [
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -234.5,
+              -174.82
+            ],
+            [
+              -225.05,
+              -173.77
+            ],
+            [
+              -225.4,
+              -171.32
+            ],
+            [
+              -234.85,
+              -172.38
+            ],
+            [
+              -234.5,
+              -174.82
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-063",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 2.23,
+        "post_height_m": 0.5,
+        "delta_height_m": 1.73,
+        "collapse_pct": 77.5,
+        "footprint_area_m2": 18.3,
+        "debris_volume_m3": 41.1,
+        "debris_uncertainty_m3": 8.0,
+        "confidence": 0.91,
+        "quality_flags": [
+          "Pancake/Full Roof Collapse Detected",
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              189.0,
+              -0.17
+            ],
+            [
+              191.8,
+              -4.38
+            ],
+            [
+              195.65,
+              -1.92
+            ],
+            [
+              192.85,
+              2.27
+            ],
+            [
+              189.0,
+              -0.17
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-064",
+        "damage_class": 2,
+        "damage_label": "Major Damage",
+        "severity": "High",
+        "pre_height_m": 1.9,
+        "post_height_m": 2.58,
+        "delta_height_m": 0.0,
+        "collapse_pct": 0.0,
+        "footprint_area_m2": 18.2,
+        "debris_volume_m3": 0.0,
+        "debris_uncertainty_m3": 0.0,
+        "confidence": 0.86,
+        "quality_flags": [
+          "Partial Mud Deposition (100%)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -10.15,
+              34.47
+            ],
+            [
+              -3.15,
+              28.52
+            ],
+            [
+              -0.7,
+              31.67
+            ],
+            [
+              -7.7,
+              37.27
+            ],
+            [
+              -10.15,
+              34.47
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-065",
+        "damage_class": 2,
+        "damage_label": "Major Damage",
+        "severity": "High",
+        "pre_height_m": 1.94,
+        "post_height_m": 2.91,
+        "delta_height_m": 0.0,
+        "collapse_pct": 0.0,
+        "footprint_area_m2": 18.1,
+        "debris_volume_m3": 0.0,
+        "debris_uncertainty_m3": 0.0,
+        "confidence": 0.86,
+        "quality_flags": [
+          "Partial Mud Deposition (54%)",
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -210.7,
+              85.22
+            ],
+            [
+              -205.45,
+              79.97
+            ],
+            [
+              -203.0,
+              82.77
+            ],
+            [
+              -208.25,
+              87.67
+            ],
+            [
+              -210.7,
+              85.22
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-066",
+        "damage_class": 1,
+        "damage_label": "Minor Damage",
+        "severity": "Moderate",
+        "pre_height_m": 5.84,
+        "post_height_m": 6.5,
+        "delta_height_m": 0.0,
+        "collapse_pct": 0.0,
+        "footprint_area_m2": 18.0,
+        "debris_volume_m3": 0.0,
+        "debris_uncertainty_m3": 0.0,
+        "confidence": 0.82,
+        "quality_flags": [
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -210.0,
+              33.42
+            ],
+            [
+              -205.1,
+              37.62
+            ],
+            [
+              -208.6,
+              41.47
+            ],
+            [
+              -213.15,
+              37.27
+            ],
+            [
+              -210.0,
+              33.42
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-068",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 1.85,
+        "post_height_m": 0.32,
+        "delta_height_m": 1.53,
+        "collapse_pct": 82.6,
+        "footprint_area_m2": 17.1,
+        "debris_volume_m3": 34.0,
+        "debris_uncertainty_m3": 6.6,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (95% mud coverage)",
+          "Pancake/Full Roof Collapse Detected",
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -51.8,
+              9.27
+            ],
+            [
+              -46.2,
+              3.67
+            ],
+            [
+              -44.45,
+              5.77
+            ],
+            [
+              -50.05,
+              11.38
+            ],
+            [
+              -51.8,
+              9.27
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-069",
+        "damage_class": 2,
+        "damage_label": "Major Damage",
+        "severity": "High",
+        "pre_height_m": 4.12,
+        "post_height_m": 3.48,
+        "delta_height_m": 0.65,
+        "collapse_pct": 15.7,
+        "footprint_area_m2": 17.1,
+        "debris_volume_m3": 14.3,
+        "debris_uncertainty_m3": 2.8,
+        "confidence": 0.86,
+        "quality_flags": [
+          "Partial Mud Deposition (34%)",
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              25.9,
+              -68.77
+            ],
+            [
+              33.6,
+              -71.92
+            ],
+            [
+              35.35,
+              -67.72
+            ],
+            [
+              28.0,
+              -64.58
+            ],
+            [
+              25.9,
+              -68.77
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-070",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 5.61,
+        "post_height_m": 0.0,
+        "delta_height_m": 5.61,
+        "collapse_pct": 99.9,
+        "footprint_area_m2": 17.1,
+        "debris_volume_m3": 124.7,
+        "debris_uncertainty_m3": 24.2,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (90% mud coverage)",
+          "Pancake/Full Roof Collapse Detected",
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -174.65,
+              121.62
+            ],
+            [
+              -168.35,
+              121.97
+            ],
+            [
+              -168.7,
+              125.82
+            ],
+            [
+              -174.65,
+              125.47
+            ],
+            [
+              -174.65,
+              121.62
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-071",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 6.14,
+        "post_height_m": 3.64,
+        "delta_height_m": 2.51,
+        "collapse_pct": 40.8,
+        "footprint_area_m2": 17.0,
+        "debris_volume_m3": 55.4,
+        "debris_uncertainty_m3": 10.8,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (47% mud coverage)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -240.8,
+              105.17
+            ],
+            [
+              -240.8,
+              92.92
+            ],
+            [
+              -237.65,
+              93.27
+            ],
+            [
+              -238.0,
+              105.52
+            ],
+            [
+              -240.8,
+              105.17
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-072",
+        "damage_class": 1,
+        "damage_label": "Minor Damage",
+        "severity": "Moderate",
+        "pre_height_m": 3.57,
+        "post_height_m": 5.57,
+        "delta_height_m": 0.0,
+        "collapse_pct": 0.0,
+        "footprint_area_m2": 15.7,
+        "debris_volume_m3": 0.0,
+        "debris_uncertainty_m3": 0.0,
+        "confidence": 0.82,
+        "quality_flags": [
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -243.95,
+              22.22
+            ],
+            [
+              -241.5,
+              17.32
+            ],
+            [
+              -237.65,
+              19.07
+            ],
+            [
+              -240.1,
+              23.97
+            ],
+            [
+              -243.95,
+              22.22
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-073",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 5.36,
+        "post_height_m": 0.97,
+        "delta_height_m": 4.39,
+        "collapse_pct": 81.9,
+        "footprint_area_m2": 15.6,
+        "debris_volume_m3": 89.0,
+        "debris_uncertainty_m3": 17.3,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (86% mud coverage)",
+          "Pancake/Full Roof Collapse Detected"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -221.2,
+              60.02
+            ],
+            [
+              -214.2,
+              60.37
+            ],
+            [
+              -214.55,
+              64.92
+            ],
+            [
+              -221.55,
+              64.58
+            ],
+            [
+              -221.2,
+              60.02
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-074",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 2.86,
+        "post_height_m": 0.64,
+        "delta_height_m": 2.22,
+        "collapse_pct": 77.7,
+        "footprint_area_m2": 15.4,
+        "debris_volume_m3": 44.5,
+        "debris_uncertainty_m3": 8.6,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (100% mud coverage)",
+          "Pancake/Full Roof Collapse Detected",
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.7,
+              43.22
+            ],
+            [
+              3.5,
+              39.02
+            ],
+            [
+              5.95,
+              41.47
+            ],
+            [
+              1.75,
+              45.67
+            ],
+            [
+              -0.7,
+              43.22
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-075",
+        "damage_class": 1,
+        "damage_label": "Minor Damage",
+        "severity": "Moderate",
+        "pre_height_m": 2.3,
+        "post_height_m": 6.5,
+        "delta_height_m": 0.0,
+        "collapse_pct": 0.0,
+        "footprint_area_m2": 15.3,
+        "debris_volume_m3": 0.0,
+        "debris_uncertainty_m3": 0.0,
+        "confidence": 0.82,
+        "quality_flags": [
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -236.95,
+              110.07
+            ],
+            [
+              -232.75,
+              111.47
+            ],
+            [
+              -234.15,
+              114.97
+            ],
+            [
+              -238.35,
+              113.22
+            ],
+            [
+              -236.95,
+              110.07
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-076",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 4.19,
+        "post_height_m": 0.32,
+        "delta_height_m": 3.87,
+        "collapse_pct": 92.3,
+        "footprint_area_m2": 15.1,
+        "debris_volume_m3": 75.9,
+        "debris_uncertainty_m3": 14.7,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (100% mud coverage)",
+          "Pancake/Full Roof Collapse Detected",
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -100.8,
+              4.72
+            ],
+            [
+              -96.95,
+              0.52
+            ],
+            [
+              -94.85,
+              2.62
+            ],
+            [
+              -98.7,
+              6.82
+            ],
+            [
+              -100.8,
+              4.72
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-078",
+        "damage_class": 1,
+        "damage_label": "Minor Damage",
+        "severity": "Moderate",
+        "pre_height_m": 2.76,
+        "post_height_m": 6.5,
+        "delta_height_m": 0.0,
+        "collapse_pct": 0.0,
+        "footprint_area_m2": 14.6,
+        "debris_volume_m3": 0.0,
+        "debris_uncertainty_m3": 0.0,
+        "confidence": 0.82,
+        "quality_flags": [
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -258.3,
+              92.57
+            ],
+            [
+              -256.9,
+              84.88
+            ],
+            [
+              -253.05,
+              85.57
+            ],
+            [
+              -254.45,
+              93.27
+            ],
+            [
+              -258.3,
+              92.57
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-079",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 5.67,
+        "post_height_m": 0.45,
+        "delta_height_m": 5.22,
+        "collapse_pct": 92.1,
+        "footprint_area_m2": 14.3,
+        "debris_volume_m3": 97.1,
+        "debris_uncertainty_m3": 18.9,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (100% mud coverage)",
+          "Pancake/Full Roof Collapse Detected",
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              94.5,
+              23.62
+            ],
+            [
+              94.5,
+              17.32
+            ],
+            [
+              98.35,
+              17.32
+            ],
+            [
+              98.35,
+              23.62
+            ],
+            [
+              94.5,
+              23.62
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-081",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 5.01,
+        "post_height_m": 2.29,
+        "delta_height_m": 2.72,
+        "collapse_pct": 54.3,
+        "footprint_area_m2": 13.8,
+        "debris_volume_m3": 48.8,
+        "debris_uncertainty_m3": 9.5,
+        "confidence": 0.91,
+        "quality_flags": []
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -257.6,
+              80.67
+            ],
+            [
+              -251.65,
+              80.67
+            ],
+            [
+              -251.65,
+              84.52
+            ],
+            [
+              -257.6,
+              84.52
+            ],
+            [
+              -257.6,
+              80.67
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-082",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 5.46,
+        "post_height_m": 0.39,
+        "delta_height_m": 5.07,
+        "collapse_pct": 92.8,
+        "footprint_area_m2": 13.8,
+        "debris_volume_m3": 90.9,
+        "debris_uncertainty_m3": 17.7,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (100% mud coverage)",
+          "Pancake/Full Roof Collapse Detected"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.7,
+              -97.12
+            ],
+            [
+              81.2,
+              -99.92
+            ],
+            [
+              83.65,
+              -96.77
+            ],
+            [
+              79.8,
+              -93.97
+            ],
+            [
+              77.7,
+              -97.12
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-083",
+        "damage_class": 1,
+        "damage_label": "Minor Damage",
+        "severity": "Moderate",
+        "pre_height_m": 2.24,
+        "post_height_m": 4.43,
+        "delta_height_m": 0.0,
+        "collapse_pct": 0.0,
+        "footprint_area_m2": 13.4,
+        "debris_volume_m3": 0.0,
+        "debris_uncertainty_m3": 0.0,
+        "confidence": 0.82,
+        "quality_flags": []
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              69.3,
+              -90.82
+            ],
+            [
+              71.05,
+              -95.72
+            ],
+            [
+              74.55,
+              -94.67
+            ],
+            [
+              73.15,
+              -89.77
+            ],
+            [
+              69.3,
+              -90.82
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-084",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 1.26,
+        "post_height_m": 0.14,
+        "delta_height_m": 1.12,
+        "collapse_pct": 88.8,
+        "footprint_area_m2": 13.4,
+        "debris_volume_m3": 19.4,
+        "debris_uncertainty_m3": 3.8,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (100% mud coverage)",
+          "Pancake/Full Roof Collapse Detected",
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              140.0,
+              -78.57
+            ],
+            [
+              140.0,
+              -84.17
+            ],
+            [
+              145.25,
+              -84.17
+            ],
+            [
+              145.25,
+              -78.57
+            ],
+            [
+              140.0,
+              -78.57
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-085",
+        "damage_class": 1,
+        "damage_label": "Minor Damage",
+        "severity": "Moderate",
+        "pre_height_m": 5.44,
+        "post_height_m": 5.84,
+        "delta_height_m": 0.0,
+        "collapse_pct": 0.0,
+        "footprint_area_m2": 13.4,
+        "debris_volume_m3": 0.0,
+        "debris_uncertainty_m3": 0.0,
+        "confidence": 0.82,
+        "quality_flags": [
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -166.25,
+              10.32
+            ],
+            [
+              -163.8,
+              5.07
+            ],
+            [
+              -160.65,
+              6.82
+            ],
+            [
+              -163.1,
+              11.72
+            ],
+            [
+              -166.25,
+              10.32
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-086",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 5.68,
+        "post_height_m": 0.04,
+        "delta_height_m": 5.63,
+        "collapse_pct": 99.2,
+        "footprint_area_m2": 13.4,
+        "debris_volume_m3": 98.1,
+        "debris_uncertainty_m3": 19.1,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (83% mud coverage)",
+          "Pancake/Full Roof Collapse Detected"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -131.6,
+              61.42
+            ],
+            [
+              -128.45,
+              58.62
+            ],
+            [
+              -126.0,
+              61.42
+            ],
+            [
+              -129.15,
+              64.22
+            ],
+            [
+              -131.6,
+              61.42
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-088",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 2.55,
+        "post_height_m": 0.4,
+        "delta_height_m": 2.15,
+        "collapse_pct": 84.3,
+        "footprint_area_m2": 12.9,
+        "debris_volume_m3": 36.0,
+        "debris_uncertainty_m3": 7.0,
+        "confidence": 0.91,
+        "quality_flags": [
+          "Pancake/Full Roof Collapse Detected",
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              28.7,
+              26.42
+            ],
+            [
+              33.6,
+              26.07
+            ],
+            [
+              33.95,
+              30.97
+            ],
+            [
+              29.05,
+              31.32
+            ],
+            [
+              28.7,
+              26.42
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-089",
+        "damage_class": 0,
+        "damage_label": "No Damage",
+        "severity": "Low",
+        "pre_height_m": 5.49,
+        "post_height_m": 5.89,
+        "delta_height_m": 0.0,
+        "collapse_pct": 0.0,
+        "footprint_area_m2": 12.7,
+        "debris_volume_m3": 0.0,
+        "debris_uncertainty_m3": 0.0,
+        "confidence": 0.94,
+        "quality_flags": []
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -148.4,
+              -7.52
+            ],
+            [
+              -144.55,
+              -11.72
+            ],
+            [
+              -141.75,
+              -8.92
+            ],
+            [
+              -145.95,
+              -4.72
+            ],
+            [
+              -148.4,
+              -7.52
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-091",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 5.71,
+        "post_height_m": 0.6,
+        "delta_height_m": 5.11,
+        "collapse_pct": 89.5,
+        "footprint_area_m2": 12.6,
+        "debris_volume_m3": 83.8,
+        "debris_uncertainty_m3": 16.3,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (41% mud coverage)",
+          "Pancake/Full Roof Collapse Detected",
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              152.25,
+              -34.12
+            ],
+            [
+              154.35,
+              -30.27
+            ],
+            [
+              151.55,
+              -28.87
+            ],
+            [
+              149.45,
+              -32.73
+            ],
+            [
+              152.25,
+              -34.12
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-093",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 5.43,
+        "post_height_m": 0.31,
+        "delta_height_m": 5.12,
+        "collapse_pct": 94.3,
+        "footprint_area_m2": 12.4,
+        "debris_volume_m3": 82.5,
+        "debris_uncertainty_m3": 16.0,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (100% mud coverage)",
+          "Pancake/Full Roof Collapse Detected",
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -130.2,
+              -1.22
+            ],
+            [
+              -127.75,
+              2.27
+            ],
+            [
+              -130.2,
+              4.38
+            ],
+            [
+              -133.0,
+              0.88
+            ],
+            [
+              -130.2,
+              -1.22
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-094",
+        "damage_class": 1,
+        "damage_label": "Minor Damage",
+        "severity": "Moderate",
+        "pre_height_m": 2.3,
+        "post_height_m": 6.5,
+        "delta_height_m": 0.0,
+        "collapse_pct": 0.0,
+        "footprint_area_m2": 12.3,
+        "debris_volume_m3": 0.0,
+        "debris_uncertainty_m3": 0.0,
+        "confidence": 0.82,
+        "quality_flags": [
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -15.75,
+              -90.47
+            ],
+            [
+              -10.15,
+              -86.97
+            ],
+            [
+              -11.9,
+              -84.52
+            ],
+            [
+              -17.15,
+              -88.38
+            ],
+            [
+              -15.75,
+              -90.47
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-095",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 5.67,
+        "post_height_m": 1.06,
+        "delta_height_m": 4.61,
+        "collapse_pct": 81.4,
+        "footprint_area_m2": 12.2,
+        "debris_volume_m3": 73.1,
+        "debris_uncertainty_m3": 14.2,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (99% mud coverage)",
+          "Pancake/Full Roof Collapse Detected",
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              131.95,
+              59.32
+            ],
+            [
+              136.5,
+              60.37
+            ],
+            [
+              135.45,
+              64.22
+            ],
+            [
+              131.25,
+              63.17
+            ],
+            [
+              131.95,
+              59.32
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-096",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 5.73,
+        "post_height_m": 0.0,
+        "delta_height_m": 5.73,
+        "collapse_pct": 100.0,
+        "footprint_area_m2": 12.2,
+        "debris_volume_m3": 90.9,
+        "debris_uncertainty_m3": 17.7,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (48% mud coverage)",
+          "Pancake/Full Roof Collapse Detected",
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              72.8,
+              -146.47
+            ],
+            [
+              77.0,
+              -143.67
+            ],
+            [
+              74.9,
+              -140.88
+            ],
+            [
+              70.7,
+              -144.02
+            ],
+            [
+              72.8,
+              -146.47
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-097",
+        "damage_class": 1,
+        "damage_label": "Minor Damage",
+        "severity": "Moderate",
+        "pre_height_m": 2.31,
+        "post_height_m": 4.76,
+        "delta_height_m": 0.0,
+        "collapse_pct": 0.0,
+        "footprint_area_m2": 12.1,
+        "debris_volume_m3": 0.0,
+        "debris_uncertainty_m3": 0.0,
+        "confidence": 0.82,
+        "quality_flags": [
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -261.8,
+              30.62
+            ],
+            [
+              -257.25,
+              28.87
+            ],
+            [
+              -256.2,
+              32.38
+            ],
+            [
+              -260.4,
+              33.77
+            ],
+            [
+              -261.8,
+              30.62
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-098",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 5.6,
+        "post_height_m": 0.5,
+        "delta_height_m": 5.1,
+        "collapse_pct": 91.0,
+        "footprint_area_m2": 12.1,
+        "debris_volume_m3": 80.2,
+        "debris_uncertainty_m3": 15.6,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (92% mud coverage)",
+          "Pancake/Full Roof Collapse Detected",
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              171.5,
+              -20.12
+            ],
+            [
+              175.7,
+              -24.32
+            ],
+            [
+              178.5,
+              -21.17
+            ],
+            [
+              174.3,
+              -16.97
+            ],
+            [
+              171.5,
+              -20.12
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-099",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 2.29,
+        "post_height_m": 0.02,
+        "delta_height_m": 2.28,
+        "collapse_pct": 99.2,
+        "footprint_area_m2": 12.0,
+        "debris_volume_m3": 35.5,
+        "debris_uncertainty_m3": 6.9,
+        "confidence": 0.91,
+        "quality_flags": [
+          "Pancake/Full Roof Collapse Detected",
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              64.05,
+              -52.67
+            ],
+            [
+              68.95,
+              -55.12
+            ],
+            [
+              70.35,
+              -51.97
+            ],
+            [
+              65.45,
+              -49.88
+            ],
+            [
+              64.05,
+              -52.67
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-101",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 5.37,
+        "post_height_m": 0.46,
+        "delta_height_m": 4.92,
+        "collapse_pct": 91.5,
+        "footprint_area_m2": 11.9,
+        "debris_volume_m3": 76.1,
+        "debris_uncertainty_m3": 14.8,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (100% mud coverage)",
+          "Pancake/Full Roof Collapse Detected",
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -118.65,
+              55.12
+            ],
+            [
+              -115.85,
+              58.62
+            ],
+            [
+              -118.3,
+              60.37
+            ],
+            [
+              -121.1,
+              56.87
+            ],
+            [
+              -118.65,
+              55.12
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-102",
+        "damage_class": 1,
+        "damage_label": "Minor Damage",
+        "severity": "Moderate",
+        "pre_height_m": 2.14,
+        "post_height_m": 4.84,
+        "delta_height_m": 0.0,
+        "collapse_pct": 0.0,
+        "footprint_area_m2": 11.8,
+        "debris_volume_m3": 0.0,
+        "debris_uncertainty_m3": 0.0,
+        "confidence": 0.82,
+        "quality_flags": [
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -9.45,
+              -88.02
+            ],
+            [
+              -3.85,
+              -88.02
+            ],
+            [
+              -3.85,
+              -84.88
+            ],
+            [
+              -9.45,
+              -84.88
+            ],
+            [
+              -9.45,
+              -88.02
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-103",
+        "damage_class": 1,
+        "damage_label": "Minor Damage",
+        "severity": "Moderate",
+        "pre_height_m": 1.95,
+        "post_height_m": 6.5,
+        "delta_height_m": 0.0,
+        "collapse_pct": 0.0,
+        "footprint_area_m2": 11.8,
+        "debris_volume_m3": 0.0,
+        "debris_uncertainty_m3": 0.0,
+        "confidence": 0.82,
+        "quality_flags": [
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -239.4,
+              109.38
+            ],
+            [
+              -236.95,
+              114.97
+            ],
+            [
+              -239.4,
+              116.02
+            ],
+            [
+              -242.2,
+              110.42
+            ],
+            [
+              -239.4,
+              109.38
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-104",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 2.82,
+        "post_height_m": 0.43,
+        "delta_height_m": 2.39,
+        "collapse_pct": 84.6,
+        "footprint_area_m2": 11.7,
+        "debris_volume_m3": 36.3,
+        "debris_uncertainty_m3": 7.0,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (54% mud coverage)",
+          "Pancake/Full Roof Collapse Detected",
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -4.2,
+              47.42
+            ],
+            [
+              -0.35,
+              43.57
+            ],
+            [
+              2.45,
+              46.02
+            ],
+            [
+              -1.4,
+              50.22
+            ],
+            [
+              -4.2,
+              47.42
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-105",
+        "damage_class": 1,
+        "damage_label": "Minor Damage",
+        "severity": "Moderate",
+        "pre_height_m": 4.18,
+        "post_height_m": 6.5,
+        "delta_height_m": 0.0,
+        "collapse_pct": 0.0,
+        "footprint_area_m2": 11.6,
+        "debris_volume_m3": 0.0,
+        "debris_uncertainty_m3": 0.0,
+        "confidence": 0.82,
+        "quality_flags": [
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -190.05,
+              98.17
+            ],
+            [
+              -187.95,
+              94.67
+            ],
+            [
+              -185.5,
+              96.07
+            ],
+            [
+              -187.6,
+              99.57
+            ],
+            [
+              -190.05,
+              98.17
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-106",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 2.76,
+        "post_height_m": 0.3,
+        "delta_height_m": 2.46,
+        "collapse_pct": 89.1,
+        "footprint_area_m2": 11.6,
+        "debris_volume_m3": 37.1,
+        "debris_uncertainty_m3": 7.2,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (91% mud coverage)",
+          "Pancake/Full Roof Collapse Detected",
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -165.9,
+              109.38
+            ],
+            [
+              -164.85,
+              100.97
+            ],
+            [
+              -161.35,
+              101.67
+            ],
+            [
+              -162.4,
+              109.72
+            ],
+            [
+              -165.9,
+              109.38
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-107",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 1.58,
+        "post_height_m": 0.65,
+        "delta_height_m": 0.93,
+        "collapse_pct": 58.9,
+        "footprint_area_m2": 11.5,
+        "debris_volume_m3": 13.9,
+        "debris_uncertainty_m3": 2.7,
+        "confidence": 0.91,
+        "quality_flags": [
+          "Pancake/Full Roof Collapse Detected"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              108.85,
+              1.92
+            ],
+            [
+              112.0,
+              5.07
+            ],
+            [
+              109.2,
+              7.87
+            ],
+            [
+              106.05,
+              4.72
+            ],
+            [
+              108.85,
+              1.92
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-109",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 5.77,
+        "post_height_m": 0.24,
+        "delta_height_m": 5.53,
+        "collapse_pct": 95.9,
+        "footprint_area_m2": 11.3,
+        "debris_volume_m3": 81.2,
+        "debris_uncertainty_m3": 15.8,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (100% mud coverage)",
+          "Pancake/Full Roof Collapse Detected",
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -147.0,
+              82.42
+            ],
+            [
+              -145.6,
+              77.88
+            ],
+            [
+              -142.8,
+              78.92
+            ],
+            [
+              -144.2,
+              83.47
+            ],
+            [
+              -147.0,
+              82.42
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-111",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 5.36,
+        "post_height_m": 0.0,
+        "delta_height_m": 5.36,
+        "collapse_pct": 99.9,
+        "footprint_area_m2": 11.2,
+        "debris_volume_m3": 78.0,
+        "debris_uncertainty_m3": 15.1,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (99% mud coverage)",
+          "Pancake/Full Roof Collapse Detected"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              75.6,
+              -133.88
+            ],
+            [
+              79.45,
+              -131.78
+            ],
+            [
+              77.35,
+              -128.28
+            ],
+            [
+              73.5,
+              -130.38
+            ],
+            [
+              75.6,
+              -133.88
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-113",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 1.79,
+        "post_height_m": 1.53,
+        "delta_height_m": 0.26,
+        "collapse_pct": 14.6,
+        "footprint_area_m2": 11.1,
+        "debris_volume_m3": 3.8,
+        "debris_uncertainty_m3": 0.7,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (91% mud coverage)",
+          "Pancake/Full Roof Collapse Detected",
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -128.8,
+              -22.22
+            ],
+            [
+              -123.9,
+              -22.22
+            ],
+            [
+              -123.9,
+              -18.02
+            ],
+            [
+              -128.8,
+              -18.02
+            ],
+            [
+              -128.8,
+              -22.22
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-114",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 1.88,
+        "post_height_m": 0.34,
+        "delta_height_m": 1.54,
+        "collapse_pct": 81.9,
+        "footprint_area_m2": 11.1,
+        "debris_volume_m3": 22.2,
+        "debris_uncertainty_m3": 4.3,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (89% mud coverage)",
+          "Pancake/Full Roof Collapse Detected",
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -177.45,
+              167.47
+            ],
+            [
+              -175.35,
+              162.57
+            ],
+            [
+              -172.55,
+              163.62
+            ],
+            [
+              -174.3,
+              168.88
+            ],
+            [
+              -177.45,
+              167.47
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-115",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 1.5,
+        "post_height_m": 0.28,
+        "delta_height_m": 1.22,
+        "collapse_pct": 81.4,
+        "footprint_area_m2": 10.8,
+        "debris_volume_m3": 17.2,
+        "debris_uncertainty_m3": 3.3,
+        "confidence": 0.91,
+        "quality_flags": [
+          "Pancake/Full Roof Collapse Detected"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              98.0,
+              -6.82
+            ],
+            [
+              102.9,
+              -2.27
+            ],
+            [
+              100.1,
+              0.88
+            ],
+            [
+              94.85,
+              -4.02
+            ],
+            [
+              98.0,
+              -6.82
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-116",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 3.57,
+        "post_height_m": 0.53,
+        "delta_height_m": 3.04,
+        "collapse_pct": 85.2,
+        "footprint_area_m2": 10.7,
+        "debris_volume_m3": 42.2,
+        "debris_uncertainty_m3": 8.2,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (84% mud coverage)",
+          "Pancake/Full Roof Collapse Detected",
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              94.5,
+              -75.42
+            ],
+            [
+              98.35,
+              -73.67
+            ],
+            [
+              97.65,
+              -71.22
+            ],
+            [
+              93.45,
+              -72.97
+            ],
+            [
+              94.5,
+              -75.42
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-117",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 3.74,
+        "post_height_m": 0.47,
+        "delta_height_m": 3.27,
+        "collapse_pct": 87.4,
+        "footprint_area_m2": 10.6,
+        "debris_volume_m3": 45.0,
+        "debris_uncertainty_m3": 8.7,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (81% mud coverage)",
+          "Pancake/Full Roof Collapse Detected"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              157.5,
+              -11.38
+            ],
+            [
+              157.85,
+              -7.17
+            ],
+            [
+              155.05,
+              -6.82
+            ],
+            [
+              154.7,
+              -11.02
+            ],
+            [
+              157.5,
+              -11.38
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-118",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 5.91,
+        "post_height_m": 0.41,
+        "delta_height_m": 5.5,
+        "collapse_pct": 93.1,
+        "footprint_area_m2": 10.5,
+        "debris_volume_m3": 75.1,
+        "debris_uncertainty_m3": 14.6,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (100% mud coverage)",
+          "Pancake/Full Roof Collapse Detected",
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -94.85,
+              -22.92
+            ],
+            [
+              -88.55,
+              -26.07
+            ],
+            [
+              -87.15,
+              -23.62
+            ],
+            [
+              -93.8,
+              -20.47
+            ],
+            [
+              -94.85,
+              -22.92
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-119",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 1.37,
+        "post_height_m": 0.24,
+        "delta_height_m": 1.13,
+        "collapse_pct": 82.6,
+        "footprint_area_m2": 10.5,
+        "debris_volume_m3": 15.4,
+        "debris_uncertainty_m3": 3.0,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (100% mud coverage)",
+          "Pancake/Full Roof Collapse Detected",
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.95,
+              8.92
+            ],
+            [
+              -38.5,
+              11.72
+            ],
+            [
+              -40.95,
+              13.82
+            ],
+            [
+              -43.4,
+              11.38
+            ],
+            [
+              -40.95,
+              8.92
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-120",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 3.23,
+        "post_height_m": 0.25,
+        "delta_height_m": 2.98,
+        "collapse_pct": 92.3,
+        "footprint_area_m2": 10.4,
+        "debris_volume_m3": 40.3,
+        "debris_uncertainty_m3": 7.8,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (100% mud coverage)",
+          "Pancake/Full Roof Collapse Detected",
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              26.95,
+              18.38
+            ],
+            [
+              28.0,
+              22.57
+            ],
+            [
+              25.2,
+              23.27
+            ],
+            [
+              24.15,
+              19.42
+            ],
+            [
+              26.95,
+              18.38
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-121",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 3.75,
+        "post_height_m": 0.52,
+        "delta_height_m": 3.22,
+        "collapse_pct": 86.1,
+        "footprint_area_m2": 10.3,
+        "debris_volume_m3": 43.2,
+        "debris_uncertainty_m3": 8.4,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (100% mud coverage)",
+          "Pancake/Full Roof Collapse Detected",
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -171.15,
+              77.88
+            ],
+            [
+              -167.3,
+              77.88
+            ],
+            [
+              -167.3,
+              81.38
+            ],
+            [
+              -171.15,
+              81.38
+            ],
+            [
+              -171.15,
+              77.88
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-122",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 5.75,
+        "post_height_m": 0.34,
+        "delta_height_m": 5.41,
+        "collapse_pct": 94.0,
+        "footprint_area_m2": 10.2,
+        "debris_volume_m3": 71.7,
+        "debris_uncertainty_m3": 13.9,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (100% mud coverage)",
+          "Pancake/Full Roof Collapse Detected"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -163.1,
+              138.77
+            ],
+            [
+              -163.1,
+              135.27
+            ],
+            [
+              -159.6,
+              135.27
+            ],
+            [
+              -159.6,
+              138.77
+            ],
+            [
+              -163.1,
+              138.77
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-123",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 1.68,
+        "post_height_m": 0.22,
+        "delta_height_m": 1.46,
+        "collapse_pct": 87.1,
+        "footprint_area_m2": 10.0,
+        "debris_volume_m3": 19.0,
+        "debris_uncertainty_m3": 3.7,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (96% mud coverage)",
+          "Pancake/Full Roof Collapse Detected"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -39.9,
+              42.88
+            ],
+            [
+              -34.65,
+              41.47
+            ],
+            [
+              -33.6,
+              45.67
+            ],
+            [
+              -38.85,
+              46.72
+            ],
+            [
+              -39.9,
+              42.88
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-124",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 4.52,
+        "post_height_m": 0.5,
+        "delta_height_m": 4.02,
+        "collapse_pct": 89.0,
+        "footprint_area_m2": 9.9,
+        "debris_volume_m3": 51.8,
+        "debris_uncertainty_m3": 10.1,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (99% mud coverage)",
+          "Pancake/Full Roof Collapse Detected",
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              104.3,
+              -75.07
+            ],
+            [
+              106.75,
+              -71.92
+            ],
+            [
+              103.6,
+              -69.82
+            ],
+            [
+              101.5,
+              -72.62
+            ],
+            [
+              104.3,
+              -75.07
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-125",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 4.04,
+        "post_height_m": 0.54,
+        "delta_height_m": 3.51,
+        "collapse_pct": 86.7,
+        "footprint_area_m2": 9.9,
+        "debris_volume_m3": 45.1,
+        "debris_uncertainty_m3": 8.8,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (73% mud coverage)",
+          "Pancake/Full Roof Collapse Detected",
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -75.6,
+              9.27
+            ],
+            [
+              -71.4,
+              7.52
+            ],
+            [
+              -70.35,
+              10.32
+            ],
+            [
+              -74.55,
+              12.07
+            ],
+            [
+              -75.6,
+              9.27
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-126",
+        "damage_class": 1,
+        "damage_label": "Minor Damage",
+        "severity": "Moderate",
+        "pre_height_m": 2.01,
+        "post_height_m": 4.59,
+        "delta_height_m": 0.0,
+        "collapse_pct": 0.0,
+        "footprint_area_m2": 9.7,
+        "debris_volume_m3": 0.0,
+        "debris_uncertainty_m3": 0.0,
+        "confidence": 0.82,
+        "quality_flags": [
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -172.9,
+              54.77
+            ],
+            [
+              -171.5,
+              50.57
+            ],
+            [
+              -169.05,
+              51.27
+            ],
+            [
+              -170.45,
+              55.47
+            ],
+            [
+              -172.9,
+              54.77
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-127",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 3.43,
+        "post_height_m": 0.3,
+        "delta_height_m": 3.13,
+        "collapse_pct": 91.2,
+        "footprint_area_m2": 9.6,
+        "debris_volume_m3": 39.0,
+        "debris_uncertainty_m3": 7.6,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (53% mud coverage)",
+          "Pancake/Full Roof Collapse Detected"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -110.6,
+              28.87
+            ],
+            [
+              -108.85,
+              32.73
+            ],
+            [
+              -111.65,
+              33.77
+            ],
+            [
+              -113.4,
+              30.27
+            ],
+            [
+              -110.6,
+              28.87
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-128",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 5.36,
+        "post_height_m": 2.47,
+        "delta_height_m": 2.89,
+        "collapse_pct": 54.0,
+        "footprint_area_m2": 9.3,
+        "debris_volume_m3": 35.0,
+        "debris_uncertainty_m3": 6.8,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (68% mud coverage)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -264.6,
+              51.97
+            ],
+            [
+              -261.8,
+              49.17
+            ],
+            [
+              -259.7,
+              50.92
+            ],
+            [
+              -262.5,
+              54.07
+            ],
+            [
+              -264.6,
+              51.97
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-129",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 5.36,
+        "post_height_m": 0.61,
+        "delta_height_m": 4.75,
+        "collapse_pct": 88.7,
+        "footprint_area_m2": 9.3,
+        "debris_volume_m3": 57.5,
+        "debris_uncertainty_m3": 11.2,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (100% mud coverage)",
+          "Pancake/Full Roof Collapse Detected",
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -234.85,
+              83.82
+            ],
+            [
+              -233.1,
+              79.97
+            ],
+            [
+              -230.65,
+              81.02
+            ],
+            [
+              -232.75,
+              85.22
+            ],
+            [
+              -234.85,
+              83.82
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-112",
+        "damage_class": 3,
+        "damage_label": "Destroyed",
+        "severity": "Critical",
+        "pre_height_m": 1.09,
+        "post_height_m": 0.26,
+        "delta_height_m": 0.84,
+        "collapse_pct": 76.6,
+        "footprint_area_m2": 11.2,
+        "debris_volume_m3": 12.2,
+        "debris_uncertainty_m3": 2.4,
+        "confidence": 0.95,
+        "quality_flags": [
+          "Inundated by Landslide/Mudflow (100% mud coverage)",
+          "Pancake/Full Roof Collapse Detected",
+          "High Spectral Alteration (Fire/Scorching or Debris Inundation)"
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -10.15,
+              8.22
+            ],
+            [
+              -6.65,
+              4.72
+            ],
+            [
+              -3.15,
+              8.22
+            ],
+            [
+              -6.65,
+              11.72
+            ],
+            [
+              -10.15,
+              8.22
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

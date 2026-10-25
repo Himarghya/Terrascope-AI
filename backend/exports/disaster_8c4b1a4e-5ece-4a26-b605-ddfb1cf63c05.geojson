@@ -1,0 +1,11 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "title": "Terrascope AI \u2014 Disaster Structural Damage & Debris Assessment",
+    "generated_at": 1792349175.5658736,
+    "gsd_m": 0.35,
+    "bulking_factor": 1.3,
+    "coordinate_system": "Local Metric Cartesian (Origin at Scene Center)"
+  },
+  "features": []
+}

@@ -1,0 +1,8119 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "BLD-060",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              236.32,
+              -37.92,
+              0.0
+            ],
+            [
+              217.44,
+              -35.68,
+              0.0
+            ],
+            [
+              213.6,
+              -32.8,
+              0.0
+            ],
+            [
+              216.8,
+              -20.64,
+              0.0
+            ],
+            [
+              214.56,
+              -8.16,
+              0.0
+            ],
+            [
+              221.6,
+              10.08,
+              0.0
+            ],
+            [
+              247.84,
+              0.16,
+              0.0
+            ],
+            [
+              244.96,
+              -17.76,
+              0.0
+            ],
+            [
+              240.16,
+              -22.24,
+              0.0
+            ],
+            [
+              240.16,
+              -30.56,
+              0.0
+            ],
+            [
+              236.32,
+              -37.92,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-060",
+        "building_type": "General Structure",
+        "footprint_area_m2": 1183.0,
+        "estimated_height_m": 10.5,
+        "height_uncertainty_m": 4.5,
+        "estimated_floors": 3,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.86,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-080",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              203.04,
+              -98.08,
+              0.0
+            ],
+            [
+              198.24,
+              -126.24,
+              0.0
+            ],
+            [
+              220.32,
+              -129.76,
+              0.0
+            ],
+            [
+              225.12,
+              -101.92,
+              0.0
+            ],
+            [
+              203.04,
+              -98.08,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-080",
+        "building_type": "General Structure",
+        "footprint_area_m2": 581.8,
+        "estimated_height_m": 10.3,
+        "height_uncertainty_m": 2.4,
+        "estimated_floors": 3,
+        "roof_shape": "gabled",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.93,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-076",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -41.44,
+              -92.96,
+              0.0
+            ],
+            [
+              -36.0,
+              -53.6,
+              0.0
+            ],
+            [
+              -23.84,
+              -52.32,
+              0.0
+            ],
+            [
+              -15.2,
+              -36.96,
+              0.0
+            ],
+            [
+              5.92,
+              -47.52,
+              0.0
+            ],
+            [
+              -2.72,
+              -45.92,
+              0.0
+            ],
+            [
+              -5.28,
+              -76.32,
+              0.0
+            ],
+            [
+              3.04,
+              -76.32,
+              0.0
+            ],
+            [
+              16.8,
+              -0.8,
+              0.0
+            ],
+            [
+              33.12,
+              0.16,
+              0.0
+            ],
+            [
+              32.8,
+              -8.48,
+              0.0
+            ],
+            [
+              23.84,
+              -8.8,
+              0.0
+            ],
+            [
+              30.24,
+              -44.96,
+              0.0
+            ],
+            [
+              19.36,
+              -67.36,
+              0.0
+            ],
+            [
+              22.24,
+              -87.84,
+              0.0
+            ],
+            [
+              12.32,
+              -99.04,
+              0.0
+            ],
+            [
+              -41.44,
+              -92.96,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-076",
+        "building_type": "General Structure",
+        "footprint_area_m2": 3407.8,
+        "estimated_height_m": 10.2,
+        "height_uncertainty_m": 3.8,
+        "estimated_floors": 3,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.86,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-042",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              292.32,
+              8.48,
+              0.0
+            ],
+            [
+              282.4,
+              16.48,
+              0.0
+            ],
+            [
+              252.0,
+              14.88,
+              0.0
+            ],
+            [
+              250.4,
+              30.56,
+              0.0
+            ],
+            [
+              232.16,
+              32.48,
+              0.0
+            ],
+            [
+              233.44,
+              63.2,
+              0.0
+            ],
+            [
+              255.2,
+              65.44,
+              0.0
+            ],
+            [
+              238.56,
+              77.6,
+              0.0
+            ],
+            [
+              246.88,
+              119.2,
+              0.0
+            ],
+            [
+              257.12,
+              115.68,
+              0.0
+            ],
+            [
+              251.04,
+              99.04,
+              0.0
+            ],
+            [
+              273.76,
+              83.04,
+              0.0
+            ],
+            [
+              281.12,
+              84.96,
+              0.0
+            ],
+            [
+              281.76,
+              111.2,
+              0.0
+            ],
+            [
+              296.8,
+              99.04,
+              0.0
+            ],
+            [
+              296.8,
+              88.48,
+              0.0
+            ],
+            [
+              286.24,
+              87.84,
+              0.0
+            ],
+            [
+              296.8,
+              84.64,
+              0.0
+            ],
+            [
+              292.32,
+              8.48,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-042",
+        "building_type": "General Structure",
+        "footprint_area_m2": 4797.6,
+        "estimated_height_m": 10.1,
+        "height_uncertainty_m": 4.5,
+        "estimated_floors": 3,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.86,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-077",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              296.8,
+              -102.56,
+              0.0
+            ],
+            [
+              280.16,
+              -103.2,
+              0.0
+            ],
+            [
+              272.16,
+              -100.32,
+              0.0
+            ],
+            [
+              269.6,
+              -95.52,
+              0.0
+            ],
+            [
+              258.72,
+              -92.0,
+              0.0
+            ],
+            [
+              258.08,
+              -82.72,
+              0.0
+            ],
+            [
+              265.76,
+              -62.88,
+              0.0
+            ],
+            [
+              275.04,
+              -60.0,
+              0.0
+            ],
+            [
+              276.0,
+              -64.16,
+              0.0
+            ],
+            [
+              292.0,
+              -68.32,
+              0.0
+            ],
+            [
+              290.4,
+              -85.6,
+              0.0
+            ],
+            [
+              296.8,
+              -86.56,
+              0.0
+            ],
+            [
+              296.8,
+              -102.56,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-077",
+        "building_type": "General Structure",
+        "footprint_area_m2": 1201.7,
+        "estimated_height_m": 10.1,
+        "height_uncertainty_m": 3.5,
+        "estimated_floors": 3,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.86,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-015",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -51.36,
+              112.8,
+              0.0
+            ],
+            [
+              -47.2,
+              135.2,
+              0.0
+            ],
+            [
+              -16.16,
+              135.2,
+              0.0
+            ],
+            [
+              -19.36,
+              124.32,
+              0.0
+            ],
+            [
+              -27.68,
+              125.28,
+              0.0
+            ],
+            [
+              -34.08,
+              107.68,
+              0.0
+            ],
+            [
+              -51.36,
+              112.8,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-015",
+        "building_type": "General Structure",
+        "footprint_area_m2": 601.4,
+        "estimated_height_m": 10.0,
+        "height_uncertainty_m": 2.7,
+        "estimated_floors": 3,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.86,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-082",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              132.64,
+              -128.48,
+              0.0
+            ],
+            [
+              135.84,
+              -106.4,
+              0.0
+            ],
+            [
+              152.48,
+              -108.96,
+              0.0
+            ],
+            [
+              157.92,
+              -84.96,
+              0.0
+            ],
+            [
+              172.96,
+              -86.24,
+              0.0
+            ],
+            [
+              172.32,
+              -115.68,
+              0.0
+            ],
+            [
+              169.12,
+              -126.24,
+              0.0
+            ],
+            [
+              151.2,
+              -125.28,
+              0.0
+            ],
+            [
+              147.04,
+              -129.44,
+              0.0
+            ],
+            [
+              132.64,
+              -128.48,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-082",
+        "building_type": "General Structure",
+        "footprint_area_m2": 1151.0,
+        "estimated_height_m": 10.0,
+        "height_uncertainty_m": 3.3,
+        "estimated_floors": 3,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.86,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-083",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              138.72,
+              -89.12,
+              0.0
+            ],
+            [
+              136.48,
+              -102.88,
+              0.0
+            ],
+            [
+              120.8,
+              -102.56,
+              0.0
+            ],
+            [
+              123.04,
+              -131.04,
+              0.0
+            ],
+            [
+              98.72,
+              -126.56,
+              0.0
+            ],
+            [
+              98.08,
+              -110.24,
+              0.0
+            ],
+            [
+              84.32,
+              -102.56,
+              0.0
+            ],
+            [
+              76.0,
+              -121.76,
+              0.0
+            ],
+            [
+              37.92,
+              -112.48,
+              0.0
+            ],
+            [
+              42.72,
+              -96.48,
+              0.0
+            ],
+            [
+              53.28,
+              -102.56,
+              0.0
+            ],
+            [
+              61.28,
+              -90.08,
+              0.0
+            ],
+            [
+              79.84,
+              -93.28,
+              0.0
+            ],
+            [
+              84.64,
+              -80.48,
+              0.0
+            ],
+            [
+              102.24,
+              -77.92,
+              0.0
+            ],
+            [
+              138.72,
+              -89.12,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-083",
+        "building_type": "General Structure",
+        "footprint_area_m2": 2796.3,
+        "estimated_height_m": 9.9,
+        "height_uncertainty_m": 3.5,
+        "estimated_floors": 3,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.86,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-027",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.56,
+              137.44,
+              0.0
+            ],
+            [
+              -17.44,
+              69.92,
+              0.0
+            ],
+            [
+              0.16,
+              67.04,
+              0.0
+            ],
+            [
+              11.04,
+              134.56,
+              0.0
+            ],
+            [
+              -6.56,
+              137.44,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-027",
+        "building_type": "General Structure",
+        "footprint_area_m2": 1013.9,
+        "estimated_height_m": 9.8,
+        "height_uncertainty_m": 2.5,
+        "estimated_floors": 3,
+        "roof_shape": "gabled",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.93,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-038",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              41.44,
+              22.24,
+              0.0
+            ],
+            [
+              13.92,
+              24.8,
+              0.0
+            ],
+            [
+              -9.12,
+              31.2,
+              0.0
+            ],
+            [
+              -22.56,
+              30.56,
+              0.0
+            ],
+            [
+              -27.68,
+              34.72,
+              0.0
+            ],
+            [
+              -26.4,
+              48.16,
+              0.0
+            ],
+            [
+              -22.56,
+              50.72,
+              0.0
+            ],
+            [
+              20.96,
+              41.76,
+              0.0
+            ],
+            [
+              23.84,
+              36.64,
+              0.0
+            ],
+            [
+              42.08,
+              32.8,
+              0.0
+            ],
+            [
+              41.44,
+              22.24,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-038",
+        "building_type": "General Structure",
+        "footprint_area_m2": 1099.7,
+        "estimated_height_m": 9.5,
+        "height_uncertainty_m": 2.8,
+        "estimated_floors": 3,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.86,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-067",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -85.28,
+              -63.2,
+              0.0
+            ],
+            [
+              -83.36,
+              -63.2,
+              0.0
+            ],
+            [
+              -81.12,
+              -64.8,
+              0.0
+            ],
+            [
+              -77.92,
+              -64.8,
+              0.0
+            ],
+            [
+              -76.96,
+              -65.44,
+              0.0
+            ],
+            [
+              -76.96,
+              -66.4,
+              0.0
+            ],
+            [
+              -83.68,
+              -67.04,
+              0.0
+            ],
+            [
+              -85.6,
+              -65.76,
+              0.0
+            ],
+            [
+              -85.28,
+              -63.2,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-067",
+        "building_type": "General Structure",
+        "footprint_area_m2": 21.7,
+        "estimated_height_m": 9.4,
+        "height_uncertainty_m": 0.9,
+        "estimated_floors": 3,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.86,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-059",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -64.48,
+              -8.48,
+              0.0
+            ],
+            [
+              -67.36,
+              -28.0,
+              0.0
+            ],
+            [
+              -52.96,
+              -30.24,
+              0.0
+            ],
+            [
+              -50.08,
+              -10.4,
+              0.0
+            ],
+            [
+              -64.48,
+              -8.48,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-059",
+        "building_type": "General Structure",
+        "footprint_area_m2": 259.5,
+        "estimated_height_m": 9.0,
+        "height_uncertainty_m": 2.1,
+        "estimated_floors": 3,
+        "roof_shape": "gabled",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.93,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-056",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -71.52,
+              -25.12,
+              0.0
+            ],
+            [
+              -76.64,
+              -25.44,
+              0.0
+            ],
+            [
+              -84.32,
+              -22.56,
+              0.0
+            ],
+            [
+              -82.4,
+              -8.8,
+              0.0
+            ],
+            [
+              -81.12,
+              -7.2,
+              0.0
+            ],
+            [
+              -78.56,
+              -7.2,
+              0.0
+            ],
+            [
+              -76.64,
+              -10.08,
+              0.0
+            ],
+            [
+              -73.44,
+              -11.04,
+              0.0
+            ],
+            [
+              -72.48,
+              -14.56,
+              0.0
+            ],
+            [
+              -70.56,
+              -16.16,
+              0.0
+            ],
+            [
+              -70.24,
+              -21.28,
+              0.0
+            ],
+            [
+              -71.52,
+              -25.12,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-056",
+        "building_type": "General Structure",
+        "footprint_area_m2": 188.8,
+        "estimated_height_m": 8.8,
+        "height_uncertainty_m": 2.5,
+        "estimated_floors": 3,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.86,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-072",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -104.48,
+              -81.44,
+              0.0
+            ],
+            [
+              -104.16,
+              -80.48,
+              0.0
+            ],
+            [
+              -99.68,
+              -78.24,
+              0.0
+            ],
+            [
+              -98.72,
+              -78.24,
+              0.0
+            ],
+            [
+              -97.76,
+              -79.52,
+              0.0
+            ],
+            [
+              -98.08,
+              -80.8,
+              0.0
+            ],
+            [
+              -99.36,
+              -81.44,
+              0.0
+            ],
+            [
+              -104.48,
+              -81.44,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-072",
+        "building_type": "General Structure",
+        "footprint_area_m2": 14.2,
+        "estimated_height_m": 8.6,
+        "height_uncertainty_m": 0.8,
+        "estimated_floors": 3,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.86,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-075",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -55.84,
+              -60.0,
+              0.0
+            ],
+            [
+              -73.44,
+              -60.0,
+              0.0
+            ],
+            [
+              -73.44,
+              -90.08,
+              0.0
+            ],
+            [
+              -55.84,
+              -90.08,
+              0.0
+            ],
+            [
+              -55.84,
+              -60.0,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-075",
+        "building_type": "General Structure",
+        "footprint_area_m2": 427.2,
+        "estimated_height_m": 8.6,
+        "height_uncertainty_m": 2.0,
+        "estimated_floors": 3,
+        "roof_shape": "gabled",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.93,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-091",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -242.4,
+              -121.44,
+              0.0
+            ],
+            [
+              -232.8,
+              -122.4,
+              0.0
+            ],
+            [
+              -227.36,
+              -125.92,
+              0.0
+            ],
+            [
+              -222.88,
+              -115.04,
+              0.0
+            ],
+            [
+              -196.64,
+              -119.52,
+              0.0
+            ],
+            [
+              -198.56,
+              -135.52,
+              0.0
+            ],
+            [
+              -243.04,
+              -135.52,
+              0.0
+            ],
+            [
+              -242.4,
+              -121.44,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-091",
+        "building_type": "General Structure",
+        "footprint_area_m2": 767.0,
+        "estimated_height_m": 8.6,
+        "height_uncertainty_m": 1.7,
+        "estimated_floors": 3,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.86,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-073",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -137.76,
+              -81.76,
+              0.0
+            ],
+            [
+              -141.28,
+              -78.88,
+              0.0
+            ],
+            [
+              -140.96,
+              -68.32,
+              0.0
+            ],
+            [
+              -147.68,
+              -59.04,
+              0.0
+            ],
+            [
+              -138.08,
+              -58.72,
+              0.0
+            ],
+            [
+              -134.88,
+              -45.28,
+              0.0
+            ],
+            [
+              -131.04,
+              -41.76,
+              0.0
+            ],
+            [
+              -124.96,
+              -44.32,
+              0.0
+            ],
+            [
+              -124.0,
+              -46.88,
+              0.0
+            ],
+            [
+              -127.84,
+              -73.76,
+              0.0
+            ],
+            [
+              -132.32,
+              -81.12,
+              0.0
+            ],
+            [
+              -137.76,
+              -81.76,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-073",
+        "building_type": "General Structure",
+        "footprint_area_m2": 503.3,
+        "estimated_height_m": 8.5,
+        "height_uncertainty_m": 3.4,
+        "estimated_floors": 3,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.86,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-022",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              215.2,
+              100.32,
+              0.0
+            ],
+            [
+              190.88,
+              105.76,
+              0.0
+            ],
+            [
+              183.52,
+              82.08,
+              0.0
+            ],
+            [
+              162.4,
+              85.28,
+              0.0
+            ],
+            [
+              158.88,
+              93.6,
+              0.0
+            ],
+            [
+              131.36,
+              92.64,
+              0.0
+            ],
+            [
+              129.12,
+              100.64,
+              0.0
+            ],
+            [
+              121.44,
+              92.64,
+              0.0
+            ],
+            [
+              112.8,
+              102.56,
+              0.0
+            ],
+            [
+              82.4,
+              100.64,
+              0.0
+            ],
+            [
+              76.0,
+              107.36,
+              0.0
+            ],
+            [
+              83.04,
+              135.2,
+              0.0
+            ],
+            [
+              126.24,
+              123.68,
+              0.0
+            ],
+            [
+              130.4,
+              109.92,
+              0.0
+            ],
+            [
+              135.2,
+              122.4,
+              0.0
+            ],
+            [
+              175.84,
+              113.44,
+              0.0
+            ],
+            [
+              180.64,
+              122.08,
+              0.0
+            ],
+            [
+              209.12,
+              116.96,
+              0.0
+            ],
+            [
+              215.2,
+              100.32,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-022",
+        "building_type": "General Structure",
+        "footprint_area_m2": 3871.9,
+        "estimated_height_m": 8.4,
+        "height_uncertainty_m": 2.7,
+        "estimated_floors": 3,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.86,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-031",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              200.8,
+              51.04,
+              0.0
+            ],
+            [
+              194.4,
+              49.44,
+              0.0
+            ],
+            [
+              186.4,
+              51.68,
+              0.0
+            ],
+            [
+              187.04,
+              61.6,
+              0.0
+            ],
+            [
+              184.48,
+              63.84,
+              0.0
+            ],
+            [
+              179.68,
+              53.28,
+              0.0
+            ],
+            [
+              167.2,
+              55.84,
+              0.0
+            ],
+            [
+              166.24,
+              61.6,
+              0.0
+            ],
+            [
+              171.04,
+              69.28,
+              0.0
+            ],
+            [
+              184.48,
+              66.4,
+              0.0
+            ],
+            [
+              187.36,
+              73.44,
+              0.0
+            ],
+            [
+              202.72,
+              69.6,
+              0.0
+            ],
+            [
+              201.76,
+              60.64,
+              0.0
+            ],
+            [
+              199.2,
+              59.04,
+              0.0
+            ],
+            [
+              200.8,
+              51.04,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-031",
+        "building_type": "General Structure",
+        "footprint_area_m2": 566.1,
+        "estimated_height_m": 8.3,
+        "height_uncertainty_m": 2.6,
+        "estimated_floors": 3,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.86,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-057",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              190.88,
+              -25.12,
+              0.0
+            ],
+            [
+              138.4,
+              -14.88,
+              0.0
+            ],
+            [
+              140.96,
+              -2.72,
+              0.0
+            ],
+            [
+              124.96,
+              2.4,
+              0.0
+            ],
+            [
+              127.52,
+              17.44,
+              0.0
+            ],
+            [
+              134.56,
+              18.08,
+              0.0
+            ],
+            [
+              141.28,
+              4.96,
+              0.0
+            ],
+            [
+              150.56,
+              13.28,
+              0.0
+            ],
+            [
+              155.68,
+              12.32,
+              0.0
+            ],
+            [
+              153.12,
+              -6.24,
+              0.0
+            ],
+            [
+              172.64,
+              -9.12,
+              0.0
+            ],
+            [
+              178.4,
+              5.6,
+              0.0
+            ],
+            [
+              193.76,
+              3.04,
+              0.0
+            ],
+            [
+              190.88,
+              -25.12,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-057",
+        "building_type": "General Structure",
+        "footprint_area_m2": 1480.1,
+        "estimated_height_m": 8.3,
+        "height_uncertainty_m": 4.0,
+        "estimated_floors": 3,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.86,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-058",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -117.6,
+              -14.56,
+              0.0
+            ],
+            [
+              -150.88,
+              -8.8,
+              0.0
+            ],
+            [
+              -154.4,
+              -25.44,
+              0.0
+            ],
+            [
+              -158.88,
+              -27.04,
+              0.0
+            ],
+            [
+              -196.64,
+              -14.24,
+              0.0
+            ],
+            [
+              -192.8,
+              22.24,
+              0.0
+            ],
+            [
+              -188.0,
+              25.44,
+              0.0
+            ],
+            [
+              -149.28,
+              18.08,
+              0.0
+            ],
+            [
+              -148.64,
+              2.72,
+              0.0
+            ],
+            [
+              -116.96,
+              -1.76,
+              0.0
+            ],
+            [
+              -117.6,
+              -14.56,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-058",
+        "building_type": "General Structure",
+        "footprint_area_m2": 2443.9,
+        "estimated_height_m": 8.1,
+        "height_uncertainty_m": 1.6,
+        "estimated_floors": 3,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.86,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-071",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              178.72,
+              -77.28,
+              0.0
+            ],
+            [
+              147.36,
+              -72.48,
+              0.0
+            ],
+            [
+              148.64,
+              -48.8,
+              0.0
+            ],
+            [
+              144.48,
+              -57.76,
+              0.0
+            ],
+            [
+              128.16,
+              -54.88,
+              0.0
+            ],
+            [
+              125.28,
+              -65.76,
+              0.0
+            ],
+            [
+              109.28,
+              -63.2,
+              0.0
+            ],
+            [
+              91.36,
+              -51.36,
+              0.0
+            ],
+            [
+              93.92,
+              -38.56,
+              0.0
+            ],
+            [
+              111.84,
+              -39.84,
+              0.0
+            ],
+            [
+              116.0,
+              -27.36,
+              0.0
+            ],
+            [
+              131.68,
+              -31.2,
+              0.0
+            ],
+            [
+              139.68,
+              -25.12,
+              0.0
+            ],
+            [
+              153.12,
+              -33.76,
+              0.0
+            ],
+            [
+              162.72,
+              -29.28,
+              0.0
+            ],
+            [
+              162.72,
+              -36.64,
+              0.0
+            ],
+            [
+              153.44,
+              -35.68,
+              0.0
+            ],
+            [
+              152.8,
+              -40.8,
+              0.0
+            ],
+            [
+              161.76,
+              -41.76,
+              0.0
+            ],
+            [
+              162.4,
+              -51.68,
+              0.0
+            ],
+            [
+              181.28,
+              -56.8,
+              0.0
+            ],
+            [
+              178.72,
+              -77.28,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-071",
+        "building_type": "General Structure",
+        "footprint_area_m2": 2506.0,
+        "estimated_height_m": 8.1,
+        "height_uncertainty_m": 2.9,
+        "estimated_floors": 3,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.86,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-070",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -97.44,
+              -67.36,
+              0.0
+            ],
+            [
+              -100.64,
+              -67.36,
+              0.0
+            ],
+            [
+              -100.64,
+              -75.36,
+              0.0
+            ],
+            [
+              -97.44,
+              -75.36,
+              0.0
+            ],
+            [
+              -97.44,
+              -67.36,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-070",
+        "building_type": "General Structure",
+        "footprint_area_m2": 21.0,
+        "estimated_height_m": 8.0,
+        "height_uncertainty_m": 0.7,
+        "estimated_floors": 3,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.93,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-002",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              262.56,
+              135.2,
+              0.0
+            ],
+            [
+              255.84,
+              135.2,
+              0.0
+            ],
+            [
+              255.84,
+              130.4,
+              0.0
+            ],
+            [
+              262.56,
+              130.4,
+              0.0
+            ],
+            [
+              262.56,
+              135.2,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-002",
+        "building_type": "General Structure",
+        "footprint_area_m2": 31.0,
+        "estimated_height_m": 7.8,
+        "height_uncertainty_m": 0.9,
+        "estimated_floors": 3,
+        "roof_shape": "gabled",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.93,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-039",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -118.56,
+              17.76,
+              0.0
+            ],
+            [
+              -130.72,
+              21.6,
+              0.0
+            ],
+            [
+              -127.2,
+              45.92,
+              0.0
+            ],
+            [
+              -121.76,
+              49.12,
+              0.0
+            ],
+            [
+              -138.4,
+              53.6,
+              0.0
+            ],
+            [
+              -133.92,
+              63.2,
+              0.0
+            ],
+            [
+              -137.76,
+              67.36,
+              0.0
+            ],
+            [
+              -140.64,
+              64.16,
+              0.0
+            ],
+            [
+              -152.8,
+              67.04,
+              0.0
+            ],
+            [
+              -152.48,
+              78.56,
+              0.0
+            ],
+            [
+              -137.44,
+              73.44,
+              0.0
+            ],
+            [
+              -125.92,
+              74.4,
+              0.0
+            ],
+            [
+              -122.72,
+              81.76,
+              0.0
+            ],
+            [
+              -104.48,
+              78.24,
+              0.0
+            ],
+            [
+              -113.12,
+              24.8,
+              0.0
+            ],
+            [
+              -118.56,
+              17.76,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-039",
+        "building_type": "General Structure",
+        "footprint_area_m2": 1554.8,
+        "estimated_height_m": 7.8,
+        "height_uncertainty_m": 2.2,
+        "estimated_floors": 3,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.86,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-049",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -54.88,
+              -7.52,
+              0.0
+            ],
+            [
+              -55.84,
+              -4.32,
+              0.0
+            ],
+            [
+              -53.28,
+              1.44,
+              0.0
+            ],
+            [
+              -52.64,
+              7.84,
+              0.0
+            ],
+            [
+              -51.68,
+              8.8,
+              0.0
+            ],
+            [
+              -46.24,
+              7.84,
+              0.0
+            ],
+            [
+              -46.56,
+              -5.6,
+              0.0
+            ],
+            [
+              -49.44,
+              -8.16,
+              0.0
+            ],
+            [
+              -54.88,
+              -7.52,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-049",
+        "building_type": "General Structure",
+        "footprint_area_m2": 126.5,
+        "estimated_height_m": 7.8,
+        "height_uncertainty_m": 1.9,
+        "estimated_floors": 3,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.86,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-084",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              296.8,
+              -121.44,
+              0.0
+            ],
+            [
+              287.84,
+              -121.44,
+              0.0
+            ],
+            [
+              287.84,
+              -135.52,
+              0.0
+            ],
+            [
+              296.8,
+              -135.52,
+              0.0
+            ],
+            [
+              296.8,
+              -121.44,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-084",
+        "building_type": "General Structure",
+        "footprint_area_m2": 118.1,
+        "estimated_height_m": 7.8,
+        "height_uncertainty_m": 1.9,
+        "estimated_floors": 3,
+        "roof_shape": "gabled",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.93,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-090",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -186.08,
+              -119.84,
+              0.0
+            ],
+            [
+              -181.28,
+              -97.12,
+              0.0
+            ],
+            [
+              -162.4,
+              -100.32,
+              0.0
+            ],
+            [
+              -156.64,
+              -106.72,
+              0.0
+            ],
+            [
+              -149.6,
+              -107.68,
+              0.0
+            ],
+            [
+              -139.68,
+              -100.96,
+              0.0
+            ],
+            [
+              -125.92,
+              -107.68,
+              0.0
+            ],
+            [
+              -129.76,
+              -135.52,
+              0.0
+            ],
+            [
+              -151.84,
+              -132.96,
+              0.0
+            ],
+            [
+              -166.88,
+              -135.52,
+              0.0
+            ],
+            [
+              -161.76,
+              -124.96,
+              0.0
+            ],
+            [
+              -186.08,
+              -119.84,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-090",
+        "building_type": "General Structure",
+        "footprint_area_m2": 1679.3,
+        "estimated_height_m": 7.8,
+        "height_uncertainty_m": 1.5,
+        "estimated_floors": 3,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.86,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-011",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -113.76,
+              117.6,
+              0.0
+            ],
+            [
+              -116.96,
+              115.36,
+              0.0
+            ],
+            [
+              -126.88,
+              117.92,
+              0.0
+            ],
+            [
+              -128.48,
+              125.92,
+              0.0
+            ],
+            [
+              -132.96,
+              125.28,
+              0.0
+            ],
+            [
+              -137.12,
+              119.2,
+              0.0
+            ],
+            [
+              -151.52,
+              122.08,
+              0.0
+            ],
+            [
+              -153.44,
+              124.0,
+              0.0
+            ],
+            [
+              -152.48,
+              135.2,
+              0.0
+            ],
+            [
+              -127.2,
+              135.2,
+              0.0
+            ],
+            [
+              -126.24,
+              126.88,
+              0.0
+            ],
+            [
+              -113.76,
+              125.6,
+              0.0
+            ],
+            [
+              -113.76,
+              117.6,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-011",
+        "building_type": "General Structure",
+        "footprint_area_m2": 490.1,
+        "estimated_height_m": 7.7,
+        "height_uncertainty_m": 1.7,
+        "estimated_floors": 3,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.86,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-036",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -196.64,
+              47.2,
+              0.0
+            ],
+            [
+              -199.52,
+              27.68,
+              0.0
+            ],
+            [
+              -185.12,
+              25.44,
+              0.0
+            ],
+            [
+              -181.92,
+              44.96,
+              0.0
+            ],
+            [
+              -196.64,
+              47.2,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-036",
+        "building_type": "General Structure",
+        "footprint_area_m2": 247.4,
+        "estimated_height_m": 7.6,
+        "height_uncertainty_m": 1.4,
+        "estimated_floors": 3,
+        "roof_shape": "gabled",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.93,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-066",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -245.92,
+              -58.4,
+              0.0
+            ],
+            [
+              -276.32,
+              -46.88,
+              0.0
+            ],
+            [
+              -273.12,
+              -37.28,
+              0.0
+            ],
+            [
+              -259.36,
+              -38.56,
+              0.0
+            ],
+            [
+              -253.92,
+              -19.04,
+              0.0
+            ],
+            [
+              -246.56,
+              -17.12,
+              0.0
+            ],
+            [
+              -254.24,
+              -11.04,
+              0.0
+            ],
+            [
+              -271.84,
+              -10.4,
+              0.0
+            ],
+            [
+              -266.4,
+              11.68,
+              0.0
+            ],
+            [
+              -254.56,
+              9.44,
+              0.0
+            ],
+            [
+              -254.24,
+              -6.56,
+              0.0
+            ],
+            [
+              -237.28,
+              -8.48,
+              0.0
+            ],
+            [
+              -245.92,
+              -58.4,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-066",
+        "building_type": "General Structure",
+        "footprint_area_m2": 1402.9,
+        "estimated_height_m": 7.6,
+        "height_uncertainty_m": 2.6,
+        "estimated_floors": 3,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.86,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-009",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              219.36,
+              125.92,
+              0.0
+            ],
+            [
+              215.84,
+              124.32,
+              0.0
+            ],
+            [
+              179.68,
+              129.44,
+              0.0
+            ],
+            [
+              174.88,
+              134.24,
+              0.0
+            ],
+            [
+              165.28,
+              133.6,
+              0.0
+            ],
+            [
+              164.96,
+              135.2,
+              0.0
+            ],
+            [
+              220.64,
+              135.2,
+              0.0
+            ],
+            [
+              219.36,
+              125.92,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-009",
+        "building_type": "General Structure",
+        "footprint_area_m2": 370.9,
+        "estimated_height_m": 7.5,
+        "height_uncertainty_m": 1.4,
+        "estimated_floors": 3,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.86,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-054",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -90.72,
+              -22.56,
+              0.0
+            ],
+            [
+              -97.12,
+              -6.56,
+              0.0
+            ],
+            [
+              -93.92,
+              10.72,
+              0.0
+            ],
+            [
+              -81.44,
+              16.8,
+              0.0
+            ],
+            [
+              -92.0,
+              20.32,
+              0.0
+            ],
+            [
+              -86.56,
+              54.88,
+              0.0
+            ],
+            [
+              -76.0,
+              56.48,
+              0.0
+            ],
+            [
+              -74.08,
+              49.44,
+              0.0
+            ],
+            [
+              -63.84,
+              50.72,
+              0.0
+            ],
+            [
+              -68.64,
+              -2.72,
+              0.0
+            ],
+            [
+              -77.92,
+              -4.96,
+              0.0
+            ],
+            [
+              -82.72,
+              -1.12,
+              0.0
+            ],
+            [
+              -90.72,
+              -22.56,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-054",
+        "building_type": "General Structure",
+        "footprint_area_m2": 1654.4,
+        "estimated_height_m": 7.5,
+        "height_uncertainty_m": 2.2,
+        "estimated_floors": 2,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.86,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-069",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              211.04,
+              -59.04,
+              0.0
+            ],
+            [
+              215.84,
+              -49.12,
+              0.0
+            ],
+            [
+              231.84,
+              -55.2,
+              0.0
+            ],
+            [
+              236.96,
+              -48.8,
+              0.0
+            ],
+            [
+              256.48,
+              -51.68,
+              0.0
+            ],
+            [
+              258.08,
+              -54.24,
+              0.0
+            ],
+            [
+              254.56,
+              -70.88,
+              0.0
+            ],
+            [
+              240.48,
+              -66.72,
+              0.0
+            ],
+            [
+              235.68,
+              -73.76,
+              0.0
+            ],
+            [
+              217.12,
+              -68.96,
+              0.0
+            ],
+            [
+              211.04,
+              -59.04,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-069",
+        "building_type": "General Structure",
+        "footprint_area_m2": 849.8,
+        "estimated_height_m": 7.5,
+        "height_uncertainty_m": 1.6,
+        "estimated_floors": 2,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.86,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-047",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              59.68,
+              27.04,
+              0.0
+            ],
+            [
+              55.2,
+              -0.48,
+              0.0
+            ],
+            [
+              80.8,
+              -4.96,
+              0.0
+            ],
+            [
+              85.6,
+              22.88,
+              0.0
+            ],
+            [
+              59.68,
+              27.04,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-047",
+        "building_type": "General Structure",
+        "footprint_area_m2": 621.9,
+        "estimated_height_m": 7.4,
+        "height_uncertainty_m": 1.9,
+        "estimated_floors": 2,
+        "roof_shape": "gabled",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.93,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-088",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.44,
+              -135.52,
+              0.0
+            ],
+            [
+              -64.48,
+              -127.52,
+              0.0
+            ],
+            [
+              -61.92,
+              -124.96,
+              0.0
+            ],
+            [
+              -49.76,
+              -126.56,
+              0.0
+            ],
+            [
+              -48.48,
+              -123.04,
+              0.0
+            ],
+            [
+              -45.6,
+              -121.44,
+              0.0
+            ],
+            [
+              -31.2,
+              -124.32,
+              0.0
+            ],
+            [
+              -32.16,
+              -135.52,
+              0.0
+            ],
+            [
+              -47.2,
+              -135.52,
+              0.0
+            ],
+            [
+              -48.16,
+              -133.28,
+              0.0
+            ],
+            [
+              -50.08,
+              -133.6,
+              0.0
+            ],
+            [
+              -49.76,
+              -135.52,
+              0.0
+            ],
+            [
+              -65.44,
+              -135.52,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-088",
+        "building_type": "General Structure",
+        "footprint_area_m2": 382.0,
+        "estimated_height_m": 7.4,
+        "height_uncertainty_m": 2.0,
+        "estimated_floors": 2,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.86,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-012",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -73.12,
+              114.4,
+              0.0
+            ],
+            [
+              -74.4,
+              116.0,
+              0.0
+            ],
+            [
+              -73.44,
+              121.12,
+              0.0
+            ],
+            [
+              -68.64,
+              123.68,
+              0.0
+            ],
+            [
+              -77.28,
+              126.56,
+              0.0
+            ],
+            [
+              -77.28,
+              132.96,
+              0.0
+            ],
+            [
+              -75.36,
+              135.2,
+              0.0
+            ],
+            [
+              -60.0,
+              135.2,
+              0.0
+            ],
+            [
+              -63.84,
+              114.08,
+              0.0
+            ],
+            [
+              -68.0,
+              112.8,
+              0.0
+            ],
+            [
+              -73.12,
+              114.4,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-012",
+        "building_type": "General Structure",
+        "footprint_area_m2": 275.0,
+        "estimated_height_m": 7.3,
+        "height_uncertainty_m": 1.6,
+        "estimated_floors": 2,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.86,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-030",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              46.88,
+              55.2,
+              0.0
+            ],
+            [
+              18.08,
+              64.48,
+              0.0
+            ],
+            [
+              22.24,
+              87.52,
+              0.0
+            ],
+            [
+              32.48,
+              83.04,
+              0.0
+            ],
+            [
+              39.84,
+              125.6,
+              0.0
+            ],
+            [
+              23.2,
+              135.2,
+              0.0
+            ],
+            [
+              64.16,
+              135.2,
+              0.0
+            ],
+            [
+              62.56,
+              125.6,
+              0.0
+            ],
+            [
+              52.96,
+              122.72,
+              0.0
+            ],
+            [
+              48.16,
+              77.28,
+              0.0
+            ],
+            [
+              41.44,
+              67.36,
+              0.0
+            ],
+            [
+              48.8,
+              62.56,
+              0.0
+            ],
+            [
+              46.88,
+              55.2,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-030",
+        "building_type": "General Structure",
+        "footprint_area_m2": 1639.5,
+        "estimated_height_m": 7.3,
+        "height_uncertainty_m": 1.7,
+        "estimated_floors": 2,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.86,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-034",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -35.36,
+              36.0,
+              0.0
+            ],
+            [
+              -48.48,
+              35.04,
+              0.0
+            ],
+            [
+              -54.24,
+              36.96,
+              0.0
+            ],
+            [
+              -55.2,
+              39.52,
+              0.0
+            ],
+            [
+              -59.04,
+              38.88,
+              0.0
+            ],
+            [
+              -61.92,
+              40.48,
+              0.0
+            ],
+            [
+              -58.72,
+              49.12,
+              0.0
+            ],
+            [
+              -55.2,
+              48.16,
+              0.0
+            ],
+            [
+              -54.56,
+              40.16,
+              0.0
+            ],
+            [
+              -51.36,
+              48.8,
+              0.0
+            ],
+            [
+              -42.08,
+              47.2,
+              0.0
+            ],
+            [
+              -39.84,
+              53.92,
+              0.0
+            ],
+            [
+              -36.96,
+              53.92,
+              0.0
+            ],
+            [
+              -35.36,
+              52.0,
+              0.0
+            ],
+            [
+              -35.36,
+              36.0,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-034",
+        "building_type": "General Structure",
+        "footprint_area_m2": 321.6,
+        "estimated_height_m": 7.3,
+        "height_uncertainty_m": 2.5,
+        "estimated_floors": 2,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.86,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-089",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.08,
+              -117.28,
+              0.0
+            ],
+            [
+              -93.92,
+              -117.28,
+              0.0
+            ],
+            [
+              -93.92,
+              -135.52,
+              0.0
+            ],
+            [
+              -74.08,
+              -135.52,
+              0.0
+            ],
+            [
+              -74.08,
+              -117.28,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-089",
+        "building_type": "General Structure",
+        "footprint_area_m2": 304.6,
+        "estimated_height_m": 7.3,
+        "height_uncertainty_m": 1.6,
+        "estimated_floors": 2,
+        "roof_shape": "gabled",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.93,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-018",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -117.28,
+              110.56,
+              0.0
+            ],
+            [
+              -118.88,
+              98.08,
+              0.0
+            ],
+            [
+              -102.88,
+              96.16,
+              0.0
+            ],
+            [
+              -101.28,
+              108.64,
+              0.0
+            ],
+            [
+              -117.28,
+              110.56,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-018",
+        "building_type": "General Structure",
+        "footprint_area_m2": 178.1,
+        "estimated_height_m": 7.2,
+        "height_uncertainty_m": 1.0,
+        "estimated_floors": 2,
+        "roof_shape": "gabled",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.93,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-064",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -91.04,
+              -41.44,
+              0.0
+            ],
+            [
+              -103.2,
+              -41.44,
+              0.0
+            ],
+            [
+              -103.2,
+              -54.88,
+              0.0
+            ],
+            [
+              -91.04,
+              -54.88,
+              0.0
+            ],
+            [
+              -91.04,
+              -41.44,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-064",
+        "building_type": "General Structure",
+        "footprint_area_m2": 133.7,
+        "estimated_height_m": 7.2,
+        "height_uncertainty_m": 1.3,
+        "estimated_floors": 2,
+        "roof_shape": "gabled",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.93,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-019",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -278.24,
+              90.72,
+              0.0
+            ],
+            [
+              -297.12,
+              94.24,
+              0.0
+            ],
+            [
+              -297.12,
+              106.72,
+              0.0
+            ],
+            [
+              -288.16,
+              106.72,
+              0.0
+            ],
+            [
+              -286.88,
+              117.6,
+              0.0
+            ],
+            [
+              -284.96,
+              119.52,
+              0.0
+            ],
+            [
+              -274.08,
+              118.24,
+              0.0
+            ],
+            [
+              -272.8,
+              115.68,
+              0.0
+            ],
+            [
+              -276.32,
+              93.6,
+              0.0
+            ],
+            [
+              -278.24,
+              90.72,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-019",
+        "building_type": "General Structure",
+        "footprint_area_m2": 473.7,
+        "estimated_height_m": 7.1,
+        "height_uncertainty_m": 1.6,
+        "estimated_floors": 2,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.86,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-035",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              179.36,
+              38.88,
+              0.0
+            ],
+            [
+              162.4,
+              45.6,
+              0.0
+            ],
+            [
+              156.64,
+              33.12,
+              0.0
+            ],
+            [
+              148.96,
+              41.44,
+              0.0
+            ],
+            [
+              137.12,
+              37.92,
+              0.0
+            ],
+            [
+              139.36,
+              54.88,
+              0.0
+            ],
+            [
+              149.28,
+              57.44,
+              0.0
+            ],
+            [
+              139.68,
+              64.8,
+              0.0
+            ],
+            [
+              130.08,
+              61.92,
+              0.0
+            ],
+            [
+              128.48,
+              38.24,
+              0.0
+            ],
+            [
+              109.92,
+              49.12,
+              0.0
+            ],
+            [
+              74.08,
+              48.16,
+              0.0
+            ],
+            [
+              71.2,
+              87.84,
+              0.0
+            ],
+            [
+              80.8,
+              92.64,
+              0.0
+            ],
+            [
+              90.08,
+              76.64,
+              0.0
+            ],
+            [
+              94.56,
+              85.6,
+              0.0
+            ],
+            [
+              105.76,
+              82.4,
+              0.0
+            ],
+            [
+              105.76,
+              62.56,
+              0.0
+            ],
+            [
+              117.28,
+              64.8,
+              0.0
+            ],
+            [
+              126.24,
+              84.0,
+              0.0
+            ],
+            [
+              139.68,
+              70.24,
+              0.0
+            ],
+            [
+              160.16,
+              74.08,
+              0.0
+            ],
+            [
+              164.64,
+              50.08,
+              0.0
+            ],
+            [
+              179.36,
+              48.16,
+              0.0
+            ],
+            [
+              179.36,
+              38.88,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-035",
+        "building_type": "General Structure",
+        "footprint_area_m2": 3183.5,
+        "estimated_height_m": 7.0,
+        "height_uncertainty_m": 2.1,
+        "estimated_floors": 2,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.86,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-001",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              292.96,
+              135.2,
+              0.0
+            ],
+            [
+              283.36,
+              135.2,
+              0.0
+            ],
+            [
+              283.36,
+              130.72,
+              0.0
+            ],
+            [
+              292.96,
+              130.72,
+              0.0
+            ],
+            [
+              292.96,
+              135.2,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-001",
+        "building_type": "General Structure",
+        "footprint_area_m2": 34.8,
+        "estimated_height_m": 6.8,
+        "height_uncertainty_m": 0.8,
+        "estimated_floors": 2,
+        "roof_shape": "gabled",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.93,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-025",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -297.12,
+              88.8,
+              0.0
+            ],
+            [
+              -299.04,
+              76.0,
+              0.0
+            ],
+            [
+              -281.44,
+              73.12,
+              0.0
+            ],
+            [
+              -279.2,
+              85.92,
+              0.0
+            ],
+            [
+              -297.12,
+              88.8,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-025",
+        "building_type": "General Structure",
+        "footprint_area_m2": 208.4,
+        "estimated_height_m": 6.8,
+        "height_uncertainty_m": 1.7,
+        "estimated_floors": 2,
+        "roof_shape": "gabled",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.93,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-040",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -297.12,
+              17.44,
+              0.0
+            ],
+            [
+              -297.12,
+              39.52,
+              0.0
+            ],
+            [
+              -290.72,
+              38.24,
+              0.0
+            ],
+            [
+              -289.44,
+              36.96,
+              0.0
+            ],
+            [
+              -289.12,
+              30.88,
+              0.0
+            ],
+            [
+              -292.96,
+              18.72,
+              0.0
+            ],
+            [
+              -297.12,
+              17.44,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-040",
+        "building_type": "General Structure",
+        "footprint_area_m2": 140.9,
+        "estimated_height_m": 6.8,
+        "height_uncertainty_m": 1.5,
+        "estimated_floors": 2,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.86,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-041",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -215.84,
+              14.88,
+              0.0
+            ],
+            [
+              -218.08,
+              18.08,
+              0.0
+            ],
+            [
+              -217.76,
+              24.8,
+              0.0
+            ],
+            [
+              -210.08,
+              49.44,
+              0.0
+            ],
+            [
+              -212.0,
+              58.4,
+              0.0
+            ],
+            [
+              -209.12,
+              60.64,
+              0.0
+            ],
+            [
+              -197.6,
+              60.0,
+              0.0
+            ],
+            [
+              -195.36,
+              52.96,
+              0.0
+            ],
+            [
+              -204.96,
+              18.4,
+              0.0
+            ],
+            [
+              -208.8,
+              13.92,
+              0.0
+            ],
+            [
+              -215.84,
+              14.88,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-041",
+        "building_type": "General Structure",
+        "footprint_area_m2": 663.7,
+        "estimated_height_m": 6.8,
+        "height_uncertainty_m": 2.3,
+        "estimated_floors": 2,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.86,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-048",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -28.96,
+              14.24,
+              0.0
+            ],
+            [
+              -32.48,
+              -3.68,
+              0.0
+            ],
+            [
+              -13.92,
+              -7.2,
+              0.0
+            ],
+            [
+              -10.4,
+              10.72,
+              0.0
+            ],
+            [
+              -28.96,
+              14.24,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-048",
+        "building_type": "General Structure",
+        "footprint_area_m2": 285.4,
+        "estimated_height_m": 6.8,
+        "height_uncertainty_m": 1.4,
+        "estimated_floors": 2,
+        "roof_shape": "gabled",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.93,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-050",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              97.76,
+              4.0,
+              0.0
+            ],
+            [
+              96.16,
+              -7.52,
+              0.0
+            ],
+            [
+              121.76,
+              -11.36,
+              0.0
+            ],
+            [
+              123.36,
+              0.48,
+              0.0
+            ],
+            [
+              97.76,
+              4.0,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-050",
+        "building_type": "General Structure",
+        "footprint_area_m2": 258.7,
+        "estimated_height_m": 6.8,
+        "height_uncertainty_m": 1.0,
+        "estimated_floors": 2,
+        "roof_shape": "gabled",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.93,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-078",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -284.64,
+              -76.96,
+              0.0
+            ],
+            [
+              -289.12,
+              -105.76,
+              0.0
+            ],
+            [
+              -276.64,
+              -107.68,
+              0.0
+            ],
+            [
+              -272.16,
+              -78.88,
+              0.0
+            ],
+            [
+              -284.64,
+              -76.96,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-078",
+        "building_type": "General Structure",
+        "footprint_area_m2": 330.5,
+        "estimated_height_m": 6.8,
+        "height_uncertainty_m": 1.5,
+        "estimated_floors": 2,
+        "roof_shape": "gabled",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.93,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-026",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -39.52,
+              97.76,
+              0.0
+            ],
+            [
+              -43.04,
+              69.92,
+              0.0
+            ],
+            [
+              -26.4,
+              68.0,
+              0.0
+            ],
+            [
+              -22.88,
+              95.52,
+              0.0
+            ],
+            [
+              -39.52,
+              97.76,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-026",
+        "building_type": "General Structure",
+        "footprint_area_m2": 421.5,
+        "estimated_height_m": 6.7,
+        "height_uncertainty_m": 1.4,
+        "estimated_floors": 2,
+        "roof_shape": "gabled",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.93,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-044",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              98.4,
+              17.44,
+              0.0
+            ],
+            [
+              96.48,
+              7.2,
+              0.0
+            ],
+            [
+              108.64,
+              4.96,
+              0.0
+            ],
+            [
+              110.56,
+              15.2,
+              0.0
+            ],
+            [
+              98.4,
+              17.44,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-044",
+        "building_type": "General Structure",
+        "footprint_area_m2": 108.9,
+        "estimated_height_m": 6.7,
+        "height_uncertainty_m": 1.3,
+        "estimated_floors": 2,
+        "roof_shape": "gabled",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.93,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-085",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              222.88,
+              -125.28,
+              0.0
+            ],
+            [
+              230.24,
+              -121.12,
+              0.0
+            ],
+            [
+              232.48,
+              -126.56,
+              0.0
+            ],
+            [
+              241.76,
+              -129.44,
+              0.0
+            ],
+            [
+              240.16,
+              -133.28,
+              0.0
+            ],
+            [
+              253.28,
+              -133.28,
+              0.0
+            ],
+            [
+              253.6,
+              -130.72,
+              0.0
+            ],
+            [
+              243.68,
+              -129.76,
+              0.0
+            ],
+            [
+              245.92,
+              -115.36,
+              0.0
+            ],
+            [
+              264.8,
+              -116.64,
+              0.0
+            ],
+            [
+              265.12,
+              -127.2,
+              0.0
+            ],
+            [
+              260.32,
+              -132.96,
+              0.0
+            ],
+            [
+              274.72,
+              -135.52,
+              0.0
+            ],
+            [
+              228.96,
+              -135.52,
+              0.0
+            ],
+            [
+              235.36,
+              -131.68,
+              0.0
+            ],
+            [
+              224.16,
+              -129.44,
+              0.0
+            ],
+            [
+              222.88,
+              -125.28,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-085",
+        "building_type": "General Structure",
+        "footprint_area_m2": 547.5,
+        "estimated_height_m": 6.6,
+        "height_uncertainty_m": 1.5,
+        "estimated_floors": 2,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.86,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-024",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -188.64,
+              88.16,
+              0.0
+            ],
+            [
+              -190.56,
+              75.68,
+              0.0
+            ],
+            [
+              -174.88,
+              73.44,
+              0.0
+            ],
+            [
+              -172.96,
+              85.6,
+              0.0
+            ],
+            [
+              -188.64,
+              88.16,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-024",
+        "building_type": "General Structure",
+        "footprint_area_m2": 165.1,
+        "estimated_height_m": 6.5,
+        "height_uncertainty_m": 1.8,
+        "estimated_floors": 2,
+        "roof_shape": "gabled",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.93,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-068",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -206.24,
+              -68.0,
+              0.0
+            ],
+            [
+              -230.56,
+              -59.04,
+              0.0
+            ],
+            [
+              -222.88,
+              -32.16,
+              0.0
+            ],
+            [
+              -225.44,
+              -25.12,
+              0.0
+            ],
+            [
+              -219.68,
+              -21.6,
+              0.0
+            ],
+            [
+              -223.84,
+              -0.16,
+              0.0
+            ],
+            [
+              -215.2,
+              12.64,
+              0.0
+            ],
+            [
+              -205.6,
+              8.8,
+              0.0
+            ],
+            [
+              -207.2,
+              4.32,
+              0.0
+            ],
+            [
+              -214.24,
+              3.68,
+              0.0
+            ],
+            [
+              -208.48,
+              -0.16,
+              0.0
+            ],
+            [
+              -211.68,
+              -33.76,
+              0.0
+            ],
+            [
+              -192.8,
+              -37.28,
+              0.0
+            ],
+            [
+              -198.56,
+              -40.8,
+              0.0
+            ],
+            [
+              -206.24,
+              -68.0,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-068",
+        "building_type": "General Structure",
+        "footprint_area_m2": 1440.0,
+        "estimated_height_m": 6.5,
+        "height_uncertainty_m": 2.4,
+        "estimated_floors": 2,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.86,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-081",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -269.6,
+              -117.28,
+              0.0
+            ],
+            [
+              -271.52,
+              -127.84,
+              0.0
+            ],
+            [
+              -256.16,
+              -130.4,
+              0.0
+            ],
+            [
+              -254.56,
+              -119.84,
+              0.0
+            ],
+            [
+              -269.6,
+              -117.28,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-081",
+        "building_type": "General Structure",
+        "footprint_area_m2": 138.5,
+        "estimated_height_m": 6.5,
+        "height_uncertainty_m": 1.4,
+        "estimated_floors": 2,
+        "roof_shape": "gabled",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.93,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-074",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.8,
+              -62.88,
+              0.0
+            ],
+            [
+              45.28,
+              -88.8,
+              0.0
+            ],
+            [
+              57.44,
+              -90.4,
+              0.0
+            ],
+            [
+              60.96,
+              -64.48,
+              0.0
+            ],
+            [
+              48.8,
+              -62.88,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-074",
+        "building_type": "General Structure",
+        "footprint_area_m2": 282.2,
+        "estimated_height_m": 6.4,
+        "height_uncertainty_m": 1.4,
+        "estimated_floors": 2,
+        "roof_shape": "gabled",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.93,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-005",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -114.4,
+              135.2,
+              0.0
+            ],
+            [
+              -124.0,
+              135.2,
+              0.0
+            ],
+            [
+              -124.0,
+              129.76,
+              0.0
+            ],
+            [
+              -114.4,
+              129.76,
+              0.0
+            ],
+            [
+              -114.4,
+              135.2,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-005",
+        "building_type": "General Structure",
+        "footprint_area_m2": 45.6,
+        "estimated_height_m": 6.2,
+        "height_uncertainty_m": 1.2,
+        "estimated_floors": 2,
+        "roof_shape": "gabled",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.93,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-023",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -234.72,
+              91.68,
+              0.0
+            ],
+            [
+              -236.64,
+              80.48,
+              0.0
+            ],
+            [
+              -218.4,
+              77.28,
+              0.0
+            ],
+            [
+              -216.48,
+              88.48,
+              0.0
+            ],
+            [
+              -234.72,
+              91.68,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-023",
+        "building_type": "General Structure",
+        "footprint_area_m2": 182.0,
+        "estimated_height_m": 6.2,
+        "height_uncertainty_m": 1.4,
+        "estimated_floors": 2,
+        "roof_shape": "gabled",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.93,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-043",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              94.24,
+              7.84,
+              0.0
+            ],
+            [
+              91.04,
+              7.52,
+              0.0
+            ],
+            [
+              85.6,
+              9.12,
+              0.0
+            ],
+            [
+              84.64,
+              12.0,
+              0.0
+            ],
+            [
+              86.88,
+              18.72,
+              0.0
+            ],
+            [
+              89.44,
+              20.0,
+              0.0
+            ],
+            [
+              92.32,
+              20.0,
+              0.0
+            ],
+            [
+              94.56,
+              18.4,
+              0.0
+            ],
+            [
+              95.84,
+              10.4,
+              0.0
+            ],
+            [
+              94.24,
+              7.84,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-043",
+        "building_type": "General Structure",
+        "footprint_area_m2": 109.4,
+        "estimated_height_m": 6.2,
+        "height_uncertainty_m": 1.4,
+        "estimated_floors": 2,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.86,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-045",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.64,
+              14.56,
+              0.0
+            ],
+            [
+              19.68,
+              4.32,
+              0.0
+            ],
+            [
+              34.08,
+              3.04,
+              0.0
+            ],
+            [
+              35.36,
+              12.96,
+              0.0
+            ],
+            [
+              20.64,
+              14.56,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-045",
+        "building_type": "General Structure",
+        "footprint_area_m2": 127.0,
+        "estimated_height_m": 6.2,
+        "height_uncertainty_m": 1.5,
+        "estimated_floors": 2,
+        "roof_shape": "gabled",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.93,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-013",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -201.44,
+              125.92,
+              0.0
+            ],
+            [
+              -202.4,
+              113.44,
+              0.0
+            ],
+            [
+              -186.08,
+              111.84,
+              0.0
+            ],
+            [
+              -184.8,
+              124.32,
+              0.0
+            ],
+            [
+              -201.44,
+              125.92,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-013",
+        "building_type": "General Structure",
+        "footprint_area_m2": 179.5,
+        "estimated_height_m": 6.1,
+        "height_uncertainty_m": 1.5,
+        "estimated_floors": 2,
+        "roof_shape": "gabled",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.93,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-046",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -249.76,
+              -2.08,
+              0.0
+            ],
+            [
+              -247.52,
+              18.4,
+              0.0
+            ],
+            [
+              -234.4,
+              18.08,
+              0.0
+            ],
+            [
+              -246.88,
+              23.52,
+              0.0
+            ],
+            [
+              -245.28,
+              31.2,
+              0.0
+            ],
+            [
+              -236.96,
+              33.12,
+              0.0
+            ],
+            [
+              -243.04,
+              46.88,
+              0.0
+            ],
+            [
+              -239.2,
+              65.12,
+              0.0
+            ],
+            [
+              -233.76,
+              67.04,
+              0.0
+            ],
+            [
+              -232.16,
+              77.92,
+              0.0
+            ],
+            [
+              -222.88,
+              76.32,
+              0.0
+            ],
+            [
+              -221.6,
+              66.72,
+              0.0
+            ],
+            [
+              -228.64,
+              66.08,
+              0.0
+            ],
+            [
+              -226.08,
+              55.52,
+              0.0
+            ],
+            [
+              -235.68,
+              55.52,
+              0.0
+            ],
+            [
+              -224.8,
+              51.04,
+              0.0
+            ],
+            [
+              -227.36,
+              42.08,
+              0.0
+            ],
+            [
+              -236.32,
+              42.72,
+              0.0
+            ],
+            [
+              -230.88,
+              37.28,
+              0.0
+            ],
+            [
+              -232.16,
+              8.8,
+              0.0
+            ],
+            [
+              -237.28,
+              -2.72,
+              0.0
+            ],
+            [
+              -249.76,
+              -2.08,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-046",
+        "building_type": "General Structure",
+        "footprint_area_m2": 1055.1,
+        "estimated_height_m": 6.1,
+        "height_uncertainty_m": 1.5,
+        "estimated_floors": 2,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.86,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-006",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -99.68,
+              135.2,
+              0.0
+            ],
+            [
+              -108.64,
+              135.2,
+              0.0
+            ],
+            [
+              -108.64,
+              128.8,
+              0.0
+            ],
+            [
+              -99.68,
+              128.8,
+              0.0
+            ],
+            [
+              -99.68,
+              135.2,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-006",
+        "building_type": "General Structure",
+        "footprint_area_m2": 49.9,
+        "estimated_height_m": 6.0,
+        "height_uncertainty_m": 1.1,
+        "estimated_floors": 2,
+        "roof_shape": "gabled",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.93,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-007",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              269.6,
+              129.12,
+              0.0
+            ],
+            [
+              269.6,
+              135.2,
+              0.0
+            ],
+            [
+              277.28,
+              135.2,
+              0.0
+            ],
+            [
+              277.28,
+              133.6,
+              0.0
+            ],
+            [
+              276.32,
+              133.28,
+              0.0
+            ],
+            [
+              276.0,
+              131.68,
+              0.0
+            ],
+            [
+              273.12,
+              128.8,
+              0.0
+            ],
+            [
+              270.88,
+              128.48,
+              0.0
+            ],
+            [
+              269.6,
+              129.12,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-007",
+        "building_type": "General Structure",
+        "footprint_area_m2": 41.1,
+        "estimated_height_m": 6.0,
+        "height_uncertainty_m": 1.0,
+        "estimated_floors": 2,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.86,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-028",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -209.76,
+              76.0,
+              0.0
+            ],
+            [
+              -211.04,
+              64.16,
+              0.0
+            ],
+            [
+              -195.68,
+              62.24,
+              0.0
+            ],
+            [
+              -194.08,
+              74.08,
+              0.0
+            ],
+            [
+              -209.76,
+              76.0,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-028",
+        "building_type": "General Structure",
+        "footprint_area_m2": 164.1,
+        "estimated_height_m": 6.0,
+        "height_uncertainty_m": 1.3,
+        "estimated_floors": 2,
+        "roof_shape": "gabled",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.93,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-063",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              48.8,
+              -52.64,
+              0.0
+            ],
+            [
+              49.44,
+              -38.24,
+              0.0
+            ],
+            [
+              54.24,
+              -36.96,
+              0.0
+            ],
+            [
+              57.44,
+              -30.56,
+              0.0
+            ],
+            [
+              64.8,
+              -30.24,
+              0.0
+            ],
+            [
+              63.84,
+              -27.04,
+              0.0
+            ],
+            [
+              56.48,
+              -26.4,
+              0.0
+            ],
+            [
+              56.48,
+              -20.0,
+              0.0
+            ],
+            [
+              68.64,
+              -17.44,
+              0.0
+            ],
+            [
+              71.84,
+              -11.04,
+              0.0
+            ],
+            [
+              78.24,
+              -12.32,
+              0.0
+            ],
+            [
+              79.2,
+              -18.4,
+              0.0
+            ],
+            [
+              83.36,
+              -20.96,
+              0.0
+            ],
+            [
+              81.76,
+              -33.44,
+              0.0
+            ],
+            [
+              66.72,
+              -33.12,
+              0.0
+            ],
+            [
+              67.36,
+              -36.64,
+              0.0
+            ],
+            [
+              74.4,
+              -37.28,
+              0.0
+            ],
+            [
+              76.64,
+              -40.8,
+              0.0
+            ],
+            [
+              75.04,
+              -52.64,
+              0.0
+            ],
+            [
+              68.0,
+              -54.24,
+              0.0
+            ],
+            [
+              63.84,
+              -50.4,
+              0.0
+            ],
+            [
+              48.8,
+              -52.64,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-063",
+        "building_type": "General Structure",
+        "footprint_area_m2": 914.0,
+        "estimated_height_m": 6.0,
+        "height_uncertainty_m": 1.3,
+        "estimated_floors": 2,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.86,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-086",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              163.68,
+              -133.28,
+              0.0
+            ],
+            [
+              153.12,
+              -133.28,
+              0.0
+            ],
+            [
+              153.12,
+              -135.52,
+              0.0
+            ],
+            [
+              163.68,
+              -135.52,
+              0.0
+            ],
+            [
+              163.68,
+              -133.28,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-086",
+        "building_type": "General Structure",
+        "footprint_area_m2": 19.0,
+        "estimated_height_m": 6.0,
+        "height_uncertainty_m": 0.7,
+        "estimated_floors": 2,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.93,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-087",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -20.96,
+              -133.6,
+              0.0
+            ],
+            [
+              -19.36,
+              -131.36,
+              0.0
+            ],
+            [
+              -14.56,
+              -133.28,
+              0.0
+            ],
+            [
+              -7.84,
+              -133.92,
+              0.0
+            ],
+            [
+              -2.4,
+              -132.32,
+              0.0
+            ],
+            [
+              6.24,
+              -133.6,
+              0.0
+            ],
+            [
+              7.52,
+              -135.52,
+              0.0
+            ],
+            [
+              -20.96,
+              -135.52,
+              0.0
+            ],
+            [
+              -20.96,
+              -133.6,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-087",
+        "building_type": "General Structure",
+        "footprint_area_m2": 69.4,
+        "estimated_height_m": 5.9,
+        "height_uncertainty_m": 1.6,
+        "estimated_floors": 2,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.86,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-029",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -191.52,
+              71.2,
+              0.0
+            ],
+            [
+              -193.44,
+              59.68,
+              0.0
+            ],
+            [
+              -180.0,
+              57.44,
+              0.0
+            ],
+            [
+              -178.08,
+              68.96,
+              0.0
+            ],
+            [
+              -191.52,
+              71.2,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-029",
+        "building_type": "General Structure",
+        "footprint_area_m2": 135.9,
+        "estimated_height_m": 5.8,
+        "height_uncertainty_m": 1.7,
+        "estimated_floors": 2,
+        "roof_shape": "gabled",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.93,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-010",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -213.6,
+              119.84,
+              0.0
+            ],
+            [
+              -218.08,
+              118.56,
+              0.0
+            ],
+            [
+              -227.68,
+              120.48,
+              0.0
+            ],
+            [
+              -230.88,
+              125.28,
+              0.0
+            ],
+            [
+              -240.16,
+              127.84,
+              0.0
+            ],
+            [
+              -240.48,
+              135.2,
+              0.0
+            ],
+            [
+              -214.24,
+              132.96,
+              0.0
+            ],
+            [
+              -212.0,
+              130.08,
+              0.0
+            ],
+            [
+              -213.6,
+              119.84,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-010",
+        "building_type": "General Structure",
+        "footprint_area_m2": 335.1,
+        "estimated_height_m": 5.7,
+        "height_uncertainty_m": 1.1,
+        "estimated_floors": 2,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.86,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-061",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -121.44,
+              -30.88,
+              0.0
+            ],
+            [
+              -131.68,
+              -30.88,
+              0.0
+            ],
+            [
+              -131.68,
+              -40.48,
+              0.0
+            ],
+            [
+              -121.44,
+              -40.48,
+              0.0
+            ],
+            [
+              -121.44,
+              -30.88,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-061",
+        "building_type": "General Structure",
+        "footprint_area_m2": 84.5,
+        "estimated_height_m": 5.7,
+        "height_uncertainty_m": 1.3,
+        "estimated_floors": 2,
+        "roof_shape": "gabled",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.93,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-062",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              284.32,
+              -48.48,
+              0.0
+            ],
+            [
+              281.76,
+              -45.92,
+              0.0
+            ],
+            [
+              283.36,
+              -34.4,
+              0.0
+            ],
+            [
+              291.68,
+              -30.24,
+              0.0
+            ],
+            [
+              295.52,
+              -30.56,
+              0.0
+            ],
+            [
+              292.96,
+              -28.32,
+              0.0
+            ],
+            [
+              296.16,
+              -16.16,
+              0.0
+            ],
+            [
+              296.8,
+              -42.08,
+              0.0
+            ],
+            [
+              294.24,
+              -42.08,
+              0.0
+            ],
+            [
+              290.08,
+              -48.8,
+              0.0
+            ],
+            [
+              284.32,
+              -48.48,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-062",
+        "building_type": "General Structure",
+        "footprint_area_m2": 253.9,
+        "estimated_height_m": 5.7,
+        "height_uncertainty_m": 1.0,
+        "estimated_floors": 2,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.86,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-037",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -250.4,
+              26.72,
+              0.0
+            ],
+            [
+              -263.84,
+              30.24,
+              0.0
+            ],
+            [
+              -257.44,
+              54.88,
+              0.0
+            ],
+            [
+              -253.6,
+              58.4,
+              0.0
+            ],
+            [
+              -262.56,
+              62.24,
+              0.0
+            ],
+            [
+              -260.32,
+              71.84,
+              0.0
+            ],
+            [
+              -248.48,
+              70.56,
+              0.0
+            ],
+            [
+              -246.56,
+              67.36,
+              0.0
+            ],
+            [
+              -248.16,
+              58.72,
+              0.0
+            ],
+            [
+              -244.32,
+              56.16,
+              0.0
+            ],
+            [
+              -244.0,
+              51.36,
+              0.0
+            ],
+            [
+              -250.4,
+              26.72,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-037",
+        "building_type": "General Structure",
+        "footprint_area_m2": 608.9,
+        "estimated_height_m": 5.6,
+        "height_uncertainty_m": 1.0,
+        "estimated_floors": 2,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.86,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-014",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -110.88,
+              122.72,
+              0.0
+            ],
+            [
+              -111.84,
+              110.88,
+              0.0
+            ],
+            [
+              -98.08,
+              109.92,
+              0.0
+            ],
+            [
+              -97.12,
+              121.44,
+              0.0
+            ],
+            [
+              -110.88,
+              122.72,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-014",
+        "building_type": "General Structure",
+        "footprint_area_m2": 132.5,
+        "estimated_height_m": 5.5,
+        "height_uncertainty_m": 0.8,
+        "estimated_floors": 2,
+        "roof_shape": "gabled",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.93,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-055",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              270.24,
+              -23.2,
+              0.0
+            ],
+            [
+              269.92,
+              -20.96,
+              0.0
+            ],
+            [
+              270.56,
+              -20.0,
+              0.0
+            ],
+            [
+              274.08,
+              -18.72,
+              0.0
+            ],
+            [
+              275.68,
+              -19.04,
+              0.0
+            ],
+            [
+              275.68,
+              -24.48,
+              0.0
+            ],
+            [
+              272.48,
+              -24.8,
+              0.0
+            ],
+            [
+              270.24,
+              -23.2,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-055",
+        "building_type": "General Structure",
+        "footprint_area_m2": 29.5,
+        "estimated_height_m": 5.5,
+        "height_uncertainty_m": 1.0,
+        "estimated_floors": 2,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.86,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-092",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -272.16,
+              -133.6,
+              0.0
+            ],
+            [
+              -270.24,
+              -131.68,
+              0.0
+            ],
+            [
+              -268.32,
+              -131.68,
+              0.0
+            ],
+            [
+              -266.08,
+              -133.28,
+              0.0
+            ],
+            [
+              -259.68,
+              -133.6,
+              0.0
+            ],
+            [
+              -259.04,
+              -135.52,
+              0.0
+            ],
+            [
+              -272.16,
+              -135.52,
+              0.0
+            ],
+            [
+              -272.16,
+              -133.6,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-092",
+        "building_type": "General Structure",
+        "footprint_area_m2": 32.4,
+        "estimated_height_m": 5.5,
+        "height_uncertainty_m": 1.4,
+        "estimated_floors": 2,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.86,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-017",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -128.16,
+              100.96,
+              0.0
+            ],
+            [
+              -130.4,
+              103.2,
+              0.0
+            ],
+            [
+              -129.76,
+              106.72,
+              0.0
+            ],
+            [
+              -127.84,
+              108.64,
+              0.0
+            ],
+            [
+              -125.28,
+              113.76,
+              0.0
+            ],
+            [
+              -123.36,
+              115.04,
+              0.0
+            ],
+            [
+              -121.12,
+              114.4,
+              0.0
+            ],
+            [
+              -120.48,
+              111.52,
+              0.0
+            ],
+            [
+              -122.08,
+              101.28,
+              0.0
+            ],
+            [
+              -123.68,
+              100.32,
+              0.0
+            ],
+            [
+              -128.16,
+              100.96,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-017",
+        "building_type": "General Structure",
+        "footprint_area_m2": 99.6,
+        "estimated_height_m": 5.4,
+        "height_uncertainty_m": 0.9,
+        "estimated_floors": 2,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.86,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-053",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              267.68,
+              -10.4,
+              0.0
+            ],
+            [
+              259.68,
+              -10.4,
+              0.0
+            ],
+            [
+              259.68,
+              -18.4,
+              0.0
+            ],
+            [
+              267.68,
+              -18.4,
+              0.0
+            ],
+            [
+              267.68,
+              -10.4,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-053",
+        "building_type": "General Structure",
+        "footprint_area_m2": 51.4,
+        "estimated_height_m": 5.2,
+        "height_uncertainty_m": 1.0,
+        "estimated_floors": 2,
+        "roof_shape": "gabled",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.93,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-004",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -270.88,
+              131.68,
+              0.0
+            ],
+            [
+              -272.16,
+              130.72,
+              0.0
+            ],
+            [
+              -275.68,
+              130.08,
+              0.0
+            ],
+            [
+              -278.88,
+              131.36,
+              0.0
+            ],
+            [
+              -280.48,
+              133.6,
+              0.0
+            ],
+            [
+              -283.04,
+              133.6,
+              0.0
+            ],
+            [
+              -284.64,
+              135.2,
+              0.0
+            ],
+            [
+              -270.56,
+              135.2,
+              0.0
+            ],
+            [
+              -270.88,
+              131.68,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-004",
+        "building_type": "General Structure",
+        "footprint_area_m2": 47.3,
+        "estimated_height_m": 5.1,
+        "height_uncertainty_m": 0.9,
+        "estimated_floors": 2,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.86,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-079",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -291.04,
+              -108.32,
+              0.0
+            ],
+            [
+              -293.28,
+              -118.56,
+              0.0
+            ],
+            [
+              -279.2,
+              -121.76,
+              0.0
+            ],
+            [
+              -276.64,
+              -111.52,
+              0.0
+            ],
+            [
+              -291.04,
+              -108.32,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-079",
+        "building_type": "General Structure",
+        "footprint_area_m2": 126.7,
+        "estimated_height_m": 5.1,
+        "height_uncertainty_m": 0.8,
+        "estimated_floors": 2,
+        "roof_shape": "gabled",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.93,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-003",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -162.4,
+              131.36,
+              0.0
+            ],
+            [
+              -163.68,
+              130.4,
+              0.0
+            ],
+            [
+              -171.68,
+              131.04,
+              0.0
+            ],
+            [
+              -173.6,
+              132.32,
+              0.0
+            ],
+            [
+              -178.72,
+              133.6,
+              0.0
+            ],
+            [
+              -179.04,
+              135.2,
+              0.0
+            ],
+            [
+              -161.76,
+              135.2,
+              0.0
+            ],
+            [
+              -162.4,
+              131.36,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-003",
+        "building_type": "General Structure",
+        "footprint_area_m2": 61.1,
+        "estimated_height_m": 5.0,
+        "height_uncertainty_m": 1.1,
+        "estimated_floors": 2,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.86,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-052",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -16.16,
+              -11.36,
+              0.0
+            ],
+            [
+              -22.88,
+              -11.36,
+              0.0
+            ],
+            [
+              -22.88,
+              -17.76,
+              0.0
+            ],
+            [
+              -16.16,
+              -17.76,
+              0.0
+            ],
+            [
+              -16.16,
+              -11.36,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-052",
+        "building_type": "General Structure",
+        "footprint_area_m2": 37.1,
+        "estimated_height_m": 4.8,
+        "height_uncertainty_m": 0.8,
+        "estimated_floors": 2,
+        "roof_shape": "gabled",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.93,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-065",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -55.2,
+              -56.8,
+              0.0
+            ],
+            [
+              -56.8,
+              -58.08,
+              0.0
+            ],
+            [
+              -58.4,
+              -58.08,
+              0.0
+            ],
+            [
+              -60.64,
+              -56.8,
+              0.0
+            ],
+            [
+              -65.44,
+              -56.16,
+              0.0
+            ],
+            [
+              -66.72,
+              -53.28,
+              0.0
+            ],
+            [
+              -66.08,
+              -49.76,
+              0.0
+            ],
+            [
+              -64.48,
+              -48.48,
+              0.0
+            ],
+            [
+              -55.2,
+              -48.8,
+              0.0
+            ],
+            [
+              -53.92,
+              -50.08,
+              0.0
+            ],
+            [
+              -55.2,
+              -56.8,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-065",
+        "building_type": "General Structure",
+        "footprint_area_m2": 96.9,
+        "estimated_height_m": 4.8,
+        "height_uncertainty_m": 0.8,
+        "estimated_floors": 2,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.86,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-051",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              251.04,
+              -16.16,
+              0.0
+            ],
+            [
+              249.44,
+              -15.52,
+              0.0
+            ],
+            [
+              249.44,
+              -8.8,
+              0.0
+            ],
+            [
+              252.0,
+              -6.56,
+              0.0
+            ],
+            [
+              252.96,
+              -6.56,
+              0.0
+            ],
+            [
+              255.2,
+              -8.8,
+              0.0
+            ],
+            [
+              255.2,
+              -11.04,
+              0.0
+            ],
+            [
+              254.24,
+              -14.88,
+              0.0
+            ],
+            [
+              253.28,
+              -15.84,
+              0.0
+            ],
+            [
+              251.04,
+              -16.16,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-051",
+        "building_type": "General Structure",
+        "footprint_area_m2": 42.8,
+        "estimated_height_m": 4.7,
+        "height_uncertainty_m": 0.6,
+        "estimated_floors": 2,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.86,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-021",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -256.16,
+              86.88,
+              0.0
+            ],
+            [
+              -256.8,
+              93.6,
+              0.0
+            ],
+            [
+              -254.56,
+              99.36,
+              0.0
+            ],
+            [
+              -246.56,
+              99.36,
+              0.0
+            ],
+            [
+              -242.4,
+              105.12,
+              0.0
+            ],
+            [
+              -237.28,
+              105.12,
+              0.0
+            ],
+            [
+              -234.72,
+              103.52,
+              0.0
+            ],
+            [
+              -234.72,
+              97.76,
+              0.0
+            ],
+            [
+              -237.92,
+              92.96,
+              0.0
+            ],
+            [
+              -240.16,
+              83.36,
+              0.0
+            ],
+            [
+              -256.16,
+              86.88,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-021",
+        "building_type": "General Structure",
+        "footprint_area_m2": 337.3,
+        "estimated_height_m": 4.6,
+        "height_uncertainty_m": 0.6,
+        "estimated_floors": 2,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.86,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-032",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -286.24,
+              58.08,
+              0.0
+            ],
+            [
+              -297.12,
+              58.08,
+              0.0
+            ],
+            [
+              -297.12,
+              45.92,
+              0.0
+            ],
+            [
+              -286.24,
+              45.92,
+              0.0
+            ],
+            [
+              -286.24,
+              58.08,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-032",
+        "building_type": "General Structure",
+        "footprint_area_m2": 112.3,
+        "estimated_height_m": 4.6,
+        "height_uncertainty_m": 0.6,
+        "estimated_floors": 2,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.93,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-008",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -243.36,
+              135.2,
+              0.0
+            ],
+            [
+              -251.36,
+              135.2,
+              0.0
+            ],
+            [
+              -251.36,
+              126.88,
+              0.0
+            ],
+            [
+              -243.36,
+              126.88,
+              0.0
+            ],
+            [
+              -243.36,
+              135.2,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-008",
+        "building_type": "General Structure",
+        "footprint_area_m2": 55.4,
+        "estimated_height_m": 4.3,
+        "height_uncertainty_m": 0.8,
+        "estimated_floors": 1,
+        "roof_shape": "gabled",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.93,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-016",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -163.04,
+              107.68,
+              0.0
+            ],
+            [
+              -167.52,
+              108.96,
+              0.0
+            ],
+            [
+              -169.76,
+              120.16,
+              0.0
+            ],
+            [
+              -171.68,
+              118.24,
+              0.0
+            ],
+            [
+              -172.96,
+              110.88,
+              0.0
+            ],
+            [
+              -181.92,
+              112.8,
+              0.0
+            ],
+            [
+              -180.0,
+              121.44,
+              0.0
+            ],
+            [
+              -173.28,
+              122.08,
+              0.0
+            ],
+            [
+              -172.0,
+              128.8,
+              0.0
+            ],
+            [
+              -162.4,
+              129.12,
+              0.0
+            ],
+            [
+              -159.84,
+              127.2,
+              0.0
+            ],
+            [
+              -161.12,
+              111.52,
+              0.0
+            ],
+            [
+              -163.04,
+              107.68,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-016",
+        "building_type": "General Structure",
+        "footprint_area_m2": 297.4,
+        "estimated_height_m": 4.3,
+        "height_uncertainty_m": 0.7,
+        "estimated_floors": 1,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.86,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-033",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -144.8,
+              44.64,
+              0.0
+            ],
+            [
+              -150.56,
+              44.64,
+              0.0
+            ],
+            [
+              -150.56,
+              35.68,
+              0.0
+            ],
+            [
+              -144.8,
+              35.68,
+              0.0
+            ],
+            [
+              -144.8,
+              44.64,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-033",
+        "building_type": "General Structure",
+        "footprint_area_m2": 43.5,
+        "estimated_height_m": 4.3,
+        "height_uncertainty_m": 0.6,
+        "estimated_floors": 1,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.93,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-020",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -52.96,
+              89.76,
+              0.0
+            ],
+            [
+              -55.2,
+              89.44,
+              0.0
+            ],
+            [
+              -62.88,
+              90.72,
+              0.0
+            ],
+            [
+              -65.44,
+              92.32,
+              0.0
+            ],
+            [
+              -65.44,
+              94.24,
+              0.0
+            ],
+            [
+              -63.52,
+              98.4,
+              0.0
+            ],
+            [
+              -61.28,
+              98.4,
+              0.0
+            ],
+            [
+              -60.0,
+              97.12,
+              0.0
+            ],
+            [
+              -56.16,
+              95.52,
+              0.0
+            ],
+            [
+              -55.2,
+              93.92,
+              0.0
+            ],
+            [
+              -52.96,
+              92.64,
+              0.0
+            ],
+            [
+              -52.96,
+              89.76,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-020",
+        "building_type": "General Structure",
+        "footprint_area_m2": 72.6,
+        "estimated_height_m": 4.2,
+        "height_uncertainty_m": 0.6,
+        "estimated_floors": 1,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.86,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-093",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -281.44,
+              -135.52,
+              0.0
+            ],
+            [
+              -285.28,
+              -135.52,
+              0.0
+            ],
+            [
+              -285.6,
+              -134.56,
+              0.0
+            ],
+            [
+              -288.16,
+              -133.6,
+              0.0
+            ],
+            [
+              -288.8,
+              -130.72,
+              0.0
+            ],
+            [
+              -290.08,
+              -129.44,
+              0.0
+            ],
+            [
+              -290.08,
+              -126.24,
+              0.0
+            ],
+            [
+              -288.16,
+              -124.32,
+              0.0
+            ],
+            [
+              -280.48,
+              -126.88,
+              0.0
+            ],
+            [
+              -278.24,
+              -129.12,
+              0.0
+            ],
+            [
+              -279.2,
+              -132.0,
+              0.0
+            ],
+            [
+              -282.08,
+              -134.24,
+              0.0
+            ],
+            [
+              -281.44,
+              -135.52,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-093",
+        "building_type": "General Structure",
+        "footprint_area_m2": 87.0,
+        "estimated_height_m": 4.2,
+        "height_uncertainty_m": 0.6,
+        "estimated_floors": 1,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.86,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -190.88,
+          135.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-001",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 19.0,
+        "estimated_canopy_height_m": 8.2,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -297.12,
+          -5.28,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-002",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 13.4,
+        "estimated_canopy_height_m": 7.7,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -297.12,
+          0.48,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-003",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 13.1,
+        "estimated_canopy_height_m": 8.1,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-004",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -244.32,
+          76.32,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-004",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 12.2,
+        "estimated_canopy_height_m": 7.7,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-005",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.8,
+          60.0,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-005",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 11.6,
+        "estimated_canopy_height_m": 7.0,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-006",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -297.12,
+          -16.48,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-006",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 11.4,
+        "estimated_canopy_height_m": 7.8,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-007",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -290.72,
+          6.88,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-007",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 11.0,
+        "estimated_canopy_height_m": 8.3,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-008",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -165.92,
+          26.08,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-008",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 9.8,
+        "estimated_canopy_height_m": 6.1,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-009",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -250.72,
+          104.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-009",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 9.2,
+        "estimated_canopy_height_m": 7.1,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-010",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.6,
+          60.96,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-010",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 8.5,
+        "estimated_canopy_height_m": 7.2,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-011",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -204.64,
+          82.72,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-011",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 6.7,
+        "estimated_canopy_height_m": 7.1,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-012",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          187.04,
+          -66.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-012",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 6.7,
+        "estimated_canopy_height_m": 5.9,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-013",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -232.8,
+          121.76,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-013",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 6.3,
+        "estimated_canopy_height_m": 5.4,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-014",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.32,
+          -22.56,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-014",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 6.1,
+        "estimated_canopy_height_m": 5.7,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-015",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -257.44,
+          100.32,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-015",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.9,
+        "estimated_canopy_height_m": 4.9,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-016",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -296.48,
+          131.04,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-016",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.5,
+        "estimated_canopy_height_m": 6.9,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-017",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          295.2,
+          36.32,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-017",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.5,
+        "estimated_canopy_height_m": 7.2,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-018",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -297.12,
+          -28.0,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-018",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.3,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-019",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          288.16,
+          -23.84,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-019",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.3,
+        "estimated_canopy_height_m": 5.8,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-020",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -289.44,
+          41.76,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-020",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.3,
+        "estimated_canopy_height_m": 5.6,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-021",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -180.96,
+          131.04,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-021",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.2,
+        "estimated_canopy_height_m": 5.6,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-022",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          170.4,
+          122.08,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-022",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.9,
+        "estimated_canopy_height_m": 6.2,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-023",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          286.24,
+          -24.16,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-023",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.9,
+        "estimated_canopy_height_m": 6.1,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-024",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.0,
+          41.12,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-024",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.8,
+        "estimated_canopy_height_m": 5.6,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-025",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.8,
+          24.48,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-025",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.3,
+        "estimated_canopy_height_m": 6.2,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-026",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          155.68,
+          17.76,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-026",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.3,
+        "estimated_canopy_height_m": 5.3,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-027",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -162.4,
+          -97.76,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-027",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.3,
+        "estimated_canopy_height_m": 5.8,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-028",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.12,
+          131.68,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-028",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.3,
+        "estimated_canopy_height_m": 5.9,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-029",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.52,
+          42.08,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-029",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.3,
+        "estimated_canopy_height_m": 5.4,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-030",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.04,
+          95.84,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-030",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.2,
+        "estimated_canopy_height_m": 5.6,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-031",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -285.28,
+          35.68,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-031",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.1,
+        "estimated_canopy_height_m": 5.4,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-032",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          221.92,
+          31.84,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-032",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.1,
+        "estimated_canopy_height_m": 5.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-033",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -126.24,
+          86.24,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-033",
+        "category": "Coniferous",
+        "crown_diameter_m": 3.9,
+        "estimated_canopy_height_m": 5.3,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-034",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -273.76,
+          -110.56,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-034",
+        "category": "Coniferous",
+        "crown_diameter_m": 3.7,
+        "estimated_canopy_height_m": 5.7,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-035",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -240.48,
+          -116.64,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-035",
+        "category": "Coniferous",
+        "crown_diameter_m": 3.7,
+        "estimated_canopy_height_m": 6.2,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-036",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.28,
+          43.68,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-036",
+        "category": "Coniferous",
+        "crown_diameter_m": 3.6,
+        "estimated_canopy_height_m": 5.4,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-037",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -197.6,
+          81.44,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-037",
+        "category": "Coniferous",
+        "crown_diameter_m": 3.6,
+        "estimated_canopy_height_m": 6.4,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-038",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.36,
+          -99.68,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-038",
+        "category": "Coniferous",
+        "crown_diameter_m": 3.5,
+        "estimated_canopy_height_m": 5.4,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-039",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.84,
+          -5.28,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-039",
+        "category": "Coniferous",
+        "crown_diameter_m": 3.5,
+        "estimated_canopy_height_m": 7.6,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-040",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.76,
+          34.08,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-040",
+        "category": "Coniferous",
+        "crown_diameter_m": 3.2,
+        "estimated_canopy_height_m": 5.2,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-041",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.12,
+          135.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-041",
+        "category": "Coniferous",
+        "crown_diameter_m": 3.1,
+        "estimated_canopy_height_m": 4.9,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-042",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.92,
+          45.92,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-042",
+        "category": "Coniferous",
+        "crown_diameter_m": 3.1,
+        "estimated_canopy_height_m": 5.1,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-043",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -162.72,
+          47.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-043",
+        "category": "Coniferous",
+        "crown_diameter_m": 3.1,
+        "estimated_canopy_height_m": 3.9,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-044",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.92,
+          47.52,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-044",
+        "category": "Coniferous",
+        "crown_diameter_m": 3.1,
+        "estimated_canopy_height_m": 5.1,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-045",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.36,
+          -100.0,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-045",
+        "category": "Coniferous",
+        "crown_diameter_m": 3.1,
+        "estimated_canopy_height_m": 4.7,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-046",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          206.88,
+          48.48,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-046",
+        "category": "Coniferous",
+        "crown_diameter_m": 3.1,
+        "estimated_canopy_height_m": 4.9,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-047",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.56,
+          44.32,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-047",
+        "category": "Coniferous",
+        "crown_diameter_m": 3.1,
+        "estimated_canopy_height_m": 5.0,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-048",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -223.52,
+          105.44,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-048",
+        "category": "Coniferous",
+        "crown_diameter_m": 3.0,
+        "estimated_canopy_height_m": 5.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-049",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          181.6,
+          24.48,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-049",
+        "category": "Coniferous",
+        "crown_diameter_m": 2.7,
+        "estimated_canopy_height_m": 5.1,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-050",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.6,
+          14.24,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-050",
+        "category": "Coniferous",
+        "crown_diameter_m": 2.4,
+        "estimated_canopy_height_m": 4.7,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-051",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.52,
+          78.24,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-051",
+        "category": "Coniferous",
+        "crown_diameter_m": 2.4,
+        "estimated_canopy_height_m": 5.1,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-052",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.96,
+          14.56,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-052",
+        "category": "Coniferous",
+        "crown_diameter_m": 2.4,
+        "estimated_canopy_height_m": 4.8,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-053",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.52,
+          -7.84,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-053",
+        "category": "Coniferous",
+        "crown_diameter_m": 2.4,
+        "estimated_canopy_height_m": 5.0,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-054",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          188.64,
+          -57.12,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-054",
+        "category": "Coniferous",
+        "crown_diameter_m": 2.4,
+        "estimated_canopy_height_m": 4.8,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-055",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -187.04,
+          96.48,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-055",
+        "category": "Coniferous",
+        "crown_diameter_m": 2.4,
+        "estimated_canopy_height_m": 4.8,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-056",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          63.52,
+          -10.72,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-056",
+        "category": "Coniferous",
+        "crown_diameter_m": 2.4,
+        "estimated_canopy_height_m": 5.4,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-057",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.44,
+          -89.44,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-057",
+        "category": "Coniferous",
+        "crown_diameter_m": 1.8,
+        "estimated_canopy_height_m": 4.4,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-058",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -233.12,
+          -57.44,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-058",
+        "category": "Coniferous",
+        "crown_diameter_m": 1.8,
+        "estimated_canopy_height_m": 5.2,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-059",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.4,
+          135.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-059",
+        "category": "Coniferous",
+        "crown_diameter_m": 1.8,
+        "estimated_canopy_height_m": 5.3,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-060",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          132.0,
+          22.24,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-060",
+        "category": "Coniferous",
+        "crown_diameter_m": 1.8,
+        "estimated_canopy_height_m": 4.9,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-061",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -28.32,
+          13.92,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-061",
+        "category": "Coniferous",
+        "crown_diameter_m": 1.8,
+        "estimated_canopy_height_m": 5.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-062",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -295.52,
+          135.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-062",
+        "category": "Coniferous",
+        "crown_diameter_m": 1.8,
+        "estimated_canopy_height_m": 5.8,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-063",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -262.56,
+          53.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-063",
+        "category": "Coniferous",
+        "crown_diameter_m": 1.8,
+        "estimated_canopy_height_m": 4.7,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-064",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -164.32,
+          44.32,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-064",
+        "category": "Coniferous",
+        "crown_diameter_m": 1.8,
+        "estimated_canopy_height_m": 3.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-065",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -202.4,
+          100.0,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-065",
+        "category": "Coniferous",
+        "crown_diameter_m": 1.8,
+        "estimated_canopy_height_m": 5.7,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-066",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -164.96,
+          42.72,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-066",
+        "category": "Coniferous",
+        "crown_diameter_m": 1.5,
+        "estimated_canopy_height_m": 3.6,
+        "detection_confidence": 0.9
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "format": "16-bit Single-Channel Depth Raster (PNG)",
+  "bit_depth": 16,
+  "raw_min_value": 0.0,
+  "raw_max_value": 19.709999084472656,
+  "value_interpretation": "Relative surface depth (0 = near/high, 65535 = far/low)",
+  "is_metric": true,
+  "calibration_status": "Calibrated",
+  "gsd_m": 0.35,
+  "dimensions": {
+    "width": 128,
+    "height": 128
+  },
+  "scientific_disclaimer": "Pixel values are normalized relative depth estimates and must not be used as absolute metric elevation without calibration."
+}

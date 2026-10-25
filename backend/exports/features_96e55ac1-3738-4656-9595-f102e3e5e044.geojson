@@ -1,0 +1,897 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "BLD-001",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -151.2,
+              -155.2,
+              4.03
+            ],
+            [
+              -151.2,
+              -150.0,
+              4.01
+            ],
+            [
+              -140.0,
+              -149.6,
+              4.34
+            ],
+            [
+              -136.4,
+              -144.4,
+              4.33
+            ],
+            [
+              -140.0,
+              -138.4,
+              4.12
+            ],
+            [
+              -151.2,
+              -138.0,
+              3.94
+            ],
+            [
+              -151.2,
+              -134.4,
+              3.96
+            ],
+            [
+              -118.4,
+              -134.4,
+              4.28
+            ],
+            [
+              -118.4,
+              -155.2,
+              4.19
+            ],
+            [
+              -151.2,
+              -155.2,
+              4.03
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-001",
+        "footprint_area_m2": 522.1,
+        "estimated_height_m": 16.8,
+        "height_uncertainty_m": 3.0,
+        "estimated_floors": 5,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Terracotta Ceramic Tile",
+        "orientation_deg": 0.0,
+        "confidence": 0.76,
+        "height_source": "Shadow Trigonometric Geometry (Solar Azimuth/Elevation)"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-002",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              40.8,
+              -151.2,
+              3.75
+            ],
+            [
+              40.8,
+              -128.4,
+              3.35
+            ],
+            [
+              73.6,
+              -128.4,
+              2.54
+            ],
+            [
+              69.2,
+              -133.2,
+              2.35
+            ],
+            [
+              59.6,
+              -133.6,
+              2.75
+            ],
+            [
+              56.4,
+              -136.8,
+              2.9
+            ],
+            [
+              57.2,
+              -142.8,
+              3.04
+            ],
+            [
+              65.2,
+              -145.2,
+              2.61
+            ],
+            [
+              67.6,
+              -151.2,
+              2.69
+            ],
+            [
+              40.8,
+              -151.2,
+              3.75
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-002",
+        "footprint_area_m2": 500.3,
+        "estimated_height_m": 16.8,
+        "height_uncertainty_m": 3.0,
+        "estimated_floors": 5,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Terracotta Ceramic Tile",
+        "orientation_deg": 0.0,
+        "confidence": 0.76,
+        "height_source": "Shadow Trigonometric Geometry (Solar Azimuth/Elevation)"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-003",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -147.2,
+              -91.2,
+              4.88
+            ],
+            [
+              -147.2,
+              -68.4,
+              4.52
+            ],
+            [
+              -110.4,
+              -68.4,
+              4.72
+            ],
+            [
+              -110.4,
+              -91.2,
+              5.62
+            ],
+            [
+              -147.2,
+              -91.2,
+              4.88
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-003",
+        "footprint_area_m2": 839.0,
+        "estimated_height_m": 16.5,
+        "height_uncertainty_m": 4.5,
+        "estimated_floors": 5,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Terracotta Ceramic Tile",
+        "orientation_deg": 0.0,
+        "confidence": 0.62,
+        "height_source": "Footprint Morphology & Contextual Priors (No Clear Shadow Discovered)"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-004",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -51.6,
+              -88.0,
+              7.94
+            ],
+            [
+              -56.0,
+              -88.0,
+              8.55
+            ],
+            [
+              -53.2,
+              -85.2,
+              8.78
+            ],
+            [
+              -52.8,
+              -74.4,
+              10.13
+            ],
+            [
+              -56.4,
+              -69.2,
+              10.8
+            ],
+            [
+              -69.2,
+              -69.2,
+              11.75
+            ],
+            [
+              -72.8,
+              -74.4,
+              11.34
+            ],
+            [
+              -84.0,
+              -75.2,
+              9.41
+            ],
+            [
+              -84.0,
+              -59.6,
+              8.88
+            ],
+            [
+              -51.6,
+              -59.6,
+              8.69
+            ],
+            [
+              -51.6,
+              -88.0,
+              7.94
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-004",
+        "footprint_area_m2": 403.9,
+        "estimated_height_m": 11.0,
+        "height_uncertainty_m": 3.0,
+        "estimated_floors": 3,
+        "roof_shape": "Flat Roof",
+        "roof_material": "Reflective White Membrane / Metal Deck",
+        "orientation_deg": 0.0,
+        "confidence": 0.58,
+        "height_source": "Footprint Morphology & Contextual Priors (No Clear Shadow Discovered)"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-005",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -53.6,
+              44.0,
+              6.74
+            ],
+            [
+              -64.0,
+              44.0,
+              7.71
+            ],
+            [
+              -61.2,
+              46.8,
+              8.08
+            ],
+            [
+              -60.8,
+              57.6,
+              9.33
+            ],
+            [
+              -64.4,
+              62.8,
+              9.54
+            ],
+            [
+              -77.2,
+              62.8,
+              9.46
+            ],
+            [
+              -80.8,
+              57.6,
+              9.16
+            ],
+            [
+              -92.0,
+              56.8,
+              7.57
+            ],
+            [
+              -90.0,
+              66.4,
+              7.72
+            ],
+            [
+              -53.6,
+              68.4,
+              7.98
+            ],
+            [
+              -53.6,
+              44.0,
+              6.74
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-005",
+        "footprint_area_m2": 347.0,
+        "estimated_height_m": 7.5,
+        "height_uncertainty_m": 2.2,
+        "estimated_floors": 2,
+        "roof_shape": "Flat Roof",
+        "roof_material": "Reinforced Concrete / Gravel Built-Up Roof",
+        "orientation_deg": 0.0,
+        "confidence": 0.57,
+        "height_source": "Footprint Morphology & Contextual Priors (No Clear Shadow Discovered)"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-006",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -155.2,
+              48.8,
+              3.78
+            ],
+            [
+              -155.2,
+              73.6,
+              3.35
+            ],
+            [
+              -114.4,
+              72.4,
+              3.28
+            ],
+            [
+              -114.4,
+              48.8,
+              4.69
+            ],
+            [
+              -155.2,
+              48.8,
+              3.78
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-006",
+        "footprint_area_m2": 1004.9,
+        "estimated_height_m": 16.8,
+        "height_uncertainty_m": 3.0,
+        "estimated_floors": 5,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Terracotta Ceramic Tile",
+        "orientation_deg": 0.0,
+        "confidence": 0.81,
+        "height_source": "Shadow Trigonometric Geometry (Solar Azimuth/Elevation)"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-007",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              44.8,
+              48.8,
+              4.12
+            ],
+            [
+              44.8,
+              75.6,
+              3.92
+            ],
+            [
+              81.2,
+              75.6,
+              2.94
+            ],
+            [
+              89.6,
+              72.4,
+              2.83
+            ],
+            [
+              89.6,
+              48.8,
+              3.79
+            ],
+            [
+              44.8,
+              48.8,
+              4.12
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-007",
+        "footprint_area_m2": 1181.9,
+        "estimated_height_m": 16.5,
+        "height_uncertainty_m": 4.5,
+        "estimated_floors": 5,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Terracotta Ceramic Tile",
+        "orientation_deg": 0.0,
+        "confidence": 0.62,
+        "height_source": "Footprint Morphology & Contextual Priors (No Clear Shadow Discovered)"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-008",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              112.8,
+              52.8,
+              3.03
+            ],
+            [
+              112.8,
+              75.6,
+              3.32
+            ],
+            [
+              153.6,
+              75.6,
+              4.19
+            ],
+            [
+              153.6,
+              52.8,
+              3.68
+            ],
+            [
+              112.8,
+              52.8,
+              3.03
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-008",
+        "footprint_area_m2": 930.2,
+        "estimated_height_m": 16.8,
+        "height_uncertainty_m": 3.0,
+        "estimated_floors": 5,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Terracotta Ceramic Tile",
+        "orientation_deg": 0.0,
+        "confidence": 0.8,
+        "height_source": "Shadow Trigonometric Geometry (Solar Azimuth/Elevation)"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-009",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -151.2,
+              112.8,
+              4.1
+            ],
+            [
+              -151.2,
+              139.6,
+              4.96
+            ],
+            [
+              -116.4,
+              139.6,
+              4.44
+            ],
+            [
+              -116.4,
+              112.8,
+              4.23
+            ],
+            [
+              -151.2,
+              112.8,
+              4.1
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-009",
+        "footprint_area_m2": 932.6,
+        "estimated_height_m": 16.5,
+        "height_uncertainty_m": 4.5,
+        "estimated_floors": 5,
+        "roof_shape": "Hipped Roof",
+        "roof_material": "Terracotta Ceramic Tile",
+        "orientation_deg": 0.0,
+        "confidence": 0.63,
+        "height_source": "Footprint Morphology & Contextual Priors (No Clear Shadow Discovered)"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-010",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              116.8,
+              112.8,
+              4.23
+            ],
+            [
+              116.8,
+              141.6,
+              3.72
+            ],
+            [
+              159.6,
+              141.6,
+              3.65
+            ],
+            [
+              159.6,
+              112.8,
+              4.69
+            ],
+            [
+              116.8,
+              112.8,
+              4.23
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-010",
+        "footprint_area_m2": 1232.6,
+        "estimated_height_m": 16.5,
+        "height_uncertainty_m": 4.5,
+        "estimated_floors": 5,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Terracotta Ceramic Tile",
+        "orientation_deg": 0.0,
+        "confidence": 0.63,
+        "height_source": "Footprint Morphology & Contextual Priors (No Clear Shadow Discovered)"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-011",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              88.4,
+              116.0,
+              8.35
+            ],
+            [
+              76.0,
+              116.0,
+              9.78
+            ],
+            [
+              79.2,
+              129.6,
+              11.86
+            ],
+            [
+              75.6,
+              134.8,
+              12.11
+            ],
+            [
+              62.8,
+              134.8,
+              12.14
+            ],
+            [
+              59.2,
+              129.6,
+              11.7
+            ],
+            [
+              48.0,
+              128.8,
+              9.51
+            ],
+            [
+              48.0,
+              142.4,
+              8.97
+            ],
+            [
+              88.4,
+              142.4,
+              8.58
+            ],
+            [
+              88.4,
+              116.0,
+              8.35
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-011",
+        "footprint_area_m2": 550.3,
+        "estimated_height_m": 11.0,
+        "height_uncertainty_m": 3.0,
+        "estimated_floors": 3,
+        "roof_shape": "Flat Roof",
+        "roof_material": "Reflective White Membrane / Metal Deck",
+        "orientation_deg": 0.0,
+        "confidence": 0.58,
+        "height_source": "Footprint Morphology & Contextual Priors (No Clear Shadow Discovered)"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.84,
+          -168.92,
+          3.09
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-001",
+        "category": "Broadleaf Deciduous Tree",
+        "crown_diameter_m": 7.8,
+        "crown_area_m2": 47.2,
+        "estimated_canopy_height_m": 9.8,
+        "vitality_status": "Healthy / High Photosynthetic Vigour",
+        "species_note": "Broadleaf crown (Species uncertain without high-resolution seasonal or spectral phenology)",
+        "confidence": 0.88
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.96,
+          -138.04,
+          1.88
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-002",
+        "category": "Broadleaf Deciduous Tree",
+        "crown_diameter_m": 9.7,
+        "crown_area_m2": 73.8,
+        "estimated_canopy_height_m": 11.5,
+        "vitality_status": "Healthy / High Photosynthetic Vigour",
+        "species_note": "Broadleaf crown (Species uncertain without high-resolution seasonal or spectral phenology)",
+        "confidence": 0.87
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          178.84,
+          -103.2,
+          4.75
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-003",
+        "category": "Broadleaf Deciduous Tree",
+        "crown_diameter_m": 7.9,
+        "crown_area_m2": 49.6,
+        "estimated_canopy_height_m": 9.9,
+        "vitality_status": "Healthy / High Photosynthetic Vigour",
+        "species_note": "Broadleaf crown (Species uncertain without high-resolution seasonal or spectral phenology)",
+        "confidence": 0.85
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-004",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.72,
+          -93.24,
+          3.34
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-004",
+        "category": "Broadleaf Deciduous Tree",
+        "crown_diameter_m": 8.4,
+        "crown_area_m2": 55.7,
+        "estimated_canopy_height_m": 10.4,
+        "vitality_status": "Healthy / High Photosynthetic Vigour",
+        "species_note": "Broadleaf crown (Species uncertain without high-resolution seasonal or spectral phenology)",
+        "confidence": 0.88
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-005",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -173.16,
+          -47.12,
+          4.14
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-005",
+        "category": "Broadleaf Deciduous Tree",
+        "crown_diameter_m": 7.9,
+        "crown_area_m2": 49.4,
+        "estimated_canopy_height_m": 9.9,
+        "vitality_status": "Healthy / High Photosynthetic Vigour",
+        "species_note": "Broadleaf crown (Species uncertain without high-resolution seasonal or spectral phenology)",
+        "confidence": 0.89
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-006",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          168.84,
+          38.88,
+          3.79
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-006",
+        "category": "Broadleaf Deciduous Tree",
+        "crown_diameter_m": 7.9,
+        "crown_area_m2": 49.4,
+        "estimated_canopy_height_m": 9.9,
+        "vitality_status": "Healthy / High Photosynthetic Vigour",
+        "species_note": "Broadleaf crown (Species uncertain without high-resolution seasonal or spectral phenology)",
+        "confidence": 0.89
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-007",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.48,
+          88.56,
+          2.76
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-007",
+        "category": "Broadleaf Deciduous Tree",
+        "crown_diameter_m": 8.0,
+        "crown_area_m2": 50.1,
+        "estimated_canopy_height_m": 10.0,
+        "vitality_status": "Healthy / High Photosynthetic Vigour",
+        "species_note": "Broadleaf crown (Species uncertain without high-resolution seasonal or spectral phenology)",
+        "confidence": 0.88
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-008",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.92,
+          91.88,
+          2.55
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-008",
+        "category": "Broadleaf Deciduous Tree",
+        "crown_diameter_m": 8.5,
+        "crown_area_m2": 56.2,
+        "estimated_canopy_height_m": 10.5,
+        "vitality_status": "Healthy / High Photosynthetic Vigour",
+        "species_note": "Broadleaf crown (Species uncertain without high-resolution seasonal or spectral phenology)",
+        "confidence": 0.86
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-009",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.04,
+          164.96,
+          4.75
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-009",
+        "category": "Broadleaf Deciduous Tree",
+        "crown_diameter_m": 11.5,
+        "crown_area_m2": 103.7,
+        "estimated_canopy_height_m": 13.1,
+        "vitality_status": "Healthy / High Photosynthetic Vigour",
+        "species_note": "Broadleaf crown (Species uncertain without high-resolution seasonal or spectral phenology)",
+        "confidence": 0.84
+      }
+    }
+  ]
+}

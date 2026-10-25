@@ -1,0 +1,73 @@
+<USER_REQUEST>
+# ANTIGRAVITY MASTER PROMPT — TERRASCOPE AI
+## Repository Audit, Flagship Innovation, Metric 3D Reconstruction & Modular Disaster Intelligence
+
+Act as a senior geospatial AI/ML engineer, computer-vision researcher, full-stack architect, and real-time 3D graphics engineer.
+
+You are working inside my existing project, Terrascope AI. Your task is to understand the current codebase, identify what already works, determine what is missing, answer the team's technical questions with evidence, and implement the single most valuable missing feature without breaking existing functionality.
+
+**Do not rebuild the application from scratch. Do not duplicate existing features. Do not implement every suggested idea.**
+
+The goal is to create a technically credible, demonstrable satellite-to-3D and disaster-intelligence platform with a clear flagship innovation.
+
+---
+
+# PHASE 1 — AUDIT THE ENTIRE EXISTING PROJECT
+
+Before modifying code, inspect the repository thoroughly.
+
+1. Examine the frontend, backend, model inference pipeline, training scripts, data preprocessing, API routes, 3D viewer, configuration, and deployment files.
+2. Identify all existing functionality and distinguish between:
+   - Fully implemented and tested features.
+   - Implemented but incomplete features.
+   - Mock data, simulated outputs, placeholder buttons, and hardcoded results.
+   - Models that have been trained versus models that are merely configured.
+   - Features that are planned but do not exist.
+3. Trace the complete workflow from image upload to preprocessing, inference, geospatial post-processing, 3D reconstruction, and visualization.
+4. Identify dependencies, environment requirements, model checkpoints, dataset paths, and GPU/CPU assumptions.
+5. Run the available tests and existing application where possible. Record actual errors rather than assuming the project works.
+6. Inspect the existing Git status and preserve uncommitted changes.
+
+Create `docs/PROJECT_AUDIT.md` containing:
+- Current architectu
+<truncated 17355 bytes>
+, answer these questions explicitly:
+
+1. What already existed in the project?
+2. What was genuinely new?
+3. Why was that feature selected over the alternatives?
+4. What does the model output, and are its values normalized or metric?
+5. Is the building footprint accurate, and what evidence supports the answer?
+6. Can rubble height be estimated reliably with the available data?
+7. What datasets are needed, and are they actually available?
+8. What runs on the user's device versus the server?
+9. How does collision detection work in the existing 3D scene?
+10. How are large scenes optimized for low-end hardware?
+11. Can the model be exposed through a deployed API, and what remains before deployment?
+12. What was implemented and tested during this session?
+13. What remains incomplete or unverified?
+14. What should the team implement next?
+
+## NON-NEGOTIABLE RULES
+
+- Audit before coding.
+- Preserve existing functionality.
+- Do not create duplicate features.
+- Select one flagship innovation.
+- Prefer measurable progress over feature count.
+- Do not invent model accuracy, dataset availability, training progress, or deployment status.
+- Do not claim physically accurate 3D geometry without appropriate reference measurements.
+- Do not assume that relative depth is metric height.
+- Keep components modular, testable, and independently deployable.
+- Reuse appropriate open-source components after checking their licenses and compatibility.
+- If a requirement cannot be implemented because data, hardware, or dependencies are unavailable, document the limitation and implement the best honest fallback.
+- Make real code changes, run the available checks, and finish with a concise summary of what actually works.
+
+Begin with repository inspection and the audit. Then select and implement the single best missing feature.
+
+
+merge anything new from this to my main project and answer the question 
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-10-18T23:21:15+05:30.
+</ADDITIONAL_METADATA>

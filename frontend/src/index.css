@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@theme {
+  --color-canvas: #F5F6F3;
+  --color-surface: #FFFFFF;
+  --color-surface-muted: #EDF1EC;
+  --color-border-subtle: #DCE2DC;
+  --color-ink-primary: #17231F;
+  --color-ink-secondary: #68736D;
+  --color-accent: #286653;
+  --color-accent-hover: #204F42;
+  --color-accent-light: #E8EFEA;
+  --color-status-warn: #B7791F;
+  --color-status-err: #B64040;
+  --color-status-info: #426B8A;
+}
+
+@layer base {
+  :root {
+    --bg-main: #F5F6F3;
+    --surface-main: #FFFFFF;
+    --border-main: #DCE2DC;
+    --text-primary: #17231F;
+    --text-secondary: #68736D;
+    --accent: #286653;
+    --accent-hover: #204F42;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #F5F6F3;
+    color: #17231F;
+    font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11", "tnum";
+    overflow: hidden;
+    user-select: none;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  #root {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+}
+
+/* Restrained, technical GIS scrollbars */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #F5F6F3;
+}
+::-webkit-scrollbar-thumb {
+  background: #DCE2DC;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B6C0B6;
+}

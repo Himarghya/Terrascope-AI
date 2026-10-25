@@ -1,0 +1,8004 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "BLD-006",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              165.6,
+              147.6,
+              0.0
+            ],
+            [
+              111.6,
+              147.6,
+              0.0
+            ],
+            [
+              111.6,
+              107.6,
+              0.0
+            ],
+            [
+              165.6,
+              107.6,
+              0.0
+            ],
+            [
+              165.6,
+              147.6,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-006",
+        "building_type": "Commercial / Industrial Structure",
+        "footprint_area_m2": 2160.0,
+        "estimated_height_m": 19.5,
+        "height_uncertainty_m": 0.6,
+        "estimated_floors": 6,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.93,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-007",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -110.0,
+              146.0,
+              0.0
+            ],
+            [
+              -156.8,
+              146.0,
+              0.0
+            ],
+            [
+              -156.8,
+              107.2,
+              0.0
+            ],
+            [
+              -110.0,
+              107.2,
+              0.0
+            ],
+            [
+              -110.0,
+              146.0,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-007",
+        "building_type": "Commercial / Industrial Structure",
+        "footprint_area_m2": 1750.2,
+        "estimated_height_m": 19.5,
+        "height_uncertainty_m": 0.6,
+        "estimated_floors": 6,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.93,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-011",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              160.0,
+              82.0,
+              0.0
+            ],
+            [
+              107.2,
+              82.0,
+              0.0
+            ],
+            [
+              107.2,
+              47.2,
+              0.0
+            ],
+            [
+              160.0,
+              47.2,
+              0.0
+            ],
+            [
+              160.0,
+              82.0,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-011",
+        "building_type": "Commercial / Industrial Structure",
+        "footprint_area_m2": 1770.2,
+        "estimated_height_m": 19.5,
+        "height_uncertainty_m": 0.6,
+        "estimated_floors": 6,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.93,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-014",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              95.6,
+              81.6,
+              0.0
+            ],
+            [
+              39.6,
+              81.6,
+              0.0
+            ],
+            [
+              39.6,
+              43.6,
+              0.0
+            ],
+            [
+              95.6,
+              43.6,
+              0.0
+            ],
+            [
+              95.6,
+              81.6,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-014",
+        "building_type": "Commercial / Industrial Structure",
+        "footprint_area_m2": 2095.4,
+        "estimated_height_m": 19.5,
+        "height_uncertainty_m": 0.6,
+        "estimated_floors": 6,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.93,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-015",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -108.4,
+              79.6,
+              0.0
+            ],
+            [
+              -160.4,
+              79.6,
+              0.0
+            ],
+            [
+              -160.4,
+              43.6,
+              0.0
+            ],
+            [
+              -108.4,
+              43.6,
+              0.0
+            ],
+            [
+              -108.4,
+              79.6,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-015",
+        "building_type": "Commercial / Industrial Structure",
+        "footprint_area_m2": 1864.6,
+        "estimated_height_m": 19.5,
+        "height_uncertainty_m": 0.6,
+        "estimated_floors": 6,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.93,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-019",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -104.4,
+              -62.4,
+              0.0
+            ],
+            [
+              -152.4,
+              -62.4,
+              0.0
+            ],
+            [
+              -152.4,
+              -96.4,
+              0.0
+            ],
+            [
+              -104.4,
+              -96.4,
+              0.0
+            ],
+            [
+              -104.4,
+              -62.4,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-019",
+        "building_type": "Commercial / Industrial Structure",
+        "footprint_area_m2": 1632.0,
+        "estimated_height_m": 19.5,
+        "height_uncertainty_m": 0.6,
+        "estimated_floors": 6,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.93,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-023",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -112.4,
+              -128.4,
+              0.0
+            ],
+            [
+              -156.4,
+              -128.4,
+              0.0
+            ],
+            [
+              -156.4,
+              -160.4,
+              0.0
+            ],
+            [
+              -112.4,
+              -160.4,
+              0.0
+            ],
+            [
+              -112.4,
+              -128.4,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-023",
+        "building_type": "Commercial / Industrial Structure",
+        "footprint_area_m2": 1408.0,
+        "estimated_height_m": 19.1,
+        "height_uncertainty_m": 0.6,
+        "estimated_floors": 6,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.93,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-020",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.6,
+              -122.4,
+              0.0
+            ],
+            [
+              35.6,
+              -122.4,
+              0.0
+            ],
+            [
+              35.6,
+              -138.8,
+              0.0
+            ],
+            [
+              85.6,
+              -138.8,
+              0.0
+            ],
+            [
+              85.6,
+              -122.4,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-020",
+        "building_type": "Commercial / Industrial Structure",
+        "footprint_area_m2": 719.9,
+        "estimated_height_m": 17.0,
+        "height_uncertainty_m": 0.6,
+        "estimated_floors": 6,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.93,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-021",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.6,
+              -140.4,
+              0.0
+            ],
+            [
+              35.6,
+              -140.4,
+              0.0
+            ],
+            [
+              35.6,
+              -156.4,
+              0.0
+            ],
+            [
+              85.6,
+              -156.4,
+              0.0
+            ],
+            [
+              85.6,
+              -140.4,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-021",
+        "building_type": "Commercial / Industrial Structure",
+        "footprint_area_m2": 666.3,
+        "estimated_height_m": 16.8,
+        "height_uncertainty_m": 0.6,
+        "estimated_floors": 6,
+        "roof_shape": "flat_with_parapet",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.93,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-022",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -42.8,
+              -121.2,
+              0.0
+            ],
+            [
+              -92.0,
+              -121.2,
+              0.0
+            ],
+            [
+              -92.0,
+              -157.6,
+              0.0
+            ],
+            [
+              -42.8,
+              -157.6,
+              0.0
+            ],
+            [
+              -42.8,
+              -121.2,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-022",
+        "building_type": "Commercial / Industrial Structure",
+        "footprint_area_m2": 1591.8,
+        "estimated_height_m": 15.5,
+        "height_uncertainty_m": 3.6,
+        "estimated_floors": 5,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.93,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-018",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              95.2,
+              -55.6,
+              0.0
+            ],
+            [
+              44.0,
+              -55.6,
+              0.0
+            ],
+            [
+              44.0,
+              -92.0,
+              0.0
+            ],
+            [
+              95.2,
+              -92.0,
+              0.0
+            ],
+            [
+              95.2,
+              -55.6,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-018",
+        "building_type": "Commercial / Industrial Structure",
+        "footprint_area_m2": 1663.0,
+        "estimated_height_m": 15.3,
+        "height_uncertainty_m": 3.8,
+        "estimated_floors": 5,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.93,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-002",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.0,
+              130.8,
+              0.0
+            ],
+            [
+              -64.8,
+              130.8,
+              0.0
+            ],
+            [
+              -64.8,
+              126.8,
+              0.0
+            ],
+            [
+              -58.0,
+              126.8,
+              0.0
+            ],
+            [
+              -58.0,
+              130.8,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-002",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 11.8,
+        "estimated_height_m": 8.7,
+        "height_uncertainty_m": 0.6,
+        "estimated_floors": 3,
+        "roof_shape": "Hipped Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.93,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-001",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -64.0,
+              132.0,
+              0.0
+            ],
+            [
+              -67.6,
+              129.2,
+              0.0
+            ],
+            [
+              -66.4,
+              127.6,
+              0.0
+            ],
+            [
+              -62.8,
+              130.4,
+              0.0
+            ],
+            [
+              -64.0,
+              132.0,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-001",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 4.4,
+        "estimated_height_m": 8.6,
+        "height_uncertainty_m": 0.6,
+        "estimated_floors": 3,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.93,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-009",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -65.6,
+              113.6,
+              0.0
+            ],
+            [
+              -73.2,
+              113.6,
+              0.0
+            ],
+            [
+              -73.2,
+              106.0,
+              0.0
+            ],
+            [
+              -65.6,
+              106.0,
+              0.0
+            ],
+            [
+              -65.6,
+              113.6,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-009",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 41.4,
+        "estimated_height_m": 8.1,
+        "height_uncertainty_m": 1.2,
+        "estimated_floors": 3,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.93,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-008",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -57.6,
+              109.2,
+              0.0
+            ],
+            [
+              -63.6,
+              109.2,
+              0.0
+            ],
+            [
+              -63.6,
+              106.4,
+              0.0
+            ],
+            [
+              -57.6,
+              106.4,
+              0.0
+            ],
+            [
+              -57.6,
+              109.2,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-008",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 12.2,
+        "estimated_height_m": 7.6,
+        "height_uncertainty_m": 0.8,
+        "estimated_floors": 3,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.93,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-005",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -59.6,
+              112.0,
+              0.0
+            ],
+            [
+              -63.2,
+              112.0,
+              0.0
+            ],
+            [
+              -63.2,
+              110.0,
+              0.0
+            ],
+            [
+              -59.6,
+              110.0,
+              0.0
+            ],
+            [
+              -59.6,
+              112.0,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-005",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 4.5,
+        "estimated_height_m": 6.9,
+        "height_uncertainty_m": 0.6,
+        "estimated_floors": 2,
+        "roof_shape": "Hipped Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.93,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-013",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -81.2,
+              54.4,
+              0.0
+            ],
+            [
+              -90.0,
+              54.4,
+              0.0
+            ],
+            [
+              -90.0,
+              45.6,
+              0.0
+            ],
+            [
+              -81.2,
+              45.6,
+              0.0
+            ],
+            [
+              -81.2,
+              54.4,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-013",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 59.8,
+        "estimated_height_m": 6.2,
+        "height_uncertainty_m": 1.9,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.93,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-017",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -74.4,
+              -79.6,
+              0.0
+            ],
+            [
+              -80.0,
+              -79.6,
+              0.0
+            ],
+            [
+              -80.0,
+              -84.0,
+              0.0
+            ],
+            [
+              -74.4,
+              -84.0,
+              0.0
+            ],
+            [
+              -74.4,
+              -79.6,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-017",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 23.9,
+        "estimated_height_m": 5.9,
+        "height_uncertainty_m": 1.2,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.93,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-012",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -64.0,
+              60.0,
+              0.0
+            ],
+            [
+              -76.8,
+              60.0,
+              0.0
+            ],
+            [
+              -76.8,
+              47.2,
+              0.0
+            ],
+            [
+              -64.0,
+              47.2,
+              0.0
+            ],
+            [
+              -64.0,
+              60.0,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-012",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 129.6,
+        "estimated_height_m": 5.6,
+        "height_uncertainty_m": 3.2,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.93,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-004",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              57.6,
+              124.4,
+              0.0
+            ],
+            [
+              52.0,
+              124.4,
+              0.0
+            ],
+            [
+              52.0,
+              120.0,
+              0.0
+            ],
+            [
+              57.6,
+              120.0,
+              0.0
+            ],
+            [
+              57.6,
+              124.4,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-004",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 23.8,
+        "estimated_height_m": 5.2,
+        "height_uncertainty_m": 0.8,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.93,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-003",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              73.6,
+              129.6,
+              0.0
+            ],
+            [
+              66.0,
+              129.6,
+              0.0
+            ],
+            [
+              66.0,
+              122.4,
+              0.0
+            ],
+            [
+              73.6,
+              122.4,
+              0.0
+            ],
+            [
+              73.6,
+              129.6,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-003",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 48.5,
+        "estimated_height_m": 5.1,
+        "height_uncertainty_m": 0.9,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.93,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-010",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -49.6,
+              72.4,
+              0.0
+            ],
+            [
+              -52.4,
+              72.4,
+              0.0
+            ],
+            [
+              -52.4,
+              69.6,
+              0.0
+            ],
+            [
+              -49.6,
+              69.6,
+              0.0
+            ],
+            [
+              -49.6,
+              72.4,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-010",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 4.0,
+        "estimated_height_m": 5.1,
+        "height_uncertainty_m": 2.5,
+        "estimated_floors": 2,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.93,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLD-016",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -58.8,
+              -74.8,
+              0.0
+            ],
+            [
+              -65.6,
+              -74.8,
+              0.0
+            ],
+            [
+              -65.6,
+              -81.6,
+              0.0
+            ],
+            [
+              -58.8,
+              -81.6,
+              0.0
+            ],
+            [
+              -58.8,
+              -74.8,
+              0.0
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "feature_type": "building",
+        "id": "BLD-016",
+        "building_type": "Residential Single-Family / House",
+        "footprint_area_m2": 40.2,
+        "estimated_height_m": 4.5,
+        "height_uncertainty_m": 0.8,
+        "estimated_floors": 1,
+        "roof_shape": "Gabled / Pitched Roof",
+        "roof_material": "Composite Shingle",
+        "orientation_deg": 0.0,
+        "confidence": 0.93,
+        "height_source": "Trained ResNet50 U-Net",
+        "validation_status": "Model Inferred Geometry"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-001",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -32.8,
+          35.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-001",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 11.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-002",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.2,
+          95.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-002",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 11.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-003",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -30.8,
+          -100.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-003",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 11.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-004",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.2,
+          -134.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-004",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 11.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-005",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.2,
+          165.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-005",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 11.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-006",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.8,
+          165.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-006",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 11.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-007",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.8,
+          -170.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-007",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 11.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-008",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -170.8,
+          99.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-008",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 11.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-009",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.2,
+          37.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-009",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 11.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-010",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          171.2,
+          167.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-010",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 11.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-011",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -30.8,
+          99.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-011",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 11.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-012",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.8,
+          -40.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-012",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 11.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-013",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -32.4,
+          167.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-013",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 11.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-014",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.2,
+          -156.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-014",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 11.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-015",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -172.8,
+          35.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-015",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 11.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-016",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -170.8,
+          -104.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-016",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 11.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-017",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.8,
+          -42.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-017",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 11.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-018",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -170.8,
+          163.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-018",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 11.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-019",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2,
+          35.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-019",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 11.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-020",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.2,
+          99.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-020",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 11.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-021",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.8,
+          91.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-021",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 11.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-022",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -168.8,
+          -168.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-022",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 11.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-023",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.2,
+          -90.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-023",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 11.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-024",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -170.8,
+          -44.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-024",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 11.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-025",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          171.2,
+          41.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-025",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 11.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-026",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -36.8,
+          -166.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-026",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 11.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-027",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.0,
+          166.0,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-027",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 8.4,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-028",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.4,
+          108.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-028",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 6.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-029",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          179.2,
+          -102.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-029",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 6.3,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-030",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.2,
+          36.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-030",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 6.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-031",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.6,
+          -95.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-031",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 6.1,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-032",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.8,
+          -95.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-032",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 6.1,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-033",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -163.2,
+          41.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-033",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 6.0,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-034",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.0,
+          104.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-034",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-035",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -158.8,
+          -162.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-035",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.5,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-036",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.8,
+          101.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-036",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.5,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-037",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6,
+          138.0,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-037",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.3,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-038",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.4,
+          -95.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-038",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.3,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-039",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6,
+          118.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-039",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.3,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-040",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.0,
+          -95.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-040",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.3,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-041",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.2,
+          -95.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-041",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.3,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-042",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6,
+          129.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-042",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.3,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-043",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6,
+          132.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-043",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.3,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-044",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6,
+          122.0,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-044",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.3,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-045",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.4,
+          108.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-045",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.3,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-046",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6,
+          112.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-046",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.3,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-047",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          66.4,
+          -95.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-047",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.3,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-048",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.0,
+          107.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-048",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.3,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-049",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.8,
+          107.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-049",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.3,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-050",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.6,
+          107.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-050",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.3,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-051",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.4,
+          107.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-051",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.3,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-052",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.2,
+          107.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-052",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.3,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-053",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          70.0,
+          107.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-053",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.3,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-054",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          66.8,
+          107.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-054",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.3,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-055",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          63.6,
+          107.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-055",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.3,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-056",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          59.6,
+          107.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-056",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.3,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-057",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.4,
+          107.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-057",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.3,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-058",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.0,
+          -159.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-058",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.3,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-059",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.0,
+          107.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-059",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.3,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-060",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          48.8,
+          107.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-060",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.3,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-061",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.4,
+          107.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-061",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.3,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-062",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.8,
+          -159.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-062",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.3,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-063",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.6,
+          -159.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-063",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.3,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-064",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.4,
+          104.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-064",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.3,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-065",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.8,
+          104.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-065",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.3,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-066",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.4,
+          66.0,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-066",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.3,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-067",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.4,
+          -66.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-067",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.3,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-068",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.2,
+          104.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-068",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.3,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-069",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.4,
+          42.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-069",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.3,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-070",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.0,
+          -95.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-070",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.3,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-071",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.4,
+          57.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-071",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.3,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-072",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.4,
+          -96.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-072",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.3,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-073",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6,
+          -96.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-073",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.3,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-074",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6,
+          126.0,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-074",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.3,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-075",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.2,
+          35.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-075",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.3,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-076",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.0,
+          35.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-076",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.3,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-077",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.4,
+          -76.0,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-077",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.3,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-078",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.4,
+          -63.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-078",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.3,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-079",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.4,
+          -70.0,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-079",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.3,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-080",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.4,
+          -84.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-080",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.3,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-081",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.2,
+          -158.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-081",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.3,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-082",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.4,
+          -79.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-082",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.3,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-083",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.4,
+          -87.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-083",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.3,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-084",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.4,
+          -90.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-084",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.3,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-085",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.6,
+          -95.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-085",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.3,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-086",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.4,
+          -95.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-086",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.3,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-087",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.8,
+          -95.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-087",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.3,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-088",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.6,
+          -134.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-088",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.3,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-089",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.4,
+          -95.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-089",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.3,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-090",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2,
+          -95.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-090",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.3,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-091",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.0,
+          -95.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-091",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.3,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-092",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          70.4,
+          -95.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-092",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.3,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-093",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          63.2,
+          -95.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-093",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.3,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-094",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -144.0,
+          -163.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-094",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-095",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.4,
+          116.0,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-095",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-096",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.0,
+          -159.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-096",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-097",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6,
+          -159.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-097",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-098",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -53.2,
+          -159.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-098",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-099",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.0,
+          104.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-099",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-100",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.6,
+          104.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-100",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-101",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.2,
+          104.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-101",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-102",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -159.2,
+          105.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-102",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-103",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -163.6,
+          69.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-103",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-104",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.0,
+          100.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-104",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-105",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.2,
+          104.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-105",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-106",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -163.6,
+          48.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-106",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-107",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.4,
+          46.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-107",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-108",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.4,
+          46.0,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-108",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-109",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.4,
+          51.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-109",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-110",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -163.6,
+          56.0,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-110",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-111",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -163.6,
+          60.0,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-111",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-112",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -163.6,
+          66.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-112",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-113",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -146.8,
+          40.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-113",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-114",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.0,
+          40.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-114",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-115",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.4,
+          40.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-115",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-116",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          56.8,
+          40.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-116",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-117",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.0,
+          40.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-117",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-118",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.0,
+          40.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-118",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-119",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          70.8,
+          40.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-119",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-120",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.8,
+          40.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-120",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-121",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.6,
+          125.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-121",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-122",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.6,
+          128.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-122",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-123",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.2,
+          35.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-123",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-124",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0,
+          35.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-124",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-125",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.0,
+          35.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-125",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-126",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.4,
+          35.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-126",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-127",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.6,
+          -150.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-127",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-128",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -159.6,
+          -152.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-128",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-129",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -159.6,
+          -158.0,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-129",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-130",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -159.6,
+          -141.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-130",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-131",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.6,
+          -142.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-131",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-132",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.6,
+          -96.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-132",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-133",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0,
+          -96.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-133",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-134",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.4,
+          -81.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-134",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-135",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.8,
+          -96.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-135",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-136",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.4,
+          -91.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-136",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-137",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -159.6,
+          -148.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-137",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-138",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.6,
+          -128.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-138",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-139",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.4,
+          -72.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-139",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-140",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -159.6,
+          -136.0,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-140",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-141",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.2,
+          100.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-141",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-142",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.4,
+          -76.0,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-142",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-143",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.4,
+          -87.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-143",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 5.2,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-144",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -154.4,
+          -98.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-144",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.9,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-145",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -159.6,
+          -145.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-145",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.9,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-146",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -140.0,
+          -163.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-146",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-147",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.0,
+          -163.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-147",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-148",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.8,
+          139.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-148",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-149",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -159.2,
+          140.0,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-149",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-150",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.2,
+          -96.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-150",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-151",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -153.2,
+          -163.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-151",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-152",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -53.6,
+          -96.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-152",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-153",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.8,
+          -96.0,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-153",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-154",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.6,
+          131.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-154",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-155",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.4,
+          128.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-155",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-156",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -159.2,
+          129.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-156",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-157",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.2,
+          -96.0,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-157",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-158",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.4,
+          132.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-158",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-159",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -159.2,
+          132.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-159",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-160",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.4,
+          -99.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-160",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-161",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -133.6,
+          -163.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-161",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-162",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -130.8,
+          -163.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-162",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-163",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.2,
+          134.0,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-163",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-164",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.8,
+          -129.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-164",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-165",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.2,
+          -126.0,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-165",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-166",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -147.6,
+          -99.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-166",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-167",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.8,
+          -135.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-167",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-168",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.8,
+          -132.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-168",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-169",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.8,
+          -143.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-169",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-170",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.8,
+          -138.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-170",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-171",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.8,
+          -147.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-171",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-172",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.6,
+          -147.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-172",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-173",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.8,
+          -150.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-173",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-174",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.8,
+          134.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-174",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-175",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -159.2,
+          135.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-175",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-176",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -159.2,
+          -155.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-176",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-177",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.0,
+          -84.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-177",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-178",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.8,
+          -155.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-178",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-179",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.8,
+          -159.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-179",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-180",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.6,
+          -159.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-180",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-181",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -140.0,
+          40.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-181",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-182",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.6,
+          136.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-182",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-183",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.2,
+          -159.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-183",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-184",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.4,
+          137.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-184",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-185",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          70.4,
+          -159.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-185",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-186",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.4,
+          -68.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-186",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-187",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -137.2,
+          -163.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-187",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-188",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          67.2,
+          -159.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-188",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-189",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.0,
+          -159.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-189",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-190",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.4,
+          -63.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-190",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-191",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.0,
+          -66.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-191",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-192",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          60.8,
+          -159.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-192",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-193",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          57.6,
+          -159.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-193",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-194",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6,
+          35.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-194",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-195",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.0,
+          -60.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-195",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-196",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.8,
+          35.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-196",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-197",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.2,
+          35.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-197",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-198",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          54.0,
+          -159.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-198",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-199",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.2,
+          -159.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-199",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-200",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.6,
+          36.0,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-200",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-201",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -158.8,
+          40.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-201",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-202",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -156.0,
+          40.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-202",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-203",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -136.0,
+          40.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-203",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-204",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -153.2,
+          40.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-204",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-205",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -143.6,
+          40.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-205",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-206",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -129.6,
+          40.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-206",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-207",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.4,
+          40.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-207",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-208",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -133.2,
+          40.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-208",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-209",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          43.2,
+          40.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-209",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-210",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          47.6,
+          40.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-210",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-211",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.6,
+          40.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-211",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-212",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.8,
+          40.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-212",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-213",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          67.6,
+          40.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-213",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-214",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.8,
+          40.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-214",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-215",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.6,
+          40.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-215",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-216",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.4,
+          -159.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-216",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-217",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -127.2,
+          40.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-217",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-218",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.2,
+          40.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-218",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-219",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.4,
+          44.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-219",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-220",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.0,
+          40.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-220",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-221",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.8,
+          44.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-221",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-222",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.8,
+          44.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-222",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-223",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.6,
+          44.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-223",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-224",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.2,
+          44.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-224",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-225",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.2,
+          44.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-225",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-226",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.6,
+          44.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-226",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-227",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.6,
+          44.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-227",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-228",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.0,
+          44.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-228",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-229",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          130.0,
+          44.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-229",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-230",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.4,
+          44.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-230",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-231",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.4,
+          44.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-231",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-232",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.8,
+          44.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-232",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-233",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          142.8,
+          44.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-233",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-234",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.4,
+          49.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-234",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-235",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.8,
+          49.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-235",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-236",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.2,
+          44.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-236",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-237",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -163.2,
+          51.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-237",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-238",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -163.6,
+          45.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-238",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-239",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.4,
+          52.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-239",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-240",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.8,
+          52.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-240",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-241",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8,
+          54.0,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-241",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-242",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.8,
+          55.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-242",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-243",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.4,
+          57.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-243",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-244",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.8,
+          58.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-244",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-245",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8,
+          59.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-245",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-246",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.0,
+          -159.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-246",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-247",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          42.8,
+          -159.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-247",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-248",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.4,
+          60.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-248",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-249",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.8,
+          61.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-249",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-250",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -163.6,
+          63.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-250",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-251",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.0,
+          63.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-251",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-252",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.8,
+          64.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-252",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-253",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.4,
+          65.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-253",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-254",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.4,
+          70.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-254",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-255",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.8,
+          67.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-255",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-256",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.8,
+          72.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-256",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-257",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.4,
+          74.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-257",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-258",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.8,
+          76.0,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-258",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-259",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0,
+          100.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-259",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-260",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.8,
+          100.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-260",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-261",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.0,
+          100.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-261",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-262",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.4,
+          100.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-262",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-263",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.6,
+          100.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-263",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-264",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.4,
+          100.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-264",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-265",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.8,
+          100.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-265",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-266",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.2,
+          100.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-266",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-267",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.4,
+          100.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-267",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-268",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.8,
+          100.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-268",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-269",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.0,
+          100.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-269",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-270",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.4,
+          100.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-270",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-271",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.6,
+          -159.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-271",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-272",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.2,
+          -159.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-272",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-273",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.4,
+          -159.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-273",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-274",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.0,
+          100.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-274",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-275",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -126.8,
+          104.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-275",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-276",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.0,
+          104.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-276",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-277",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          157.6,
+          104.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-277",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-278",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.8,
+          104.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-278",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-279",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.8,
+          104.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-279",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-280",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.6,
+          104.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-280",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-281",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -146.4,
+          104.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-281",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-282",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -140.0,
+          104.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-282",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-283",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.0,
+          104.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-283",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-284",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -133.6,
+          104.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-284",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-285",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -143.6,
+          104.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-285",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-286",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -137.2,
+          104.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-286",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-287",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.8,
+          104.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-287",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-288",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -130.8,
+          104.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-288",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-289",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.4,
+          104.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-289",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-290",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.0,
+          104.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-290",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-291",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.0,
+          104.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-291",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-292",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.6,
+          105.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-292",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-293",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.2,
+          104.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-293",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-294",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.8,
+          -159.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-294",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-295",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.4,
+          -159.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-295",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-296",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6,
+          -159.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-296",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-297",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.4,
+          -159.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-297",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-298",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.2,
+          -163.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-298",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-299",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.4,
+          -163.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-299",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-300",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -127.6,
+          -163.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-300",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-301",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.8,
+          -163.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-301",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-302",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.2,
+          111.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-302",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-303",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -159.2,
+          112.0,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-303",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-304",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.2,
+          108.0,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-304",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-305",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -159.2,
+          108.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-305",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-306",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.6,
+          114.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-306",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-307",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.4,
+          112.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-307",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-308",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -159.2,
+          115.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-308",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-309",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -150.8,
+          -163.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-309",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-310",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.2,
+          116.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-310",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-311",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.8,
+          119.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-311",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-312",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -159.2,
+          120.0,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-312",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-313",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.6,
+          120.0,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-313",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-314",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.4,
+          122.0,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-314",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-315",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -159.2,
+          122.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-315",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-316",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.8,
+          126.0,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-316",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-317",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -159.2,
+          126.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-317",
+        "category": "Broadleaf Deciduous",
+        "crown_diameter_m": 4.6,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-318",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.8,
+          -99.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-318",
+        "category": "Coniferous",
+        "crown_diameter_m": 4.5,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-319",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -141.2,
+          -99.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-319",
+        "category": "Coniferous",
+        "crown_diameter_m": 4.5,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-320",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -137.6,
+          -99.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-320",
+        "category": "Coniferous",
+        "crown_diameter_m": 4.5,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-321",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.2,
+          -91.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-321",
+        "category": "Coniferous",
+        "crown_diameter_m": 4.5,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-322",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.2,
+          -95.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-322",
+        "category": "Coniferous",
+        "crown_diameter_m": 4.5,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-323",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.2,
+          -82.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-323",
+        "category": "Coniferous",
+        "crown_diameter_m": 4.5,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-324",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.0,
+          -98.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-324",
+        "category": "Coniferous",
+        "crown_diameter_m": 3.8,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-325",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.0,
+          -98.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-325",
+        "category": "Coniferous",
+        "crown_diameter_m": 3.8,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-326",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -129.6,
+          -98.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-326",
+        "category": "Coniferous",
+        "crown_diameter_m": 3.8,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-327",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -127.2,
+          -98.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-327",
+        "category": "Coniferous",
+        "crown_diameter_m": 3.8,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-328",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124.8,
+          -98.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-328",
+        "category": "Coniferous",
+        "crown_diameter_m": 3.8,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-329",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -144.4,
+          -98.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-329",
+        "category": "Coniferous",
+        "crown_diameter_m": 3.8,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-330",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -134.4,
+          -98.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-330",
+        "category": "Coniferous",
+        "crown_diameter_m": 3.8,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-331",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -132.0,
+          -98.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-331",
+        "category": "Coniferous",
+        "crown_diameter_m": 3.8,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-332",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.2,
+          -86.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-332",
+        "category": "Coniferous",
+        "crown_diameter_m": 3.8,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-333",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.2,
+          -78.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-333",
+        "category": "Coniferous",
+        "crown_diameter_m": 3.8,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-334",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.2,
+          -74.0,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-334",
+        "category": "Coniferous",
+        "crown_diameter_m": 3.8,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-335",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -154.8,
+          -76.8,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-335",
+        "category": "Coniferous",
+        "crown_diameter_m": 3.8,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-336",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -154.8,
+          -72.0,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-336",
+        "category": "Coniferous",
+        "crown_diameter_m": 3.8,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-337",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -155.2,
+          -68.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-337",
+        "category": "Coniferous",
+        "crown_diameter_m": 3.8,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-338",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.8,
+          -160.0,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-338",
+        "category": "Coniferous",
+        "crown_diameter_m": 3.8,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-339",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.6,
+          161.6,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-339",
+        "category": "Coniferous",
+        "crown_diameter_m": 3.7,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-340",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.4,
+          169.2,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-340",
+        "category": "Coniferous",
+        "crown_diameter_m": 3.1,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TREE-341",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          175.2,
+          -100.4,
+          0.0
+        ]
+      },
+      "properties": {
+        "feature_type": "vegetation",
+        "id": "TREE-341",
+        "category": "Coniferous",
+        "crown_diameter_m": 3.0,
+        "estimated_canopy_height_m": 6.5,
+        "detection_confidence": 0.9
+      }
+    }
+  ]
+}

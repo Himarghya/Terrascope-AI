@@ -1,0 +1,14 @@
+{
+  "prediction_id": "pred_ccf232127931",
+  "width": 256,
+  "height": 256,
+  "height_units": "meters_above_ground_level",
+  "is_calibrated": true,
+  "stats": {
+    "min": 0.0,
+    "max": 24.11,
+    "mean": 7.22,
+    "std": 3.89
+  },
+  "created_at": 1792887303.247527
+}

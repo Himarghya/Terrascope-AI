@@ -1,0 +1,1511 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "title": "Terrascope AI \u2014 Disaster Structural Damage & Debris Assessment",
+    "generated_at": 1792347661.1527321,
+    "gsd_m": 0.35,
+    "bulking_factor": 1.3,
+    "coordinate_system": "Local Metric Cartesian (Origin at Scene Center)"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-023",
+        "damage_class": 0,
+        "damage_label": "No Damage",
+        "severity": "Low",
+        "pre_height_m": 9.07,
+        "post_height_m": 9.19,
+        "delta_height_m": 0.0,
+        "collapse_pct": 0.0,
+        "footprint_area_m2": 289.0,
+        "debris_volume_m3": 0.0,
+        "debris_uncertainty_m3": 0.0,
+        "confidence": 0.94,
+        "quality_flags": []
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -11.9,
+              -107.97
+            ],
+            [
+              -10.15,
+              -106.57
+            ],
+            [
+              -10.85,
+              -99.57
+            ],
+            [
+              11.9,
+              -100.62
+            ],
+            [
+              37.8,
+              -106.92
+            ],
+            [
+              -11.9,
+              -107.97
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-021",
+        "damage_class": 0,
+        "damage_label": "No Damage",
+        "severity": "Low",
+        "pre_height_m": 8.64,
+        "post_height_m": 8.68,
+        "delta_height_m": 0.0,
+        "collapse_pct": 0.0,
+        "footprint_area_m2": 18.8,
+        "debris_volume_m3": 0.0,
+        "debris_uncertainty_m3": 0.0,
+        "confidence": 0.94,
+        "quality_flags": []
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.7,
+              -99.22
+            ],
+            [
+              126.35,
+              -97.47
+            ],
+            [
+              127.4,
+              -95.38
+            ],
+            [
+              130.2,
+              -95.02
+            ],
+            [
+              130.2,
+              -97.12
+            ],
+            [
+              132.3,
+              -97.47
+            ],
+            [
+              132.3,
+              -98.52
+            ],
+            [
+              130.9,
+              -99.57
+            ],
+            [
+              126.7,
+              -99.22
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-009",
+        "damage_class": 0,
+        "damage_label": "No Damage",
+        "severity": "Low",
+        "pre_height_m": 7.2,
+        "post_height_m": 7.13,
+        "delta_height_m": 0.07,
+        "collapse_pct": 0.9,
+        "footprint_area_m2": 1493.0,
+        "debris_volume_m3": 128.0,
+        "debris_uncertainty_m3": 24.9,
+        "confidence": 0.94,
+        "quality_flags": []
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              123.9,
+              63.52
+            ],
+            [
+              116.55,
+              26.77
+            ],
+            [
+              162.75,
+              17.32
+            ],
+            [
+              170.1,
+              54.07
+            ],
+            [
+              123.9,
+              63.52
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-007",
+        "damage_class": 0,
+        "damage_label": "No Damage",
+        "severity": "Low",
+        "pre_height_m": 6.67,
+        "post_height_m": 6.63,
+        "delta_height_m": 0.03,
+        "collapse_pct": 0.5,
+        "footprint_area_m2": 2616.4,
+        "debris_volume_m3": 105.7,
+        "debris_uncertainty_m3": 20.5,
+        "confidence": 0.94,
+        "quality_flags": []
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -3.5,
+              55.47
+            ],
+            [
+              5.6,
+              100.62
+            ],
+            [
+              16.1,
+              96.07
+            ],
+            [
+              29.4,
+              100.62
+            ],
+            [
+              47.95,
+              97.82
+            ],
+            [
+              49.0,
+              82.42
+            ],
+            [
+              55.3,
+              91.17
+            ],
+            [
+              70.35,
+              93.27
+            ],
+            [
+              83.3,
+              82.77
+            ],
+            [
+              79.1,
+              63.52
+            ],
+            [
+              29.05,
+              70.88
+            ],
+            [
+              12.95,
+              49.17
+            ],
+            [
+              -3.5,
+              55.47
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-005",
+        "damage_class": 0,
+        "damage_label": "No Damage",
+        "severity": "Low",
+        "pre_height_m": 6.07,
+        "post_height_m": 5.89,
+        "delta_height_m": 0.18,
+        "collapse_pct": 3.0,
+        "footprint_area_m2": 16.1,
+        "debris_volume_m3": 3.8,
+        "debris_uncertainty_m3": 0.7,
+        "confidence": 0.94,
+        "quality_flags": []
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              39.2,
+              60.72
+            ],
+            [
+              39.2,
+              63.87
+            ],
+            [
+              40.6,
+              65.97
+            ],
+            [
+              42.0,
+              66.33
+            ],
+            [
+              42.7,
+              65.62
+            ],
+            [
+              42.35,
+              62.12
+            ],
+            [
+              40.95,
+              60.72
+            ],
+            [
+              39.2,
+              60.72
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-002",
+        "damage_class": 0,
+        "damage_label": "No Damage",
+        "severity": "Low",
+        "pre_height_m": 5.94,
+        "post_height_m": 5.92,
+        "delta_height_m": 0.03,
+        "collapse_pct": 0.4,
+        "footprint_area_m2": 147.8,
+        "debris_volume_m3": 5.0,
+        "debris_uncertainty_m3": 1.0,
+        "confidence": 0.94,
+        "quality_flags": []
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -152.95,
+              107.27
+            ],
+            [
+              -169.05,
+              107.27
+            ],
+            [
+              -169.05,
+              98.17
+            ],
+            [
+              -152.95,
+              98.17
+            ],
+            [
+              -152.95,
+              107.27
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-017",
+        "damage_class": 0,
+        "damage_label": "No Damage",
+        "severity": "Low",
+        "pre_height_m": 5.95,
+        "post_height_m": 6.11,
+        "delta_height_m": 0.0,
+        "collapse_pct": 0.0,
+        "footprint_area_m2": 2084.8,
+        "debris_volume_m3": 0.0,
+        "debris_uncertainty_m3": 0.0,
+        "confidence": 0.94,
+        "quality_flags": []
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              130.9,
+              -45.32
+            ],
+            [
+              111.65,
+              -40.77
+            ],
+            [
+              107.8,
+              -29.92
+            ],
+            [
+              104.65,
+              -34.82
+            ],
+            [
+              100.1,
+              -33.07
+            ],
+            [
+              107.1,
+              4.72
+            ],
+            [
+              116.9,
+              12.42
+            ],
+            [
+              138.95,
+              9.27
+            ],
+            [
+              138.95,
+              -1.92
+            ],
+            [
+              150.15,
+              -2.27
+            ],
+            [
+              156.1,
+              -16.97
+            ],
+            [
+              154.35,
+              -25.72
+            ],
+            [
+              135.45,
+              -24.67
+            ],
+            [
+              130.9,
+              -45.32
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-020",
+        "damage_class": 0,
+        "damage_label": "No Damage",
+        "severity": "Low",
+        "pre_height_m": 5.67,
+        "post_height_m": 5.58,
+        "delta_height_m": 0.09,
+        "collapse_pct": 1.5,
+        "footprint_area_m2": 2457.5,
+        "debris_volume_m3": 273.0,
+        "debris_uncertainty_m3": 53.0,
+        "confidence": 0.94,
+        "quality_flags": []
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -169.05,
+              -51.97
+            ],
+            [
+              -160.3,
+              -61.07
+            ],
+            [
+              -150.85,
+              -51.97
+            ],
+            [
+              -143.15,
+              -62.12
+            ],
+            [
+              -135.45,
+              -54.42
+            ],
+            [
+              -120.05,
+              -60.37
+            ],
+            [
+              -110.6,
+              -45.32
+            ],
+            [
+              -100.45,
+              -65.62
+            ],
+            [
+              -48.3,
+              -61.07
+            ],
+            [
+              -56.7,
+              -68.42
+            ],
+            [
+              -79.1,
+              -67.72
+            ],
+            [
+              -83.3,
+              -80.32
+            ],
+            [
+              -118.3,
+              -75.07
+            ],
+            [
+              -121.1,
+              -96.42
+            ],
+            [
+              -161.0,
+              -87.67
+            ],
+            [
+              -169.05,
+              -51.97
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-006",
+        "damage_class": 0,
+        "damage_label": "No Damage",
+        "severity": "Low",
+        "pre_height_m": 5.58,
+        "post_height_m": 5.57,
+        "delta_height_m": 0.01,
+        "collapse_pct": 0.1,
+        "footprint_area_m2": 2959.8,
+        "debris_volume_m3": 26.5,
+        "debris_uncertainty_m3": 5.1,
+        "confidence": 0.94,
+        "quality_flags": []
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -57.4,
+              57.22
+            ],
+            [
+              -71.4,
+              60.37
+            ],
+            [
+              -70.7,
+              91.52
+            ],
+            [
+              -79.45,
+              69.82
+            ],
+            [
+              -99.75,
+              65.27
+            ],
+            [
+              -129.85,
+              69.82
+            ],
+            [
+              -131.25,
+              86.27
+            ],
+            [
+              -123.9,
+              107.62
+            ],
+            [
+              -88.2,
+              107.62
+            ],
+            [
+              -85.75,
+              102.02
+            ],
+            [
+              -83.3,
+              107.62
+            ],
+            [
+              -64.4,
+              107.62
+            ],
+            [
+              -51.45,
+              102.72
+            ],
+            [
+              -57.4,
+              57.22
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-018",
+        "damage_class": 0,
+        "damage_label": "No Damage",
+        "severity": "Low",
+        "pre_height_m": 5.45,
+        "post_height_m": 5.42,
+        "delta_height_m": 0.03,
+        "collapse_pct": 0.6,
+        "footprint_area_m2": 797.5,
+        "debris_volume_m3": 32.2,
+        "debris_uncertainty_m3": 6.3,
+        "confidence": 0.94,
+        "quality_flags": []
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              154.7,
+              -68.07
+            ],
+            [
+              144.2,
+              -67.02
+            ],
+            [
+              138.6,
+              -62.82
+            ],
+            [
+              140.7,
+              -40.77
+            ],
+            [
+              136.5,
+              -34.12
+            ],
+            [
+              137.2,
+              -25.72
+            ],
+            [
+              142.8,
+              -28.52
+            ],
+            [
+              154.0,
+              -28.87
+            ],
+            [
+              160.65,
+              -33.07
+            ],
+            [
+              157.5,
+              -61.77
+            ],
+            [
+              154.7,
+              -68.07
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-010",
+        "damage_class": 0,
+        "damage_label": "No Damage",
+        "severity": "Low",
+        "pre_height_m": 5.22,
+        "post_height_m": 5.23,
+        "delta_height_m": 0.0,
+        "collapse_pct": 0.0,
+        "footprint_area_m2": 406.1,
+        "debris_volume_m3": 0.0,
+        "debris_uncertainty_m3": 0.0,
+        "confidence": 0.94,
+        "quality_flags": []
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              11.9,
+              19.07
+            ],
+            [
+              9.1,
+              -2.62
+            ],
+            [
+              30.1,
+              -5.42
+            ],
+            [
+              32.9,
+              16.27
+            ],
+            [
+              11.9,
+              19.07
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-013",
+        "damage_class": 0,
+        "damage_label": "No Damage",
+        "severity": "Low",
+        "pre_height_m": 5.25,
+        "post_height_m": 5.26,
+        "delta_height_m": 0.0,
+        "collapse_pct": 0.0,
+        "footprint_area_m2": 3491.9,
+        "debris_volume_m3": 0.0,
+        "debris_uncertainty_m3": 0.0,
+        "confidence": 0.94,
+        "quality_flags": []
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -51.1,
+              -29.57
+            ],
+            [
+              -77.0,
+              -24.32
+            ],
+            [
+              -83.65,
+              -11.38
+            ],
+            [
+              -94.85,
+              -20.12
+            ],
+            [
+              -114.8,
+              -7.87
+            ],
+            [
+              -122.5,
+              -17.32
+            ],
+            [
+              -139.3,
+              -13.12
+            ],
+            [
+              -135.45,
+              51.62
+            ],
+            [
+              -124.6,
+              53.02
+            ],
+            [
+              -128.8,
+              25.38
+            ],
+            [
+              -104.65,
+              20.82
+            ],
+            [
+              -107.8,
+              28.52
+            ],
+            [
+              -97.65,
+              21.88
+            ],
+            [
+              -100.1,
+              33.07
+            ],
+            [
+              -107.45,
+              32.38
+            ],
+            [
+              -105.35,
+              44.62
+            ],
+            [
+              -89.95,
+              43.57
+            ],
+            [
+              -88.9,
+              4.38
+            ],
+            [
+              -67.9,
+              4.38
+            ],
+            [
+              -67.55,
+              -11.72
+            ],
+            [
+              -49.7,
+              -11.38
+            ],
+            [
+              -51.1,
+              -29.57
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-008",
+        "damage_class": 0,
+        "damage_label": "No Damage",
+        "severity": "Low",
+        "pre_height_m": 5.05,
+        "post_height_m": 4.81,
+        "delta_height_m": 0.24,
+        "collapse_pct": 4.7,
+        "footprint_area_m2": 37.9,
+        "debris_volume_m3": 11.6,
+        "debris_uncertainty_m3": 2.3,
+        "confidence": 0.94,
+        "quality_flags": []
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              40.95,
+              43.22
+            ],
+            [
+              38.85,
+              44.62
+            ],
+            [
+              38.85,
+              46.02
+            ],
+            [
+              40.6,
+              50.92
+            ],
+            [
+              41.65,
+              51.97
+            ],
+            [
+              43.05,
+              51.97
+            ],
+            [
+              44.8,
+              49.52
+            ],
+            [
+              44.8,
+              46.38
+            ],
+            [
+              43.4,
+              43.92
+            ],
+            [
+              40.95,
+              43.22
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-014",
+        "damage_class": 0,
+        "damage_label": "No Damage",
+        "severity": "Low",
+        "pre_height_m": 4.96,
+        "post_height_m": 4.97,
+        "delta_height_m": 0.0,
+        "collapse_pct": 0.0,
+        "footprint_area_m2": 495.0,
+        "debris_volume_m3": 0.0,
+        "debris_uncertainty_m3": 0.0,
+        "confidence": 0.94,
+        "quality_flags": []
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              3.85,
+              -11.38
+            ],
+            [
+              1.75,
+              -34.82
+            ],
+            [
+              27.3,
+              -36.92
+            ],
+            [
+              29.4,
+              -13.47
+            ],
+            [
+              3.85,
+              -11.38
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-015",
+        "damage_class": 0,
+        "damage_label": "No Damage",
+        "severity": "Low",
+        "pre_height_m": 5.01,
+        "post_height_m": 4.97,
+        "delta_height_m": 0.04,
+        "collapse_pct": 0.8,
+        "footprint_area_m2": 2851.6,
+        "debris_volume_m3": 144.6,
+        "debris_uncertainty_m3": 28.1,
+        "confidence": 0.94,
+        "quality_flags": []
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -8.4,
+              -37.62
+            ],
+            [
+              -40.25,
+              -28.17
+            ],
+            [
+              -32.9,
+              -4.72
+            ],
+            [
+              -21.7,
+              -8.92
+            ],
+            [
+              -19.25,
+              -18.02
+            ],
+            [
+              -12.25,
+              -0.88
+            ],
+            [
+              -70.0,
+              12.77
+            ],
+            [
+              -66.85,
+              34.82
+            ],
+            [
+              -51.8,
+              42.17
+            ],
+            [
+              -50.4,
+              29.22
+            ],
+            [
+              -37.45,
+              27.47
+            ],
+            [
+              -33.95,
+              19.42
+            ],
+            [
+              -13.65,
+              34.12
+            ],
+            [
+              0.35,
+              32.73
+            ],
+            [
+              3.5,
+              -6.47
+            ],
+            [
+              -8.4,
+              -37.62
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-022",
+        "damage_class": 0,
+        "damage_label": "No Damage",
+        "severity": "Low",
+        "pre_height_m": 4.89,
+        "post_height_m": 4.9,
+        "delta_height_m": 0.0,
+        "collapse_pct": 0.0,
+        "footprint_area_m2": 334.8,
+        "debris_volume_m3": 0.0,
+        "debris_uncertainty_m3": 0.0,
+        "confidence": 0.94,
+        "quality_flags": []
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -102.9,
+              -79.97
+            ],
+            [
+              -107.8,
+              -96.77
+            ],
+            [
+              -86.45,
+              -102.72
+            ],
+            [
+              -81.55,
+              -85.92
+            ],
+            [
+              -102.9,
+              -79.97
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-012",
+        "damage_class": 0,
+        "damage_label": "No Damage",
+        "severity": "Low",
+        "pre_height_m": 4.86,
+        "post_height_m": 4.88,
+        "delta_height_m": 0.0,
+        "collapse_pct": 0.0,
+        "footprint_area_m2": 132.7,
+        "debris_volume_m3": 0.0,
+        "debris_uncertainty_m3": 0.0,
+        "confidence": 0.94,
+        "quality_flags": []
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              166.95,
+              -26.77
+            ],
+            [
+              161.7,
+              -24.67
+            ],
+            [
+              159.95,
+              -15.57
+            ],
+            [
+              162.4,
+              -10.32
+            ],
+            [
+              164.85,
+              -8.22
+            ],
+            [
+              168.7,
+              -7.52
+            ],
+            [
+              168.7,
+              -26.77
+            ],
+            [
+              166.95,
+              -26.77
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-001",
+        "damage_class": 0,
+        "damage_label": "No Damage",
+        "severity": "Low",
+        "pre_height_m": 4.79,
+        "post_height_m": 4.81,
+        "delta_height_m": 0.0,
+        "collapse_pct": 0.0,
+        "footprint_area_m2": 32.2,
+        "debris_volume_m3": 0.0,
+        "debris_uncertainty_m3": 0.0,
+        "confidence": 0.94,
+        "quality_flags": []
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              87.85,
+              106.92
+            ],
+            [
+              86.1,
+              105.52
+            ],
+            [
+              67.9,
+              106.57
+            ],
+            [
+              66.85,
+              107.62
+            ],
+            [
+              87.85,
+              107.62
+            ],
+            [
+              87.85,
+              106.92
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-003",
+        "damage_class": 0,
+        "damage_label": "No Damage",
+        "severity": "Low",
+        "pre_height_m": 4.79,
+        "post_height_m": 4.72,
+        "delta_height_m": 0.07,
+        "collapse_pct": 1.4,
+        "footprint_area_m2": 57.4,
+        "debris_volume_m3": 5.1,
+        "debris_uncertainty_m3": 1.0,
+        "confidence": 0.94,
+        "quality_flags": []
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -33.25,
+              69.82
+            ],
+            [
+              -36.05,
+              74.38
+            ],
+            [
+              -34.65,
+              81.38
+            ],
+            [
+              -32.2,
+              82.07
+            ],
+            [
+              -30.45,
+              81.38
+            ],
+            [
+              -29.75,
+              79.97
+            ],
+            [
+              -30.1,
+              73.67
+            ],
+            [
+              -31.15,
+              70.88
+            ],
+            [
+              -33.25,
+              69.82
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-019",
+        "damage_class": 0,
+        "damage_label": "No Damage",
+        "severity": "Low",
+        "pre_height_m": 4.83,
+        "post_height_m": 4.85,
+        "delta_height_m": 0.0,
+        "collapse_pct": 0.0,
+        "footprint_area_m2": 327.2,
+        "debris_volume_m3": 0.0,
+        "debris_uncertainty_m3": 0.0,
+        "confidence": 0.94,
+        "quality_flags": []
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -36.75,
+              -90.47
+            ],
+            [
+              -52.85,
+              -88.38
+            ],
+            [
+              -55.3,
+              -86.27
+            ],
+            [
+              -54.95,
+              -81.72
+            ],
+            [
+              -47.95,
+              -74.72
+            ],
+            [
+              -42.35,
+              -76.47
+            ],
+            [
+              -45.15,
+              -72.62
+            ],
+            [
+              -42.35,
+              -65.62
+            ],
+            [
+              -37.45,
+              -68.42
+            ],
+            [
+              -37.1,
+              -74.02
+            ],
+            [
+              -33.6,
+              -77.52
+            ],
+            [
+              -33.95,
+              -85.57
+            ],
+            [
+              -36.75,
+              -90.47
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-004",
+        "damage_class": 0,
+        "damage_label": "No Damage",
+        "severity": "Low",
+        "pre_height_m": 4.58,
+        "post_height_m": 4.27,
+        "delta_height_m": 0.31,
+        "collapse_pct": 6.7,
+        "footprint_area_m2": 59.6,
+        "debris_volume_m3": 23.8,
+        "debris_uncertainty_m3": 4.6,
+        "confidence": 0.94,
+        "quality_flags": []
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              152.95,
+              67.02
+            ],
+            [
+              151.9,
+              64.22
+            ],
+            [
+              149.8,
+              63.52
+            ],
+            [
+              145.6,
+              66.33
+            ],
+            [
+              142.1,
+              66.67
+            ],
+            [
+              140.7,
+              68.77
+            ],
+            [
+              143.15,
+              70.88
+            ],
+            [
+              149.1,
+              70.88
+            ],
+            [
+              151.2,
+              70.17
+            ],
+            [
+              152.6,
+              68.77
+            ],
+            [
+              152.95,
+              67.02
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-011",
+        "damage_class": 0,
+        "damage_label": "No Damage",
+        "severity": "Low",
+        "pre_height_m": 4.62,
+        "post_height_m": 4.52,
+        "delta_height_m": 0.1,
+        "collapse_pct": 2.1,
+        "footprint_area_m2": 273.8,
+        "debris_volume_m3": 34.1,
+        "debris_uncertainty_m3": 6.6,
+        "confidence": 0.94,
+        "quality_flags": []
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              59.15,
+              -5.42
+            ],
+            [
+              55.65,
+              -5.42
+            ],
+            [
+              52.5,
+              -10.32
+            ],
+            [
+              47.25,
+              -10.32
+            ],
+            [
+              39.2,
+              -7.87
+            ],
+            [
+              37.8,
+              -6.12
+            ],
+            [
+              38.5,
+              2.97
+            ],
+            [
+              41.65,
+              6.47
+            ],
+            [
+              55.65,
+              4.38
+            ],
+            [
+              57.05,
+              3.32
+            ],
+            [
+              59.15,
+              -5.42
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "building_id": "BLD-016",
+        "damage_class": 0,
+        "damage_label": "No Damage",
+        "severity": "Low",
+        "pre_height_m": 3.49,
+        "post_height_m": 3.48,
+        "delta_height_m": 0.01,
+        "collapse_pct": 0.3,
+        "footprint_area_m2": 190.4,
+        "debris_volume_m3": 2.8,
+        "debris_uncertainty_m3": 0.5,
+        "confidence": 0.94,
+        "quality_flags": []
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              47.6,
+              -44.97
+            ],
+            [
+              38.85,
+              -43.92
+            ],
+            [
+              33.95,
+              -37.97
+            ],
+            [
+              32.9,
+              -30.97
+            ],
+            [
+              35.0,
+              -25.38
+            ],
+            [
+              39.9,
+              -25.72
+            ],
+            [
+              42.35,
+              -33.77
+            ],
+            [
+              47.6,
+              -36.57
+            ],
+            [
+              47.6,
+              -44.97
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

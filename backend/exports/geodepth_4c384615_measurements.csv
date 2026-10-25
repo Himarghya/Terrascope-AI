@@ -1,0 +1,2 @@
+measurement_id,point_a_x,point_a_y,point_a_z,point_b_x,point_b_y,point_b_z,horizontal_distance_m,surface_3d_distance_m,elevation_difference_m,slope_degrees,reliability_status,timestamp
+M-01,10.0,5.0,20.0,40.0,12.0,60.0,50.0,50.49,7.0,8.0,Calibrated Metric (m),12:00:00

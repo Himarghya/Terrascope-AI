@@ -1,0 +1,49 @@
+{
+  "assessment_id": "d177c0c9-437a-43cb-b25f-a0935c03c077",
+  "timestamp": 1792349197.0212758,
+  "gsd_m": 0.35,
+  "scene_dimensions_px": {
+    "width": 1508,
+    "height": 1043
+  },
+  "scene_coverage_m": {
+    "width": 527.8,
+    "height": 365.0
+  },
+  "summary_kpis": {
+    "total_buildings_assessed": 0,
+    "total_damaged_structures": 0,
+    "overall_damage_rate_pct": 0.0,
+    "destroyed_count": 0,
+    "major_damage_count": 0,
+    "minor_damage_count": 0,
+    "no_damage_count": 0,
+    "total_debris_volume_m3": 0.0,
+    "debris_volume_uncertainty_m3": 0.0,
+    "rubble_bulking_factor": 1.3,
+    "emergency_priority": "STANDARD"
+  },
+  "assessed_buildings": [],
+  "geojson": {
+    "type": "FeatureCollection",
+    "metadata": {
+      "title": "Terrascope AI \u2014 Disaster Structural Damage & Debris Assessment",
+      "generated_at": 1792349197.0211358,
+      "gsd_m": 0.35,
+      "bulking_factor": 1.3,
+      "coordinate_system": "Local Metric Cartesian (Origin at Scene Center)"
+    },
+    "features": []
+  },
+  "scientific_methodology": {
+    "damage_standard": "xBD / Joint Damage Scale (Levels 0-3)",
+    "height_collapse_model": "\u0394H = max(0, H_pre - H_post)",
+    "volumetric_formulation": "V_debris = Area * \u0394H * K_bulking \u00b1 \u03c3_V",
+    "assumptions_and_limitations": [
+      "Height estimates are derived from monocular aerial/satellite neural regression above local datum.",
+      "Debris expansion coefficient assumes mixed masonry/concrete rubble (K=1.30 \u00b1 0.15).",
+      "Monocular RGB imagery cannot penetrate dense dust clouds or measure hidden subterranean foundation voids.",
+      "Ground truth validation requires post-event LiDAR or stereoscopic photogrammetric DSM."
+    ]
+  }
+}
