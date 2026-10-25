@@ -31,7 +31,12 @@ from typing import Dict, Any, List, Optional
 import numpy as np
 import cv2
 from PIL import Image
-import torch
+try:
+    import torch
+    TORCH_AVAILABLE = True
+except ImportError:
+    torch = None
+    TORCH_AVAILABLE = False
 import json
 
 from fastapi import FastAPI, UploadFile, File, Form, HTTPException, BackgroundTasks, Query
@@ -63,30 +68,57 @@ from core.building_editor import delete_building_from_scene, merge_buildings_in_
 from core.evaluation import evaluate_building_reconstruction
 from services.height_estimation import SingleImageHeightEstimator
 
+IS_VERCEL = bool(os.environ.get("VERCEL"))
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-UPLOAD_DIR = os.path.join(BASE_DIR, "uploads")
-EXPORT_DIR = os.path.join(BASE_DIR, "exports")
-SAMPLE_DIR = os.path.join(BASE_DIR, "sample_data")
+WRITABLE_DIR = "/tmp" if IS_VERCEL else BASE_DIR
+
+UPLOAD_DIR = os.path.join(WRITABLE_DIR, "uploads")
+EXPORT_DIR = os.path.join(WRITABLE_DIR, "exports")
+SAMPLE_DIR = os.path.join(WRITABLE_DIR, "sample_data") if IS_VERCEL else os.path.join(BASE_DIR, "sample_data")
+ORIGINAL_SAMPLE_DIR = os.path.join(BASE_DIR, "sample_data")
 
 os.makedirs(UPLOAD_DIR, exist_ok=True)
 os.makedirs(EXPORT_DIR, exist_ok=True)
 os.makedirs(SAMPLE_DIR, exist_ok=True)
 
 # Generate sample datasets on startup and ensure they are accessible in UPLOAD_DIR
-SAMPLE_FILES = ensure_sample_datasets(SAMPLE_DIR)
+try:
+    SAMPLE_FILES = ensure_sample_datasets(SAMPLE_DIR)
+except Exception:
+    SAMPLE_FILES = {}
+
+# Copy bundled sample files if on Vercel
+if IS_VERCEL and os.path.exists(ORIGINAL_SAMPLE_DIR):
+    for f in os.listdir(ORIGINAL_SAMPLE_DIR):
+        src = os.path.join(ORIGINAL_SAMPLE_DIR, f)
+        dst = os.path.join(SAMPLE_DIR, f)
+        if os.path.isfile(src) and not os.path.exists(dst):
+            try:
+                shutil.copyfile(src, dst)
+            except Exception:
+                pass
+
 sapporo_path = os.path.join(SAMPLE_DIR, "sapporo_district.jpg")
 if os.path.exists(sapporo_path):
     SAMPLE_FILES["sapporo_district"] = sapporo_path
+elif os.path.exists(os.path.join(ORIGINAL_SAMPLE_DIR, "sapporo_district.jpg")):
+    SAMPLE_FILES["sapporo_district"] = os.path.join(ORIGINAL_SAMPLE_DIR, "sapporo_district.jpg")
 
 jax_path = os.path.join(SAMPLE_DIR, "jacksonville_aerial.png")
 if os.path.exists(jax_path):
     SAMPLE_FILES["jacksonville_aerial"] = jax_path
     SAMPLE_FILES["jax_018_015"] = jax_path
+elif os.path.exists(os.path.join(ORIGINAL_SAMPLE_DIR, "jacksonville_aerial.png")):
+    SAMPLE_FILES["jacksonville_aerial"] = os.path.join(ORIGINAL_SAMPLE_DIR, "jacksonville_aerial.png")
+    SAMPLE_FILES["jax_018_015"] = os.path.join(ORIGINAL_SAMPLE_DIR, "jacksonville_aerial.png")
 
 for _sid, _spath in SAMPLE_FILES.items():
-    _up_dest = os.path.join(UPLOAD_DIR, os.path.basename(_spath))
-    if not os.path.exists(_up_dest):
-        shutil.copyfile(_spath, _up_dest)
+    try:
+        _up_dest = os.path.join(UPLOAD_DIR, os.path.basename(_spath))
+        if not os.path.exists(_up_dest) and os.path.exists(_spath):
+            shutil.copyfile(_spath, _up_dest)
+    except Exception:
+        pass
 
 SAMPLE_NOMINAL_GSD = {
     "jacksonville_aerial": 0.35,
@@ -211,7 +243,7 @@ def health_check():
         "status": "healthy",
         "service": "GeoDepth 3D Platform",
         "device": geodepth_pipeline.device,
-        "cuda_available": torch.cuda.is_available(),
+        "cuda_available": bool(torch and torch.cuda.is_available()) if TORCH_AVAILABLE else False,
         "trained_model_loaded": geodepth_pipeline.model is not None,
         "trained_encoder": "resnet50",
         "sihe_model": "HeightFormer-RS-v1",

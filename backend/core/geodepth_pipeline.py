@@ -15,7 +15,15 @@ import io
 import math
 import numpy as np
 import cv2
-import torch
+try:
+    import torch
+    TORCH_AVAILABLE = True
+    _no_grad = torch.no_grad()
+except ImportError:
+    torch = None
+    TORCH_AVAILABLE = False
+    def _no_grad(func):
+        return func
 from PIL import Image
 from typing import Dict, Any, List, Optional, Tuple
 
@@ -31,7 +39,7 @@ class GeoDepthPipeline:
         if ckpt_path is None:
             ckpt_path = os.environ.get("CKPT_PATH", r"E:\height-model\height_v2.pt")
         self.ckpt_path = ckpt_path
-        self.device = "cuda" if torch.cuda.is_available() else "cpu"
+        self.device = "cuda" if (torch and torch.cuda.is_available()) else "cpu"
         self.model = None
         self.h_scale = 30.0
         self.tile_size = 768
@@ -59,7 +67,7 @@ class GeoDepthPipeline:
             print(f"[GeoDepth] Checkpoint {self.ckpt_path} not found; using procedural fallback.")
             self.model = None
 
-    @torch.no_grad()
+    @_no_grad
     def _run_single_window(self, patch: np.ndarray) -> np.ndarray:
         h, w = patch.shape[:2]
         pad_h = (-h) % 32
