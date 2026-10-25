@@ -124,6 +124,10 @@ safe_route_engine = SafeRouteEngine()
 wireless_engine = WirelessPropagationEngine()
 unified_hub = UnifiedGeoTwinHub()
 
+from core.insurance_risk_engine import InsuranceRiskEngine
+insurance_engine = InsuranceRiskEngine()
+
+
 from services.city_detail_service import CityDetailService
 from services.voice_service import ElevenLabsVoiceService
 from services.agent37_service import Agent37Service
@@ -155,6 +159,7 @@ app.mount("/sample_data", StaticFiles(directory=SAMPLE_DIR), name="sample_data")
 # Mount GeoDepth 3D Model Inference API (v1)
 from api.v1_inference import router as v1_inference_router
 app.include_router(v1_inference_router)
+app.include_router(v1_inference_router, prefix="/api")
 
 # In-memory storage for jobs, scenes, height estimation jobs, and GeoTwin intelligence modules
 JOBS: Dict[str, Dict[str, Any]] = {}
@@ -166,7 +171,9 @@ DEM_CACHE: Dict[str, np.ndarray] = {}
 RGB_CACHE: Dict[str, np.ndarray] = {}
 DISASTER_ASSESSMENTS: Dict[str, Dict[str, Any]] = {}
 HAZARD_ASSESSMENTS: Dict[str, Dict[str, Any]] = {}
+INSURANCE_REPORTS: Dict[str, Dict[str, Any]] = {}
 ROUTE_PLANS: Dict[str, Dict[str, Any]] = {}
+
 WIRELESS_SIMULATIONS: Dict[str, Dict[str, Any]] = {}
 
 
@@ -1899,6 +1906,17 @@ class GeoTwinHazardRequest(BaseModel):
     epicenter_px: Optional[List[int]] = None
 
 
+class InsuranceAssessRequest(BaseModel):
+    job_id: Optional[str] = None
+    sample_id: Optional[str] = "jacksonville_aerial"
+    custom_weights: Optional[Dict[str, float]] = None
+    earthquake_magnitude: float = 6.5
+    earthquake_depth_km: float = 10.0
+    rainfall_mm_hr: float = 35.0
+    soil_saturation: float = 0.60
+
+
+
 class GeoTwinRouteRequest(BaseModel):
     job_id: Optional[str] = None
     sample_id: Optional[str] = "jacksonville_aerial"
@@ -2043,6 +2061,72 @@ def get_geotwin_hazard_prediction(job_id: str):
         req = GeoTwinHazardRequest(job_id=job_id)
         return run_geotwin_hazard_prediction(req)
     return HAZARD_ASSESSMENTS[job_id]
+
+
+# ==============================================================================
+# INSURANCE RISK ASSESSMENT MODE API
+# ==============================================================================
+
+@app.post("/api/insurance/assess")
+def run_insurance_risk_assessment(req: InsuranceAssessRequest):
+    """
+    Executes a comprehensive multi-peril insurance underwriting risk assessment (0-100),
+    incorporating physics-based hazard models (Earthquake PGA/MMI, Flood ponding, Slope FoS)
+    and 3D structural geometry extracted from the neural height model.
+    """
+    resolved_id, scene, rgb, seg, hgt, dem, buildings, road_corridors, gsd_m = _resolve_geotwin_scene_inputs(
+        req.job_id, req.sample_id
+    )
+
+    # Fetch or compute hazard report
+    hazard_report = HAZARD_ASSESSMENTS.get(resolved_id)
+    if hazard_report is None:
+        hazard_report = hazard_engine.analyze_scene_hazards(
+            dem=dem,
+            seg=seg,
+            rgb=rgb,
+            buildings=buildings,
+            road_corridors=road_corridors,
+            gsd_m=gsd_m,
+            rainfall_mm_hr=req.rainfall_mm_hr,
+            soil_saturation=req.soil_saturation,
+            earthquake_magnitude=req.earthquake_magnitude,
+            earthquake_depth_km=req.earthquake_depth_km,
+        )
+        hazard_report["job_id"] = resolved_id
+        HAZARD_ASSESSMENTS[resolved_id] = hazard_report
+
+    # Evaluate insurance underwriting risk
+    resolved_sample = req.sample_id or scene.get("sample_id")
+    report = insurance_engine.evaluate_scene_insurance_risk(
+        scene_data=scene,
+        hazard_report=hazard_report,
+        custom_weights=req.custom_weights,
+        sample_id=resolved_sample
+    )
+    report["job_id"] = resolved_id
+    INSURANCE_REPORTS[report["report_id"]] = report
+    INSURANCE_REPORTS[resolved_id] = report
+    return report
+
+
+@app.get("/api/insurance/reports/{report_or_job_id}")
+def get_insurance_report(report_or_job_id: str):
+    """Retrieves an existing insurance underwriting assessment report."""
+    if report_or_job_id in INSURANCE_REPORTS:
+        return INSURANCE_REPORTS[report_or_job_id]
+
+    # Generate on the fly if job exists or matches sample
+    req = InsuranceAssessRequest(job_id=report_or_job_id)
+    return run_insurance_risk_assessment(req)
+
+
+@app.get("/api/insurance/sample-report")
+def get_sample_insurance_report(sample_id: str = "jacksonville_aerial"):
+    """Returns an instant insurance assessment report for the benchmark dataset."""
+    req = InsuranceAssessRequest(sample_id=sample_id)
+    return run_insurance_risk_assessment(req)
+
 
 
 @app.post("/api/geotwin/routes")

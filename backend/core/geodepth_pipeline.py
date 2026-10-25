@@ -1682,3 +1682,18 @@ class GeoDepthPipeline:
                 "Ensure horizontal units and vertical elevation units are both in meters."
             ]
         }
+
+
+_GLOBAL_GEODEPTH_PIPELINE: Optional[GeoDepthPipeline] = None
+
+
+def get_geodepth_pipeline(ckpt_path: Optional[str] = None) -> GeoDepthPipeline:
+    """
+    Returns the cached singleton instance of GeoDepthPipeline, preventing
+    repeated checkpoint reloads and redundant GPU/CPU memory consumption.
+    """
+    global _GLOBAL_GEODEPTH_PIPELINE
+    if _GLOBAL_GEODEPTH_PIPELINE is None:
+        _GLOBAL_GEODEPTH_PIPELINE = GeoDepthPipeline(ckpt_path=ckpt_path)
+    return _GLOBAL_GEODEPTH_PIPELINE
+

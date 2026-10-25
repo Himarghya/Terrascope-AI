@@ -995,5 +995,157 @@ export interface Agent37ModelCatalog {
   }
 }
 
+// ==============================================================================
+// INSURANCE RISK ASSESSMENT MODE TYPES
+// ==============================================================================
+
+export interface InsuranceUnderwritingTier {
+  code: 'TIER_1_PREFERRED' | 'TIER_2_STANDARD' | 'TIER_3_ELEVATED' | 'TIER_4_HIGH_RISK'
+  label: string
+  action: string
+  deductible_recommendation: string
+}
+
+export interface InsuranceHazardItem {
+  score: number
+  weight: number
+  rating: string
+  key_metric: string
+}
+
+export interface HistoricalHazardEvent {
+  event_name: string
+  year: number
+  recorded_surge_height_m?: number
+  impact_summary?: string
+  seismic_zone_rating?: string
+  historical_events_recorded?: number
+  note?: string
+  landslide_events_recorded?: number
+  karst_sinkhole_exposure?: string
+}
+
+export interface HistoricalHazardTelemetry {
+  location_name: string
+  historical_records_available: boolean
+  status_note?: string
+  fema_flood_zone?: string
+  historical_flood_events?: HistoricalHazardEvent[]
+  historical_earthquake_events?: HistoricalHazardEvent[]
+  historical_landslide_events?: HistoricalHazardEvent[]
+  data_source_provenance: string
+}
+
+export interface InsuranceBuildingScheduleItem {
+  building_id: string
+  height_m: number
+  stories: number
+  footprint_area_m2: number
+  roof_shape: string
+  sub_scores: {
+    flood_score: number
+    earthquake_score: number
+    landslide_score: number
+    structural_score: number
+  }
+  building_risk_score: number
+  underwriting_tier: string
+  dominant_peril: string
+  underwriting_flags: string[]
+  recommended_survey_focus: string
+}
+
+export interface InsuranceDataGap {
+  parameter: string
+  status: 'AVAILABLE' | 'UNAVAILABLE'
+  impact: string
+}
+
+export interface InsuranceRiskReport {
+  report_id: string
+  generated_at: string
+  evaluation_time_ms: number
+  asset_identifier: string
+  overall_risk_score: number
+  underwriting_tier: InsuranceUnderwritingTier
+  hazard_scores: {
+    flood: InsuranceHazardItem
+    earthquake: InsuranceHazardItem
+    landslide: InsuranceHazardItem
+    structural: InsuranceHazardItem
+  }
+  historical_hazard_information: HistoricalHazardTelemetry
+  building_schedule: InsuranceBuildingScheduleItem[]
+  total_buildings_evaluated: number
+  supporting_evidence: {
+    terrain_elevation_range_m: number
+    terrain_min_elevation_m: number
+    terrain_max_elevation_m: number
+    mean_slope_degrees: number
+    critical_slope_threshold_exceeded: boolean
+    modeled_scenario_max_ponding_depth_m: number
+    modeled_peak_ground_acceleration_g: number
+    modeled_modified_mercalli_intensity: number
+    building_count_evaluated: number
+    mean_building_height_m: number
+    max_building_height_m: number
+    total_built_up_area_m2: number
+    ground_sampling_distance_m: number
+  }
+  data_gaps: InsuranceDataGap[]
+  recommendations: string[]
+  methodology: {
+    scoring_formula: string
+    scale: string
+    assumptions: string[]
+    uncertainty_level: string
+  }
+  legal_disclaimer: string
+}
+
+// 2D-to-3D Inference API Response
+export interface TwoDToThreeDPredictionResponse {
+  prediction_id: string
+  status: string
+  model_version: string
+  device: string
+  inference_time_ms: number
+  input: {
+    filename: string
+    width: number
+    height: number
+    gsd_m: number
+    gsd_source: string
+    is_calibrated: boolean
+  }
+  summary: {
+    building_count: number
+    tree_count: number
+    mean_building_height_m: number
+    max_building_height_m: number
+    built_up_area_m2: number
+    vegetation_coverage_pct: number
+    building_density_pct: number
+    overall_reconstruction_confidence: number
+  }
+  buildings: any[]
+  trees: any[]
+  classification_outputs: {
+    vegetation_coverage_pct: number
+    building_density_pct: number
+    impervious_surface_pct: number
+    landcover_classes: string[]
+  }
+  terrain_stats: any
+  terrain_mesh?: any
+  artifacts: {
+    heightmap_png_url: string
+    heightmap_tif_url: string
+    metadata_url: string
+  }
+  caveats?: string[]
+}
+
+
 
 

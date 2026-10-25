@@ -7,6 +7,7 @@ import { ImageAnalysisView } from './components/views/ImageAnalysisView'
 import { ReconstructionView } from './components/views/ReconstructionView'
 import { HeightEstimationView } from './components/views/HeightEstimationView'
 import { DisasterIntelligenceView } from './components/views/DisasterIntelligenceView'
+import { InsuranceRiskView } from './components/views/InsuranceRiskView'
 import { GeoTwinResponseView } from './components/views/GeoTwinResponseView'
 import { CityDetailStudioView } from './components/views/CityDetailStudioView'
 import { FeatureInventoryView } from './components/views/FeatureInventoryView'
@@ -49,6 +50,7 @@ export function App() {
           {activeScreen === 'city-detail-studio' && <CityDetailStudioView />}
           {activeScreen === 'height-estimation' && <HeightEstimationView />}
           {activeScreen === 'disaster-intelligence' && <DisasterIntelligenceView />}
+          {activeScreen === 'insurance-risk' && <InsuranceRiskView />}
           {activeScreen === 'geotwin-response' && <GeoTwinResponseView />}
           {activeScreen === 'feature-inventory' && <FeatureInventoryView />}
           {activeScreen === 'exports' && <ExportsView />}

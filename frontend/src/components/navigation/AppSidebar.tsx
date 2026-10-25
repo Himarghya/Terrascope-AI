@@ -11,6 +11,7 @@ import {
   ChevronRight,
   Compass,
   ShieldAlert,
+  ShieldCheck,
   Sparkles,
 } from 'lucide-react'
 import { useStore, NavigationScreen } from '../../store/useStore'
@@ -30,6 +31,7 @@ const NAV_ITEMS: NavItem[] = [
   { id: 'geotwin-response', label: 'GeoTwin ResponseOS', icon: Sparkles, badge: 'AI' },
   { id: 'height-estimation', label: 'Height Estimation', icon: Mountain, badge: 'SIHE' },
   { id: 'disaster-intelligence', label: 'Disaster Assessment', icon: ShieldAlert, badge: 'NEW' },
+  { id: 'insurance-risk', label: 'Insurance Risk Mode', icon: ShieldCheck, badge: 'UNDERWRITE' },
   { id: 'feature-inventory', label: 'Building & Vegetation', icon: Building2 },
   { id: 'exports', label: 'Exports', icon: Download },
   { id: 'settings', label: 'Settings', icon: Settings2 },

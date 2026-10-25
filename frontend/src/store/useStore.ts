@@ -23,6 +23,8 @@ import {
   VoiceState,
   Agent37Message,
   Agent37ModelCatalog,
+  InsuranceRiskReport,
+  TwoDToThreeDPredictionResponse,
 } from '../types'
 import { formatBuildingNarration } from '../services/buildingNarration'
 
@@ -60,6 +62,7 @@ export type NavigationScreen =
   | 'city-detail-studio'
   | 'height-estimation'
   | 'disaster-intelligence'
+  | 'insurance-risk'
   | 'geotwin-response'
   | 'feature-inventory'
   | 'exports'
@@ -269,6 +272,16 @@ interface StoreState {
   runWirelessPrediction: (params?: { frequency_ghz?: number; tx_power_dbm?: number; antenna_gain_dbi?: number; antenna_height_agl_m?: number; towers?: any[]; user_device_point?: [number, number]; optimize_placement?: boolean; field_measurements?: any[] }) => Promise<WirelessCoverageReport | null>
   runGeoTwinPredictAll: (params?: { rainfall_mm_hr?: number; soil_saturation?: number; destination?: any; travel_mode?: string; frequency_ghz?: number }) => Promise<void>
 
+  // Insurance Risk Assessment Mode State & Actions
+  insuranceReport: InsuranceRiskReport | null
+  isAssessingInsurance: boolean
+  insuranceError: string | null
+  selectedBuildingRiskId: string | null
+  runInsuranceAssessment: (weights?: Record<string, number>, scenario?: { rainfall_mm_hr?: number; earthquake_magnitude?: number; earthquake_depth_km?: number; soil_saturation?: number }) => Promise<InsuranceRiskReport | null>
+  fetchSampleInsuranceReport: (sampleId?: string) => Promise<InsuranceRiskReport | null>
+  setSelectedBuildingRiskId: (id: string | null) => void
+  run2Dto3DInference: (fileOrSample: File | string, gsd_m?: number) => Promise<TwoDToThreeDPredictionResponse | null>
+
   // City Detail Studio State & Actions
   cityDetailData: CityDetailData | null
   isGeneratingCityDetail: boolean
@@ -422,6 +435,11 @@ export const useStore = create<StoreState>((set, get) => ({
   floodAnimSpeed: 1.0,
   floodPickingMode: false,
   selectedRegionHeight: null,
+  insuranceReport: null,
+  isAssessingInsurance: false,
+  insuranceError: null,
+  selectedBuildingRiskId: null,
+  setSelectedBuildingRiskId: (id) => set({ selectedBuildingRiskId: id }),
   setFloodWaterLevelM: (level) => set({ floodWaterLevelM: Math.max(0, Math.round(level * 100) / 100) }),
   setIsFloodAnimating: (animating) => set({ isFloodAnimating: animating }),
   setFloodAnimSpeed: (speed) => set({ floodAnimSpeed: speed }),
@@ -1541,6 +1559,85 @@ export const useStore = create<StoreState>((set, get) => ({
     } catch (err) {
       console.error('runGeoTwinPredictAll error:', err)
       set({ isGeoTwinLoading: false })
+    }
+  },
+
+  runInsuranceAssessment: async (weights, scenario = {}) => {
+    set({ isAssessingInsurance: true, insuranceError: null })
+    try {
+      const jobId = get().currentJobId || get().sceneData?.job_id
+      const sampleId = get().selectedSampleId || 'jacksonville_aerial'
+      const res = await fetch('/api/insurance/assess', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          job_id: jobId,
+          sample_id: sampleId,
+          custom_weights: weights,
+          rainfall_mm_hr: scenario.rainfall_mm_hr ?? 35.0,
+          earthquake_magnitude: scenario.earthquake_magnitude ?? get().richterScale ?? 6.5,
+          earthquake_depth_km: scenario.earthquake_depth_km ?? 10.0,
+          soil_saturation: scenario.soil_saturation ?? 60.0,
+        }),
+      })
+      if (!res.ok) throw new Error(`Insurance assessment failed (HTTP ${res.status})`)
+      const data: InsuranceRiskReport = await res.json()
+      set({ insuranceReport: data, isAssessingInsurance: false })
+      return data
+    } catch (err: any) {
+      console.error('runInsuranceAssessment error:', err)
+      set({ isAssessingInsurance: false, insuranceError: err?.message || 'Assessment failed' })
+      return null
+    }
+  },
+
+  fetchSampleInsuranceReport: async (sampleId = 'jacksonville_aerial') => {
+    set({ isAssessingInsurance: true, insuranceError: null })
+    try {
+      const res = await fetch(`/api/insurance/sample-report?sample_id=${encodeURIComponent(sampleId)}`)
+      if (!res.ok) throw new Error(`Sample insurance assessment failed (HTTP ${res.status})`)
+      const data: InsuranceRiskReport = await res.json()
+      set({ insuranceReport: data, isAssessingInsurance: false })
+      return data
+    } catch (err: any) {
+      console.error('fetchSampleInsuranceReport error:', err)
+      set({ isAssessingInsurance: false, insuranceError: err?.message || 'Fetch failed' })
+      return null
+    }
+  },
+
+  run2Dto3DInference: async (fileOrSample, gsd_m) => {
+    set({ isProcessing: true, jobProgress: 15, jobStep: 'Preparing 2D-to-3D inference...' })
+    try {
+      const formData = new FormData()
+      if (typeof fileOrSample === 'string') {
+        formData.append('sample_id', fileOrSample)
+      } else {
+        formData.append('image', fileOrSample)
+      }
+      if (gsd_m !== undefined && gsd_m > 0) {
+        formData.append('gsd_m', gsd_m.toString())
+      }
+      formData.append('include_terrain_mesh', 'true')
+      formData.append('run_async', 'false')
+
+      set({ jobProgress: 40, jobStep: 'Executing trained HeightFormer model (height_v2.pt)...' })
+      const res = await fetch('/api/v1/2d-to-3d/predict', {
+        method: 'POST',
+        body: formData,
+      })
+      if (!res.ok) {
+        const errBody = await res.json().catch(() => ({}))
+        throw new Error(errBody.detail || `2D-to-3D inference failed (HTTP ${res.status})`)
+      }
+      set({ jobProgress: 85, jobStep: 'Extracting 3D building heights & classification...' })
+      const data: TwoDToThreeDPredictionResponse = await res.json()
+      set({ jobProgress: 100, isProcessing: false, jobStep: 'Inference complete' })
+      return data
+    } catch (err: any) {
+      console.error('run2Dto3DInference error:', err)
+      set({ isProcessing: false, jobError: err?.message || '2D-to-3D inference failed' })
+      return null
     }
   },
 
