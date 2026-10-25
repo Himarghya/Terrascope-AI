@@ -181,7 +181,7 @@ export const VoiceAssistantWidget: React.FC = () => {
 
       {/* Floating Assistant Drawer / Dialog */}
       {panelOpen && (
-        <div className="absolute right-0 mt-2 w-[420px] max-h-[580px] bg-[#090d16] border border-[#1e293b] rounded-xl shadow-2xl z-50 flex flex-col overflow-hidden text-[#f8fafc]">
+        <div className="absolute right-0 mt-2 w-[460px] max-h-[620px] bg-[#090d16] border border-[#1e293b] rounded-xl shadow-2xl z-50 flex flex-col overflow-hidden text-[#f8fafc]">
           {/* Header */}
           <div className="px-4 py-3 bg-[#0c1322] border-b border-[#1e293b] flex items-center justify-between">
             <div className="flex items-center gap-2">
@@ -444,17 +444,17 @@ export const VoiceAssistantWidget: React.FC = () => {
           {activeTab === 'agent37' && (
             <div className="flex-1 flex flex-col p-4 overflow-hidden">
               {/* Model Discovery & Configuration Bar */}
-              <div className="mb-2 p-2 bg-[#0c1424] border border-[#1e293b] rounded-lg text-xs">
-                <div className="flex items-center justify-between mb-1.5">
-                  <div className="flex items-center gap-1.5">
-                    <span className="text-[10px] uppercase font-mono text-[#64748b]">Model:</span>
+              <div className="mb-2.5 p-2.5 bg-[#0c1424] border border-[#1e293b] rounded-lg text-xs space-y-2">
+                <div className="flex items-center justify-between gap-2">
+                  <div className="flex items-center gap-1.5 flex-1 min-w-0">
+                    <span className="text-[10px] uppercase font-mono text-[#64748b] shrink-0 font-semibold">Model:</span>
                     <select
                       value={agent37ModelCatalog?.configured_model || 'agent37-hermes:default'}
                       onChange={(e) => selectAgent37Model(e.target.value)}
-                      className="bg-[#090d16] text-[#38bdf8] text-[11px] font-mono rounded px-2 py-0.5 border border-[#1e293b] focus:outline-none focus:border-[#38bdf8]"
+                      className="w-full bg-[#090d16] text-[#38bdf8] text-[11px] font-mono rounded px-2 py-1 border border-[#1e293b] focus:outline-none focus:border-[#38bdf8] truncate cursor-pointer shadow-2xs"
                     >
                       {(agent37ModelCatalog?.available_models || [
-                        { id: 'agent37-hermes:default', name: 'Hermes (Agent37 Managed Model)' },
+                        { id: 'agent37-hermes:default', name: 'Hermes (Agent37 Managed)' },
                         { id: 'agent37-opencode:default', name: 'OpenCode Coding Agent' },
                         { id: 'agent37-pi:default', name: 'Pi Minimal Harness' },
                       ]).map((m) => (
@@ -464,58 +464,64 @@ export const VoiceAssistantWidget: React.FC = () => {
                       ))}
                     </select>
                   </div>
-                  <span className="text-[9px] font-mono text-emerald-400 bg-emerald-500/10 px-1.5 py-0.5 rounded border border-emerald-500/20">
-                    {agent37ModelCatalog?.account_restrictions?.active_instances_count === 0
-                      ? 'Local Grounded + Auto-Sleep'
-                      : 'Cloud Instance Active'}
+                  <span className="text-[9.5px] font-mono text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded-full border border-emerald-500/30 whitespace-nowrap shrink-0 flex items-center gap-1">
+                    <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
+                    <span>
+                      {agent37ModelCatalog?.account_restrictions?.active_instances_count === 0
+                        ? 'Local Grounded'
+                        : 'Cloud Active'}
+                    </span>
                   </span>
                 </div>
-                <div className="text-[9px] text-[#64748b] flex items-center justify-between">
-                  <span>Scientific ML: ResNet50 U-Net (height_v2.pt) + SIHE</span>
-                  <span>11 Templates Verified</span>
+                <div className="text-[9.5px] text-[#64748b] flex items-center justify-between font-mono pt-1 border-t border-[#1e293b]/50">
+                  <span className="truncate max-w-[260px]">Backbone: ResNet50 U-Net (height_v2.pt) + SIHE</span>
+                  <span className="text-slate-400 whitespace-nowrap shrink-0">11 Templates Verified</span>
                 </div>
               </div>
 
-              <div className="flex items-center justify-between text-[11px] text-[#94a3b8] mb-2">
+              <div className="flex items-center justify-between text-[11px] text-[#94a3b8] mb-2 font-mono">
                 <span>Verified Tool Protocol: Read-Only Geospatial Context</span>
                 <button
                   onClick={clearAgent37History}
-                  className="hover:text-white underline text-[10px]"
+                  className="hover:text-white underline text-[10px] cursor-pointer"
                 >
                   Clear History
                 </button>
               </div>
 
               {/* Chat Thread */}
-              <div className="flex-1 overflow-y-auto flex flex-col gap-2.5 pr-1 max-h-[300px]">
+              <div className="flex-1 overflow-y-auto flex flex-col gap-2.5 pr-1.5 max-h-[320px] scrollbar-thin scrollbar-thumb-slate-800 scrollbar-track-transparent">
                 {agent37Messages.map((msg) => (
                   <div
                     key={msg.id}
                     className={`p-3 rounded-lg text-xs leading-relaxed ${
                       msg.role === 'user'
-                        ? 'bg-[#1e293b] text-white ml-6'
-                        : 'bg-[#0f172a] border border-[#1e293b] text-[#e2e8f0] mr-4'
+                        ? 'bg-[#1e293b] text-white ml-6 shadow-sm'
+                        : 'bg-[#0f172a] border border-[#1e293b] text-[#e2e8f0] mr-4 shadow-sm'
                     }`}
                   >
-                    <div className="flex items-center justify-between mb-1 text-[10px] text-[#64748b]">
-                      <span className="font-semibold uppercase">{msg.role === 'user' ? 'You' : 'Agent37'}</span>
-                      <div className="flex items-center gap-1.5">
+                    <div className="flex items-center justify-between mb-1.5 text-[10px] text-[#64748b] gap-2">
+                      <span className="font-bold uppercase tracking-wider text-white/90 shrink-0">
+                        {msg.role === 'user' ? 'You' : 'Agent37'}
+                      </span>
+                      <div className="flex items-center gap-1.5 flex-wrap justify-end">
                         {msg.modelUsed && (
                           <span
-                            className="text-[#a78bfa] font-mono text-[9px] bg-[#6d28d9]/20 px-1 rounded"
+                            className="text-[#a78bfa] font-mono text-[9px] bg-[#6d28d9]/20 border border-[#6d28d9]/30 px-1.5 py-0.5 rounded whitespace-nowrap shrink-0"
                             title="Verified model runtime provenance"
                           >
                             {msg.modelUsed.replace('terrascope-local-grounded:', 'local:').replace('agent37-', '')}
                           </span>
                         )}
                         {msg.investigationId && (
-                          <span className="text-[#38bdf8] font-mono text-[9px] bg-[#0369a1]/20 px-1 rounded">
+                          <span className="text-[#38bdf8] font-mono text-[9px] bg-[#0369a1]/20 border border-[#0369a1]/30 px-1.5 py-0.5 rounded whitespace-nowrap shrink-0">
                             {msg.investigationId}
                           </span>
                         )}
                         {msg.verificationStatus && (
-                          <span className="text-emerald-400 font-mono text-[9px]">
-                            ✓ {msg.verificationStatus}
+                          <span className="text-emerald-400 font-mono text-[9px] bg-emerald-500/10 border border-emerald-500/30 px-1.5 py-0.5 rounded whitespace-nowrap shrink-0 flex items-center gap-1">
+                            <span className="text-[10px]">✓</span>
+                            <span>{msg.verificationStatus.replace('VERIFIED_', '')}</span>
                           </span>
                         )}
                       </div>
