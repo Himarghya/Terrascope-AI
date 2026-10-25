@@ -183,7 +183,7 @@ export const DisasterIntelligenceView: React.FC = () => {
       } else if (selectedPreset === 'jacksonville') {
         formData.append('pre_sample_id', 'jacksonville_aerial')
       } else {
-        formData.append('pre_sample_id', 'sapporo_district')
+        formData.append('pre_sample_id', 'jacksonville_aerial')
       }
 
       if (postFile) {
@@ -262,7 +262,7 @@ export const DisasterIntelligenceView: React.FC = () => {
   }
 
   // Pre and Post image sources
-  const preImgSrc = prePreview || report?.pre_image_url || sceneData?.image_url || '/sample_data/sapporo_district.jpg'
+  const preImgSrc = prePreview || report?.pre_image_url || sceneData?.image_url || '/sample_data/jacksonville_aerial.png'
   const postImgSrc = postPreview || report?.post_image_url || '/uploads/8736cf05-3701-4ae8-b446-3ad7a7335e62_DisasterImage2.jpeg'
 
   return (

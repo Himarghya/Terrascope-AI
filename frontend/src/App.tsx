@@ -27,7 +27,7 @@ export function App() {
   useEffect(() => {
     fetchSamples()
     if (!sceneData && !isProcessing) {
-      loadSampleScene('sapporo_district')
+      loadSampleScene('jacksonville_aerial')
     }
   }, [])
 

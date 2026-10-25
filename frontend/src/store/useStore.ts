@@ -333,7 +333,7 @@ export const useStore = create<StoreState>((set, get) => ({
   setGsdModalOpen: (open) => set({ isGsdModalOpen: open }),
 
   samples: [],
-  selectedSampleId: null,
+  selectedSampleId: 'jacksonville_aerial',
   currentJobId: null,
   isProcessing: false,
   jobProgress: 0,
