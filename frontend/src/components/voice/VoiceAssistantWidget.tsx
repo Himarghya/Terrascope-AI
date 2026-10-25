@@ -137,7 +137,7 @@ export const VoiceAssistantWidget: React.FC = () => {
       <div className="flex items-center gap-1.5">
         <button
           onClick={toggleListening}
-          className={`relative p-2 rounded-lg border transition-all flex items-center justify-center ${
+          className={`relative p-1.5 rounded-md border transition-all flex items-center justify-center shrink-0 cursor-pointer ${
             voiceState.isListening
               ? 'bg-rose-500/20 border-rose-500 text-rose-400 animate-pulse'
               : voiceState.isSpeaking
@@ -163,7 +163,7 @@ export const VoiceAssistantWidget: React.FC = () => {
 
         <button
           onClick={() => setPanelOpen(!panelOpen)}
-          className={`flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg border text-xs font-mono transition-colors ${
+          className={`flex items-center gap-1.5 px-2.5 py-1 rounded-md border text-xs font-mono transition-colors whitespace-nowrap shrink-0 cursor-pointer ${
             panelOpen
               ? 'bg-[#1e293b] border-[#38bdf8] text-white shadow-sm'
               : 'bg-[#0f172a] border-[#1e293b] text-[#cbd5e1] hover:text-white'

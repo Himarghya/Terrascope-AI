@@ -8,7 +8,6 @@ import {
   PanelRightClose,
   PanelRightOpen,
   Ruler,
-  Compass,
   CheckCircle2,
   AlertTriangle,
   ChevronDown,
@@ -16,7 +15,7 @@ import {
   Volume2,
   VolumeX,
 } from 'lucide-react'
-import { useStore, ViewMode } from '../../store/useStore'
+import { useStore } from '../../store/useStore'
 import { VoiceAssistantWidget } from '../voice/VoiceAssistantWidget'
 
 export const AppHeader: React.FC = () => {
@@ -55,147 +54,156 @@ export const AppHeader: React.FC = () => {
   }
 
   return (
-    <header className="h-14 bg-[#090d16] border-b border-[#1e293b] px-4 flex items-center justify-between z-20 shrink-0 select-none text-[#f8fafc]">
-      {/* Left: Platform Title and Dataset Context */}
-      <div className="flex items-center gap-3">
-        <div className="flex items-center gap-2">
-          <div className="w-7 h-7 rounded bg-[#0284c7] flex items-center justify-center font-mono font-bold text-sm text-white shadow-sm">
-            GD
-          </div>
-          <div>
-            <div className="flex items-center gap-2">
-              <span className="font-bold tracking-wider text-xs text-white uppercase">GeoDepth 3D</span>
-              <span className="text-[10px] font-mono px-1.5 py-0.2 rounded bg-[#1e293b] text-[#38bdf8] border border-[#334155]">
-                v2.0
-              </span>
-              <span className={`text-[10px] font-mono px-1.5 py-0.2 rounded border ${
+    <header className="h-14 bg-[#090d16] border-b border-[#1e293b] px-3.5 flex items-center justify-between z-20 shrink-0 select-none text-[#f8fafc] gap-3">
+      {/* Left: Brand Identity & Active Dataset */}
+      <div className="flex items-center gap-2.5 shrink-0">
+        <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-[#0284c7] to-[#0369a1] flex items-center justify-center font-mono font-bold text-xs text-white shadow-sm ring-1 ring-white/10 shrink-0">
+          TS
+        </div>
+        <div className="min-w-0">
+          <div className="flex items-center gap-2 whitespace-nowrap">
+            <span className="font-extrabold tracking-wide text-xs text-white uppercase font-sans">
+              TerraScope <span className="text-[#38bdf8] font-normal">3D</span>
+            </span>
+            <span className="text-[10px] font-mono px-1.5 py-0.5 rounded bg-[#1e293b] text-[#38bdf8] border border-[#334155] whitespace-nowrap">
+              v2.0
+            </span>
+            <span
+              className={`text-[10px] font-mono px-2 py-0.5 rounded border whitespace-nowrap hidden sm:inline-block ${
                 inputMode === 'mode_b'
                   ? 'bg-[#064e3b] text-[#34d399] border-[#059669]'
                   : 'bg-[#1e293b] text-[#94a3b8] border-[#334155]'
-              }`}>
-                {inputMode === 'mode_b' ? 'Mode B: Georeferenced DEM' : 'Mode A: Relative Monocular'}
-              </span>
-            </div>
-            <div className="text-[10px] text-[#94a3b8] font-mono truncate max-w-xs">
-              {sceneData?.metadata?.filename || 'Single-Image Metric Reconstruction'}
-            </div>
+              }`}
+            >
+              {inputMode === 'mode_b' ? 'Georeferenced DEM' : 'Relative Depth'}
+            </span>
+          </div>
+          <div className="text-[10px] text-[#94a3b8] font-mono truncate max-w-[190px] leading-tight">
+            {sceneData?.metadata?.filename || 'Single-Image Reconstruction'}
           </div>
         </div>
       </div>
 
       {/* Center: Technical Telemetry Strip */}
       {sceneData && (
-        <div className="hidden lg:flex items-center gap-2 font-mono text-[11px]">
+        <div className="hidden lg:flex items-center gap-1.5 font-mono text-[11px] whitespace-nowrap shrink-0">
           <button
             type="button"
             onClick={() => setGsdModalOpen(true)}
             title="Click to adjust Ground Sampling Distance (GSD) & metric scale"
-            className="flex items-center gap-1.5 px-2.5 py-1 rounded bg-[#0f172a] hover:bg-[#1e293b] border border-[#1e293b] hover:border-[#38bdf8] text-[#94a3b8] hover:text-white transition-all cursor-pointer group shadow-2xs"
+            className="flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-[#0f172a] hover:bg-[#1e293b] border border-[#1e293b] hover:border-[#38bdf8] text-[#94a3b8] hover:text-white transition-all cursor-pointer group shadow-2xs whitespace-nowrap shrink-0"
           >
-            <Gauge className="w-3.5 h-3.5 text-[#38bdf8] group-hover:scale-110 transition-transform" />
+            <Gauge className="w-3.5 h-3.5 text-[#38bdf8] shrink-0" />
             <span>GSD:</span>
-            <strong className="text-white group-hover:text-[#38bdf8]">{sceneData.gsd_m} m/px</strong>
-            <span className="text-[9px] px-1 py-0.2 rounded bg-[#1e293b] group-hover:bg-[#0284c7] text-[#38bdf8] group-hover:text-white font-sans font-medium transition-colors ml-0.5">
+            <strong className="text-white group-hover:text-[#38bdf8] whitespace-nowrap">{sceneData.gsd_m} m/px</strong>
+            <span className="text-[9px] px-1.5 py-0.2 rounded bg-[#1e293b] group-hover:bg-[#0284c7] text-[#38bdf8] group-hover:text-white font-sans font-semibold transition-colors ml-0.5 whitespace-nowrap">
               Edit
             </span>
           </button>
-          <div className="flex items-center gap-1.5 px-2.5 py-1 rounded bg-[#0f172a] border border-[#1e293b] text-[#94a3b8]">
+
+          <div className="flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-[#0f172a] border border-[#1e293b] text-[#94a3b8] whitespace-nowrap shrink-0">
             <span>Dim:</span>
-            <strong className="text-white">
+            <strong className="text-white whitespace-nowrap">
               {sceneData.dimensions.width}×{sceneData.dimensions.height}
             </strong>
           </div>
-          <div className="flex items-center gap-1.5 px-2.5 py-1 rounded bg-[#0f172a] border border-[#1e293b] text-[#94a3b8]">
+
+          <div className="flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-[#0f172a] border border-[#1e293b] text-[#94a3b8] whitespace-nowrap shrink-0">
             <span>CRS:</span>
-            <strong className="text-white truncate max-w-[120px]">
-              {sceneData.metadata.crs ? sceneData.metadata.crs.split(' ')[0] : 'Local Cartesian'}
+            <strong className="text-white whitespace-nowrap truncate max-w-[110px]" title={sceneData.metadata.crs || 'Local Cartesian'}>
+              {sceneData.metadata.crs ? sceneData.metadata.crs.split(' ')[0] : 'Local Frame'}
             </strong>
           </div>
-          <div className={`flex items-center gap-1.5 px-2.5 py-1 rounded border ${
-            isCalibrated
-              ? 'bg-[#064e3b]/80 border-[#059669] text-[#34d399]'
-              : 'bg-[#451a03]/80 border-[#d97706] text-[#fbbf24]'
-          }`}>
+
+          <div
+            className={`flex items-center gap-1.5 px-2.5 py-1 rounded-md border whitespace-nowrap shrink-0 font-medium ${
+              isCalibrated
+                ? 'bg-[#064e3b]/80 border-[#059669] text-[#34d399]'
+                : 'bg-[#451a03]/80 border-[#d97706] text-[#fbbf24]'
+            }`}
+          >
             {isCalibrated ? (
               <>
-                <CheckCircle2 className="w-3.5 h-3.5" />
-                <span>Calibrated Metric</span>
+                <CheckCircle2 className="w-3.5 h-3.5 shrink-0" />
+                <span className="whitespace-nowrap">Calibrated Metric</span>
               </>
             ) : (
               <>
-                <AlertTriangle className="w-3.5 h-3.5" />
-                <span>Uncalibrated Relative</span>
+                <AlertTriangle className="w-3.5 h-3.5 shrink-0" />
+                <span className="whitespace-nowrap">Uncalibrated Relative</span>
               </>
             )}
           </div>
         </div>
       )}
 
-      {/* Right: View Switchers, Measurement Toggle, Exports */}
-      <div className="flex items-center gap-2">
+      {/* Right: Viewport Controls, Tools, AI Voice & Exports */}
+      <div className="flex items-center gap-1.5 shrink-0">
         {/* Interactive Point-to-Point Measurement Toggle */}
         <button
           onClick={() => setMeasurementMode(!measurementMode)}
-          className={`flex items-center gap-1.5 px-2.5 py-1 rounded text-xs font-mono font-medium border transition-colors ${
+          className={`flex items-center gap-1.5 px-2.5 py-1 rounded-md text-xs font-mono font-medium border transition-colors whitespace-nowrap shrink-0 cursor-pointer ${
             measurementMode
               ? 'bg-[#0284c7] text-white border-[#38bdf8] shadow-sm'
               : 'bg-[#0f172a] text-[#94a3b8] border-[#1e293b] hover:text-white hover:border-[#334155]'
           }`}
           title="Toggle interactive 3D distance and elevation measurement tool"
         >
-          <Ruler className="w-3.5 h-3.5" />
-          <span>Measure 3D</span>
+          <Ruler className="w-3.5 h-3.5 shrink-0" />
+          <span className="hidden xl:inline">Measure 3D</span>
           {measurementMode && <span className="w-1.5 h-1.5 rounded-full bg-white animate-pulse" />}
         </button>
 
         {/* View Mode Segmented Switcher */}
-        <div className="flex items-center p-0.5 rounded bg-[#0f172a] border border-[#1e293b] text-xs">
+        <div className="flex items-center p-0.5 rounded-md bg-[#0f172a] border border-[#1e293b] text-xs whitespace-nowrap shrink-0">
           <button
             onClick={() => setViewMode('3d')}
-            className={`flex items-center gap-1 px-2.5 py-1 rounded text-xs font-medium transition-colors ${
+            className={`flex items-center gap-1 px-2.5 py-1 rounded text-xs font-medium transition-colors cursor-pointer ${
               viewMode === '3d'
                 ? 'bg-[#1e293b] text-white shadow-sm'
                 : 'text-[#94a3b8] hover:text-white'
             }`}
           >
-            <Box className="w-3.5 h-3.5" />
+            <Box className="w-3.5 h-3.5 shrink-0" />
             <span>3D</span>
           </button>
           <button
             onClick={() => setViewMode('satellite')}
-            className={`flex items-center gap-1 px-2.5 py-1 rounded text-xs font-medium transition-colors ${
+            className={`flex items-center gap-1 px-2.5 py-1 rounded text-xs font-medium transition-colors cursor-pointer ${
               viewMode === 'satellite'
                 ? 'bg-[#1e293b] text-white shadow-sm'
                 : 'text-[#94a3b8] hover:text-white'
             }`}
           >
-            <Eye className="w-3.5 h-3.5" />
-            <span>2D Ortho</span>
+            <Eye className="w-3.5 h-3.5 shrink-0" />
+            <span className="hidden sm:inline">2D</span>
           </button>
           <button
             onClick={() => setViewMode('split')}
-            className={`flex items-center gap-1 px-2.5 py-1 rounded text-xs font-medium transition-colors ${
+            className={`flex items-center gap-1 px-2.5 py-1 rounded text-xs font-medium transition-colors cursor-pointer ${
               viewMode === 'split'
                 ? 'bg-[#1e293b] text-white shadow-sm'
                 : 'text-[#94a3b8] hover:text-white'
             }`}
           >
-            <Columns2 className="w-3.5 h-3.5" />
-            <span>Split</span>
+            <Columns2 className="w-3.5 h-3.5 shrink-0" />
+            <span className="hidden sm:inline">Split</span>
           </button>
         </div>
 
         {/* Colormap Selector Dropdown */}
-        <div className="relative">
+        <div className="relative shrink-0">
           <button
             onClick={() => setColormapMenuOpen(!colormapMenuOpen)}
-            className="flex items-center gap-1 px-2.5 py-1 rounded bg-[#0f172a] border border-[#1e293b] text-xs text-[#94a3b8] hover:text-white transition-colors"
+            className="flex items-center gap-1 px-2 py-1 rounded-md bg-[#0f172a] border border-[#1e293b] text-xs text-[#94a3b8] hover:text-white transition-colors cursor-pointer whitespace-nowrap"
+            title="Surface Colormap Shader"
           >
+            <Layers className="w-3.5 h-3.5 text-[#38bdf8] shrink-0" />
             <span className="capitalize">{activeColormap}</span>
-            <ChevronDown className="w-3 h-3" />
+            <ChevronDown className="w-3 h-3 text-[#64748b]" />
           </button>
           {colormapMenuOpen && (
-            <div className="absolute right-0 mt-1 w-36 bg-[#0f172a] border border-[#1e293b] rounded shadow-lg py-1 z-50 text-xs">
+            <div className="absolute right-0 mt-1 w-36 bg-[#0f172a] border border-[#1e293b] rounded-lg shadow-xl py-1 z-50 text-xs">
               {(['rgb', 'hypsometric', 'viridis', 'magma', 'slope', 'aspect'] as const).map((cm) => (
                 <button
                   key={cm}
@@ -203,7 +211,7 @@ export const AppHeader: React.FC = () => {
                     setActiveColormap(cm)
                     setColormapMenuOpen(false)
                   }}
-                  className={`w-full text-left px-3 py-1.5 capitalize hover:bg-[#1e293b] ${
+                  className={`w-full text-left px-3 py-1.5 capitalize hover:bg-[#1e293b] cursor-pointer ${
                     activeColormap === cm ? 'text-[#38bdf8] font-semibold' : 'text-[#cbd5e1]'
                   }`}
                 >
@@ -217,26 +225,26 @@ export const AppHeader: React.FC = () => {
         {/* Voice Assistant & Agent37 Widget */}
         <VoiceAssistantWidget />
 
-        {/* Building Voice Inspector Toggle Button */}
+        {/* Building Voice Inspector Toggle Button (Compact & Clean) */}
         <button
           onClick={toggleVoiceNarrationOnClick}
-          className={`flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg border text-xs font-mono transition-all cursor-pointer ${
+          className={`flex items-center gap-1.5 px-2 py-1 rounded-md border text-xs font-mono transition-all cursor-pointer whitespace-nowrap shrink-0 ${
             voiceNarrationOnClick
-              ? 'bg-emerald-950/80 border-emerald-500/80 text-emerald-300 shadow-sm ring-1 ring-emerald-500/30'
+              ? 'bg-emerald-950/80 border-emerald-500/80 text-emerald-300 shadow-2xs'
               : 'bg-[#0f172a] border-[#1e293b] text-[#94a3b8] hover:text-white'
           }`}
-          title="Toggle ElevenLabs Voice Agent to speak building height, dimensions, and features on click"
+          title="Toggle ElevenLabs Voice Agent to speak building metrics on click"
         >
           {isSpeaking ? (
-            <Volume2 className="w-3.5 h-3.5 text-emerald-400 animate-bounce" />
+            <Volume2 className="w-3.5 h-3.5 text-emerald-400 animate-bounce shrink-0" />
           ) : voiceNarrationOnClick ? (
-            <Volume2 className="w-3.5 h-3.5 text-emerald-400" />
+            <Volume2 className="w-3.5 h-3.5 text-emerald-400 shrink-0" />
           ) : (
-            <VolumeX className="w-3.5 h-3.5 text-slate-500" />
+            <VolumeX className="w-3.5 h-3.5 text-slate-500 shrink-0" />
           )}
-          <span className="hidden xl:inline">Voice Inspector:</span>
+          <span className="hidden 2xl:inline">Voice Narration</span>
           <span
-            className={`text-[10px] font-bold px-1.5 py-0.2 rounded ${
+            className={`text-[9.5px] font-bold px-1.5 py-0.5 rounded ${
               voiceNarrationOnClick
                 ? 'bg-emerald-500/20 text-emerald-300'
                 : 'bg-slate-800 text-slate-400'
@@ -247,44 +255,44 @@ export const AppHeader: React.FC = () => {
         </button>
 
         {/* Export Dropdown */}
-        <div className="relative">
+        <div className="relative shrink-0">
           <button
             onClick={() => setExportMenuOpen(!exportMenuOpen)}
-            className="flex items-center gap-1 px-2.5 py-1 rounded bg-[#0f172a] border border-[#1e293b] text-xs text-[#94a3b8] hover:text-white transition-colors"
+            className="flex items-center gap-1 px-2.5 py-1 rounded-md bg-[#0f172a] border border-[#1e293b] text-xs text-[#94a3b8] hover:text-white transition-colors cursor-pointer whitespace-nowrap"
           >
-            <Download className="w-3.5 h-3.5" />
-            <span>Export</span>
-            <ChevronDown className="w-3 h-3" />
+            <Download className="w-3.5 h-3.5 shrink-0" />
+            <span className="hidden sm:inline">Export</span>
+            <ChevronDown className="w-3 h-3 text-[#64748b]" />
           </button>
           {exportMenuOpen && (
-            <div className="absolute right-0 mt-1 w-48 bg-[#0f172a] border border-[#1e293b] rounded shadow-lg py-1 z-50 text-xs">
+            <div className="absolute right-0 mt-1 w-48 bg-[#0f172a] border border-[#1e293b] rounded-lg shadow-xl py-1 z-50 text-xs">
               <button
                 onClick={() => handleExport('glb')}
-                className="w-full text-left px-3 py-1.5 text-[#cbd5e1] hover:bg-[#1e293b]"
+                className="w-full text-left px-3 py-1.5 text-[#cbd5e1] hover:bg-[#1e293b] cursor-pointer"
               >
                 3D Scene (.glb)
               </button>
               <button
                 onClick={() => handleExport('geotiff')}
-                className="w-full text-left px-3 py-1.5 text-[#cbd5e1] hover:bg-[#1e293b]"
+                className="w-full text-left px-3 py-1.5 text-[#cbd5e1] hover:bg-[#1e293b] cursor-pointer"
               >
                 Elevation GeoTIFF (.tif)
               </button>
               <button
                 onClick={() => handleExport('depth_png')}
-                className="w-full text-left px-3 py-1.5 text-[#cbd5e1] hover:bg-[#1e293b]"
+                className="w-full text-left px-3 py-1.5 text-[#cbd5e1] hover:bg-[#1e293b] cursor-pointer"
               >
                 16-Bit Depth Map (.png)
               </button>
               <button
                 onClick={() => handleExport('measurements_csv')}
-                className="w-full text-left px-3 py-1.5 text-[#cbd5e1] hover:bg-[#1e293b]"
+                className="w-full text-left px-3 py-1.5 text-[#cbd5e1] hover:bg-[#1e293b] cursor-pointer"
               >
                 Measurements (.csv)
               </button>
               <button
                 onClick={() => handleExport('report_json')}
-                className="w-full text-left px-3 py-1.5 text-[#cbd5e1] hover:bg-[#1e293b]"
+                className="w-full text-left px-3 py-1.5 text-[#cbd5e1] hover:bg-[#1e293b] cursor-pointer"
               >
                 Analysis Report (.json)
               </button>
@@ -295,7 +303,7 @@ export const AppHeader: React.FC = () => {
         {/* Inspector Panel Toggle */}
         <button
           onClick={toggleInspector}
-          className={`p-1.5 rounded border transition-colors ${
+          className={`p-1.5 rounded-md border transition-colors cursor-pointer shrink-0 ${
             inspectorOpen
               ? 'bg-[#1e293b] text-white border-[#334155]'
               : 'bg-[#0f172a] text-[#94a3b8] border-[#1e293b] hover:text-white'
