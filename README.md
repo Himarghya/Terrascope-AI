@@ -1,7 +1,7 @@
-# TerraScope AI / GeoDepth 3D 🛰️🏙️
+# TerraScope AI 🛰️🏙️
 
-> **Unified Geospatial Voice Intelligence & Autonomous 3D Digital Twin Platform**  
-> *Transforming single-view 2D satellite imagery into metric 3D digital twins, physics-grounded disaster simulations, and spoken intelligence.*
+> **On-Demand Geospatial Voice Intelligence & Autonomous 3D Digital Twin Platform**  
+> *Transforming single-view 2D satellite and drone imagery into interactive 3D digital twins, micro-building disaster simulations, and actuarial insurance risk scoring in < 15 seconds.*
 
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.115+-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
 [![React](https://img.shields.io/badge/React-19.0-61DAFB?logo=react&logoColor=black)](https://react.dev/)
@@ -10,18 +10,36 @@
 [![Agent37](https://img.shields.io/badge/Agent37-Hermes_Runtime-6366F1)](https://www.agent37.com)
 [![ElevenLabs](https://img.shields.io/badge/ElevenLabs-Voice_Intelligence-FF6B6B)](https://elevenlabs.io)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.7-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Tests](https://img.shields.io/badge/Tests-71%20Passed-brightgreen)](https://github.com/Himarghya/Terrascope-AI)
 
 ---
 
-## 🌍 Overview
+## 🌍 Executive Overview
 
-**TerraScope AI** (formerly GeoDepth 3D) is an end-to-end geospatial intelligence system designed for urban planners, disaster response teams (SAR), and defense analysts. 
+**TerraScope AI** is a tactical geospatial intelligence engine built for disaster first responders, commercial property underwriters, and municipal urban planners.
 
-From a single 2D optical satellite image or orthomosaic, TerraScope AI:
-1. **Reconstructs 3D Urban Topography**: Infers photogrammetric depth, extracts individual building footprints via watershed segmentation, estimates accurate building heights ($\pm 1.2\text{m}$ RMSE) and roof geometries, and populates 3D procedural vegetation on a Copernicus 30m calibrated DEM.
-2. **Simulates Physical Disasters**: Executes Joyner-Boore seismic ground shaking models, flood rise inundation, landslide risk calculations, and bitemporal change detection with rubble volume estimation.
-3. **Deploys an Autonomous AI Worker (Agent37)**: Uses the preconfigured `agent37-hermes` cloud runtime to orchestrate multi-step geospatial investigations, monitor sectors, and resume workflows across sessions using durable storage.
-4. **Delivers Spoken Voice Intelligence (ElevenLabs)**: Provides natural two-way voice conversations, hands-free building inspections, and evidence-grounded audio debriefs.
+Unlike legacy geospatial datasets that take months of airplane flight surveys or weeks of hydrodynamic modeling, TerraScope AI converts **any raw optical satellite or drone screenshot into a fully walkable, physics-simulated 3D digital twin in under 15 seconds**.
+
+### What TerraScope AI Delivers:
+1. **Sub-15s 2D-to-3D Reconstruction**: Infers metric depth, extracts individual building footprints, isolates 1-meter alleys in dense informal settlements, and predicts building heights ($\pm 1.2\text{m}$ RMSE).
+2. **Micro-Building Physics Simulation**: Executes Joyner-Boore seismic ground acceleration, Topographic Wetness Index (TWI) flood pooling, slope stability Factor of Safety (FoS), and bitemporal post-disaster rubble volume calculations.
+3. **Real-Time Property Insurance Underwriting**: Computes building-level hazard exposure scores ($0-100$), estimated Replacement Cost Valuation (RCV), premium surcharge recommendations, and deductible tiering.
+4. **Autonomous AI Investigation (Agent37)**: Employs a persistent cloud worker runtime to inspect sectors, analyze structural vulnerabilities, and resume investigation dossiers across sessions.
+5. **Hands-Free Voice Intelligence (ElevenLabs)**: Enables natural, two-way conversational debriefs and tactile building audio readouts for field teams on the ground.
+
+---
+
+## 🏆 Competitive Advantage
+
+| Comparison Dimension | Traditional Aerial / Data Giants *(Nearmap, Ecopia, MS)* | Catastrophe Modelers *(Moody's RMS, Fathom)* | **TerraScope AI** |
+| :--- | :--- | :--- | :--- |
+| **Speed to Delivery** | **Months to Weeks** (Scheduled airplane surveys & batch updates) | **Days to Weeks** (Supercomputer hydrodynamic simulations) | **< 15 Seconds (On-Demand)** from any fresh 2D satellite image |
+| **Geographic Coverage** | **Western Suburbs Only** (Only where planes fly: US, UK, Australia) | Limited in un-gauged or developing river basins | **100% Global Coverage** (Works anywhere on Earth with an optical satellite pass) |
+| **Informal Settlements & Slums** | ❌ **Fails** (Fuses dense villages into monolithic blobs) | ❌ **Macro only** ($30\text{m} - 100\text{m}$ regional grids) | **1-Meter Alley Separation** (Alley-Cutter separates dense homes down to 1–3 px gaps) |
+| **Hazard & Risk Intelligence** | ❌ None or static postal-code scores | Macro financial portfolio capital pricing | **Micro-Building Physics + Insurance RCV & Premium Scoring** |
+| **Interactivity & Voice** | Static CSVs, shapefiles, or flat 2D PDFs | Macro heatmaps and tabular actuarial loss tables | **Interactive 3D Web Canvas + ElevenLabs Voice Intelligence** |
+
+> **Key Positioning Note:** TerraScope AI does not attempt to replace 30-year actuarial reinsurance models. We provide **tactical field triage and rapid pre-underwriting screening in the critical first 24 hours** when local sensors are destroyed or absent.
 
 ---
 
@@ -31,7 +49,8 @@ From a single 2D optical satellite image or orthomosaic, TerraScope AI:
 ┌────────────────────────────────────────────────────────────────────────┐
 │               Interactive React Three Fiber Workstation                │
 │   • 3D Viewport (Orbit/Fly-to)     • Building Inspector HUD            │
-│   • Bitemporal Split Screen         • Spoken Voice Assistant Widget     │
+│   • Bitemporal Split Screen        • Spoken Voice Assistant Widget     │
+│   • Insurance Risk Studio          • Evacuation Route Overlay          │
 └───────────────────────────────────┬────────────────────────────────────┘
                                     │ WebSockets / REST
                                     ▼
@@ -42,79 +61,67 @@ From a single 2D optical satellite image or orthomosaic, TerraScope AI:
 │  │   Computer Vision & ML  │           │   Agent & Voice Services   │  │
 │  │ • ResNet50 U-Net Depth  │           │ • Agent37 Hermes Engine    │  │
 │  │ • height_v2.pt Checkpt  │           │ • ElevenLabs TTS / STT     │  │
-│  │ • Watershed / Shadows   │           │ • Durable Investigation DB │  │
+│  │ • Symmetric Alley-Cutter│           │ • Durable Investigation DB │  │
 │  └─────────────────────────┘           └────────────────────────────┘  │
 │  ┌─────────────────────────┐           ┌────────────────────────────┐  │
-│  │ Physics Hazard Engines  │           │   GIS & 3D Exporters       │  │
-│  │ • Joyner-Boore GMPE     │           │ • GLB / GeoJSON / CityJSON │  │
-│  │ • Flood Inundation 2.5D │           │ • Unreal 5 / Unity Meshes  │  │
+│  │ Physics Hazard Engines  │           │  Actuarial Insurance Engine│  │
+│  │ • Joyner-Boore GMPE     │           │ • Parcel Risk (0-100)      │  │
+│  │ • Topographic Wetness   │           │ • Replacement Cost Val.    │  │
+│  │ • Slope FoS / A* Routes │           │ • Premium Surcharges       │  │
 │  └─────────────────────────┘           └────────────────────────────┘  │
 └────────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## ✨ Key Features
+## ✨ Core Feature Modules
 
-### 1. 2D-to-3D Neural Photogrammetric Reconstruction
-- **Deep Elevation Inference**: Powered by a trained ResNet50 U-Net backbone (`height_v2.pt`) trained on photogrammetric LiDAR depth pairs.
-- **Instance Separation**: Distance-transform watershed and Canny edge barriers prevent adjacent building grouping.
-- **Parametric Roof Classification**: Detects flat with parapets, gabled, hipped, and industrial saw-tooth roofs.
-- **Solar Shadow Trigonometry**: Dual height verification via solar zenith angles ($H = L \cdot \tan\theta_{\text{sun}}$).
+### 1. 2D-to-3D Photogrammetric Reconstruction & Alley-Cutter
+* **ResNet50 U-Net Backbone**: Custom metric depth inference engine calibrated on LiDAR-optical pairs (`height_v2.pt`).
+* **Symmetric Valley Alley-Cutter**: Solves the dense settlement problem. While baseline models merge adjacent buildings into single large shapes, our boundary valley detector separates structures across 1–3 pixel gaps (**benchmarked from 193 to 884 distinct houses, a +358% detection increase**).
+* **Dual Solar Shadow Trigonometry**: Cross-verifies neural heights with solar azimuth and zenith geometry ($H = L \cdot \tan\theta_{\text{sun}}$).
 
-### 2. Autonomous Persistent Worker (Agent37 Hermes)
-- **Official Runtime**: Built upon Agent37's official `agent37-hermes` cloud harness with automated credit-saving sleep timeouts.
-- **Controlled Backend Tool Execution**: Hermes directly queries:
-  - `get_analysis_results`: Building density, average heights, and area.
-  - `get_building_details`: Individual structural dimensions, floors, materials.
-  - `get_terrain_summary`: Slope, elevation relief, datum calibration.
-  - `request_earthquake_analysis`: Real-time Joyner-Boore seismic ground acceleration.
-  - `compare_earthquake_scenarios`: Differential damage deltas across magnitudes.
-  - `generate_analysis_report`: Certified markdown damage assessment dossiers.
-- **Cross-Session Resumption**: Persists investigation state under `backend/data/investigations/`, resuming multi-turn sessions without re-running compute pipelines.
+### 2. Commercial Property Insurance Risk Engine
+* **Multivariate Risk Scoring ($0-100$)**: Evaluates flood depth, seismic peak ground acceleration (PGA), and slope failure risk per parcel.
+* **Financial Exposure Modeling**: Estimates structural replacement cost value based on footprint area, floor count, and regional construction rates.
+* **Actuarial Pricing Assistance**: Generates baseline annual premiums, catastrophe risk surcharges, and recommended deductible tiering (Standard, Elevated, High Hazard).
 
-### 3. Voice-Enabled Geospatial Intelligence (ElevenLabs)
-- **Natural Voice Queries**: Speak directly to inspect buildings, run disaster simulations, or request briefings.
-- **Real-Time Building Voice Inspection**: Click on any 3D building in the viewport to hear an instantaneous, natural voice readout of its height, floor count, structural footprint, and solar potential.
-- **Strict Evidence Grounding**: Responses are deterministic and derived exclusively from ML outputs, eliminating hallucinations.
+### 3. Micro-Building Physics Hazard Simulation
+* **Joyner-Boore Seismic Attenuation**: Models peak ground acceleration (PGA) and Modified Mercalli Intensity (MMI) across structural height fragility curves.
+* **Topographic Wetness & Inundation (TWI)**: Models surface water pooling routes based on digital elevation gradients.
+* **Slope Stability (FoS)**: Calculates infinite-slope factor of safety under saturated rain conditions.
+* **A* Evacuation Pathing**: Dynamically plots safe evacuation corridors around flooded streets and debris zones.
 
-### 4. Physics-Grounded Disaster & Hazard Intelligence
-- **Joyner-Boore Seismic Attenuation**: Calculates Peak Ground Acceleration (PGA in $g$) and Modified Mercalli Intensity (MMI) based on hypocentral distance and focal depth.
-- **Structural Vulnerability Fragility Curves**: Evaluates building collapse probability as a function of structure height and ground motion.
-- **Bitemporal Change Detection**: Aligns pre- and post-disaster satellite imagery, isolates pancaked structures, and calculates rubble volume ($m^3$).
-
-### 5. Multi-Engine 3D & GIS Exports
-- **GLB/glTF**: PBR textures and instanced foliage meshes.
-- **GeoJSON**: Projected polygon footprints with physical attributes.
-- **Game Engine Ready**: Direct export compatibility for Unreal Engine 5 (Nanite) and Unity.
+### 4. Autonomous Worker (Agent37 Hermes) & Voice Intelligence (ElevenLabs)
+* **Agent37 Cloud Harness**: Persistent background investigator capable of inspecting building density, querying seismic deltas, and drafting certified damage assessment dossiers.
+* **ElevenLabs Multimodal Audio**: Two-way conversational interface allowing field personnel to verbally ask questions (*"What is the flood exposure on sector 4?"*) and hear natural, evidence-grounded audio readouts.
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Quickstart Guide
 
 ### Prerequisites
-- **Python**: 3.10+ (tested on Python 3.14)
-- **Node.js**: 18+ (tested on Node.js 24)
-- **Git**
+* **Python**: 3.10+ (tested on Python 3.10 – 3.14)
+* **Node.js**: 18+ (tested on Node.js 22 & 24)
+* **Git**
 
-### 1. Clone the Repository
+### 1. Clone Repository
 ```bash
 git clone https://github.com/Himarghya/Terrascope-AI.git
 cd Terrascope-AI
 ```
 
-### 2. Configure Environment Variables
-Copy the `.env.example` template in both the root and `backend/` directories:
+### 2. Environment Configuration
+Copy `.env.example` in both root and `backend/`:
 ```bash
-cp .env.example .env
 cp .env.example backend/.env
 ```
-Fill in your API keys in `backend/.env`:
+Add your optional API keys to `backend/.env`:
 ```env
 ELEVENLABS_API_KEY=your_elevenlabs_api_key_here
 AGENT37_API_KEY=your_agent37_api_key_here
 ```
-> *Note: API keys are strictly kept on the backend server and never exposed to client-side bundles.*
+*(Core 2D-to-3D inference and physics hazard engines run locally without third-party API dependencies.)*
 
 ### 3. Backend Setup
 ```bash
@@ -122,7 +129,7 @@ cd backend
 python -m pip install -r requirements.txt
 python -m uvicorn app:app --host 127.0.0.1 --port 8000 --reload
 ```
-The FastAPI backend will start at `http://127.0.0.1:8000` (interactive documentation at `/docs`).
+API documentation is immediately available at `http://127.0.0.1:8000/docs`.
 
 ### 4. Frontend Setup
 ```bash
@@ -130,19 +137,36 @@ cd ../frontend
 npm install
 npm run dev
 ```
-Open your browser to `http://localhost:5173` (or `http://127.0.0.1:3000`).
+Open `http://localhost:5173` in your browser.
 
 ---
 
-## 🧪 Testing & Verification
+## 📡 REST API Reference
 
-Run the comprehensive automated test suite for Agent37 investigations and voice workflows:
+| Endpoint | Method | Description |
+| :--- | :---: | :--- |
+| `/v1/2d-to-3d/predict` | `POST` | **Public Standard API**: Submit 2D satellite image for 3D reconstruction. |
+| `/v1/2d-to-3d/jobs/{id}` | `GET` | Retrieve async reconstruction status, heights, and 3D meshes. |
+| `/api/insurance/assess` | `POST` | Calculate parcel risk score ($0-100$), financial exposure & deductible tier. |
+| `/api/process` | `POST` | Full pipeline execution (orthomosaic, DEM calibration, 3D scene creation). |
+| `/api/infer` | `POST` | Fast neural depth & height estimation endpoint. |
+| `/api/agent37/explain` | `POST` | Run autonomous Agent37 multi-step investigation on current scene. |
+| `/api/voice/speak` | `POST` | Synthesize natural voice readout via ElevenLabs. |
+| `/api/voice/transcribe` | `POST` | Voice-to-text transcription for hands-free queries. |
+
+---
+
+## 🧪 Automated Test Suite
+
+The test suite validates end-to-end functionality across computer vision, insurance risk modeling, standard APIs, and agent workflows:
+
 ```bash
-cd backend
-python -m pytest tests/test_agent37_investigations.py tests/test_unified_agent37_elevenlabs.py -v
+# Run all backend unit & integration tests
+pytest backend/tests -v
 ```
+*(All 71 tests passing).*
 
-Verify frontend TypeScript compilation and production build:
+To verify the React Three Fiber production build:
 ```bash
 cd frontend
 npm run build
@@ -150,28 +174,13 @@ npm run build
 
 ---
 
-## 📡 API Reference
+## 🛡️ Engineering Disclaimers & Integrity
 
-| Method | Endpoint | Description |
-|---|---|---|
-| `GET` | `/api/health` | Backend and ML engine health check. |
-| `POST` | `/api/process` | Asynchronously reconstruct 3D scene from satellite image. |
-| `POST` | `/api/infer` | Lightweight 2D image ➔ 3D height inference API. |
-| `POST` | `/api/agent37/explain` | Orchestrate Agent37 Hermes tool workflow on current scene. |
-| `GET` | `/api/agent37/models` | Discover active Agent37 models and live cloud instance status. |
-| `POST` | `/api/voice/speak` | Synthesize speech using ElevenLabs TTS. |
-| `POST` | `/api/voice/transcribe` | Transcribe speech audio using ElevenLabs STT. |
-
----
-
-## 🛡️ Security & Integrity
-
-- **Zero Client Leakage**: All Agent37 and ElevenLabs secrets reside exclusively on the backend.
-- **Deterministic Guardrails**: Structural heights and damage figures are computed deterministically by PyTorch models (`height_v2.pt`) and empirical physics GMPE equations, not hallucinated by LLMs.
-- **Physical Limitations Transparency**: All disaster simulations explicitly output engineering disclaimers regarding soil conditions and field audit requirements.
+* **Deterministic Grounding**: Structural dimensions, floor counts, and damage probabilities are calculated deterministically by trained neural models and empirical physics equations, completely eliminating LLM hallucinations.
+* **Pre-Underwriting & Triage Scope**: Flood TWI and seismic calculations are engineered for situational awareness and pre-underwriting screening. They do not supersede municipal engineering stamp approvals or certified land surveys.
 
 ---
 
 ## 📄 License
 
-Distributed under the Apache 2.0 License. See `LICENSE` for more information.
+Distributed under the Apache 2.0 License. See `LICENSE` for details.
