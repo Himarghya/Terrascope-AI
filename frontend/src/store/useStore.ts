@@ -364,7 +364,7 @@ export const useStore = create<StoreState>((set, get) => ({
     satelliteTexture: true,
     water: true,
     wireframe: false,
-    shadows: true,
+    shadows: false,
   },
 
   // Terra3D Measured Elevation & Georeference State

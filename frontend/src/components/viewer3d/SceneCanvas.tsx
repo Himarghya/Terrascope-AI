@@ -69,11 +69,11 @@ export const SceneCanvas: React.FC = () => {
 
         <Suspense fallback={null}>
           <color attach="background" args={['#0b1120']} />
-          <ambientLight intensity={0.46} />
-          <hemisphereLight args={['#f1f5f9', '#1e293b', 0.48]} />
+          <ambientLight intensity={layerVisibility.shadows ? 0.46 : 0.76} />
+          <hemisphereLight args={['#f8fafc', '#1e293b', layerVisibility.shadows ? 0.48 : 0.58]} />
           <directionalLight
             position={sunPosition}
-            intensity={1.62}
+            intensity={layerVisibility.shadows ? 1.62 : 0.88}
             castShadow={layerVisibility.shadows}
             shadow-mapSize-width={2048}
             shadow-mapSize-height={2048}
