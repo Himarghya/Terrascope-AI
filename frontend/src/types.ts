@@ -684,12 +684,41 @@ export interface WirelessCoverageReport {
     world_3d: [number, number, number]
     antenna_height_agl_m: number
     surface_elevation_m: number
+    recommended_specs?: {
+      frequency_ghz: number
+      band_name: string
+      tx_power_dbm: number
+      tx_power_watts: number
+      antenna_gain_dbi: number
+      antenna_height_agl_m: number
+      downtilt_deg: number
+      optimal_tradeoff_summary: string
+    }
     projected_city_mean_rsrp_dbm: number
     projected_city_coverage_pct: number
+    projected_building_mean_rsrp_dbm?: number
     predicted_coverage_gain_pct: number
     predicted_los_unlock_pct: number
     rationale: string
   } | null
+  building_coverage_telemetry?: Array<{
+    building_id: string
+    building_type: string
+    estimated_height_m: number
+    total_floors: number
+    center_px: [number, number]
+    average_rsrp_dbm: number
+    ground_floor_rsrp_dbm: number
+    top_floor_rsrp_dbm: number
+    signal_grade: string
+    floors: Array<{
+      floor_number: number
+      height_agl_m: number
+      rsrp_dbm: number
+      grade: string
+      is_los: boolean
+    }>
+  }>
   user_evaluation?: {
     user_point_px: [number, number]
     world_3d: [number, number, number]

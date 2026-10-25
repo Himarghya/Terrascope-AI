@@ -31,6 +31,9 @@ import {
   Pin,
   PinOff,
   FoldHorizontal,
+  ChevronDown,
+  ChevronUp,
+  Signal,
 } from 'lucide-react'
 import { useStore } from '../../store/useStore'
 import { SceneCanvas } from '../viewer3d/SceneCanvas'
@@ -95,6 +98,7 @@ export const GeoTwinResponseView: React.FC = () => {
   const [isSidebarCollapsed, setIsSidebarCollapsed] = useState<boolean>(false)
   const [isGlassMode, setIsGlassMode] = useState<boolean>(false)
   const [isCompactWidth, setIsCompactWidth] = useState<boolean>(false)
+  const [expandedBuildingId, setExpandedBuildingId] = useState<string | null>(null)
   const safestPointObj = hazardReport?.safest_point || routeReport?.safest_point
 
   // Keyboard shortcut: Ctrl+B or Cmd+B to quickly slide panel in/out
@@ -1522,49 +1526,103 @@ export const GeoTwinResponseView: React.FC = () => {
                 </button>
 
                 {wirelessReport?.optimal_placement && (
-                  <div className="bg-slate-950/80 p-3 rounded-lg border border-purple-500/40 space-y-2.5 font-mono text-[11px]">
+                  <div className="bg-slate-950/80 p-3.5 rounded-lg border border-purple-500/40 space-y-3 font-mono text-[11px]">
                     <div className="flex items-center justify-between">
                       <span className="font-bold text-purple-300">
-                        Top Site: {wirelessReport.optimal_placement.candidate_id}
+                        Top Optimal Site: {wirelessReport.optimal_placement.candidate_id}
                       </span>
                       <span className="font-bold text-emerald-300 bg-emerald-950/80 px-2 py-0.5 rounded border border-emerald-500/40 text-[10px]">
                         +{wirelessReport.optimal_placement.predicted_coverage_gain_pct}% City Gain
                       </span>
                     </div>
-                    <div className="grid grid-cols-2 gap-2 text-[10px]">
-                      <div>Location: <span className="font-bold text-slate-100">({wirelessReport.optimal_placement.x_px}, {wirelessReport.optimal_placement.y_px})</span></div>
-                      <div>Antenna Height: <span className="font-bold text-slate-100">{wirelessReport.optimal_placement.antenna_height_agl_m}m AGL</span></div>
-                      <div>Projected Coverage: <span className="font-bold text-purple-300">{wirelessReport.optimal_placement.projected_city_coverage_pct}%</span></div>
-                      <div>Mean Signal: <span className="font-bold text-purple-300">{wirelessReport.optimal_placement.projected_city_mean_rsrp_dbm} dBm</span></div>
+
+                    {/* Recommended Optimal Specs Card */}
+                    <div className="p-2.5 rounded-lg bg-purple-950/30 border border-purple-500/30 space-y-2">
+                      <div className="text-[10px] font-sans font-bold uppercase tracking-wider text-purple-200 flex items-center justify-between">
+                        <span>🎯 Recommended Tower Specifications</span>
+                        <span className="text-[9px] text-emerald-300 font-mono">
+                          Avg Bld RSRP: {wirelessReport.optimal_placement.projected_building_mean_rsrp_dbm ?? wirelessReport.optimal_placement.projected_city_mean_rsrp_dbm} dBm
+                        </span>
+                      </div>
+                      <div className="grid grid-cols-2 gap-2 text-[10px]">
+                        <div className="bg-slate-900/80 p-1.5 rounded border border-slate-800">
+                          <span className="text-slate-400 block text-[9px]">Carrier Band</span>
+                          <span className="font-bold text-slate-100 truncate block">
+                            {wirelessReport.optimal_placement.recommended_specs?.band_name || 'Mid-Band 5G NR C-Band (FR1 n78)'}
+                          </span>
+                        </div>
+                        <div className="bg-slate-900/80 p-1.5 rounded border border-slate-800">
+                          <span className="text-slate-400 block text-[9px]">Transmit Power</span>
+                          <span className="font-bold text-emerald-300">
+                            {wirelessReport.optimal_placement.recommended_specs?.tx_power_dbm ?? 43} dBm ({wirelessReport.optimal_placement.recommended_specs?.tx_power_watts ?? 20}W)
+                          </span>
+                        </div>
+                        <div className="bg-slate-900/80 p-1.5 rounded border border-slate-800">
+                          <span className="text-slate-400 block text-[9px]">Antenna Height</span>
+                          <span className="font-bold text-purple-300">
+                            {wirelessReport.optimal_placement.antenna_height_agl_m}m AGL
+                          </span>
+                        </div>
+                        <div className="bg-slate-900/80 p-1.5 rounded border border-slate-800">
+                          <span className="text-slate-400 block text-[9px]">Antenna Gain / Tilt</span>
+                          <span className="font-bold text-slate-100">
+                            {wirelessReport.optimal_placement.recommended_specs?.antenna_gain_dbi ?? 16} dBi / {wirelessReport.optimal_placement.recommended_specs?.downtilt_deg ?? 6}° tilt
+                          </span>
+                        </div>
+                        <div className="bg-slate-900/80 p-1.5 rounded border border-slate-800">
+                          <span className="text-slate-400 block text-[9px]">Location (Px)</span>
+                          <span className="font-bold text-slate-100">
+                            ({wirelessReport.optimal_placement.x_px}, {wirelessReport.optimal_placement.y_px})
+                          </span>
+                        </div>
+                        <div className="bg-slate-900/80 p-1.5 rounded border border-slate-800">
+                          <span className="text-slate-400 block text-[9px]">Projected City Coverage</span>
+                          <span className="font-bold text-purple-300">
+                            {wirelessReport.optimal_placement.projected_city_coverage_pct}%
+                          </span>
+                        </div>
+                      </div>
                     </div>
-                    <p className="text-[10px] text-slate-400 font-sans">
-                      {wirelessReport.optimal_placement.rationale}
+
+                    <p className="text-[10px] text-slate-300 font-sans leading-relaxed">
+                      {wirelessReport.optimal_placement.recommended_specs?.optimal_tradeoff_summary || wirelessReport.optimal_placement.rationale}
                     </p>
+
                     <button
                       onClick={() => {
                         if (wirelessReport?.optimal_placement) {
+                          const specs = wirelessReport.optimal_placement.recommended_specs
+                          if (specs) {
+                            setFrequencyGhz(specs.frequency_ghz)
+                            setTxPowerDbm(specs.tx_power_dbm)
+                            setAntennaGainDbi(specs.antenna_gain_dbi)
+                            setAntennaHeightM(specs.antenna_height_agl_m)
+                          } else {
+                            setAntennaHeightM(wirelessReport.optimal_placement.antenna_height_agl_m)
+                          }
                           setCustomTowerPos([wirelessReport.optimal_placement.x_px, wirelessReport.optimal_placement.y_px])
                           runWirelessPrediction({
-                            frequency_ghz: frequencyGhz,
-                            tx_power_dbm: txPowerDbm,
-                            antenna_gain_dbi: antennaGainDbi,
-                            antenna_height_agl_m: wirelessReport.optimal_placement.antenna_height_agl_m,
+                            frequency_ghz: specs?.frequency_ghz ?? frequencyGhz,
+                            tx_power_dbm: specs?.tx_power_dbm ?? txPowerDbm,
+                            antenna_gain_dbi: specs?.antenna_gain_dbi ?? antennaGainDbi,
+                            antenna_height_agl_m: specs?.antenna_height_agl_m ?? wirelessReport.optimal_placement.antenna_height_agl_m,
                             towers: [{
-                              tower_id: 'OPT-BS-01',
-                              label: 'Optimal High-Clearance Macro Station',
+                              tower_id: wirelessReport.optimal_placement.candidate_id,
+                              label: 'Optimal Macro Base Station',
                               x_px: wirelessReport.optimal_placement.x_px,
                               y_px: wirelessReport.optimal_placement.y_px,
-                              antenna_height_agl_m: wirelessReport.optimal_placement.antenna_height_agl_m,
-                              frequency_ghz: frequencyGhz,
-                              tx_power_dbm: txPowerDbm,
-                              antenna_gain_dbi: antennaGainDbi,
+                              antenna_height_agl_m: specs?.antenna_height_agl_m ?? wirelessReport.optimal_placement.antenna_height_agl_m,
+                              frequency_ghz: specs?.frequency_ghz ?? frequencyGhz,
+                              tx_power_dbm: specs?.tx_power_dbm ?? txPowerDbm,
+                              antenna_gain_dbi: specs?.antenna_gain_dbi ?? antennaGainDbi,
                             }]
                           })
                         }
                       }}
-                      className="w-full py-1.5 px-2.5 rounded-lg bg-purple-950/80 hover:bg-purple-900 text-purple-200 border border-purple-500/40 font-bold text-[10px] cursor-pointer transition-all"
+                      className="w-full py-2 px-3 rounded-lg bg-purple-700 hover:bg-purple-600 text-white border border-purple-400 font-bold text-[11px] cursor-pointer transition-all shadow-md shadow-purple-950/50 flex items-center justify-center gap-1.5"
                     >
-                      Apply This Tower Location
+                      <span>🚀</span>
+                      <span>Apply Optimal Location & Recommended Specs</span>
                     </button>
                   </div>
                 )}
@@ -1646,6 +1704,145 @@ export const GeoTwinResponseView: React.FC = () => {
                       ))}
                     </div>
                   </div>
+
+                  {/* 5. Building & Per-Floor Signal Inspector */}
+                  {wirelessReport.building_coverage_telemetry && wirelessReport.building_coverage_telemetry.length > 0 && (
+                    <div className="bg-slate-900/90 p-3.5 rounded-xl border border-cyan-500/30 space-y-3 shadow-lg">
+                      <div className="flex items-center justify-between">
+                        <span className="font-semibold text-[11px] uppercase tracking-wider text-cyan-300 flex items-center gap-1.5">
+                          <Building2 className="w-3.5 h-3.5 text-cyan-400" />
+                          <span>Building & Per-Floor Signal Inspector</span>
+                        </span>
+                        <span className="font-mono text-[9px] text-cyan-300 bg-cyan-950/80 border border-cyan-500/40 px-2 py-0.5 rounded font-bold">
+                          {wirelessReport.building_coverage_telemetry.length} Buildings Analyzed
+                        </span>
+                      </div>
+
+                      {/* Aggregated Building Telemetry KPI Bar */}
+                      <div className="grid grid-cols-2 gap-2 text-[10px] font-mono">
+                        <div className="p-2 rounded-lg bg-slate-950/80 border border-slate-800">
+                          <span className="text-slate-400 block mb-0.5">Avg Building Signal</span>
+                          <span className="font-bold text-sm text-cyan-300">
+                            {(
+                              wirelessReport.building_coverage_telemetry.reduce((acc, b) => acc + b.average_rsrp_dbm, 0) /
+                              wirelessReport.building_coverage_telemetry.length
+                            ).toFixed(1)} dBm
+                          </span>
+                        </div>
+                        <div className="p-2 rounded-lg bg-slate-950/80 border border-slate-800">
+                          <span className="text-slate-400 block mb-0.5">High Coverage Buildings</span>
+                          <span className="font-bold text-sm text-emerald-400">
+                            {wirelessReport.building_coverage_telemetry.filter((b) => b.average_rsrp_dbm >= -100).length} / {wirelessReport.building_coverage_telemetry.length}
+                          </span>
+                        </div>
+                      </div>
+
+                      {/* Scrollable Building-by-Building List */}
+                      <div className="max-h-72 overflow-y-auto space-y-2 pr-1 font-mono text-[11px]">
+                        {wirelessReport.building_coverage_telemetry.map((bld) => {
+                          const isExpanded = expandedBuildingId === bld.building_id
+                          const isGood = bld.average_rsrp_dbm >= -85
+                          const isAcceptable = bld.average_rsrp_dbm >= -100
+                          const isMarginal = bld.average_rsrp_dbm >= -110
+
+                          const statusColor = isGood
+                            ? 'text-emerald-400 bg-emerald-950/80 border-emerald-500/40'
+                            : isAcceptable
+                            ? 'text-cyan-300 bg-cyan-950/80 border-cyan-500/40'
+                            : isMarginal
+                            ? 'text-amber-300 bg-amber-950/80 border-amber-500/40'
+                            : 'text-rose-400 bg-rose-950/80 border-rose-500/40'
+
+                          return (
+                            <div
+                              key={bld.building_id}
+                              className="p-2.5 rounded-lg bg-slate-950/80 border border-slate-800/90 space-y-2 hover:border-slate-700 transition-all"
+                            >
+                              {/* Header: Building ID + Average RSRP */}
+                              <div className="flex items-center justify-between">
+                                <div className="flex items-center gap-1.5">
+                                  <span className="font-bold text-slate-100">{bld.building_id}</span>
+                                  <span className="text-[10px] text-slate-400 font-sans">
+                                    ({bld.building_type || 'Building'} • {bld.estimated_height_m}m)
+                                  </span>
+                                </div>
+                                <span className={`text-[10px] px-2 py-0.5 rounded font-bold border ${statusColor}`}>
+                                  {bld.average_rsrp_dbm} dBm • {bld.signal_grade}
+                                </span>
+                              </div>
+
+                              {/* Quick Floor Delta (Ground vs Top Floor) */}
+                              <div className="grid grid-cols-2 gap-1.5 text-[10px] text-slate-300 bg-slate-900/60 p-1.5 rounded border border-slate-800/60">
+                                <div className="flex justify-between">
+                                  <span className="text-slate-400">Ground Floor:</span>
+                                  <span className="font-bold text-slate-200">{bld.ground_floor_rsrp_dbm} dBm</span>
+                                </div>
+                                <div className="flex justify-between">
+                                  <span className="text-slate-400">Top Floor:</span>
+                                  <span className="font-bold text-emerald-300">{bld.top_floor_rsrp_dbm} dBm</span>
+                                </div>
+                              </div>
+
+                              {/* Expand / Collapse Per-Floor Breakdown Button */}
+                              <button
+                                onClick={() => setExpandedBuildingId(isExpanded ? null : bld.building_id)}
+                                className="w-full pt-1 flex items-center justify-between text-[10px] text-cyan-400 hover:text-cyan-300 cursor-pointer font-sans"
+                              >
+                                <span className="flex items-center gap-1">
+                                  <Signal className="w-3 h-3 text-cyan-400" />
+                                  <span>{isExpanded ? 'Hide Floor-by-Floor Signal' : `Inspect All ${bld.total_floors} Floors`}</span>
+                                </span>
+                                {isExpanded ? <ChevronUp className="w-3.5 h-3.5" /> : <ChevronDown className="w-3.5 h-3.5" />}
+                              </button>
+
+                              {/* Floor Breakdown Details */}
+                              {isExpanded && bld.floors && (
+                                <div className="pt-2 border-t border-slate-800/80 space-y-1.5">
+                                  <div className="text-[9px] uppercase tracking-wider text-slate-400 font-sans font-semibold">
+                                    Vertical Height Profile & Floor Penetration:
+                                  </div>
+                                  <div className="space-y-1 max-h-40 overflow-y-auto pr-0.5">
+                                    {bld.floors.map((fl) => (
+                                      <div
+                                        key={fl.floor_number}
+                                        className="flex items-center justify-between p-1.5 rounded bg-slate-900/90 border border-slate-800 text-[10px]"
+                                      >
+                                        <div className="flex items-center gap-1.5">
+                                          <span className={`w-1.5 h-1.5 rounded-full ${fl.is_los ? 'bg-emerald-400' : 'bg-amber-400'}`} />
+                                          <span className="font-bold text-slate-200">
+                                            {fl.floor_number === 1 ? 'Floor 1 (Ground)' : fl.floor_number === bld.total_floors ? `Floor ${fl.floor_number} (Roof)` : `Floor ${fl.floor_number}`}
+                                          </span>
+                                          <span className="text-[9px] text-slate-400 font-sans">
+                                            (+{fl.height_agl_m}m)
+                                          </span>
+                                        </div>
+                                        <div className="flex items-center gap-2">
+                                          <span className="font-bold text-slate-100">{fl.rsrp_dbm} dBm</span>
+                                          <span
+                                            className={`text-[9px] px-1.5 py-0.2 rounded font-bold ${
+                                              fl.rsrp_dbm >= -85
+                                                ? 'text-emerald-300 bg-emerald-950/60'
+                                                : fl.rsrp_dbm >= -100
+                                                ? 'text-cyan-300 bg-cyan-950/60'
+                                                : fl.rsrp_dbm >= -110
+                                                ? 'text-amber-300 bg-amber-950/60'
+                                                : 'text-rose-300 bg-rose-950/60'
+                                            }`}
+                                          >
+                                            {fl.grade}
+                                          </span>
+                                        </div>
+                                      </div>
+                                    ))}
+                                  </div>
+                                </div>
+                              )}
+                            </div>
+                          )
+                        })}
+                      </div>
+                    </div>
+                  )}
                 </>
               )}
             </div>

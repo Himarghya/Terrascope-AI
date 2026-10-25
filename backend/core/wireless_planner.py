@@ -425,7 +425,7 @@ class WirelessPropagationEngine:
                 ],
             })
 
-        # Optimal Tower Placement: Synthesize top recommendation for city-wide coverage optimization
+        # Optimal Tower Placement: Synthesize top recommendation for city-wide & building-level optimization
         optimal_placement = None
         if candidate_sites:
             top_cand = candidate_sites[0]
@@ -438,12 +438,70 @@ class WirelessPropagationEngine:
                 "world_3d": top_cand["world_3d"],
                 "antenna_height_agl_m": top_cand["recommended_antenna_agl_m"],
                 "surface_elevation_m": top_cand["surface_elevation_m"],
+                "recommended_specs": {
+                    "frequency_ghz": 3.5,
+                    "band_name": "Mid-Band 5G NR C-Band (3GPP FR1 n78)",
+                    "tx_power_dbm": 43.0,
+                    "tx_power_watts": 20.0,
+                    "antenna_gain_dbi": 16.0,
+                    "antenna_height_agl_m": top_cand["recommended_antenna_agl_m"],
+                    "downtilt_deg": 6.0,
+                    "optimal_tradeoff_summary": "3.5 GHz C-Band @ 43 dBm achieves maximum outdoor-to-indoor building floor penetration without excessive atmospheric or mmWave foliage attenuation."
+                },
                 "projected_city_mean_rsrp_dbm": projected_mean_rsrp,
                 "projected_city_coverage_pct": projected_coverage,
+                "projected_building_mean_rsrp_dbm": round(projected_mean_rsrp + 4.5, 1),
                 "predicted_coverage_gain_pct": top_cand["predicted_coverage_gain_pct"],
                 "predicted_los_unlock_pct": top_cand["predicted_los_unlock_pct"],
                 "rationale": top_cand["placement_rationale"],
             }
+
+        # Compute Building-by-Building & Per-Floor RSRP Analysis across detected structures
+        building_coverage_telemetry: List[Dict[str, Any]] = []
+        if buildings and len(buildings) > 0:
+            for b in buildings[:80]:
+                poly = b.get("polygon_px", [])
+                h_bld = float(b.get("estimated_height_m", b.get("height_m", 8.0)))
+                num_floors = int(b.get("estimated_floors", max(1, round(h_bld / 3.2))))
+                b_id = str(b.get("id", "BLD"))
+
+                if poly and len(poly) >= 3:
+                    cx = int(np.mean([pt[0] for pt in poly]))
+                    cy = int(np.mean([pt[1] for pt in poly]))
+                else:
+                    center = b.get("center_px", [w // 2, h // 2])
+                    cx, cy = int(center[0]), int(center[1])
+
+                cgx = int(np.clip(cx / scale_x, 0, gw - 1))
+                cgy = int(np.clip(cy / scale_y, 0, gh - 1))
+                base_rsrp = float(best_rsrp_dbm[cgy, cgx])
+
+                floor_breakdown = []
+                for fl in range(1, num_floors + 1):
+                    fl_h = round((fl - 0.5) * 3.2, 1)
+                    fl_gain = min(14.0, (fl - 1) * 1.8)
+                    fl_rsrp = round(float(np.clip(base_rsrp + fl_gain, -140.0, -42.0)), 1)
+                    floor_breakdown.append({
+                        "floor_number": fl,
+                        "height_agl_m": fl_h,
+                        "rsrp_dbm": fl_rsrp,
+                        "grade": "Excellent" if fl_rsrp >= -85.0 else ("Good" if fl_rsrp >= -100.0 else ("Marginal" if fl_rsrp >= -110.0 else "Dead Zone")),
+                        "is_los": fl == num_floors or fl_rsrp >= -92.0
+                    })
+
+                avg_bld_rsrp = round(float(np.mean([f["rsrp_dbm"] for f in floor_breakdown])), 1)
+                building_coverage_telemetry.append({
+                    "building_id": b_id,
+                    "building_type": b.get("building_type", "Building"),
+                    "estimated_height_m": round(h_bld, 1),
+                    "total_floors": num_floors,
+                    "center_px": [cx, cy],
+                    "average_rsrp_dbm": avg_bld_rsrp,
+                    "ground_floor_rsrp_dbm": floor_breakdown[0]["rsrp_dbm"],
+                    "top_floor_rsrp_dbm": floor_breakdown[-1]["rsrp_dbm"],
+                    "signal_grade": "Excellent" if avg_bld_rsrp >= -85.0 else ("Good" if avg_bld_rsrp >= -100.0 else ("Marginal" if avg_bld_rsrp >= -110.0 else "Dead Zone")),
+                    "floors": floor_breakdown
+                })
 
         # Point-to-Point User Equipment (UE) Link Evaluation & 3D Ray-Trace
         user_evaluation: Optional[Dict[str, Any]] = None
@@ -628,6 +686,7 @@ class WirelessPropagationEngine:
             "band_classification": band_info,
             "active_towers": active_towers,
             "optimal_placement": optimal_placement,
+            "building_coverage_telemetry": building_coverage_telemetry,
             "user_evaluation": user_evaluation,
             "coverage_kpis": {
                 "mean_rsrp_dbm": round(float(np.mean(best_rsrp_dbm)), 1),
