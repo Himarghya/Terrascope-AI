@@ -314,6 +314,70 @@ class Agent37Service:
             }
         }
 
+    @staticmethod
+    def get_clean_sector_name(scene_data: Optional[Dict[str, Any]] = None, raw_name: Optional[str] = None) -> str:
+        """
+        Returns a concise, human-friendly sector name.
+        Guarantees no raw UUIDs, hashes, or technical hex strings are exposed.
+        Always produces a clean small name (e.g., 'Sector JAX', 'Sector Sapporo', 'Sector Alpha-7').
+        """
+        # If raw_name is already a clean human-readable short name without long hex/UUID
+        if raw_name and not re.search(r'[0-9a-fA-F-]{12,}', str(raw_name)):
+            clean = str(raw_name).replace('_', ' ').replace('-', ' ').strip().title()
+            if not clean.lower().startswith('sector'):
+                return f"Sector {clean}"
+            return clean
+
+        candidates = []
+        if scene_data:
+            candidates.extend([
+                str(scene_data.get("sample_id") or ""),
+                str(scene_data.get("dataset_name") or ""),
+                str(scene_data.get("name") or ""),
+                str(scene_data.get("filename") or ""),
+                str(scene_data.get("image_url") or "")
+            ])
+        if raw_name:
+            candidates.append(str(raw_name))
+
+        combined = " ".join(candidates).lower()
+
+        if "jax" in combined or "jacksonville" in combined:
+            return "Sector JAX"
+        if "sapporo" in combined:
+            return "Sector Sapporo"
+        if "metro" in combined:
+            return "Sector Metro"
+        if "suburban" in combined:
+            return "Sector Suburban"
+        if "highrise" in combined:
+            return "Sector Highrise"
+
+        # Check for clean meaningful filename if present
+        if scene_data and scene_data.get("filename"):
+            base = os.path.splitext(os.path.basename(str(scene_data["filename"])))[0]
+            if not re.search(r'^[0-9a-fA-F-]{12,}$', base):
+                clean_word = re.sub(r'[^a-zA-Z0-9\s_-]', '', base).replace('_', ' ').replace('-', ' ').strip()
+                words = [w.capitalize() for w in clean_word.split() if len(w) > 1]
+                if words:
+                    return f"Sector {words[0]}"
+
+        # For generic UUIDs/jobs (e.g., '07ae1553-d6cd-44ee-b2c5-5d69384a7fdb'):
+        raw_str = str(raw_name or (scene_data and scene_data.get("job_id")) or "01")
+        hex_chars = re.sub(r'[^0-9a-fA-F]', '', raw_str)
+        if hex_chars:
+            nato = ["Alpha", "Bravo", "Charlie", "Delta", "Echo", "Foxtrot", "Golf", "Hotel", 
+                    "India", "Juliet", "Kilo", "Lima", "Mike", "November", "Oscar", "Papa"]
+            try:
+                first_val = int(hex_chars[0], 16)
+                prefix = nato[first_val % len(nato)]
+                suffix = hex_chars[1:3].upper() if len(hex_chars) >= 3 else "01"
+                return f"Sector {prefix}-{suffix}"
+            except Exception:
+                return f"Sector {hex_chars[:3].upper()}"
+
+        return "Sector Alpha"
+
     def get_analysis_results(self, scene_data: Dict[str, Any]) -> Dict[str, Any]:
         """Tool 1: Returns verified summary metrics from scene analysis."""
         buildings = scene_data.get("buildings", [])
@@ -597,11 +661,13 @@ class Agent37Service:
         action_payload: Dict[str, Any] = {}
 
         # 1. Resolve Persistent Investigation Record & Model Provenance
-        area_name = scene_data.get("sample_id") or scene_data.get("job_id") or "active_sector"
+        clean_sector = self.get_clean_sector_name(scene_data, raw_name=scene_data.get("sample_id") or scene_data.get("job_id"))
+        area_name = clean_sector
         inv = self.investigation_service.get_or_create_latest(area_name, scene_data.get("job_id"))
         inv_id = inv["investigation_id"]
         tools_context["investigation_id"] = inv_id
-        tools_context["area_name"] = area_name
+        tools_context["area_name"] = clean_sector
+        tools_context["sector_name"] = clean_sector
 
         active_model = getattr(self, "configured_model", "agent37-hermes:default")
         model_used = active_model if (self.cached_instance_id and self.cached_instance_url) else "terrascope-local-grounded:deterministic-v2"
@@ -628,7 +694,8 @@ class Agent37Service:
         if is_greeting and len(p_lower.split()) <= 4:
             tools_context["greeting"] = {
                 "investigation_id": inv_id,
-                "area_name": area_name,
+                "area_name": clean_sector,
+                "sector_name": clean_sector,
                 "completed_tasks": len(inv.get("completed_operations", [])),
                 "pending_tasks": len(inv.get("pending_tasks", []))
             }
@@ -637,6 +704,7 @@ class Agent37Service:
         # INTENT: Workflow C — Continue / Resume Unfinished Investigation
         elif any(w in p_lower for w in ["continue", "resume", "pending", "remaining", "tasks remain", "finish report", "retry", "previous investigation"]):
             res = self.investigation_service.resume_investigation(inv_id)
+            res["sector_name"] = clean_sector
             tools_context["resume_status"] = res
             tools_executed.append("resume_investigation")
 
@@ -673,7 +741,8 @@ class Agent37Service:
             tools_context["area_assessment"] = {
                 "results": results,
                 "terrain": terrain,
-                "investigation_id": inv_id
+                "investigation_id": inv_id,
+                "sector_name": clean_sector
             }
             tools_executed.extend(["get_analysis_results", "get_terrain_summary"])
             action_triggered = "SHOW_BUILDINGS"
@@ -857,9 +926,10 @@ class Agent37Service:
         # 1. Conversational Greeting (Natural, intelligent, welcoming)
         if "greeting" in ctx:
             g = ctx["greeting"]
+            sector_name = g.get('sector_name') or self.get_clean_sector_name(raw_name=g.get('area_name'))
             return (
                 f"Hello! I am Agent37, your persistent geospatial intelligence worker. "
-                f"I am actively tracking Investigation `{g['investigation_id']}` for sector '{g['area_name']}'. "
+                f"I am actively tracking Investigation `{g['investigation_id']}` for {sector_name}. "
                 f"You can ask me to perform a full area assessment ('Analyze this area'), inspect building heights, "
                 f"compare before-and-after disaster imagery, or resume previous analysis tasks. How can I assist you today?"
             )
@@ -867,12 +937,13 @@ class Agent37Service:
         # 2. Workflow C: Resume Unfinished Investigation
         if "resume_status" in ctx:
             r = ctx["resume_status"]
+            sector_name = r.get('sector_name') or self.get_clean_sector_name(raw_name=r.get('area_name'))
             ready_ops = [t.get("description", t.get("operation")) for t in r.get("ready_to_execute", [])]
             completed_ops = r.get("completed_operations", [])
             blocked_ops = [t.get("description", t.get("operation")) for t in r.get("blocked_by_dependencies", [])]
 
             res_msg = [
-                f"Investigation `{r['investigation_id']}` for '{r['area_name']}' resumed.",
+                f"Investigation `{r['investigation_id']}` for {sector_name} resumed.",
                 f"Completed operations ({len(completed_ops)}): {', '.join(completed_ops) if completed_ops else 'None yet'}."
             ]
             if ready_ops:
@@ -888,13 +959,14 @@ class Agent37Service:
             aa = ctx["area_assessment"]
             s = aa["results"]
             t = aa["terrain"]
+            sector_name = aa.get("sector_name") or self.get_clean_sector_name(raw_name=s.get("job_id"))
             relief_text = (
                 f"elevations ranging from {t['min_elevation_m']}m to {t['max_elevation_m']}m above datum (relief: {t['elevation_range_m']}m)"
                 if t['elevation_range_m'] > 0.1
                 else f"coastal planar lowlands at {t['min_elevation_m']}m elevation with a gentle {t['mean_slope_deg']}° slope"
             )
             return (
-                f"Full area assessment executed for sector '{s.get('job_id', 'active')}'. "
+                f"Full area assessment executed for {sector_name}. "
                 f"Identified {s['total_buildings']} structural buildings with a mean height of {s['average_building_height_m']} meters "
                 f"spanning {s['built_up_area_m2']:,.0f} m² of built footprint. Topographic profiling reports {relief_text}, "
                 f"calibrated against {t['elevation_source']}. 3D footprints highlighted in the viewport. Logged under `{aa['investigation_id']}`."
