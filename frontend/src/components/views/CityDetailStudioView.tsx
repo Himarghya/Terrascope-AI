@@ -85,102 +85,18 @@ interface City3DSceneProps {
   buildings: BuildingDetailMesh[]
   urbanProps: UrbanPropMesh[]
   sidewalks: SidewalkMesh[]
-  previewMode: 'solid' | 'wireframe' | 'ucx_collision' | 'component_colors'
+  previewMode: 'solid' | 'wireframe'
   selectedBuildingId: string | null
   onSelectBuilding: (id: string) => void
 }
 
-const COMPONENT_COLORS: Record<string, string> = {
-  walls: '#94a3b8',
-  windows: '#38bdf8',
-  doors: '#b45309',
-  roof: '#e11d48',
-  canopies: '#10b981',
-  balconies: '#8b5cf6',
-  details: '#f59e0b',
-  rooftop_equipment: '#64748b',
-  neon_signs: '#ff007f',
-  conduits: '#475569',
-}
-
 const DetailedBuilding3D: React.FC<{
   building: BuildingDetailMesh
-  previewMode: 'solid' | 'wireframe' | 'ucx_collision' | 'component_colors'
+  previewMode: 'solid' | 'wireframe'
   isSelected: boolean
   onClick: () => void
 }> = ({ building, previewMode, isSelected, onClick }) => {
   if (!building) return null
-
-  // Render Collision UCX hulls mode
-  if (previewMode === 'ucx_collision') {
-    const ucx = building.collision_ucx || (building as any).collision_mesh
-    if (!ucx || !ucx.vertices || ucx.vertices.length === 0) return null
-
-    const geom = new THREE.BufferGeometry()
-    const flatVerts = new Float32Array(ucx.vertices.flat())
-    const flatIndices = new Uint32Array(ucx.faces.flat())
-    geom.setAttribute('position', new THREE.BufferAttribute(flatVerts, 3))
-    geom.setIndex(new THREE.BufferAttribute(flatIndices, 1))
-    geom.computeVertexNormals()
-
-    return (
-      <mesh
-        geometry={geom}
-        onClick={(e) => {
-          e.stopPropagation()
-          onClick()
-        }}
-      >
-        <meshStandardMaterial
-          color={isSelected ? '#10b981' : '#059669'}
-          wireframe={false}
-          transparent={true}
-          opacity={0.65}
-          side={THREE.DoubleSide}
-        />
-      </mesh>
-    )
-  }
-
-  // Render Component breakdown mode
-  if (previewMode === 'component_colors') {
-    const components = building.components || {}
-    if (Object.keys(components).length > 0) {
-      return (
-        <group
-          onClick={(e) => {
-            e.stopPropagation()
-            onClick()
-          }}
-        >
-          {Object.entries(components).map(([compName, comp]) => {
-            if (!comp.vertices || comp.vertices.length === 0) return null
-            const geom = new THREE.BufferGeometry()
-            geom.setAttribute('position', new THREE.BufferAttribute(new Float32Array(comp.vertices.flat()), 3))
-            geom.setIndex(new THREE.BufferAttribute(new Uint32Array(comp.faces.flat()), 1))
-            geom.computeVertexNormals()
-
-            const isNeon = compName === 'neon_signs'
-            const isMetal = compName === 'conduits' || compName === 'rooftop_equipment'
-            const isWindow = compName === 'windows'
-            const color = comp.emissive_hex || COMPONENT_COLORS[compName] || '#64748b'
-            return (
-              <mesh key={compName} geometry={geom}>
-                <meshStandardMaterial
-                  color={color}
-                  emissive={isNeon ? color : '#000000'}
-                  emissiveIntensity={isNeon ? 2.5 : 0}
-                  side={THREE.DoubleSide}
-                  roughness={isWindow ? 0.08 : isMetal ? 0.35 : 0.4}
-                  metalness={isWindow ? 0.85 : isMetal ? 0.8 : 0.1}
-                />
-              </mesh>
-            )
-          })}
-        </group>
-      )
-    }
-  }
 
   // Render Solid or Wireframe combined mesh
   let meshData = building.combined_mesh
@@ -401,26 +317,6 @@ const CityDetailStudioViewInner: React.FC = () => {
             }`}
           >
             Topology Wireframe
-          </button>
-          <button
-            onClick={() => setCityPreviewMode('ucx_collision')}
-            className={`px-2.5 py-1 rounded text-xs font-medium transition-colors ${
-              cityPreviewMode === 'ucx_collision'
-                ? 'bg-[#10b981] text-white shadow-sm'
-                : 'text-[#94a3b8] hover:text-white'
-            }`}
-          >
-            Collision UCX_
-          </button>
-          <button
-            onClick={() => setCityPreviewMode('component_colors')}
-            className={`px-2.5 py-1 rounded text-xs font-medium transition-colors ${
-              cityPreviewMode === 'component_colors'
-                ? 'bg-[#8b5cf6] text-white shadow-sm'
-                : 'text-[#94a3b8] hover:text-white'
-            }`}
-          >
-            Component Breakdown
           </button>
 
           <button

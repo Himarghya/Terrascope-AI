@@ -289,7 +289,7 @@ interface StoreState {
   cityStyle: string
   includeProps: boolean
   includeSidewalks: boolean
-  cityPreviewMode: 'solid' | 'wireframe' | 'ucx_collision' | 'component_colors'
+  cityPreviewMode: 'solid' | 'wireframe'
   selectedDetailedBuildingId: string | null
   cityExportResult: CityExportResult | null
   isExportingCity: boolean
@@ -300,7 +300,7 @@ interface StoreState {
   setIsCyberpunkCityMode: (enabled: boolean) => void
   setIncludeProps: (include: boolean) => void
   setIncludeSidewalks: (include: boolean) => void
-  setCityPreviewMode: (mode: 'solid' | 'wireframe' | 'ucx_collision' | 'component_colors') => void
+  setCityPreviewMode: (mode: 'solid' | 'wireframe') => void
   setSelectedDetailedBuildingId: (id: string | null) => void
   generateDetailedCity: (options?: { tier?: string; style?: string; props?: boolean; sidewalks?: boolean }) => Promise<CityDetailData | null>
   detailSingleBuilding: (buildingId: string, styleOverrides?: any, tier?: string) => Promise<BuildingDetailMesh | null>

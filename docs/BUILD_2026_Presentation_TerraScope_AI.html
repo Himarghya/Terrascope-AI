@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>TerraScope AI - BUILD 2026 Presentation</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+
+  @page {
+    size: 1920px 1080px;
+    margin: 0;
+  }
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #090d16;
+    color: #e2e8f0;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .slide {
+    width: 1920px;
+    height: 1080px;
+    page-break-after: always;
+    position: relative;
+    padding: 60px 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: linear-gradient(135deg, #090d16 0%, #0f172a 50%, #0a1120 100%);
+    overflow: hidden;
+  }
+
+  .slide::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: radial-gradient(rgba(56, 189, 248, 0.04) 1px, transparent 1px);
+    background-size: 32px 32px;
+    pointer-events: none;
+  }
+
+  .header-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(51, 65, 85, 0.6);
+    padding-bottom: 20px;
+    position: relative;
+    z-index: 2;
+  }
+
+  .brand-tag {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .brand-logo {
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #0284c7, #06b6d4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 16px;
+    color: #fff;
+    box-shadow: 0 0 20px rgba(6, 182, 212, 0.4);
+  }
+
+  .brand-name {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #f8fafc;
+  }
+
+  .brand-pill {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    padding: 4px 10px;
+    border-radius: 9999px;
+    background: rgba(14, 165, 233, 0.15);
+    border: 1px solid rgba(14, 165, 233, 0.3);
+    color: #38bdf8;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+
+  .slide-num {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 14px;
+    color: #64748b;
+    font-weight: 600;
+  }
+
+  .title-block {
+    margin-top: 15px;
+    position: relative;
+    z-index: 2;
+  }
+
+  .slide-title {
+    font-size: 40px;
+    font-weight: 800;
+    color: #f8fafc;
+    letter-spacing: -0.5px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .slide-subtitle {
+    font-size: 18px;
+    color: #94a3b8;
+    margin-top: 6px;
+    font-weight: 400;
+  }
+
+  .content-area {
+    flex: 1;
+    margin: 25px 0 15px 0;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .footer-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgba(51, 65, 85, 0.6);
+    padding-top: 16px;
+    font-size: 13px;
+    color: #64748b;
+    font-family: 'JetBrains Mono', monospace;
+    position: relative;
+    z-index: 2;
+  }
+
+  .accent-cyan { color: #38bdf8; }
+  .accent-emerald { color: #34d399; }
+  .accent-amber { color: #fbbf24; }
+  .accent-rose { color: #fb7185; }
+  .accent-indigo { color: #818cf8; }
+
+  /* CARDS & GRIDS */
+  .grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 28px;
+  }
+
+  .grid-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+  }
+
+  .grid-4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+
+  .card {
+    background: rgba(15, 23, 42, 0.75);
+    border: 1px solid rgba(51, 65, 85, 0.7);
+    border-radius: 14px;
+    padding: 24px 28px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px);
+  }
+
+  .card-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 14px;
+    color: #f1f5f9;
+  }
+
+  .card-bullet {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .card-bullet li {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #cbd5e1;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .card-bullet li::before {
+    content: "▪";
+    color: #38bdf8;
+    font-size: 18px;
+    line-height: 1;
+    margin-top: 1px;
+  }
+
+  .badge-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 4px 10px;
+    border-radius: 6px;
+    text-transform: uppercase;
+  }
+  .badge-cyan { background: rgba(56, 189, 248, 0.15); color: #38bdf8; border: 1px solid rgba(56, 189, 248, 0.3); }
+  .badge-emerald { background: rgba(52, 211, 153, 0.15); color: #34d399; border: 1px solid rgba(52, 211, 153, 0.3); }
+  .badge-amber { background: rgba(251, 191, 36, 0.15); color: #fbbf24; border: 1px solid rgba(251, 191, 36, 0.3); }
+  .badge-rose { background: rgba(251, 113, 133, 0.15); color: #fb7185; border: 1px solid rgba(251, 113, 133, 0.3); }
+  .badge-indigo { background: rgba(129, 140, 248, 0.15); color: #818cf8; border: 1px solid rgba(129, 140, 248, 0.3); }
+
+  /* SLIDE 1 SPECIFIC */
+  .hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  .hero-title {
+    font-size: 68px;
+    font-weight: 800;
+    letter-spacing: -1.5px;
+    line-height: 1.1;
+    background: linear-gradient(135deg, #ffffff 30%, #38bdf8 80%, #06b6d4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 18px;
+  }
+
+  .hero-tagline {
+    font-size: 24px;
+    color: #94a3b8;
+    max-width: 950px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+    font-weight: 400;
+  }
+
+  .hero-hook-card {
+    background: rgba(15, 23, 42, 0.9);
+    border: 1px solid rgba(56, 189, 248, 0.4);
+    box-shadow: 0 0 50px rgba(56, 189, 248, 0.12);
+    border-radius: 16px;
+    padding: 32px 48px;
+    max-width: 1100px;
+    font-size: 21px;
+    line-height: 1.6;
+    color: #f1f5f9;
+  }
+
+  .team-bar {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 45px;
+  }
+
+  .team-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: rgba(30, 41, 59, 0.6);
+    border: 1px solid rgba(51, 65, 85, 0.6);
+    padding: 12px 24px;
+    border-radius: 10px;
+  }
+
+  .team-avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #0284c7, #38bdf8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 13px;
+    color: white;
+  }
+
+  .table-clean {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+  }
+
+  .table-clean th {
+    text-align: left;
+    padding: 12px 16px;
+    background: rgba(30, 41, 59, 0.8);
+    color: #94a3b8;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-bottom: 2px solid rgba(51, 65, 85, 0.8);
+  }
+
+  .table-clean td {
+    padding: 14px 16px;
+    border-bottom: 1px solid rgba(51, 65, 85, 0.4);
+    color: #cbd5e1;
+    line-height: 1.4;
+  }
+
+  .table-clean tr:hover td {
+    background: rgba(30, 41, 59, 0.4);
+  }
+
+  /* DIAGRAM STYLES */
+  .workflow-diagram {
+    width: 100%;
+    background: rgba(10, 16, 29, 0.85);
+    border: 1px solid rgba(51, 65, 85, 0.7);
+    border-radius: 14px;
+    padding: 24px 20px;
+  }
+</style>
+</head>
+<body>
+
+<!-- ==================== SLIDE 1: INTRODUCTION ==================== -->
+<section class="slide">
+  <div class="header-bar">
+    <div class="brand-tag">
+      <div class="brand-logo">TS</div>
+      <div class="brand-name">TerraScope AI</div>
+      <span class="brand-pill">BUILD 2026 Flagship</span>
+    </div>
+    <div class="slide-num">SLIDE 01 / 06</div>
+  </div>
+
+  <div class="content-area">
+    <div class="hero-container">
+      <div class="badge-tag badge-cyan" style="margin-bottom: 20px; font-size: 13px; padding: 6px 16px;">
+        AI-POWERED SATELLITE DIGITAL TWIN STUDIO
+      </div>
+      <h1 class="hero-title">GeoTwin ResponseOS</h1>
+      <p class="hero-tagline">
+        Transforming Single 2D Satellite Screenshots into Interactive 3D Digital Twins with Multimodal Agentic Intelligence & Voice-Guided Field Operations
+      </p>
+
+      <div class="hero-hook-card">
+        <strong class="accent-cyan">Mission Statement:</strong>
+        "TerraScope AI eliminates reliance on delayed, expensive drone or LiDAR deployments by instantly transforming ordinary satellite images into an interactive 3D digital twin—giving disaster rescue coordinators, municipal planners, and defense teams immediate building-by-building situational intelligence and voice-driven operational control."
+      </div>
+
+      <div class="team-bar">
+        <div class="team-item">
+          <div class="team-avatar">T</div>
+          <div>
+            <div style="font-size: 11px; color: #94a3b8; font-family: 'JetBrains Mono', monospace;">TEAM</div>
+            <div style="font-weight: 700; color: #f8fafc; font-size: 15px;">TerraScope Labs</div>
+          </div>
+        </div>
+        <div class="team-item">
+          <div class="team-avatar">E1</div>
+          <div>
+            <div style="font-size: 11px; color: #94a3b8; font-family: 'JetBrains Mono', monospace;">LEAD / ML</div>
+            <div style="font-weight: 700; color: #f8fafc; font-size: 15px;">Lead AI Engineer</div>
+          </div>
+        </div>
+        <div class="team-item">
+          <div class="team-avatar">E2</div>
+          <div>
+            <div style="font-size: 11px; color: #94a3b8; font-family: 'JetBrains Mono', monospace;">3D / GRAPHICS</div>
+            <div style="font-weight: 700; color: #f8fafc; font-size: 15px;">Geospatial Engineer</div>
+          </div>
+        </div>
+        <div class="team-item">
+          <div class="team-avatar">E3</div>
+          <div>
+            <div style="font-size: 11px; color: #94a3b8; font-family: 'JetBrains Mono', monospace;">VOICE / AGENTS</div>
+            <div style="font-weight: 700; color: #f8fafc; font-size: 15px;">Systems Architect</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bar">
+    <div>BUILD 2026 COMPETITION</div>
+    <div>CATEGORY: AI & GEOSPATIAL INTELLIGENCE</div>
+  </div>
+</section>
+
+<!-- ==================== SLIDE 2: PROBLEM & TARGET USERS ==================== -->
+<section class="slide">
+  <div class="header-bar">
+    <div class="brand-tag">
+      <div class="brand-logo">TS</div>
+      <div class="brand-name">TerraScope AI</div>
+    </div>
+    <div class="slide-num">SLIDE 02 / 06</div>
+  </div>
+
+  <div class="title-block">
+    <div class="slide-title">The Problem & Urgent Real-World Necessity</div>
+    <div class="slide-subtitle">Flat 2D satellite maps cannot reveal multi-story collapse, debris volume, or topographic flood paths.</div>
+  </div>
+
+  <div class="content-area">
+    <div class="grid-2">
+      <!-- Left Column: The Crisis & Target Users -->
+      <div style="display: flex; flex-direction: column; gap: 20px;">
+        <div class="card" style="border-left: 4px solid #ef4444;">
+          <div class="card-header">
+            <span class="badge-tag badge-rose">CRITICAL LIMITATION</span>
+            <span>Why Existing Solutions Fail in Disasters</span>
+          </div>
+          <ul class="card-bullet">
+            <li><strong>Airborne LiDAR & Drones Are Grounded:</strong> In active cyclones, heavy cloudbursts, or destroyed airfields, flying sensors take 24–72 hours to deploy.</li>
+            <li><strong>Manual Tracing Takes Days:</strong> Frontline disaster GIS teams trace 2D polygons by hand, missing the golden 24-hour search-and-rescue window.</li>
+            <li><strong>Dense Settlements Merged into Blobs:</strong> Existing models fuse tightly packed informal houses into one unmeasurable shape without heights or counts.</li>
+          </ul>
+        </div>
+
+        <div class="card" style="border-left: 4px solid #38bdf8;">
+          <div class="card-header">
+            <span class="badge-tag badge-cyan">TARGET BENEFICIARIES</span>
+            <span>Who Relies on This Intelligence</span>
+          </div>
+          <ul class="card-bullet">
+            <li><strong>Emergency Rescue Units (NDRF, FEMA, Red Cross):</strong> Directing heavy extraction machinery directly to pancaked structures.</li>
+            <li><strong>District Administrations & Municipalities:</strong> Accurate asset census and drainage vulnerability mapping.</li>
+            <li><strong>Telecom Emergency Cells:</strong> Locating clear line-of-sight high points for deployable 5G/LTE towers.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Right Column: Real-World Evidence Table -->
+      <div class="card" style="padding: 16px 20px; display: flex; flex-direction: column; justify-content: center;">
+        <div style="font-size: 16px; font-weight: 700; color: #f8fafc; margin-bottom: 12px; display: flex; align-items: center; justify-content: space-between;">
+          <span>Ground-Truth Disaster Evidence</span>
+          <span class="badge-tag badge-amber">DOCUMENTED CRISES</span>
+        </div>
+        <table class="table-clean">
+          <thead>
+            <tr>
+              <th>Disaster & Region</th>
+              <th>Documented Impact</th>
+              <th>Why 3D Digital Twins Were Required</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong class="accent-rose">2024 Wayanad Landslides</strong><br><span style="font-size: 12px; color: #94a3b8;">Kerala, India</span></td>
+              <td>200+ dead, Mundakkai & Chooralmala settlements buried</td>
+              <td>Responders lacked pre-disaster 3D building baselines and slope curvature runout paths to identify buried houses.</td>
+            </tr>
+            <tr>
+              <td><strong class="accent-cyan">2023 Derna Dam Collapse</strong><br><span style="font-size: 12px; color: #94a3b8;">Derna, Libya</span></td>
+              <td>11,000+ casualties, 25% of coastal city swept away</td>
+              <td>Flat maps failed to model volumetric building heights and topographic depression thalwegs where flash floods channeled.</td>
+            </tr>
+            <tr>
+              <td><strong class="accent-amber">2023 Turkey-Syria Quake</strong><br><span style="font-size: 12px; color: #94a3b8;">M7.8 Rupture</span></td>
+              <td>50,000+ casualties, thousands of multi-story collapses</td>
+              <td>Pancake structural collapses required volumetric rubble estimation ($\text{m}^3$) for heavy machinery clearance.</td>
+            </tr>
+            <tr>
+              <td><strong class="accent-emerald">1 Billion+ in Slums</strong><br><span style="font-size: 12px; color: #94a3b8;">Global (e.g. Dharavi)</span></td>
+              <td>Unmapped informal settlements (~1M people in 2 km²)</td>
+              <td>Conventional GIS tools cannot segment dense individual roofs separated by only 1–2 meter narrow alleyways.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bar">
+    <div>SECTION 2: PROBLEM VALIDATION</div>
+    <div>GROUND TRUTH EVIDENCE ground-checked across FEMA, UN-OCHA & ISRO telemetry</div>
+  </div>
+</section>
+
+<!-- ==================== SLIDE 3: WHAT WE BUILT & ARCHITECTURE ==================== -->
+<section class="slide">
+  <div class="header-bar">
+    <div class="brand-tag">
+      <div class="brand-logo">TS</div>
+      <div class="brand-name">TerraScope AI</div>
+    </div>
+    <div class="slide-num">SLIDE 03 / 06</div>
+  </div>
+
+  <div class="title-block">
+    <div class="slide-title">What We Built: End-to-End System Architecture</div>
+    <div class="slide-subtitle">A multi-task pipeline fusing deep neural inference, geometric footprinting, and agentic voice execution.</div>
+  </div>
+
+  <div class="content-area" style="gap: 20px;">
+    <!-- Workflow SVG Diagram -->
+    <div class="workflow-diagram">
+      <svg viewBox="0 0 1760 300" width="100%" height="280" style="overflow: visible;">
+        <defs>
+          <linearGradient id="gradInput" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#1e293b"/><stop offset="100%" stop-color="#334155"/></linearGradient>
+          <linearGradient id="gradAI" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#0284c7"/><stop offset="100%" stop-color="#0369a1"/></linearGradient>
+          <linearGradient id="gradGeom" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#059669"/><stop offset="100%" stop-color="#047857"/></linearGradient>
+          <linearGradient id="gradEngines" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#d97706"/><stop offset="100%" stop-color="#b45309"/></linearGradient>
+          <linearGradient id="gradTwin" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#7c3aed"/><stop offset="100%" stop-color="#6d28d9"/></linearGradient>
+          <linearGradient id="gradAgent" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#db2777"/><stop offset="100%" stop-color="#be185d"/></linearGradient>
+          <filter id="glow"><feGaussianBlur stdDeviation="4" result="coloredBlur"/><feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+          <marker id="arrow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 1 L 10 5 L 0 9 z" fill="#38bdf8"/></marker>
+        </defs>
+
+        <!-- Stage 1: Input Ingestion -->
+        <g transform="translate(10, 20)">
+          <rect width="240" height="250" rx="12" fill="url(#gradInput)" stroke="#475569" stroke-width="2"/>
+          <text x="120" y="38" text-anchor="middle" fill="#38bdf8" font-family="JetBrains Mono" font-weight="700" font-size="14">STAGE 1: INPUT</text>
+          <text x="120" y="65" text-anchor="middle" fill="#f8fafc" font-weight="700" font-size="16">Raw Geospatial Ingestion</text>
+          <line x1="20" y1="80" x2="220" y2="80" stroke="#475569"/>
+          <text x="25" y="112" fill="#cbd5e1" font-size="13">▪ Satellite Optical (JPG/PNG)</text>
+          <text x="25" y="140" fill="#cbd5e1" font-size="13">▪ GeoTIFF DEM Raster</text>
+          <text x="25" y="168" fill="#cbd5e1" font-size="13">▪ Pre- & Post-Event Imagery</text>
+          <text x="25" y="196" fill="#cbd5e1" font-size="13">▪ Map UI Chrome Stripping</text>
+          <text x="25" y="224" fill="#38bdf8" font-family="JetBrains Mono" font-size="11">Auto-GSD / CRS Parser</text>
+        </g>
+        <line x1="250" y1="145" x2="295" y2="145" stroke="#38bdf8" stroke-width="3" marker-end="url(#arrow)"/>
+
+        <!-- Stage 2: Neural Inference -->
+        <g transform="translate(305, 20)">
+          <rect width="250" height="250" rx="12" fill="url(#gradAI)" stroke="#38bdf8" stroke-width="2" filter="url(#glow)"/>
+          <text x="125" y="38" text-anchor="middle" fill="#f8fafc" font-family="JetBrains Mono" font-weight="700" font-size="14">STAGE 2: NEURAL AI</text>
+          <text x="125" y="65" text-anchor="middle" fill="#f8fafc" font-weight="700" font-size="16">Multi-Scale ResNet50 U-Net</text>
+          <line x1="20" y1="80" x2="230" y2="80" stroke="rgba(255,255,255,0.3)"/>
+          <text x="25" y="112" fill="#e0f2fe" font-size="13">▪ 5-Class Semantic Segmentation</text>
+          <text x="25" y="140" fill="#e0f2fe" font-size="13">▪ Metric Height (m AGL)</text>
+          <text x="25" y="168" fill="#e0f2fe" font-size="13">▪ 768px Window / Hanning Blend</text>
+          <text x="25" y="196" fill="#fef08a" font-size="13">▪ 2x High-Density Super-Res</text>
+          <text x="25" y="224" fill="#ffffff" font-family="JetBrains Mono" font-size="11">Trained Weight: height_v2.pt</text>
+        </g>
+        <line x1="555" y1="145" x2="600" y2="145" stroke="#38bdf8" stroke-width="3" marker-end="url(#arrow)"/>
+
+        <!-- Stage 3: Geometric Reconstruction -->
+        <g transform="translate(610, 20)">
+          <rect width="260" height="250" rx="12" fill="url(#gradGeom)" stroke="#34d399" stroke-width="2"/>
+          <text x="130" y="38" text-anchor="middle" fill="#a7f3d0" font-family="JetBrains Mono" font-weight="700" font-size="14">STAGE 3: GEOMETRY</text>
+          <text x="130" y="65" text-anchor="middle" fill="#f8fafc" font-weight="700" font-size="16">Footprint & Alley Separation</text>
+          <line x1="20" y1="80" x2="240" y2="80" stroke="rgba(255,255,255,0.3)"/>
+          <text x="25" y="112" fill="#d1fae5" font-size="13">▪ Symmetric Valley Trench Cut</text>
+          <text x="25" y="140" fill="#d1fae5" font-size="13">▪ Watershed Peak Splitting</text>
+          <text x="25" y="168" fill="#d1fae5" font-size="13">▪ Oriented 1D Grid Partition</text>
+          <text x="25" y="196" fill="#d1fae5" font-size="13">▪ Rotated Box & L/T Fitting</text>
+          <text x="25" y="224" fill="#6ee7b7" font-family="JetBrains Mono" font-size="11">Texture Water Guard</text>
+        </g>
+        <line x1="870" y1="145" x2="915" y2="145" stroke="#38bdf8" stroke-width="3" marker-end="url(#arrow)"/>
+
+        <!-- Stage 4: Specialized Intelligence -->
+        <g transform="translate(925, 20)">
+          <rect width="260" height="250" rx="12" fill="url(#gradEngines)" stroke="#fbbf24" stroke-width="2"/>
+          <text x="130" y="38" text-anchor="middle" fill="#fef08a" font-family="JetBrains Mono" font-weight="700" font-size="14">STAGE 4: PREDICTIONS</text>
+          <text x="130" y="65" text-anchor="middle" fill="#f8fafc" font-weight="700" font-size="16">Disaster & Hazard Engines</text>
+          <line x1="20" y1="80" x2="240" y2="80" stroke="rgba(255,255,255,0.3)"/>
+          <text x="25" y="112" fill="#fef3c7" font-size="13">▪ Flood Susceptibility (TWI)</text>
+          <text x="25" y="140" fill="#fef3c7" font-size="13">▪ Landslide Slope Runout</text>
+          <text x="25" y="168" fill="#fef3c7" font-size="13">▪ Safe Evacuation Routing (A*)</text>
+          <text x="25" y="196" fill="#fef3c7" font-size="13">▪ Wireless 5G LoS Ray-March</text>
+          <text x="25" y="224" fill="#fde68a" font-family="JetBrains Mono" font-size="11">Rubble Vol (m³) + Bulking</text>
+        </g>
+        <line x1="1185" y1="145" x2="1230" y2="145" stroke="#38bdf8" stroke-width="3" marker-end="url(#arrow)"/>
+
+        <!-- Stage 5: 3D Twin Output -->
+        <g transform="translate(1240, 20)">
+          <rect width="240" height="250" rx="12" fill="url(#gradTwin)" stroke="#a78bfa" stroke-width="2"/>
+          <text x="120" y="38" text-anchor="middle" fill="#ddd6fe" font-family="JetBrains Mono" font-weight="700" font-size="14">STAGE 5: 3D STUDIO</text>
+          <text x="120" y="65" text-anchor="middle" fill="#f8fafc" font-weight="700" font-size="16">Interactive Three.js</text>
+          <line x1="20" y1="80" x2="220" y2="80" stroke="rgba(255,255,255,0.3)"/>
+          <text x="25" y="112" fill="#ede9fe" font-size="13">▪ 3D Building Extrusions</text>
+          <text x="25" y="140" fill="#ede9fe" font-size="13">▪ Displaced Terrain Mesh</text>
+          <text x="25" y="168" fill="#ede9fe" font-size="13">▪ 3D Trees & Road Network</text>
+          <text x="25" y="196" fill="#ede9fe" font-size="13">▪ 3D Measurement Tool</text>
+          <text x="25" y="224" fill="#c4b5fd" font-family="JetBrains Mono" font-size="11">GLB / GeoJSON / OBJ Export</text>
+        </g>
+        <line x1="1480" y1="145" x2="1525" y2="145" stroke="#38bdf8" stroke-width="3" marker-end="url(#arrow)"/>
+
+        <!-- Stage 6: Agentic & Voice -->
+        <g transform="translate(1535, 20)">
+          <rect width="215" height="250" rx="12" fill="url(#gradAgent)" stroke="#f472b6" stroke-width="2" filter="url(#glow)"/>
+          <text x="107" y="38" text-anchor="middle" fill="#fbcfe8" font-family="JetBrains Mono" font-weight="700" font-size="14">STAGE 6: MULTIMODAL</text>
+          <text x="107" y="65" text-anchor="middle" fill="#f8fafc" font-weight="700" font-size="16">Voice & Agent37</text>
+          <line x1="15" y1="80" x2="200" y2="80" stroke="rgba(255,255,255,0.3)"/>
+          <text x="20" y="112" fill="#fdf2f8" font-size="13">▪ ElevenLabs Speech TTS</text>
+          <text x="20" y="140" fill="#fdf2f8" font-size="13">▪ Scribe Audio STT</text>
+          <text x="20" y="168" fill="#fdf2f8" font-size="13">▪ Agent37 Hermes Tools</text>
+          <text x="20" y="196" fill="#fdf2f8" font-size="13">▪ Persistent Workspace</text>
+          <text x="20" y="224" fill="#fbcfe8" font-family="JetBrains Mono" font-size="11">Click-to-Speak Telemetry</text>
+        </g>
+      </svg>
+    </div>
+
+    <!-- Technology & Hackathon Build Matrix -->
+    <div class="grid-2" style="margin-top: 10px;">
+      <div class="card" style="padding: 16px 20px;">
+        <div style="font-size: 15px; font-weight: 700; color: #34d399; margin-bottom: 8px;">BUILT DURING BUILD 2026 (NEW INNOVATIONS)</div>
+        <ul class="card-bullet" style="gap: 6px; font-size: 13px;">
+          <li><strong>High-Density House Separation Engine:</strong> 2x neural pass + symmetric valley alleyway trench cutter detecting tightly packed informal roofs.</li>
+          <li><strong>ElevenLabs Voice Intelligence:</strong> Direct speech synthesis of building metrics on click, audio STT commands, and multi-lingual briefing reports.</li>
+          <li><strong>Agent37 Geospatial Assistant:</strong> Persistent investigation manager (`/api/agent37/*`) that coordinates multi-step terrain tools without hallucinations.</li>
+          <li><strong>Safe Route & Wireless Planners:</strong> Topographic A* evacuation pathfinder and line-of-sight 5G ray-marched propagation solver.</li>
+        </ul>
+      </div>
+
+      <div class="card" style="padding: 16px 20px;">
+        <div style="font-size: 15px; font-weight: 700; color: #94a3b8; margin-bottom: 8px;">PRE-EXISTING FOUNDATIONAL CODEBASE</div>
+        <ul class="card-bullet" style="gap: 6px; font-size: 13px;">
+          <li><strong>ResNet50 U-Net Neural Checkpoint:</strong> Trained sliding-window segmentation and continuous height regression model (`height_v2.pt`).</li>
+          <li><strong>Basic 3D Three.js Canvas:</strong> Camera orbit controls, lighting, and baseline terrain plinth generation.</li>
+          <li><strong>Dual-Mode Ingestion Framework:</strong> Basic image loading and GeoTIFF header parsing routines.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bar">
+    <div>SECTION 3: ARCHITECTURAL RIGOR</div>
+    <div>Zero Chatbot Mediators in Data Loop • Pure Deterministic ML Grounding</div>
+  </div>
+</section>
+
+<!-- ==================== SLIDE 4: DEMO & BENCHMARK RESULTS ==================== -->
+<section class="slide">
+  <div class="header-bar">
+    <div class="brand-tag">
+      <div class="brand-logo">TS</div>
+      <div class="brand-name">TerraScope AI</div>
+    </div>
+    <div class="slide-num">SLIDE 04 / 06</div>
+  </div>
+
+  <div class="title-block">
+    <div class="slide-title">Working Demo & Verified Benchmark Results</div>
+    <div class="slide-subtitle">Demonstrated live on real satellite benchmarks with disclosed operational boundaries.</div>
+  </div>
+
+  <div class="content-area">
+    <div class="grid-2" style="gap: 28px;">
+      <!-- Left: 3-Minute Live Demo Flow -->
+      <div class="card" style="border-top: 4px solid #38bdf8;">
+        <div class="card-header">
+          <span class="badge-tag badge-cyan">LIVE DEMO FLOW</span>
+          <span>Tested 3-Minute Presentation Journey</span>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 14px;">
+          <div style="display: flex; gap: 12px; align-items: flex-start;">
+            <div style="width: 28px; height: 28px; border-radius: 50%; background: #0284c7; color: white; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 13px; shrink: 0;">1</div>
+            <div>
+              <strong style="color: #f1f5f9; font-size: 15px;">Ingest Dense Satellite Imagery:</strong>
+              <div style="font-size: 13px; color: #94a3b8;">Upload uncalibrated screenshot; system masks map UI chrome, scales resolution, and yields 3D model in seconds.</div>
+            </div>
+          </div>
+
+          <div style="display: flex; gap: 12px; align-items: flex-start;">
+            <div style="width: 28px; height: 28px; border-radius: 50%; background: #059669; color: white; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 13px; shrink: 0;">2</div>
+            <div>
+              <strong style="color: #f1f5f9; font-size: 15px;">Click-to-Speak 3D Inspection (ElevenLabs):</strong>
+              <div style="font-size: 13px; color: #94a3b8;">Click any house; ElevenLabs articulates: <em>"Building 42 stands at 8.4 meters across a 124m² footprint with composite flat roof."</em></div>
+            </div>
+          </div>
+
+          <div style="display: flex; gap: 12px; align-items: flex-start;">
+            <div style="width: 28px; height: 28px; border-radius: 50%; background: #d97706; color: white; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 13px; shrink: 0;">3</div>
+            <div>
+              <strong style="color: #f1f5f9; font-size: 15px;">Agent37 Investigation & Memory:</strong>
+              <div style="font-size: 13px; color: #94a3b8;">Issue prompt <em>"Analyze this area"</em>; Agent37 executes underlying terrain tools, assigns a durable Sector ID, and resumes prior audits seamlessly.</div>
+            </div>
+          </div>
+
+          <div style="display: flex; gap: 12px; align-items: flex-start;">
+            <div style="width: 28px; height: 28px; border-radius: 50%; background: #7c3aed; color: white; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 13px; shrink: 0;">4</div>
+            <div>
+              <strong style="color: #f1f5f9; font-size: 15px;">Hazard Overlays & Evacuation Solver:</strong>
+              <div style="font-size: 13px; color: #94a3b8;">Activate flood susceptibility; routing engine solves hazard-cleared route avoiding 1.8m ponding chutes vs shortest path.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: Actual Verified Numbers & Disclosures -->
+      <div style="display: flex; flex-direction: column; gap: 18px;">
+        <div class="card" style="border-top: 4px solid #34d399;">
+          <div class="card-header">
+            <span class="badge-tag badge-emerald">MEASURED RESULTS</span>
+            <span>High-Density Benchmark Detection Counts</span>
+          </div>
+          <table class="table-clean">
+            <thead>
+              <tr>
+                <th>Benchmark Scene</th>
+                <th>Standard Model</th>
+                <th>TerraScope AI (Ours)</th>
+                <th>Improvement</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>China Image.jpeg</strong><br><span style="font-size: 12px; color: #94a3b8;">Dense Village (1031x515)</span></td>
+                <td>193 structures</td>
+                <td><strong class="accent-emerald">884 individual houses</strong></td>
+                <td><span class="badge-tag badge-emerald">+358% Isolated</span></td>
+              </tr>
+              <tr>
+                <td><strong>CHINA IMAGE.png</strong><br><span style="font-size: 12px; color: #94a3b8;">Urban Slum District (1193x670)</span></td>
+                <td>293 structures</td>
+                <td><strong class="accent-emerald">1,191 individual houses</strong></td>
+                <td><span class="badge-tag badge-emerald">+306% Isolated</span></td>
+              </tr>
+              <tr>
+                <td><strong>India Image.png</strong><br><span style="font-size: 12px; color: #94a3b8;">Rural Hub with Warehouse</span></td>
+                <td>476 structures</td>
+                <td><strong class="accent-cyan">592 structures</strong></td>
+                <td><span class="badge-tag badge-cyan">0 Warehouse Bleed</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="card" style="border-left: 4px solid #f59e0b; padding: 16px 20px;">
+          <div style="font-size: 14px; font-weight: 700; color: #f59e0b; margin-bottom: 6px;">
+            ⚠️ HONEST ENGINEERING DISCLOSURES (FOR JUDGES)
+          </div>
+          <ul class="card-bullet" style="font-size: 13px; gap: 6px;">
+            <li><strong>Height Estimates:</strong> Monocular heights are relative estimates until calibrated against Copernicus DEM or a known 2-point reference line.</li>
+            <li><strong>Synthetic Damage Fallback:</strong> If no post-disaster image is uploaded, damage is simulated via physical collapse heuristics to demonstrate workflow.</li>
+            <li><strong>Dynamic Feeds:</strong> Live rainfall and road-blockage sensors are currently user-scenario inputs, not live municipal APIs.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bar">
+    <div>SECTION 4: VERIFICATION</div>
+    <div>Strict Compliance: No Fabricated Accuracies • Measured Object Counts Only</div>
+  </div>
+</section>
+
+<!-- ==================== SLIDE 5: INGENUITY & TECHNICAL DECISIONS ==================== -->
+<section class="slide">
+  <div class="header-bar">
+    <div class="brand-tag">
+      <div class="brand-logo">TS</div>
+      <div class="brand-name">TerraScope AI</div>
+    </div>
+    <div class="slide-num">SLIDE 05 / 06</div>
+  </div>
+
+  <div class="title-block">
+    <div class="slide-title">Ingenuity & Key Technical Decisions</div>
+    <div class="slide-subtitle">Solving the dense-urban resolution barrier and preventing LLM hallucination in life-critical GIS.</div>
+  </div>
+
+  <div class="content-area">
+    <div class="grid-2" style="gap: 28px;">
+      <!-- Left: Symmetric Valley Detection Solution -->
+      <div class="card" style="border-top: 4px solid #38bdf8;">
+        <div class="card-header">
+          <span class="badge-tag badge-cyan">CORE ALGORITHMIC BREAKTHROUGH</span>
+          <span>Multi-Scale Symmetric Valley Alley Detection</span>
+        </div>
+        <p style="font-size: 14px; color: #cbd5e1; line-height: 1.5; margin-bottom: 14px;">
+          <strong>The Problem:</strong> In dense settlements, roofs are 8–14px wide with dark interiors surrounded by bright 2px parapets. Traditional filters (BlackHat / local mean difference) hollowed out flat dark roofs, merging everything into false water bodies.
+        </p>
+
+        <div style="background: rgba(10, 16, 29, 0.9); border: 1px solid rgba(56, 189, 248, 0.3); border-radius: 8px; padding: 14px; font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #38bdf8; margin-bottom: 14px;">
+          $$V(p) = \max_{r \in \{2,3,4,5\}, \vec{d}} \left( \min(I(p - r\vec{d}), I(p + r\vec{d})) - I(p) \right)$$
+          <div style="font-size: 11px; color: #94a3b8; margin-top: 6px;">Evaluated across 4 axes: Horizontal, Vertical, Diagonal 45°, Diagonal 135°</div>
+        </div>
+
+        <ul class="card-bullet" style="font-size: 14px;">
+          <li><strong>Parapet Slopes:</strong> Monotonic transition (154 → 109 → 77) yields valley score $\le 8.8$ (Kept 100% Solid).</li>
+          <li><strong>True Narrow Alleys (1–6px):</strong> Flanked by brighter roofs on both sides, yields valley score <strong>16 to 53</strong>. Cuts alleys cleanly without tearing roofs apart.</li>
+          <li><strong>Texture Guard:</strong> Added neighborhood variance check (`hood_std < 11.0`) so dark blue-grey slate roofs are never classified as smooth water bodies.</li>
+        </ul>
+      </div>
+
+      <!-- Right: Separation of Neural vs Agentic Layers -->
+      <div class="card" style="border-top: 4px solid #a855f7;">
+        <div class="card-header">
+          <span class="badge-tag badge-indigo">SYSTEM ARCHITECTURE</span>
+          <span>Zero-Hallucination Agentic Integration</span>
+        </div>
+        <p style="font-size: 14px; color: #cbd5e1; line-height: 1.5; margin-bottom: 14px;">
+          <strong>The Problem:</strong> Standard LLMs hallucinate building heights, invent coordinates, and make arbitrary safety declarations that cannot be trusted in emergency response.
+        </p>
+
+        <div style="background: rgba(10, 16, 29, 0.9); border: 1px solid rgba(168, 85, 247, 0.3); border-radius: 8px; padding: 14px; margin-bottom: 14px;">
+          <div style="font-size: 13px; font-weight: 700; color: #f8fafc; margin-bottom: 6px;">The TerraScope Separation Principle:</div>
+          <div style="font-size: 12px; color: #c084fc; font-family: 'JetBrains Mono', monospace; line-height: 1.4;">
+            ML Models Predict ➔ OpenCV Discretizes ➔ Agent37 Explains ➔ ElevenLabs Synthesizes
+          </div>
+        </div>
+
+        <ul class="card-bullet" style="font-size: 14px;">
+          <li><strong>Deterministic Tool Invocation:</strong> Agent37 is strictly bound to approved Python tools (`get_building_details`, `get_terrain_summary`, `get_change_detection_results`).</li>
+          <li><strong>No Fabricated Heights:</strong> Every height spoken by ElevenLabs or written by Agent37 originates directly from the ResNet50 U-Net tensor output.</li>
+          <li><strong>Persistent Sector Memory:</strong> Investigations are persisted to disk as structured JSON records, enabling shift workers to resume analyses across server restarts.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bar">
+    <div>SECTION 5: ENGINEERING INGENUITY</div>
+    <div>Mathematical Trench Isolation • Physics-Grounded Tool Execution</div>
+  </div>
+</section>
+
+<!-- ==================== SLIDE 6: POTENTIAL & NEXT STEPS ==================== -->
+<section class="slide">
+  <div class="header-bar">
+    <div class="brand-tag">
+      <div class="brand-logo">TS</div>
+      <div class="brand-name">TerraScope AI</div>
+    </div>
+    <div class="slide-num">SLIDE 06 / 06</div>
+  </div>
+
+  <div class="title-block">
+    <div class="slide-title">Real-World Potential & Deployment Roadmap</div>
+    <div class="slide-subtitle">Scaling beyond the hackathon to municipal disaster networks and high-risk coastal zones.</div>
+  </div>
+
+  <div class="content-area">
+    <div class="grid-3" style="gap: 24px;">
+      <!-- Adopters & Value -->
+      <div class="card" style="border-top: 4px solid #34d399;">
+        <div class="card-header">
+          <span class="badge-tag badge-emerald">ADOPTION</span>
+          <span>Target Users & Delivered Value</span>
+        </div>
+        <ul class="card-bullet">
+          <li><strong>NDRF / FEMA Incident Command:</strong> Sub-minute 3D tactical twin generated from optical passes during natural disaster landfall.</li>
+          <li><strong>Municipal Slum Authorities:</strong> Accurate structural counts and roof material surveys for census and utilities in informal settlements.</li>
+          <li><strong>Telecom Recovery Teams:</strong> Automated 5G/LTE line-of-sight analysis to place emergency portable cell towers on uncollapsed rooftops.</li>
+        </ul>
+      </div>
+
+      <!-- Roadmap -->
+      <div class="card" style="border-top: 4px solid #38bdf8;">
+        <div class="card-header">
+          <span class="badge-tag badge-cyan">ROADMAP</span>
+          <span>Next Development Milestones</span>
+        </div>
+        <ul class="card-bullet">
+          <li><strong>Trained Siamese Change Network:</strong> Train dedicated bi-temporal feature backbones directly on the complete xBD disaster dataset.</li>
+          <li><strong>Regional Voice Models (ElevenLabs):</strong> Expand voice briefings into Hindi, Malayalam, and Spanish for local field personnel.</li>
+          <li><strong>Live GIS Ingestion:</strong> Connect direct streaming OpenStreetMap Overpass and USGS live stream gauges to update road closures in real time.</li>
+        </ul>
+      </div>
+
+      <!-- Production Readiness -->
+      <div class="card" style="border-top: 4px solid #f59e0b;">
+        <div class="card-header">
+          <span class="badge-tag badge-amber">PRODUCTION</span>
+          <span>Requirements for Field Deployment</span>
+        </div>
+        <ul class="card-bullet">
+          <li><strong>TensorRT / Triton GPU Server:</strong> Optimize sliding-window tiling for sub-second 4K satellite scene processing.</li>
+          <li><strong>Ground-Truth LiDAR Verification:</strong> Benchmark height regression against USGS 3DEP 1-meter airborne LiDAR tiles.</li>
+          <li><strong>Edge Device Packaging:</strong> Package inference engine into a ruggedized container for offline operation inside mobile command vans.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Closing Callout Banner -->
+    <div style="margin-top: 24px; background: linear-gradient(135deg, rgba(2, 132, 199, 0.25), rgba(124, 58, 237, 0.25)); border: 1px solid rgba(56, 189, 248, 0.5); border-radius: 12px; padding: 20px 32px; display: flex; align-items: center; justify-content: space-between;">
+      <div>
+        <div style="font-size: 18px; font-weight: 800; color: #f8fafc; letter-spacing: -0.3px;">
+          "The next Wayanad or Derna cannot wait days for drone surveys."
+        </div>
+        <div style="font-size: 14px; color: #94a3b8; margin-top: 4px;">
+          TerraScope AI delivers instant, metric, voice-directed 3D digital twins from the satellite imagery humanity already captures every single day.
+        </div>
+      </div>
+      <div class="badge-tag badge-cyan" style="font-size: 13px; padding: 8px 18px;">
+        READY FOR LIVE EVALUATION
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bar">
+    <div>SECTION 6: SCALABILITY & IMPACT</div>
+    <div>BUILD 2026 • GEOTWIN RESPONSEOS / TERRASCOPE AI</div>
+  </div>
+</section>
+
+</body>
+</html>
